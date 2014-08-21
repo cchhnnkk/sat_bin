@@ -1,0 +1,147 @@
+#文件列表参数
+UPDATE_LIST     = 1
+VLOG_LIST_NAME  = vlog.list
+VHDL_LIST_NAME  = vhdl.list
+#需要读取的文件夹内的文件列表
+DESIGN_DIR      = "../src ../tb"
+#在每行开始添加一些相对路径,因为文件列表目录和运行目录不在一个层次,/要用转意符号"\"
+ADD_DIR         = ".\/"
+
+#仿真参数,这些参数后面不能有字符，空格也不行
+#VLANG           = vlog
+#VLANG           = vhdl
+VLANG           = mixed
+SIMTOOL         = nc
+#SIMTOOL         = vcs
+#nc env set
+#export LD_LIBRARY_PATH=$$LD_LIBRARY_PATH:$(VERDI_PATH)/share/PLI/ius_vhpi_latest/LINUX 
+
+TIME_SCALE      = 1ns/1ps
+MODULE_TOP      = tb
+
+#make -e "TC_DEFINE = -define TEST"
+#nc
+#TC_DEFINE = -define TEST
+#vcs
+#TC_DEFINE = +define+TEST
+
+VERDI_PATH = /opt/CAD/Verdi2009
+
+NC_VLOG_OPTIONS  = -q      -work worklib -nowarn NONPRT  -nowarn PARRNG 
+NC_VHDL_OPTIONS  = -q -V93 -work worklib -nowarn NONPRT  -nowarn PARRNG 
+NC_ELAB_OPTIONS	 = -access +rcw -timescale $(TIME_SCALE) -nowarn CUVWSP -notimingchecks -update 
+NC_SIM_OPTIONS   = -input run_sim.tcl -logfile sim.msg -notimezeroasrtmsg 
+
+
+VCS_VLOG_OPTIONS = -l vcs_vlog.log -nc -work worklib +v2k
+VCS_VHDL_OPTIONS = -l vcs_vhdl.log -nc -work worklib
+VCS_ELAB_OPTIONS = -l comp.log -lca -debug -timescale=$(TIME_SCALE) +notimingcheck +lint=PCWM -P $(VERDI_PATH)/share/PLI/vcs_latest/LINUX/debussy.tab $(VERDI_PATH)/share/PLI/vcs_latest/LINUX/pli.a 
+VCS_SIM_OPTIONS  = -l run.log -ucli -i run_sim.tcl
+
+SNAPSHOT        = worklib.$(MODULE_TOP)
+CLEAN_THESE     = INCA_libs *.shm simv* csrc *.setup core *.key *.stats *.err .simcontrol *log *Log  .*.log  *.fcov tmpfile *.df *.out worklib cds.lib hdl.var *.rpt cov_work hdls_work *.mra *.sim  
+
+all : filelist add_path config read_file elaborate sim 
+filelist:
+	if [ $(UPDATE_LIST) == 1 ] ; then \
+	  if [ -e ./vlog.list ] ; then  \rm -r ./vlog.list 2>/dev/null ; 	fi ; \
+	  if [ -e ./vhdl.list ] ; then  \rm -r ./vhdl.list 2>/dev/null ; 	fi ; \
+	  for d in $(DESIGN_DIR) ; do \
+	    if [ $(VLANG) == "vlog" ] || [ $(VLANG) == "mixed" ] ; then \
+	      for i in `find $$d -name $(VLOG_LIST_NAME) -print | xargs` ; do \
+			    dos2unix $$i ; \
+	        dir=$${i%$(VLOG_LIST_NAME)}; \
+	        while read line ; do \
+			  		if [ -n "$$line" ] ; then  \
+	            echo $$dir$$line >> ./vlog_tmp.list ; \
+			  		fi ; \
+	        done < $$i ; \
+	      done ; \
+	      sed -n    '/DEFINE/p'    vlog_tmp.list    > vlog.list      ;  \
+	      sed -i -e '/DEFINE/d'    vlog_tmp.list ; \
+	      sed -n    '/define/p'    vlog_tmp.list    >> vlog.list      ;  \
+	      sed -i -e '/define/d'    vlog_tmp.list ; \
+	      sed -n    '/package/p'    vlog_tmp.list   >> vlog.list      ;  \
+	      sed -i -e '/package/d'    vlog_tmp.list ; \
+	      cat vlog_tmp.list >> vlog.list                                  ;  \
+	    fi ; \
+	    if [ $(VLANG) == "vhdl" ] || [ $(VLANG) == "mixed" ] ; then \
+	      for i in `find $$d -name $(VHDL_LIST_NAME) -print | xargs` ; do \
+			    dos2unix $$i ; \
+	        dir=$${i%$(VHDL_LIST_NAME)}; \
+	        while read line ; do \
+			  		if [ -n "$$line" ] ; then  \
+	            echo $$dir$$line >> ./vhdl_tmp.list ; \
+			  		fi ; \
+	        done < $$i ; \
+	      done ; \
+	      sed -n    '/PKG_.*\.vhd/p'        vhdl_tmp.list    >> vhdl.list      ;  \
+	      sed -i -e '/PKG_.*\.vhd/d'        vhdl_tmp.list  ;  \
+	      sed -n    '/defs.*\.vhd/p'        vhdl_tmp.list    >> vhdl.list      ;  \
+	      sed -i -e '/defs.*\.vhd/d'        vhdl_tmp.list  ;  \
+	      sed -n    '/config.*\.vhd/p'      vhdl_tmp.list    >> vhdl.list      ;  \
+	      sed -i -e '/config.*\.vhd/d'      vhdl_tmp.list  ;  \
+	      sed -n    '/Entity.*\.vhd/p'      vhdl_tmp.list   >> vhdl.list      ;  \
+	      sed -i -e '/Entity.*\.vhd/d'      vhdl_tmp.list  ;  \
+	      sed -n    '/RTL.*\.vhd/p'         vhdl_tmp.list  >> vhdl.list      ;  \
+	      sed -i -e '/RTL.*\.vhd/d'         vhdl_tmp.list ;  \
+	      cat vhdl_tmp.list >> vhdl.list                                  ;  \
+			fi ; \
+	  done ; \
+	  \rm -rf *_tmp.list ;\
+		dos2unix *.list ; \
+	fi
+add_path:
+	if [ $(UPDATE_LIST) == 1 ] ; then \
+	  if [ $(VLANG) == "vhdl" ] || [ $(VLANG) == "mixed" ] ; then \
+	    sed -i -e 's/^/'$(ADD_DIR)'/' vhdl.list ; \
+		fi ; \
+	  if [ $(VLANG) == "vlog" ] || [ $(VLANG) == "mixed" ] ; then \
+	    sed -i -e 's/^/'$(ADD_DIR)'/' vlog.list ; \
+		fi ;\
+	fi
+config:
+	mkdir -p worklib ; \
+  echo $$LD_LIBRARY_PATH ; \
+	sed -i -e '/set sim_tool/d'                     run_sim.tcl ;\
+	sed -i -e '/set top_mod/d'                      run_sim.tcl ;\
+	sed -i -e '1i set sim_tool \"'$(SIMTOOL)'\"'    run_sim.tcl ;\
+	sed -i -e '2i set top_mod  \"'$(MODULE_TOP)'\"' run_sim.tcl ; \
+	if [ $(SIMTOOL) == "vcs" ] ; then \
+	  echo "WORK > worklib"       >  synopsys_sim.setup ; \
+	  echo "worklib : ./worklib" >> synopsys_sim.setup ; \
+	fi ; 
+read_file : 
+	if [ $(SIMTOOL) == "nc" ] ; then \
+	  if [ $(VLANG) == "vlog" ] || [ $(VLANG) == "mixed" ] ; then \
+	  	ncvlog $(NC_VLOG_OPTIONS) $(TC_DEFINE)  -f ./vlog.list  ; \
+	  fi ; \
+	  if [ $(VLANG) == "vhdl" ] || [ $(VLANG) == "mixed" ] ; then \
+	  	ncvhdl $(NC_VHDL_OPTIONS)               -f ./vhdl.list ; \
+	  fi ; \
+	fi ;  \
+	if [ $(SIMTOOL) == "vcs" ] ; then \
+	  if [ $(VLANG) == "vlog" ] || [ $(VLANG) == "mixed" ] ; then \
+	  	vlogan $(VCS_VLOG_OPTIONS) $(TC_DEFINE)  -f ./vlog.list  ; \
+	  fi ; \
+	  if [ $(VLANG) == "vhdl" ] || [ $(VLANG) == "mixed" ] ; then \
+	  	vhdlan $(VCS_VHDL_OPTIONS)               -f ./vhdl.list ; \
+	  fi ; \
+	fi ; 
+elaborate:
+	if [ $(SIMTOOL) == "nc" ] ; then \
+	  ncelab $(NC_ELAB_OPTIONS)  $(SNAPSHOT)   ; \
+	fi ; \
+	if [ $(SIMTOOL) == "vcs" ] ; then \
+	  vcs $(VCS_ELAB_OPTIONS)  $(SNAPSHOT)   ; \
+	fi ; 
+sim    :
+	if [ $(SIMTOOL) == "nc" ] ; then \
+	  ncsim  $(NC_SIM_OPTIONS) $(SNAPSHOT) ; \
+	fi ;  \
+	if [ $(SIMTOOL) == "vcs" ] ; then \
+	  ./simv  $(VCS_SIM_OPTIONS) ; \
+	fi ; 
+clean   :
+	\rm -rf $(CLEAN_THESE)  
+

@@ -1,0 +1,165 @@
+sed "s/test_sat_engine_top/test_bin_manager_top/g" test_se_console.do > test_bm_console.do
+vsim -c -do test_bm_console.do | \
+		sed -e "s/^.*Error: (vsim-\d*) \(.*):\)/\1 Error/g" \
+		-e "s/^.*Warning: (vsim-\d*) \(.*):\)/\1 Warning/g"
+Reading D:/modeltech_10.1c/tcl/vsim/pref.tcl 
+
+# 10.1c
+
+# do test_bm_console.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying modelsim.ini
+# vsim -L D:/Xilinx/14.5_modelsim_10.1/xilinxcorelib_ver -quiet -novopt test_bin_manager_top 
+# //  ModelSim SE 10.1c Jul 27 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(144): [PCDPC] - Port size (16 or 16) does not match connection size (10) for port 'cur_bin_num_o'. The port definition is at: ../src/bin_manager/ctrl_bm.v(20).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/ctrl_bm
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(214): Port 'wr_lvl_states_o' not found in the connected module (11th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/load_bin
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(214): Port 'lvl_states_o' not found in the connected module (12th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/load_bin
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(214): [PCDPC] - Port size (11 or 11) does not match connection size (19) for port 'ram_data_ls_i'. The port definition is at: ../src/bin_manager/load_bin.v(65).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/load_bin
+# ** Warning: (vsim-3017) ../src/bin_manager/bin_manager.v(238): [TFMPC] - Too few port connections. Expected 12, found 10.
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/find_global_bkt_lvl
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(238): Port 'ram_data_ls_i' not found in the connected module (9th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/find_global_bkt_lvl
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(238): Port 'ram_addr_ls_o' not found in the connected module (10th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/find_global_bkt_lvl
+# ** Warning: (vsim-3722) ../src/bin_manager/bin_manager.v(238): [TFMPC] - Missing connection for port 'ram_we_l_state_o'.
+# 
+# ** Warning: (vsim-3722) ../src/bin_manager/bin_manager.v(238): [TFMPC] - Missing connection for port 'ram_data_l_state_i'.
+# 
+# ** Warning: (vsim-3722) ../src/bin_manager/bin_manager.v(238): [TFMPC] - Missing connection for port 'ram_data_l_state_o'.
+# 
+# ** Warning: (vsim-3722) ../src/bin_manager/bin_manager.v(238): [TFMPC] - Missing connection for port 'ram_addr_l_state_o'.
+# 
+# ** Warning: (vsim-3017) ../src/bin_manager/bin_manager.v(270): [TFMPC] - Too few port connections. Expected 15, found 12.
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bkt_across_bin
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(270): Port 'ram_raddr_vs_o' not found in the connected module (8th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bkt_across_bin
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(270): Port 'ram_rdata_vs_i' not found in the connected module (9th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bkt_across_bin
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(270): Port 'ram_we_vs_o' not found in the connected module (10th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bkt_across_bin
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(270): Port 'ram_wdata_vs_o' not found in the connected module (11th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bkt_across_bin
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(270): Port 'ram_waddr_vs_o' not found in the connected module (12th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bkt_across_bin
+# ** Warning: (vsim-3722) ../src/bin_manager/bin_manager.v(270): [TFMPC] - Missing connection for port 'ram_raddr_v_state_o'.
+# 
+# ** Warning: (vsim-3722) ../src/bin_manager/bin_manager.v(270): [TFMPC] - Missing connection for port 'ram_rdata_v_state_i'.
+# 
+# ** Warning: (vsim-3722) ../src/bin_manager/bin_manager.v(270): [TFMPC] - Missing connection for port 'ram_we_v_state_o'.
+# 
+# ** Warning: (vsim-3722) ../src/bin_manager/bin_manager.v(270): [TFMPC] - Missing connection for port 'ram_wdata_v_state_o'.
+# 
+# ** Warning: (vsim-3722) ../src/bin_manager/bin_manager.v(270): [TFMPC] - Missing connection for port 'ram_waddr_v_state_o'.
+# 
+# ** Warning: (vsim-3722) ../src/bin_manager/bin_manager.v(270): [TFMPC] - Missing connection for port 'ram_we_l_state_o'.
+# 
+# ** Warning: (vsim-3722) ../src/bin_manager/bin_manager.v(270): [TFMPC] - Missing connection for port 'ram_data_l_state_o'.
+# 
+# ** Warning: (vsim-3722) ../src/bin_manager/bin_manager.v(270): [TFMPC] - Missing connection for port 'ram_addr_l_state_o'.
+# 
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(328): [PCDPC] - Port size (240 or 240) does not match connection size (88) for port 'lvl_states_i'. The port definition is at: ../src/bin_manager/update_bin.v(40).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/update_bin
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(328): Port 'ram_we_ls_o' not found in the connected module (20th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/update_bin
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(328): Port 'ram_data_ls_o' not found in the connected module (21st connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/update_bin
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(328): Port 'ram_addr_ls_o' not found in the connected module (22nd connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/update_bin
+# ** Warning: (vsim-3015) ../src/bin_manager/update_bin.v(257): [PCDPC] - Port size (19 or 19) does not match connection size (1) for port 'data_o'. The port definition is at: ../src/bin_manager/reduce_in_datas.v(9).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/update_bin/reduce_in_8_datas_vs_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/update_bin.v(313): [PCDPC] - Port size (152 or 152) does not match connection size (1) for port 'data_i'. The port definition is at: ../src/bin_manager/reduce_in_datas.v(7).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/update_bin/reduce_in_8_datas_ls_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/update_bin.v(313): [PCDPC] - Port size (19 or 19) does not match connection size (1) for port 'data_o'. The port definition is at: ../src/bin_manager/reduce_in_datas.v(9).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/update_bin/reduce_in_8_datas_ls_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(377): [PCDPC] - Port size (10 or 10) does not match connection size (9) for port 'addra'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(42).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_vars_bins_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(377): [PCDPC] - Port size (30 or 30) does not match connection size (12) for port 'douta'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(44).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_vars_bins_inst
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(377): Port 'dout' not found in the connected module (10th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_vars_bins_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(431): [PCDPC] - Port size (10 or 10) does not match connection size (9) for port 'addra'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(42).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_clauses_bins_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(431): [PCDPC] - Port size (30 or 30) does not match connection size (16) for port 'douta'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(44).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_clauses_bins_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(431): [PCDPC] - Port size (10 or 10) does not match connection size (9) for port 'addrb'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(47).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_clauses_bins_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(431): [PCDPC] - Port size (30 or 30) does not match connection size (16) for port 'dinb'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(48).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_clauses_bins_inst
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(431): Port 'dout' not found in the connected module (10th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_clauses_bins_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(485): [PCDPC] - Port size (10 or 10) does not match connection size (9) for port 'addra'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(42).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_global_var_state_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(485): [PCDPC] - Port size (30 or 30) does not match connection size (1) for port 'douta'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(44).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_global_var_state_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(485): [PCDPC] - Port size (10 or 10) does not match connection size (9) for port 'addrb'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(47).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_global_var_state_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(485): [PCDPC] - Port size (30 or 30) does not match connection size (19) for port 'dinb'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(48).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_global_var_state_inst
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(485): Port 'dout' not found in the connected module (10th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_global_var_state_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(540): [PCDPC] - Port size (10 or 10) does not match connection size (9) for port 'addra'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(42).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_global_lvl_state_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(540): [PCDPC] - Port size (30 or 30) does not match connection size (1) for port 'douta'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(44).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_global_lvl_state_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(540): [PCDPC] - Port size (10 or 10) does not match connection size (9) for port 'addrb'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(47).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_global_lvl_state_inst
+# ** Warning: (vsim-3015) ../src/bin_manager/bin_manager.v(540): [PCDPC] - Port size (30 or 30) does not match connection size (11) for port 'dinb'. The port definition is at: ../src/bin_manager/bram_w30_d1024.v(48).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_global_lvl_state_inst
+# ** Error: (vsim-3063) ../src/bin_manager/bin_manager.v(540): Port 'dout' not found in the connected module (10th connection).
+# 
+#         Region: /test_bin_manager_top/test_bin_manager/bin_manager/bram_global_lvl_state_inst
+# Error loading design
+rm test_bm_console.do
+python transcript_info.py
+please view transcript.log
+# sublime_text transcript.log

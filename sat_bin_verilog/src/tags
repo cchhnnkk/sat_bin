@@ -1,0 +1,757 @@
+@	clause1.v	/^    always @(posedge clk) begin: set_need_clear$/
+@	clause1.v	/^    always @(posedge clk) begin: set_is_reason_r$/
+@	clause1.v	/^    always @(posedge clk) begin: set_clause_len_r$/
+@	control.v	/^    always @(posedge clk)$/
+@	control.v	/^    always @(posedge clk)$/
+@	control.v	/^    always @(posedge clk)$/
+@	control.v	/^    always @(posedge clk)$/
+@	control.v	/^    always @(posedge clk)$/
+@	control.v	/^    always @(posedge clk)$/
+@	control.v	/^    always @(posedge clk)$/
+@	control.v	/^    always @(posedge clk)$/
+@	control.v	/^    always @(posedge clk)$/
+@	control.v	/^    always @(posedge clk)$/
+@	control.v	/^    always @(posedge clk)$/
+@	control.v	/^    always @(posedge clk)$/
+@	control.v	/^    always @(posedge clk)$/
+@	ctrl_core.v	/^    always @(posedge clk)$/
+@	ctrl_core.v	/^    always @(posedge clk)$/
+@	ctrl_core.v	/^    always @(posedge clk)$/
+@	ctrl_core.v	/^    always @(posedge clk)$/
+@	ctrl_core.v	/^    always @(posedge clk)$/
+@	ctrl_core.v	/^    always @(posedge clk)$/
+@	ctrl_core.v	/^    always @(posedge clk)$/
+@	ctrl_core.v	/^    always @(posedge clk)$/
+@	ctrl_core.v	/^    always @(posedge clk)$/
+@	ctrl_core.v	/^    always @(posedge clk)$/
+@	data_dispatch.v	/^    always @(posedge clk)$/
+@	data_dispatch.v	/^    always @(posedge clk)$/
+@	data_dispatch.v	/^    always @(posedge clk)$/
+@	data_dispatch.v	/^    always @(posedge clk)$/
+@	data_dispatch.v	/^    always @(posedge clk)$/
+@	data_dispatch.v	/^    always @(posedge clk)$/
+@	data_dispatch.v	/^    always @(posedge clk)$/
+@	data_dispatch.v	/^    always @(posedge clk)$/
+@	data_dispatch.v	/^    always @(posedge clk)$/
+@	data_dispatch.v	/^    always @(posedge clk)$/
+@	data_dispatch.v	/^    always @(posedge clk)$/
+@	decision.v	/^    always @(posedge clk) begin: set_cur_local_lvl/
+@	decision.v	/^    always @(posedge clk)$/
+@	decision.v	/^    always @(posedge clk)$/
+@	load_update_bin.v	/^    always @(posedge clk)$/
+@	load_update_bin.v	/^    always @(posedge clk)$/
+@	load_update_bin.v	/^    always @(posedge clk)$/
+@	load_update_bin.v	/^    always @(posedge clk)$/
+@	load_update_bin.v	/^    always @(posedge clk)$/
+@	load_update_bin.v	/^    always @(posedge clk)$/
+@	load_update_bin.v	/^    always @(posedge clk)$/
+@	load_update_bin.v	/^    always @(posedge clk)$/
+@	load_update_bin.v	/^    always @(posedge clk)$/
+@	load_update_bin.v	/^    always @(posedge clk)$/
+@	lvl_state1.v	/^    always @(posedge clk) begin: set_var_lvl_r$/
+@	lvl_state1.v	/^    always @(posedge clk) begin: set_dcd_bin_r$/
+@	lvl_state1.v	/^    always @(posedge clk) begin: set_has_bkt_r$/
+@	lvl_state1.v	/^    always @(posedge clk) begin: set_bkt_bin_o$/
+@	regs_vid_state.v	/^    always @(posedge clk)$/
+@	regs_vid_state.v	/^    always @(posedge clk)$/
+@	regs_vid_state.v	/^    always @(posedge clk)$/
+@	regs_vid_state.v	/^    always @(posedge clk)$/
+@	regs_vid_state.v	/^    always @(posedge clk)$/
+@	regs_vid_state.v	/^    always @(posedge clk)$/
+@	state_list.v	/^    always @(posedge clk) begin: set_bkt_lvl_r$/
+@	state_list.v	/^    always @(posedge clk)$/
+@	state_list.v	/^    always @(posedge clk) begin: set_done_imply_o /
+@	state_list.v	/^    always @(posedge clk)$/
+@	state_list.v	/^    always @(posedge clk) begin: set_done_analyze_/
+@	state_list.v	/^    always @(posedge clk) begin: set_done_analyze_/
+@	state_list.v	/^    always @(posedge clk) begin: set_done_analyze_/
+@	var24.v	/^    always @(posedge clk)$/
+@	var24.v	/^    always @(posedge clk)$/
+@	var24.v	/^    always @(posedge clk)$/
+@	var24.v	/^    always @(posedge clk)$/
+@	var24.v	/^    always @(posedge clk)$/
+@	var24.v	/^    always @(posedge clk)$/
+@	var24.v	/^    always @(posedge clk)$/
+@	var1.v	/^    always @(posedge clk) begin: set_vars_value_r$/
+ANALYZE_IDLE	state_list.v	197
+ANALYZE_IDLE	var24.v	88
+C_XDEVICEFAMILY	bram_w40.v	/^    .C_XDEVICEFAMILY("virtex7")$/
+IDLE	control.v	45
+IDLE	ctrl_core.v	46
+IDLE	load_update_bin.v	88
+LOAD_IDLE	data_dispatch.v	79
+NUM_CLAUSES_A_BIN	sat_engine.v	/^        .NUM_CLAUSES_A_BIN(NUM_CLAUSES_A_BIN),$/
+NUM_CLAUSES_A_BIN	var24.v	/^                           .NUM_CLAUSES_A_BIN(NUM_/
+NUM_SUB	decision.v	80
+NUM_SUB	max_in_datas.v	14
+NUM_VARS	state_list.v	/^        .NUM_VARS(NUM_VARS),$/
+NUM_VARS_A_BIN	clause2.v	/^        .NUM_VARS_A_BIN(NUM_VARS_A_BIN),$/
+NUM_VARS_A_BIN	clause4.v	/^        .NUM_VARS_A_BIN(NUM_VARS_A_BIN),$/
+NUM_VARS_A_BIN	clause8.v	/^        .NUM_VARS_A_BIN(NUM_VARS_A_BIN),$/
+WIDTH	decision.v	/^        .WIDTH(WIDTH)$/
+WIDTH	decision.v	/^        .WIDTH(WIDTH)$/
+WIDTH	decision.v	/^        .WIDTH(WIDTH)$/
+WIDTH	max_in_datas.v	/^			.WIDTH(WIDTH)$/
+WIDTH	max_in_datas.v	/^			.WIDTH(WIDTH)$/
+WIDTH_C_LEN	clause_array.v	/^            .WIDTH_C_LEN(WIDTH_C_LEN)$/
+WIDTH_LVL_STATES	lvl_state2.v	/^                      .WIDTH_LVL_STATES(WIDTH_LVL_/
+WIDTH_LVL_STATES	lvl_state4.v	/^                    .WIDTH_LVL_STATES(WIDTH_LVL_ST/
+WIDTH_LVL_STATES	lvl_state8.v	/^                .WIDTH_LVL_STATES(WIDTH_LVL_STATES/
+WIDTH_VAR_STATES	var_state2.v	/^                     .WIDTH_VAR_STATES(WIDTH_VAR_S/
+WIDTH_VAR_STATES	var_state4.v	/^                 .WIDTH_VAR_STATES(WIDTH_VAR_STATE/
+WIDTH_VAR_STATES	var_state8.v	/^                 .WIDTH_VAR_STATES(WIDTH_VAR_STATE/
+addra	bram_w40.v	51
+addrb	bram_w40.v	54
+all_c_is_sat	sat_engine.v	47
+all_c_sat_o	clause1.v	97
+all_c_sat_o	clause2.v	29
+all_c_sat_o	clause4.v	29
+all_c_sat_o	clause8.v	29
+all_c_sat_o_0	clause2.v	24
+all_c_sat_o_0	clause4.v	24
+all_c_sat_o_0	clause8.v	24
+all_c_sat_o_1	clause2.v	24
+all_c_sat_o_1	clause4.v	24
+all_c_sat_o_1	clause8.v	24
+apply_analyze	sat_engine.v	48
+apply_backtrack_r	var24.v	239
+apply_bkt_cur_bin	sat_engine.v	50
+apply_imply	sat_engine.v	41
+apply_update_first	load_update_bin.v	133
+apply_update_load	load_update_bin.v	134
+assign	clause2.v	26
+assign	clause4.v	26
+assign	clause8.v	26
+assign	clause_array.v	32
+assign	decision.v	84
+assign	lit2.v	31
+assign	lit4.v	31
+assign	lit8.v	31
+assign	lvl_state2.v	49
+assign	lvl_state2.v	51
+assign	lvl_state4.v	49
+assign	lvl_state4.v	51
+assign	lvl_state8.v	49
+assign	lvl_state8.v	51
+assign	lvl_state1.v	50
+assign	max_in_datas.v	20
+assign	regs_vid_state.v	38
+assign	regs_vid_state.v	46
+assign	regs_vid_state.v	51
+assign	regs_vid_state.v	140
+assign	var24.v	58
+assign	var24.v	60
+assign	var24.v	138
+assign	var24.v	270
+assign	var1.v	80
+assign	var_state2.v	53
+assign	var_state2.v	64
+assign	var_state2.v	65
+assign	var_state4.v	53
+assign	var_state4.v	64
+assign	var_state4.v	65
+assign	var_state8.v	53
+assign	var_state8.v	64
+assign	var_state8.v	65
+base_lvl_r	state_list.v	65
+bkt_bin_num_o_0	var24.v	226
+bkt_bin_num_o_1	var24.v	226
+bkt_bin_num_o_10	var24.v	226
+bkt_bin_num_o_11	var24.v	226
+bkt_bin_num_o_12	var24.v	226
+bkt_bin_num_o_13	var24.v	226
+bkt_bin_num_o_14	var24.v	226
+bkt_bin_num_o_15	var24.v	226
+bkt_bin_num_o_16	var24.v	226
+bkt_bin_num_o_17	var24.v	226
+bkt_bin_num_o_18	var24.v	226
+bkt_bin_num_o_19	var24.v	226
+bkt_bin_num_o_2	var24.v	226
+bkt_bin_num_o_20	var24.v	226
+bkt_bin_num_o_21	var24.v	226
+bkt_bin_num_o_22	var24.v	226
+bkt_bin_num_o_23	var24.v	226
+bkt_bin_num_o_3	var24.v	226
+bkt_bin_num_o_4	var24.v	226
+bkt_bin_num_o_5	var24.v	226
+bkt_bin_num_o_6	var24.v	226
+bkt_bin_num_o_7	var24.v	226
+bkt_bin_num_o_8	var24.v	226
+bkt_bin_num_o_9	var24.v	226
+bkt_bin_o	lvl_state2.v	50
+bkt_bin_o	lvl_state4.v	50
+bkt_bin_o	lvl_state8.v	50
+bkt_bin_o_0	lvl_state2.v	44
+bkt_bin_o_0	lvl_state4.v	44
+bkt_bin_o_0	lvl_state8.v	44
+bkt_bin_o_1	lvl_state2.v	44
+bkt_bin_o_1	lvl_state4.v	44
+bkt_bin_o_1	lvl_state8.v	44
+bkt_lvl	var24.v	224
+bkt_lvl_o	state_list.v	170
+bkt_lvl_r	state_list.v	159
+bram_addr_clauses_o	data_dispatch.v	145
+bram_addr_clauses_r	data_dispatch.v	142
+bram_addr_vars_o	data_dispatch.v	144
+bram_addr_vars_r	data_dispatch.v	141
+bram_addr_vars_states_o	data_dispatch.v	146
+bram_addr_vars_states_r	data_dispatch.v	143
+c_analyze_state	state_list.v	202
+c_analyze_state	var24.v	94
+c_rd_state	data_dispatch.v	83
+c_state	control.v	56
+c_state	ctrl_core.v	54
+c_state	load_update_bin.v	93
+c_valid_delay	data_dispatch.v	185
+c_valid_delay	load_update_bin.v	188
+case	control_analysis.v	/^            case(c_analyze_state)$/
+case	control.v	/^            case(c_state)$/
+case	ctrl_core.v	/^            case(c_state)$/
+case	data_dispatch.v	/^            case(c_rd_state)$/
+case	encode_8to3.v	/^    case(data_i)$/
+case	load_update_bin.v	/^            case(c_state)$/
+case	state_list.v	/^            case(c_analyze_state)$/
+case	var24.v	/^            case(c_analyze_state)$/
+cclause_0	clause1.v	23
+cclause_0	lit2.v	28
+cclause_0	lit4.v	28
+cclause_0	lit8.v	28
+cclause_1	lit2.v	28
+cclause_1	lit4.v	28
+cclause_1	lit8.v	28
+cclause_drv_0	clause1.v	24
+cclause_drv_0	clause1.v	48
+cclause_drv_o	clause1.v	47
+conflict_c_o	lit2.v	36
+conflict_c_o	lit4.v	36
+conflict_c_o	lit8.v	36
+conflict_c_o	lit1.v	58
+clause_len_12	var24.v	137
+clause_len_13	var24.v	137
+clause_len_14	var24.v	137
+clause_len_15	var24.v	137
+clause_len_16	var24.v	137
+clause_len_17	var24.v	137
+clause_len_18	var24.v	137
+clause_len_19	var24.v	137
+clause_len_20	var24.v	137
+clause_len_21	var24.v	137
+clause_len_22	var24.v	137
+clause_len_23	var24.v	137
+clause_len_o	clause1.v	95
+clause_len_o	clause2.v	28
+clause_len_o	clause4.v	28
+clause_len_o	clause8.v	28
+clause_len_o	clause_array.v	28
+clause_len_o_0	clause2.v	23
+clause_len_o_0	clause4.v	23
+clause_len_o_0	clause8.v	23
+clause_len_o_1	clause2.v	23
+clause_len_o_1	clause4.v	23
+clause_len_o_1	clause8.v	23
+clause_len_r	clause1.v	85
+clauses_cnt	load_update_bin.v	94
+clauses_o	data_dispatch.v	182
+clauses_r	data_dispatch.v	179
+clauses_valid_o	data_dispatch.v	183
+clauses_valid_r	data_dispatch.v	180
+clausesat	terminal_cell.v	16
+clausesat	terminal_cell.v	17
+clausesat_0	clause1.v	25
+clausesat_0	lit2.v	29
+clausesat_0	lit4.v	29
+clausesat_0	lit8.v	29
+clausesat_1	lit2.v	29
+clausesat_1	lit4.v	29
+clausesat_1	lit8.v	29
+clausesat_o	lit2.v	35
+clausesat_o	lit4.v	35
+clausesat_o	lit8.v	35
+clka	bram_w40.v	49
+clkb	bram_w40.v	53
+control_analysis	control_analysis.v	/^module control_analysis #($/
+cur_bin_num	control.v	43
+cur_local_lvl_o	decision.v	36
+cur_local_lvl_r	decision.v	23
+cur_lvl	sat_engine.v	46
+data_i_0	max_in_datas.v	16
+data_i_1	max_in_datas.v	16
+data_o	max_in_datas.v	21
+data_o	max_in_datas.v	59
+data_o	max_in_datas.v	100
+data_o_0	max_in_datas.v	17
+data_o_0	max_in_datas.v	58
+data_o_1	max_in_datas.v	17
+data_o_1	max_in_datas.v	58
+dina	bram_w40.v	52
+done_analyze	sat_engine.v	49
+done_bkt_cur_bin	sat_engine.v	51
+done_decision	sat_engine.v	45
+done_imply	sat_engine.v	42
+done_update_load	load_update_bin.v	135
+doutb	bram_w40.v	55
+exist_var_not_vbkt_o	var24.v	134
+find_conflict	sat_engine.v	43
+find_conflict_cur	state_list.v	69
+find_conflict_cur	var24.v	62
+find_conflict_cur	var24.v	64
+find_conflict_o	var1.v	102
+find_conflict_o	var_state2.v	56
+find_conflict_o	var_state4.v	56
+find_conflict_o	var_state8.v	56
+find_conflict_pre	state_list.v	175
+find_conflict_pre	var24.v	63
+find_imply_cur	state_list.v	69
+find_imply_cur	var24.v	62
+find_imply_cur	var24.v	66
+find_imply_o	var1.v	101
+find_imply_o	var_state2.v	55
+find_imply_o	var_state4.v	55
+find_imply_o	var_state8.v	55
+find_imply_pre	state_list.v	175
+find_imply_pre	var24.v	63
+findflag_o	lvl_state1.v	96
+findindex	state_list.v	67
+findindex_o	lvl_state2.v	53
+findindex_o	lvl_state4.v	53
+findindex_o	lvl_state8.v	53
+findindex_o	lvl_state1.v	99
+findindex_o_0	lvl_state2.v	47
+findindex_o_0	lvl_state4.v	47
+findindex_o_0	lvl_state8.v	47
+findindex_o_1	lvl_state2.v	47
+findindex_o_1	lvl_state4.v	47
+findindex_o_1	lvl_state8.v	47
+freelitcnt_0	clause1.v	21
+freelitcnt_0	lit2.v	26
+freelitcnt_0	lit4.v	26
+freelitcnt_0	lit8.v	26
+imp_drv_0	clause1.v	22
+imp_drv_0	lit2.v	27
+imp_drv_0	lit2.v	38
+imp_drv_0	lit4.v	27
+imp_drv_0	lit4.v	38
+imp_drv_0	lit8.v	27
+imp_drv_0	lit8.v	38
+imp_drv_1	lit2.v	27
+imp_drv_1	lit2.v	39
+imp_drv_1	lit4.v	27
+imp_drv_1	lit4.v	39
+imp_drv_1	lit8.v	27
+imp_drv_1	lit8.v	39
+imp_drv_o	terminal_cell.v	19
+impulse_cnt	control.v	171
+impulse_cnt	ctrl_core.v	173
+index_o	decision.v	38
+index_o	decision.v	85
+index_o	decision.v	125
+index_o	decision.v	165
+index_o	max_in_datas.v	22
+index_o	max_in_datas.v	63
+index_o	max_in_datas.v	101
+index_o_0	decision.v	83
+index_o_0	max_in_datas.v	18
+index_o_0	max_in_datas.v	62
+index_o_1	decision.v	83
+index_o_1	max_in_datas.v	18
+index_o_1	max_in_datas.v	62
+insert_pointer	var24.v	136
+is_highest_bktlvl	regs_vid_state.v	142
+is_highest_bktlvl_i	var1.v	79
+is_highest_bktlvl_sel	regs_vid_state.v	139
+is_independent_bin_0	var24.v	262
+is_independent_bin_1	var24.v	262
+is_independent_bin_10	var24.v	262
+is_independent_bin_11	var24.v	262
+is_independent_bin_12	var24.v	262
+is_independent_bin_13	var24.v	262
+is_independent_bin_14	var24.v	262
+is_independent_bin_15	var24.v	262
+is_independent_bin_16	var24.v	262
+is_independent_bin_17	var24.v	262
+is_independent_bin_18	var24.v	262
+is_independent_bin_19	var24.v	262
+is_independent_bin_2	var24.v	262
+is_independent_bin_20	var24.v	262
+is_independent_bin_21	var24.v	262
+is_independent_bin_22	var24.v	262
+is_independent_bin_23	var24.v	262
+is_independent_bin_3	var24.v	262
+is_independent_bin_4	var24.v	262
+is_independent_bin_5	var24.v	262
+is_independent_bin_6	var24.v	262
+is_independent_bin_7	var24.v	262
+is_independent_bin_8	var24.v	262
+is_independent_bin_9	var24.v	262
+is_independent_bin_o	var24.v	264
+is_reason_r	clause1.v	61
+isfree	lit1.v	27
+isfree	lit1.v	28
+learnt_lit_r	var_state1.v	48
+clause_lens	clause_array.v	29
+lit_of_clause_r	lit1.v	21
+load_update_bin	data_dispatch.v	/^module load_update_bin #($/
+load_update_bin	load_update_bin.v	/^module load_update_bin #($/
+load_update_done	load_update_bin.v	235
+load_update_done_r	load_update_bin.v	234
+local_bkt_lvl	state_list.v	68
+lvl_state1	lvl_state1.v	/^module lvl_state1 #($/
+lvl_states_i_0	lvl_state2.v	45
+lvl_states_i_0	lvl_state4.v	45
+lvl_states_i_0	lvl_state8.v	45
+lvl_states_i_1	lvl_state2.v	45
+lvl_states_i_1	lvl_state4.v	45
+lvl_states_i_1	lvl_state8.v	45
+lvl_states_o	lvl_state2.v	52
+lvl_states_o	lvl_state4.v	52
+lvl_states_o	lvl_state8.v	52
+lvl_states_o_0	lvl_state2.v	46
+lvl_states_o_0	lvl_state4.v	46
+lvl_states_o_0	lvl_state8.v	46
+lvl_states_o_1	lvl_state2.v	46
+lvl_states_o_1	lvl_state4.v	46
+lvl_states_o_1	lvl_state8.v	46
+max_len	var24.v	150
+max_len1	var24.v	140
+max_len12	var24.v	146
+max_len1234	var24.v	149
+max_len2	var24.v	141
+max_len3	var24.v	142
+max_len34	var24.v	147
+max_len4	var24.v	143
+max_len5	var24.v	144
+max_len56	var24.v	148
+max_len6	var24.v	145
+max_lvl	state_list.v	66
+max_lvl_0_0	var24.v	199
+max_lvl_0_1	var24.v	200
+max_lvl_0_10	var24.v	209
+max_lvl_0_11	var24.v	210
+max_lvl_0_2	var24.v	201
+max_lvl_0_3	var24.v	202
+max_lvl_0_4	var24.v	203
+max_lvl_0_5	var24.v	204
+max_lvl_0_6	var24.v	205
+max_lvl_0_7	var24.v	206
+max_lvl_0_8	var24.v	207
+max_lvl_0_9	var24.v	208
+max_lvl_1_0	var24.v	212
+max_lvl_1_1	var24.v	213
+max_lvl_1_2	var24.v	214
+max_lvl_1_3	var24.v	215
+max_lvl_1_4	var24.v	216
+max_lvl_1_5	var24.v	217
+max_lvl_2_0	var24.v	219
+max_lvl_2_1	var24.v	220
+max_lvl_2_2	var24.v	221
+max_lvl_3_0	var24.v	223
+max_lvl_o	var_state2.v	58
+max_lvl_o	var_state4.v	58
+max_lvl_o	var_state8.v	58
+n_analyze_state	control_analysis.v	71
+n_analyze_state	control_analysis.v	76
+n_analyze_state	control_analysis.v	81
+n_analyze_state	control_analysis.v	83
+n_analyze_state	control_analysis.v	85
+n_analyze_state	control_analysis.v	87
+n_analyze_state	state_list.v	202
+n_analyze_state	state_list.v	221
+n_analyze_state	state_list.v	226
+n_analyze_state	state_list.v	228
+n_analyze_state	state_list.v	230
+n_analyze_state	state_list.v	232
+n_analyze_state	var24.v	94
+n_analyze_state	var24.v	114
+n_analyze_state	var24.v	119
+n_analyze_state	var24.v	124
+n_analyze_state	var24.v	126
+n_analyze_state	var24.v	128
+n_analyze_state	var24.v	130
+n_rd_state	data_dispatch.v	83
+n_rd_state	data_dispatch.v	104
+n_rd_state	data_dispatch.v	109
+n_rd_state	data_dispatch.v	111
+n_rd_state	data_dispatch.v	113
+n_state	control.v	56
+n_state	control.v	77
+n_state	control.v	82
+n_state	control.v	89
+n_state	control.v	96
+n_state	control.v	105
+n_state	control.v	110
+n_state	control.v	115
+n_state	control.v	120
+n_state	control.v	122
+n_state	control.v	124
+n_state	control.v	127
+n_state	ctrl_core.v	54
+n_state	ctrl_core.v	75
+n_state	ctrl_core.v	82
+n_state	ctrl_core.v	89
+n_state	ctrl_core.v	96
+n_state	ctrl_core.v	101
+n_state	ctrl_core.v	106
+n_state	ctrl_core.v	111
+n_state	ctrl_core.v	113
+n_state	ctrl_core.v	115
+n_state	ctrl_core.v	118
+n_state	load_update_bin.v	93
+n_state	load_update_bin.v	116
+n_state	load_update_bin.v	121
+n_state	load_update_bin.v	126
+n_state	load_update_bin.v	128
+n_state	load_update_bin.v	130
+need_bkt	regs_vid_state.v	141
+need_clear	clause1.v	60
+originc_lens	clause_array.v	29
+p9	lit1.v	47
+participate	lit1.v	24
+participate	lit1.v	25
+r_clk_cnt	control.v	58
+r_clk_cnt	ctrl_core.v	56
+r_cnt	control.v	57
+r_cnt	ctrl_core.v	55
+rd_clauses_cnt	data_dispatch.v	84
+rd_vars_cnt	data_dispatch.v	84
+rdhere_valid	regs_vid_state.v	92
+rdhere_valid_r	regs_vid_state.v	93
+saved_var_value_r	var_state1.v	50
+select_here_ornot	regs_vid_state.v	135
+start_decision	sat_engine.v	44
+update_clause_o	var24.v	272
+update_clause_o	var1.v	72
+valid_from_decision_0	lvl_state2.v	43
+valid_from_decision_0	lvl_state4.v	43
+valid_from_decision_0	lvl_state8.v	43
+valid_from_decision_1	lvl_state2.v	43
+valid_from_decision_1	lvl_state4.v	43
+valid_from_decision_1	lvl_state8.v	43
+valid_var_state_load_r	regs_vid_state.v	113
+value_i_0	decision.v	82
+value_i_1	decision.v	82
+var24	var24.v	/^module var24 #($/
+var_bin_i_base_addr	data_dispatch.v	77
+var_bin_i_base_addr	load_update_bin.v	86
+var1	var1.v	/^module var1 #($/
+var_id_load_0	regs_vid_state.v	36
+var_id_load_1	regs_vid_state.v	36
+var_id_load_10	regs_vid_state.v	36
+var_id_load_11	regs_vid_state.v	36
+var_id_load_12	regs_vid_state.v	36
+var_id_load_13	regs_vid_state.v	36
+var_id_load_14	regs_vid_state.v	36
+var_id_load_15	regs_vid_state.v	36
+var_id_load_16	regs_vid_state.v	36
+var_id_load_17	regs_vid_state.v	36
+var_id_load_18	regs_vid_state.v	36
+var_id_load_19	regs_vid_state.v	36
+var_id_load_2	regs_vid_state.v	36
+var_id_load_20	regs_vid_state.v	36
+var_id_load_21	regs_vid_state.v	36
+var_id_load_22	regs_vid_state.v	36
+var_id_load_23	regs_vid_state.v	36
+var_id_load_3	regs_vid_state.v	36
+var_id_load_4	regs_vid_state.v	36
+var_id_load_5	regs_vid_state.v	36
+var_id_load_6	regs_vid_state.v	36
+var_id_load_7	regs_vid_state.v	36
+var_id_load_8	regs_vid_state.v	36
+var_id_load_9	regs_vid_state.v	36
+var_id_load_r	regs_vid_state.v	32
+var_id_load_w_0	regs_vid_state.v	40
+var_id_load_w_1	regs_vid_state.v	40
+var_id_load_w_10	regs_vid_state.v	40
+var_id_load_w_11	regs_vid_state.v	40
+var_id_load_w_12	regs_vid_state.v	40
+var_id_load_w_13	regs_vid_state.v	40
+var_id_load_w_14	regs_vid_state.v	40
+var_id_load_w_15	regs_vid_state.v	40
+var_id_load_w_16	regs_vid_state.v	40
+var_id_load_w_17	regs_vid_state.v	40
+var_id_load_w_18	regs_vid_state.v	40
+var_id_load_w_19	regs_vid_state.v	40
+var_id_load_w_2	regs_vid_state.v	40
+var_id_load_w_20	regs_vid_state.v	40
+var_id_load_w_21	regs_vid_state.v	40
+var_id_load_w_22	regs_vid_state.v	40
+var_id_load_w_23	regs_vid_state.v	40
+var_id_load_w_3	regs_vid_state.v	40
+var_id_load_w_4	regs_vid_state.v	40
+var_id_load_w_5	regs_vid_state.v	40
+var_id_load_w_6	regs_vid_state.v	40
+var_id_load_w_7	regs_vid_state.v	40
+var_id_load_w_8	regs_vid_state.v	40
+var_id_load_w_9	regs_vid_state.v	40
+var_id_load_w_all	regs_vid_state.v	42
+var_id_update_0	regs_vid_state.v	44
+var_id_update_1	regs_vid_state.v	44
+var_id_update_10	regs_vid_state.v	44
+var_id_update_11	regs_vid_state.v	44
+var_id_update_12	regs_vid_state.v	44
+var_id_update_13	regs_vid_state.v	44
+var_id_update_14	regs_vid_state.v	44
+var_id_update_15	regs_vid_state.v	44
+var_id_update_16	regs_vid_state.v	44
+var_id_update_17	regs_vid_state.v	44
+var_id_update_18	regs_vid_state.v	44
+var_id_update_19	regs_vid_state.v	44
+var_id_update_2	regs_vid_state.v	44
+var_id_update_20	regs_vid_state.v	44
+var_id_update_21	regs_vid_state.v	44
+var_id_update_22	regs_vid_state.v	44
+var_id_update_23	regs_vid_state.v	44
+var_id_update_3	regs_vid_state.v	44
+var_id_update_4	regs_vid_state.v	44
+var_id_update_5	regs_vid_state.v	44
+var_id_update_6	regs_vid_state.v	44
+var_id_update_7	regs_vid_state.v	44
+var_id_update_8	regs_vid_state.v	44
+var_id_update_9	regs_vid_state.v	44
+var_id_update_r	regs_vid_state.v	33
+var_implied_r	lit1.v	22
+var_lvl_i	var1.v	77
+var_lvl_r	var_state1.v	45
+var_lvl_sel	regs_vid_state.v	137
+var_reason_bin_i	var1.v	78
+var_reason_bin_sel	regs_vid_state.v	138
+var_state2	var_state2.v	/^module var_state2 #($/
+var_state4	var_state4.v	/^module var_state4 #($/
+var_state8	var_state8.v	/^module var_state8 #($/
+var_state_rdhere_0	regs_vid_state.v	59
+var_state_rdhere_1	regs_vid_state.v	60
+var_state_rdhere_10	regs_vid_state.v	69
+var_state_rdhere_11	regs_vid_state.v	70
+var_state_rdhere_12	regs_vid_state.v	71
+var_state_rdhere_13	regs_vid_state.v	72
+var_state_rdhere_14	regs_vid_state.v	73
+var_state_rdhere_15	regs_vid_state.v	74
+var_state_rdhere_16	regs_vid_state.v	75
+var_state_rdhere_17	regs_vid_state.v	76
+var_state_rdhere_18	regs_vid_state.v	77
+var_state_rdhere_19	regs_vid_state.v	78
+var_state_rdhere_2	regs_vid_state.v	61
+var_state_rdhere_20	regs_vid_state.v	79
+var_state_rdhere_21	regs_vid_state.v	80
+var_state_rdhere_22	regs_vid_state.v	81
+var_state_rdhere_23	regs_vid_state.v	82
+var_state_rdhere_3	regs_vid_state.v	62
+var_state_rdhere_4	regs_vid_state.v	63
+var_state_rdhere_5	regs_vid_state.v	64
+var_state_rdhere_6	regs_vid_state.v	65
+var_state_rdhere_7	regs_vid_state.v	66
+var_state_rdhere_8	regs_vid_state.v	67
+var_state_rdhere_9	regs_vid_state.v	68
+var_state_rdhere_or	regs_vid_state.v	83
+var_state_rdhere_or_r	regs_vid_state.v	84
+var_state_update_0	regs_vid_state.v	49
+var_state_update_1	regs_vid_state.v	49
+var_state_update_10	regs_vid_state.v	49
+var_state_update_11	regs_vid_state.v	49
+var_state_update_12	regs_vid_state.v	49
+var_state_update_13	regs_vid_state.v	49
+var_state_update_14	regs_vid_state.v	49
+var_state_update_15	regs_vid_state.v	49
+var_state_update_16	regs_vid_state.v	49
+var_state_update_17	regs_vid_state.v	49
+var_state_update_18	regs_vid_state.v	49
+var_state_update_19	regs_vid_state.v	49
+var_state_update_2	regs_vid_state.v	49
+var_state_update_20	regs_vid_state.v	49
+var_state_update_21	regs_vid_state.v	49
+var_state_update_22	regs_vid_state.v	49
+var_state_update_23	regs_vid_state.v	49
+var_state_update_3	regs_vid_state.v	49
+var_state_update_4	regs_vid_state.v	49
+var_state_update_5	regs_vid_state.v	49
+var_state_update_6	regs_vid_state.v	49
+var_state_update_7	regs_vid_state.v	49
+var_state_update_8	regs_vid_state.v	49
+var_state_update_9	regs_vid_state.v	49
+var_state_update_r	regs_vid_state.v	34
+var_value_0	clause2.v	22
+var_value_0	clause4.v	22
+var_value_0	clause8.v	22
+var_value_0	lit2.v	24
+var_value_0	lit2.v	25
+var_value_0	lit4.v	24
+var_value_0	lit4.v	25
+var_value_0	lit8.v	24
+var_value_0	lit8.v	25
+var_value_1	clause2.v	22
+var_value_1	clause4.v	22
+var_value_1	clause8.v	22
+var_value_1	lit2.v	24
+var_value_1	lit2.v	25
+var_value_1	lit4.v	24
+var_value_1	lit4.v	25
+var_value_1	lit8.v	24
+var_value_1	lit8.v	25
+var_value_convert	regs_vid_state.v	144
+var_value_convert	regs_vid_state.v	145
+var_value_convert	regs_vid_state.v	146
+var_value_i	var1.v	76
+var_value_o	clause2.v	27
+var_value_o	clause4.v	27
+var_value_o	clause8.v	27
+var_value_o	lit2.v	33
+var_value_o	lit4.v	33
+var_value_o	lit8.v	33
+var_value_o	lit1.v	74
+var_value_o	var24.v	56
+var_value_o	var_state2.v	52
+var_value_o	var_state4.v	52
+var_value_o	var_state8.v	52
+var_value_o	var_state1.v	52
+var_value_r	var1.v	70
+var_value_r	var_state1.v	44
+var_value_sel	regs_vid_state.v	136
+vars_cnt	load_update_bin.v	94
+vars_states_23	var24.v	275
+vars_states_i_0	var_state2.v	61
+vars_states_i_0	var_state4.v	61
+vars_states_i_0	var_state8.v	61
+vars_states_i_1	var_state2.v	61
+vars_states_i_1	var_state4.v	61
+vars_states_i_1	var_state8.v	61
+vars_states_o	data_dispatch.v	232
+vars_states_o	var24.v	274
+vars_states_o	var1.v	75
+vars_states_o	var_state2.v	66
+vars_states_o	var_state4.v	66
+vars_states_o	var_state8.v	66
+vars_states_o_0	var_state2.v	62
+vars_states_o_0	var_state4.v	62
+vars_states_o_0	var_state8.v	62
+vars_states_o_1	var_state2.v	62
+vars_states_o_1	var_state4.v	62
+vars_states_o_1	var_state8.v	62
+vars_states_r	data_dispatch.v	230
+vars_states_valid_o	data_dispatch.v	233
+vars_states_valid_r	data_dispatch.v	231
+vstate_valid_delay	data_dispatch.v	235
+w_clk_cnt	control.v	58
+w_clk_cnt	ctrl_core.v	56
+w_cnt	control.v	57
+w_cnt	ctrl_core.v	55
+wait_cnt	control.v	57
+wait_cnt	ctrl_core.v	55
+wea	bram_w40.v	50
+wr_0	clause2.v	21
+wr_0	clause4.v	21
+wr_0	clause8.v	21
+wr_1	clause2.v	21
+wr_1	clause4.v	21
+wr_1	clause8.v	21
+wr_c_delay	data_dispatch.v	210
+wr_c_delay	load_update_bin.v	213
+wr_clause	clause_array.v	30
+wr_lit1s_o	data_dispatch.v	181
+wr_lit1s_r	data_dispatch.v	178
+wr_states_0	var_state2.v	60
+wr_states_0	var_state4.v	60
+wr_states_0	var_state8.v	60
+wr_states_1	var_state2.v	60
+wr_states_1	var_state4.v	60
+wr_states_1	var_state8.v	60
+wr_var_states	var24.v	267
+wr_var_states	var24.v	268

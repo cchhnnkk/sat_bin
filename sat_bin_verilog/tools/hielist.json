@@ -1,0 +1,462 @@
+{
+  "test_lit1": [
+    [
+      "lit1", 
+      "lit1"
+    ]
+  ], 
+  "test_sat_bin_top": [
+    [
+      "test_sat_bin", 
+      "test_sat_bin"
+    ]
+  ], 
+  "bram_w30_d1024": [], 
+  "sat_bin": [
+    [
+      "bin_manager", 
+      "bin_manager"
+    ], 
+    [
+      "sat_engine", 
+      "sat_engine"
+    ]
+  ], 
+  "ctrl_bm": [], 
+  "test_clause_array": [
+    [
+      "clause_array", 
+      "clause_array"
+    ]
+  ], 
+  "test_sat_engine": [
+    [
+      "sat_engine", 
+      "sat_engine"
+    ]
+  ], 
+  "var_state4": [
+    [
+      "var_state2", 
+      "var_state2_0"
+    ], 
+    [
+      "var_state2", 
+      "var_state2_1"
+    ]
+  ], 
+  "var_state1": [], 
+  "ctrl_core": [], 
+  "var_state2": [
+    [
+      "var_state1", 
+      "var_state1_0"
+    ], 
+    [
+      "var_state1", 
+      "var_state1_1"
+    ]
+  ], 
+  "bin_manager": [
+    [
+      "ctrl_bm", 
+      "ctrl_bm"
+    ], 
+    [
+      "rd_bin_info", 
+      "rd_bin_info"
+    ], 
+    [
+      "load_bin", 
+      "load_bin"
+    ], 
+    [
+      "find_global_bkt_lvl", 
+      "find_global_bkt_lvl"
+    ], 
+    [
+      "bkt_across_bin", 
+      "bkt_across_bin"
+    ], 
+    [
+      "update_bin", 
+      "update_bin"
+    ], 
+    [
+      "bram_param", 
+      "bram_vars_bins_inst"
+    ], 
+    [
+      "bram_param", 
+      "bram_clauses_bins_inst"
+    ], 
+    [
+      "bram_param", 
+      "bram_global_var_state_inst"
+    ], 
+    [
+      "bram_param", 
+      "bram_global_lvl_state_inst"
+    ]
+  ], 
+  "state_list": [
+    [
+      "var_state8", 
+      "var_state8"
+    ], 
+    [
+      "lvl_state8", 
+      "lvl_state8"
+    ], 
+    [
+      "decision", 
+      "decision"
+    ]
+  ], 
+  "max_in_2_datas": [], 
+  "var_state8": [
+    [
+      "var_state4", 
+      "var_state4_0"
+    ], 
+    [
+      "var_state4", 
+      "var_state4_1"
+    ]
+  ], 
+  "sat_engine": [
+    [
+      "ctrl_core", 
+      "ctrl_core"
+    ], 
+    [
+      "state_list", 
+      "state_list"
+    ], 
+    [
+      "clause_array", 
+      "clause_array"
+    ], 
+    [
+      "c_len8", 
+      "c_len8"
+    ]
+  ], 
+  "bram_w36_d1204": [], 
+  "test_lit1_top": [], 
+  "reduce_in_4_datas": [
+    [
+      "reduce_in_2_datas", 
+      "reduce_in_2_datas_inst0"
+    ], 
+    [
+      "reduce_in_2_datas", 
+      "reduce_in_2_datas_inst1"
+    ]
+  ], 
+  "decision": [
+    [
+      "dcd_in_var8", 
+      "dcd_in_var8"
+    ]
+  ], 
+  "reduce_in_8_datas": [
+    [
+      "reduce_in_4_datas", 
+      "reduce_in_4_datas_inst0"
+    ], 
+    [
+      "reduce_in_4_datas", 
+      "reduce_in_4_datas_inst1"
+    ]
+  ], 
+  "scatter_to_8_datas": [
+    [
+      "scatter_to_4_datas", 
+      "scatter_to_4_datas_inst0"
+    ], 
+    [
+      "scatter_to_4_datas", 
+      "scatter_to_4_datas_inst1"
+    ]
+  ], 
+  "bkt_across_bin": [], 
+  "bram_w18_1024": [], 
+  "bram_w40": [], 
+  "test_bin_manager_top": [
+    [
+      "test_bin_manager", 
+      "test_bin_manager"
+    ]
+  ], 
+  "bram_w48_d1024": [], 
+  "test_sat_bin": [
+    [
+      "sat_bin", 
+      "sat_bin"
+    ]
+  ], 
+  "terminal_cell": [], 
+  "lvl_state1": [], 
+  "blk_mem_gen_v7_3": [], 
+  "test_clause1": [
+    [
+      "clause1", 
+      "clause1"
+    ]
+  ], 
+  "reduce_in_2_datas": [], 
+  "dcd_in_var8": [
+    [
+      "dcd_in_var4", 
+      "dcd_in_var4_0"
+    ], 
+    [
+      "dcd_in_var4", 
+      "dcd_in_var4_1"
+    ]
+  ], 
+  "update_bin": [
+    [
+      "reduce_in_8_datas", 
+      "reduce_vs_inst"
+    ], 
+    [
+      "reduce_in_8_datas", 
+      "reduce_ls_inst"
+    ]
+  ], 
+  "dcd_in_var4": [
+    [
+      "dcd_in_var2", 
+      "dcd_in_var2_0"
+    ], 
+    [
+      "dcd_in_var2", 
+      "dcd_in_var2_1"
+    ]
+  ], 
+  "dcd_in_var2": [
+    [
+      "dcd_in_var1", 
+      "dcd_in_var1_0"
+    ], 
+    [
+      "dcd_in_var1", 
+      "dcd_in_var1_1"
+    ]
+  ], 
+  "test_sat_engine_top": [
+    [
+      "test_sat_engine", 
+      "test_sat_engine"
+    ]
+  ], 
+  "load_bin": [
+    [
+      "scatter_to_8_datas", 
+      "scatter_to_vs_inst"
+    ], 
+    [
+      "scatter_to_8_datas", 
+      "scatter_to_ls_inst"
+    ]
+  ], 
+  "dcd_in_var1": [], 
+  "clause8": [
+    [
+      "clause4", 
+      "clause4_0"
+    ], 
+    [
+      "clause4", 
+      "clause4_1"
+    ]
+  ], 
+  "lvl_state8": [
+    [
+      "lvl_state4", 
+      "lvl_state4_0"
+    ], 
+    [
+      "lvl_state4", 
+      "lvl_state4_1"
+    ]
+  ], 
+  "max_in_4_datas": [
+    [
+      "max_in_2_datas", 
+      "max_in_2_datas_inst0"
+    ], 
+    [
+      "max_in_2_datas", 
+      "max_in_2_datas_inst1"
+    ]
+  ], 
+  "clause2": [
+    [
+      "clause1", 
+      "clause1_0"
+    ], 
+    [
+      "clause1", 
+      "clause1_1"
+    ]
+  ], 
+  "lvl_state4": [
+    [
+      "lvl_state2", 
+      "lvl_state2_0"
+    ], 
+    [
+      "lvl_state2", 
+      "lvl_state2_1"
+    ]
+  ], 
+  "clause1": [
+    [
+      "terminal_cell", 
+      "terminal_cell"
+    ], 
+    [
+      "lit8", 
+      "lit8"
+    ]
+  ], 
+  "lvl_state2": [
+    [
+      "lvl_state1", 
+      "lvl_state1_0"
+    ], 
+    [
+      "lvl_state1", 
+      "lvl_state1_1"
+    ]
+  ], 
+  "scatter_to_2_datas": [], 
+  "clause4": [
+    [
+      "clause2", 
+      "clause2_0"
+    ], 
+    [
+      "clause2", 
+      "clause2_1"
+    ]
+  ], 
+  "scatter_to_4_datas": [
+    [
+      "scatter_to_2_datas", 
+      "scatter_to_2_datas_inst0"
+    ], 
+    [
+      "scatter_to_2_datas", 
+      "scatter_to_2_datas_inst1"
+    ]
+  ], 
+  "test_clause1_top": [
+    [
+      "test_clause1", 
+      "test_clause1"
+    ]
+  ], 
+  "lit8": [
+    [
+      "lit4", 
+      "lit4_0"
+    ], 
+    [
+      "lit4", 
+      "lit4_1"
+    ]
+  ], 
+  "find_global_bkt_lvl": [], 
+  "lit4": [
+    [
+      "lit2", 
+      "lit2_0"
+    ], 
+    [
+      "lit2", 
+      "lit2_1"
+    ]
+  ], 
+  "test_clause_array_top": [
+    [
+      "test_clause_array", 
+      "test_clause_array"
+    ]
+  ], 
+  "lit1": [], 
+  "bram_w18_d1024": [], 
+  "lit2": [
+    [
+      "lit1", 
+      "lit1_0"
+    ], 
+    [
+      "lit1", 
+      "lit1_1"
+    ]
+  ], 
+  "test_bin_manager": [
+    [
+      "bin_manager", 
+      "bin_manager"
+    ]
+  ], 
+  "max_in_8_datas": [
+    [
+      "max_in_4_datas", 
+      "max_in_4_datas_inst0"
+    ], 
+    [
+      "max_in_4_datas", 
+      "max_in_4_datas_inst1"
+    ]
+  ], 
+  "c_len8": [
+    [
+      "c_len4", 
+      "c_len4_0"
+    ], 
+    [
+      "c_len4", 
+      "c_len4_1"
+    ]
+  ], 
+  "clause_array": [
+    [
+      "clause8", 
+      "clause8"
+    ], 
+    [
+      "max_in_4_datas", 
+      "max_in_4_datas_inst0"
+    ]
+  ], 
+  "bram_param": [], 
+  "c_len4": [
+    [
+      "c_len2", 
+      "c_len2_0"
+    ], 
+    [
+      "c_len2", 
+      "c_len2_1"
+    ]
+  ], 
+  "rd_bin_info": [], 
+  "c_len2": [
+    [
+      "c_len1", 
+      "c_len1_0"
+    ], 
+    [
+      "c_len1", 
+      "c_len1_1"
+    ]
+  ], 
+  "c_len1": [], 
+  "bram_w12_d1024": []
+}

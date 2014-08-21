@@ -1,0 +1,7 @@
+*.pyc
+..todo
+*.log
+*.swp
+*.cnf
+*.txt
+*.png

@@ -1,0 +1,2 @@
+#/test_sat_engine_top/test_sat_engine/sat_engine/clause_array/clause8/clause4_0/clause2_0/clause1_0/lit8/lit4_1/lit2_0/lit1_0/*
+/test_sat_engine_top/test_sat_engine/sat_engine/clause_array/clause8/*

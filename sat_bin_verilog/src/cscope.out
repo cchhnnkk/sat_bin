@@ -1,0 +1,20142 @@
+cscope 16 f:\sat\github\sat_bin_verilog               0000130688
+	@bram_w40.v
+
+37 `
+	gtimesˇÀ
+ 1
+	gns
+/1
+ps
+
+
+39 
+moduÀ
+ 
+bøm_w40
+(
+
+40 
+˛ka
+,
+
+41 
+wó
+,
+
+42 
+addø
+,
+
+43 
+döa
+,
+
+44 
+˛kb
+,
+
+45 
+addrb
+,
+
+46 
+doutb
+
+
+49 
+öput
+ 
+	g˛ka
+;
+
+50 
+	göput
+ [0 : 0] 
+wó
+;
+
+51 
+	göput
+ [9 : 0] 
+addø
+;
+
+52 
+	göput
+ [39 : 0] 
+döa
+;
+
+53 
+öput
+ 
+	g˛kb
+;
+
+54 
+	göput
+ [9 : 0] 
+addrb
+;
+
+55 
+	gouçut
+ [39 : 0] 
+doutb
+;
+
+59 
+	gBLK_MEM_GEN_V7_3
+ #(
+
+60 .
+C_ADDRA_WIDTH
+(10),
+
+61 .
+C_ADDRB_WIDTH
+(10),
+
+62 .
+C_ALGORITHM
+(1),
+
+63 .
+C_AXI_ID_WIDTH
+(4),
+
+64 .
+C_AXI_SLAVE_TYPE
+(0),
+
+65 .
+C_AXI_TYPE
+(1),
+
+66 .
+C_BYTE_SIZE
+(9),
+
+67 .
+C_COMMON_CLK
+(1),
+
+68 .
+C_DEFAULT_DATA
+("0"),
+
+69 .
+C_DISABLE_WARN_BHV_COLL
+(0),
+
+70 .
+C_DISABLE_WARN_BHV_RANGE
+(0),
+
+71 .
+C_ENABLE_32BIT_ADDRESS
+(0),
+
+72 .
+C_FAMILY
+("virtex7"),
+
+73 .
+C_HAS_AXI_ID
+(0),
+
+74 .
+C_HAS_ENA
+(0),
+
+75 .
+C_HAS_ENB
+(0),
+
+76 .
+C_HAS_INJECTERR
+(0),
+
+77 .
+C_HAS_MEM_OUTPUT_REGS_A
+(0),
+
+78 .
+C_HAS_MEM_OUTPUT_REGS_B
+(0),
+
+79 .
+C_HAS_MUX_OUTPUT_REGS_A
+(0),
+
+80 .
+C_HAS_MUX_OUTPUT_REGS_B
+(0),
+
+81 .
+C_HAS_REGCEA
+(0),
+
+82 .
+C_HAS_REGCEB
+(0),
+
+83 .
+C_HAS_RSTA
+(0),
+
+84 .
+C_HAS_RSTB
+(0),
+
+85 .
+C_HAS_SOFTECC_INPUT_REGS_A
+(0),
+
+86 .
+C_HAS_SOFTECC_OUTPUT_REGS_B
+(0),
+
+87 .
+C_INIT_FILE
+("BlankString"),
+
+88 .
+C_INIT_FILE_NAME
+("no_coe_file_loaded"),
+
+89 .
+C_INITA_VAL
+("0"),
+
+90 .
+C_INITB_VAL
+("0"),
+
+91 .
+C_INTERFACE_TYPE
+(0),
+
+92 .
+C_LOAD_INIT_FILE
+(0),
+
+93 .
+C_MEM_TYPE
+(1),
+
+94 .
+C_MUX_PIPELINE_STAGES
+(0),
+
+95 .
+C_PRIM_TYPE
+(1),
+
+96 .
+C_READ_DEPTH_A
+(1024),
+
+97 .
+C_READ_DEPTH_B
+(1024),
+
+98 .
+C_READ_WIDTH_A
+(40),
+
+99 .
+C_READ_WIDTH_B
+(40),
+
+100 .
+C_RST_PRIORITY_A
+("CE"),
+
+101 .
+C_RST_PRIORITY_B
+("CE"),
+
+102 .
+C_RST_TYPE
+("SYNC"),
+
+103 .
+C_RSTRAM_A
+(0),
+
+104 .
+C_RSTRAM_B
+(0),
+
+105 .
+C_SIM_COLLISION_CHECK
+("ALL"),
+
+106 .
+C_USE_BRAM_BLOCK
+(0),
+
+107 .
+C_USE_BYTE_WEA
+(0),
+
+108 .
+C_USE_BYTE_WEB
+(0),
+
+109 .
+C_USE_DEFAULT_DATA
+(0),
+
+110 .
+C_USE_ECC
+(0),
+
+111 .
+C_USE_SOFTECC
+(0),
+
+112 .
+C_WEA_WIDTH
+(1),
+
+113 .
+C_WEB_WIDTH
+(1),
+
+114 .
+C_WRITE_DEPTH_A
+(1024),
+
+115 .
+C_WRITE_DEPTH_B
+(1024),
+
+116 .
+C_WRITE_MODE_A
+("READ_FIRST"),
+
+117 .
+C_WRITE_MODE_B
+("READ_FIRST"),
+
+118 .
+C_WRITE_WIDTH_A
+(40),
+
+119 .
+C_WRITE_WIDTH_B
+(40),
+
+120 .
+C_XDEVICEFAMILY
+("virtex7")
+
+122 
+ö°
+ (
+
+123 .
+CLKA
+(
+˛ka
+),
+
+124 .
+WEA
+(
+wó
+),
+
+125 .
+ADDRA
+(
+addø
+),
+
+126 .
+DINA
+(
+döa
+),
+
+127 .
+CLKB
+(
+˛kb
+),
+
+128 .
+ADDRB
+(
+addrb
+),
+
+129 .
+DOUTB
+(
+doutb
+),
+
+130 .
+RSTA
+(),
+
+131 .
+ENA
+(),
+
+132 .
+REGCEA
+(),
+
+133 .
+DOUTA
+(),
+
+134 .
+RSTB
+(),
+
+135 .
+ENB
+(),
+
+136 .
+REGCEB
+(),
+
+137 .
+WEB
+(),
+
+138 .
+DINB
+(),
+
+139 .
+INJECTSBITERR
+(),
+
+140 .
+INJECTDBITERR
+(),
+
+141 .
+SBITERR
+(),
+
+142 .
+DBITERR
+(),
+
+143 .
+RDADDRECC
+(),
+
+144 .
+S_ACLK
+(),
+
+145 .
+S_ARESETN
+(),
+
+146 .
+S_AXI_AWID
+(),
+
+147 .
+S_AXI_AWADDR
+(),
+
+148 .
+S_AXI_AWLEN
+(),
+
+149 .
+S_AXI_AWSIZE
+(),
+
+150 .
+S_AXI_AWBURST
+(),
+
+151 .
+S_AXI_AWVALID
+(),
+
+152 .
+S_AXI_AWREADY
+(),
+
+153 .
+S_AXI_WDATA
+(),
+
+154 .
+S_AXI_WSTRB
+(),
+
+155 .
+S_AXI_WLAST
+(),
+
+156 .
+S_AXI_WVALID
+(),
+
+157 .
+S_AXI_WREADY
+(),
+
+158 .
+S_AXI_BID
+(),
+
+159 .
+S_AXI_BRESP
+(),
+
+160 .
+S_AXI_BVALID
+(),
+
+161 .
+S_AXI_BREADY
+(),
+
+162 .
+S_AXI_ARID
+(),
+
+163 .
+S_AXI_ARADDR
+(),
+
+164 .
+S_AXI_ARLEN
+(),
+
+165 .
+S_AXI_ARSIZE
+(),
+
+166 .
+S_AXI_ARBURST
+(),
+
+167 .
+S_AXI_ARVALID
+(),
+
+168 .
+S_AXI_ARREADY
+(),
+
+169 .
+S_AXI_RID
+(),
+
+170 .
+S_AXI_RDATA
+(),
+
+171 .
+S_AXI_RRESP
+(),
+
+172 .
+S_AXI_RLAST
+(),
+
+173 .
+S_AXI_RVALID
+(),
+
+174 .
+S_AXI_RREADY
+(),
+
+175 .
+S_AXI_INJECTSBITERR
+(),
+
+176 .
+S_AXI_INJECTDBITERR
+(),
+
+177 .
+S_AXI_SBITERR
+(),
+
+178 .
+S_AXI_DBITERR
+(),
+
+179 .
+S_AXI_RDADDRECC
+()
+
+184 
+	gídmoduÀ
+
+
+	@clause1.v
+
+1 
+moduÀ
+ 
+	g˛au£1
+ #(
+
+2 
+∑ømëî
+ 
+	gNUM_VARS_A_BIN
+ = 8,
+
+3 
+∑ømëî
+ 
+	gWIDTH_C_LEN
+ = 5
+
+6 
+öput
+ 
+˛k
+,
+
+7 
+öput
+ 
+	gr°
+,
+
+9 
+öput
+ 
+	gwr_i
+,
+
+10 
+	göput
+ [
+NUM_VARS_A_BIN
+*3-1:0] 
+v¨_vÆue_‰omba£_i
+,
+
+11 
+	gouçut
+ [
+NUM_VARS_A_BIN
+*3-1:0] 
+v¨_vÆue_toba£_o
+,
+
+14 
+	göput
+ [
+WIDTH_C_LEN
+-1 : 0] 
+˛au£_Àn_i
+,
+
+15 
+	gouçut
+ [
+WIDTH_C_LEN
+-1 : 0] 
+˛au£_Àn_o
+,
+
+16 
+öput
+ 
+	g≠∂y_im∂_i
+,
+
+17 
+öput
+ 
+	g≠∂y_bkt_i
+
+
+20 
+	gwúe
+ [1:0] 
+‰ìlô˙t_0
+;
+
+21 
+wúe
+ 
+	gimp_drv_0
+;
+
+22 
+wúe
+ 
+	gc˛au£_0
+;
+
+23 
+wúe
+ 
+	gc˛au£_drv_0
+;
+
+24 
+wúe
+ 
+	g˛au£ßt_0
+;
+
+26 
+lô8
+ 
+lô8_0
+(
+
+27 .
+˛k
+(clk),
+
+28 .
+r°
+(rst),
+
+30 .
+wr_i
+(wr_i),
+
+31 .
+v¨_vÆue_‰omba£_i
+(var_value_frombase_i),
+
+32 .
+v¨_vÆue_toba£_o
+(var_value_tobase_o),
+
+34 .
+‰ìlô˙t_¥e
+(0),
+
+35 .
+‰ìlô˙t_√xt
+(
+‰ìlô˙t_0
+),
+
+37 .
+imp_drv_i
+(
+imp_drv_0
+),
+
+39 .
+c˛au£_o
+(
+c˛au£_0
+),
+
+40 .
+c˛au£_drv_i
+(
+c˛au£_drv_0
+),
+
+42 .
+˛au£ßt_o
+(
+˛au£ßt_0
+)
+
+46 
+wúe
+ 
+	gc˛au£_drv_o
+;
+
+47 
+assign
+ 
+	gc˛au£_drv_0
+=
+c˛au£_drv_o
+;
+
+49 
+ãrmöÆ_˚Œ
+Åerminal1(
+
+50 .
+˛k
+(clk),
+
+51 .
+r°
+(rst),
+
+52 .
+˛au£ßt_i
+(
+˛au£ßt_0
+),
+
+53 .
+‰ìlô˙t_i
+(
+‰ìlô˙t_0
+),
+
+54 .
+imp_drv_o
+(
+imp_drv_0
+),
+
+55 .
+c˛au£_i
+(
+c˛au£_0
+),
+
+56 .
+c˛au£_drv_o
+(cclause_drv_o)
+
+59 
+ªg
+ 
+	g√ed_˛ór
+;
+
+60 
+ªg
+ 
+	gis_ªas⁄_r
+;
+
+62 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+Ë
+	gbegö
+: 
+£t_√ed_˛ór
+
+
+63 if(~
+r°
+)
+
+64 
+√ed_˛ór
+ <= 0;
+
+65 if(
+	gis_ªas⁄_r
+ && 
+	gc˛au£_drv_o
+)
+
+66 
+	g√ed_˛ór
+ <= 1;
+
+67 if(~
+	gis_ªas⁄_r
+)
+
+68 
+	g√ed_˛ór
+ <= 0;
+
+70 
+	g√ed_˛ór
+ <
+√ed_˛ór
+;
+
+71 
+íd
+
+
+73 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+Ë
+	gbegö
+: 
+£t_is_ªas⁄_r
+
+
+74 if(~
+r°
+)
+
+75 
+is_ªas⁄_r
+ <= 0;
+
+76 if(
+	g≠∂y_im∂_i
+ && 
+	gimp_drv_0
+)
+
+77 
+	gis_ªas⁄_r
+ <= 1;
+
+78 if(
+	g≠∂y_bkt_i
+ && 
+	g√ed_˛ór
+)
+
+79 
+	gis_ªas⁄_r
+ <= 0;
+
+81 
+	gis_ªas⁄_r
+ <
+is_ªas⁄_r
+;
+
+82 
+íd
+
+
+84 
+	gªg
+ [
+WIDTH_C_LEN
+-1 : 0] 
+˛au£_Àn_r
+;
+
+85 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+Ë
+	gbegö
+: 
+£t_˛au£_Àn_r
+
+
+86 if(~
+r°
+)
+
+87 
+˛au£_Àn_r
+ <= 0;
+
+88 if(
+	gwr_i
+)
+
+89 
+	g˛au£_Àn_r
+ <
+˛au£_Àn_i
+;
+
+91 
+	g˛au£_Àn_r
+ <
+˛au£_Àn_r
+;
+
+92 
+íd
+
+
+94 
+assign
+ 
+	g˛au£_Àn_o
+ = 
+is_ªas⁄_r
+? 0:
+˛au£_Àn_r
+;
+
+96 
+	gídmoduÀ
+
+
+	@clause2.v
+
+1 
+moduÀ
+ 
+	g˛au£2
+ #(
+
+2 
+∑ømëî
+ 
+	gNUM_CLAUSES_A_BIN
+ = 2,
+
+3 
+∑ømëî
+ 
+	gNUM_VARS_A_BIN
+ = 8,
+
+4 
+∑ømëî
+ 
+	gWIDTH_VAR_STATES
+ = 30,
+
+5 
+∑ømëî
+ 
+	gWIDTH_C_LEN
+ = 5
+
+8 
+öput
+ 
+˛k
+,
+
+9 
+öput
+ 
+	gr°
+,
+
+11 
+	göput
+ [
+NUM_CLAUSES_A_BIN
+-1:0] 
+wr_i
+,
+
+12 
+	göput
+ [
+NUM_VARS_A_BIN
+*3-1:0] 
+v¨_vÆue_‰omba£_i
+,
+
+13 
+	gouçut
+ [
+NUM_VARS_A_BIN
+*3-1:0] 
+v¨_vÆue_toba£_o
+,
+
+16 
+	göput
+ [
+WIDTH_C_LEN
+-1 : 0] 
+˛au£_Àn_i
+,
+
+17 
+	gouçut
+ [
+WIDTH_C_LEN
+*
+NUM_CLAUSES_A_BIN
+-1 : 0] 
+˛au£_Àn_o
+,
+
+18 
+öput
+ 
+	g≠∂y_im∂_i
+,
+
+19 
+öput
+ 
+	g≠∂y_bkt_i
+
+
+22 
+	gwúe
+[
+NUM_CLAUSES_A_BIN
+/2-1:0] 
+wr_0
+, 
+	gwr_1
+;
+
+23 
+	gassign
+ {
+	gwr_1
+, 
+	gwr_0
+} = 
+wr_i
+;
+
+25 
+	gwúe
+ [3*
+NUM_VARS_A_BIN
+-1:0] 
+v¨_vÆue_toba£_0
+, 
+	gv¨_vÆue_toba£_1
+;
+
+27 
+assign
+ 
+	gv¨_vÆue_toba£_o
+ = 
+v¨_vÆue_toba£_0
+ | 
+v¨_vÆue_toba£_1
+;
+
+29 
+	gwúe
+ [
+WIDTH_C_LEN
+*
+NUM_CLAUSES_A_BIN
+/2-1 : 0] 
+˛au£_Àn_o_0
+, 
+	g˛au£_Àn_o_1
+;
+
+30 
+assign
+ 
+	g˛au£_Àn_o
+ = {
+˛au£_Àn_o_1
+, 
+˛au£_Àn_o_0
+};
+
+32 
+	g˛au£1
+ #(
+
+33 .
+NUM_VARS_A_BIN
+(NUM_VARS_A_BIN),
+
+34 .
+	$WIDTH_C_LEN
+(
+WIDTH_C_LEN
+)
+
+36 
+	`˛au£1_0
+ (
+
+37 .
+	`˛k
+(
+˛k
+),
+
+38 .
+	`r°
+(
+r°
+),
+
+39 .
+	`wr_i
+(
+wr_0
+),
+
+40 .
+	`v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_i
+),
+
+41 .
+	`v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_0
+),
+
+43 .
+	`˛au£_Àn_i
+(
+˛au£_Àn_i
+),
+
+44 .
+	`˛au£_Àn_o
+(
+˛au£_Àn_o_0
+),
+
+45 .
+	`≠∂y_im∂_i
+(
+≠∂y_im∂_i
+),
+
+46 .
+	`≠∂y_bkt_i
+(
+≠∂y_bkt_i
+)
+
+49 
+˛au£1
+ #(
+
+50 .
+	`NUM_VARS_A_BIN
+(
+NUM_VARS_A_BIN
+),
+
+51 .
+	$WIDTH_C_LEN
+(
+WIDTH_C_LEN
+)
+
+53 
+	`˛au£1_1
+ (
+
+54 .
+	`˛k
+(
+˛k
+),
+
+55 .
+	`r°
+(
+r°
+),
+
+56 .
+	`wr_i
+(
+wr_1
+),
+
+57 .
+	`v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_i
+),
+
+58 .
+	`v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_1
+),
+
+60 .
+	`˛au£_Àn_i
+(
+˛au£_Àn_i
+),
+
+61 .
+	`˛au£_Àn_o
+(
+˛au£_Àn_o_1
+),
+
+62 .
+	`≠∂y_im∂_i
+(
+≠∂y_im∂_i
+),
+
+63 .
+	`≠∂y_bkt_i
+(
+≠∂y_bkt_i
+)
+
+66 
+ídmoduÀ
+
+
+	@clause4.v
+
+1 
+moduÀ
+ 
+	g˛au£4
+ #(
+
+2 
+∑ømëî
+ 
+	gNUM_CLAUSES_A_BIN
+ = 4,
+
+3 
+∑ømëî
+ 
+	gNUM_VARS_A_BIN
+ = 8,
+
+4 
+∑ømëî
+ 
+	gWIDTH_VAR_STATES
+ = 30,
+
+5 
+∑ømëî
+ 
+	gWIDTH_C_LEN
+ = 5
+
+8 
+öput
+ 
+˛k
+,
+
+9 
+öput
+ 
+	gr°
+,
+
+11 
+	göput
+ [
+NUM_CLAUSES_A_BIN
+-1:0] 
+wr_i
+,
+
+12 
+	göput
+ [
+NUM_VARS_A_BIN
+*3-1:0] 
+v¨_vÆue_‰omba£_i
+,
+
+13 
+	gouçut
+ [
+NUM_VARS_A_BIN
+*3-1:0] 
+v¨_vÆue_toba£_o
+,
+
+16 
+	göput
+ [
+WIDTH_C_LEN
+-1 : 0] 
+˛au£_Àn_i
+,
+
+17 
+	gouçut
+ [
+WIDTH_C_LEN
+*
+NUM_CLAUSES_A_BIN
+-1 : 0] 
+˛au£_Àn_o
+,
+
+18 
+öput
+ 
+	g≠∂y_im∂_i
+,
+
+19 
+öput
+ 
+	g≠∂y_bkt_i
+
+
+22 
+	gwúe
+ [
+NUM_CLAUSES_A_BIN
+/2-1:0] 
+wr_0
+, 
+	gwr_1
+;
+
+23 
+	gassign
+ {
+	gwr_1
+, 
+	gwr_0
+} = 
+wr_i
+;
+
+25 
+	gwúe
+ [3*
+NUM_VARS_A_BIN
+-1:0] 
+v¨_vÆue_toba£_0
+, 
+	gv¨_vÆue_toba£_1
+;
+
+27 
+assign
+ 
+	gv¨_vÆue_toba£_o
+ = 
+v¨_vÆue_toba£_0
+ | 
+v¨_vÆue_toba£_1
+;
+
+29 
+	gwúe
+ [
+WIDTH_C_LEN
+*
+NUM_CLAUSES_A_BIN
+/2-1 : 0] 
+˛au£_Àn_o_0
+, 
+	g˛au£_Àn_o_1
+;
+
+30 
+assign
+ 
+	g˛au£_Àn_o
+ = {
+˛au£_Àn_o_1
+, 
+˛au£_Àn_o_0
+};
+
+32 
+	g˛au£2
+ #(
+
+33 .
+NUM_VARS_A_BIN
+(NUM_VARS_A_BIN),
+
+34 .
+	$WIDTH_C_LEN
+(
+WIDTH_C_LEN
+)
+
+36 
+	`˛au£2_0
+ (
+
+37 .
+	`˛k
+(
+˛k
+),
+
+38 .
+	`r°
+(
+r°
+),
+
+39 .
+	`wr_i
+(
+wr_0
+),
+
+40 .
+	`v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_i
+),
+
+41 .
+	`v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_0
+),
+
+43 .
+	`˛au£_Àn_i
+(
+˛au£_Àn_i
+),
+
+44 .
+	`˛au£_Àn_o
+(
+˛au£_Àn_o_0
+),
+
+45 .
+	`≠∂y_im∂_i
+(
+≠∂y_im∂_i
+),
+
+46 .
+	`≠∂y_bkt_i
+(
+≠∂y_bkt_i
+)
+
+49 
+˛au£2
+ #(
+
+50 .
+	`NUM_VARS_A_BIN
+(
+NUM_VARS_A_BIN
+),
+
+51 .
+	$WIDTH_C_LEN
+(
+WIDTH_C_LEN
+)
+
+53 
+	`˛au£2_1
+ (
+
+54 .
+	`˛k
+(
+˛k
+),
+
+55 .
+	`r°
+(
+r°
+),
+
+56 .
+	`wr_i
+(
+wr_1
+),
+
+57 .
+	`v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_i
+),
+
+58 .
+	`v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_1
+),
+
+60 .
+	`˛au£_Àn_i
+(
+˛au£_Àn_i
+),
+
+61 .
+	`˛au£_Àn_o
+(
+˛au£_Àn_o_1
+),
+
+62 .
+	`≠∂y_im∂_i
+(
+≠∂y_im∂_i
+),
+
+63 .
+	`≠∂y_bkt_i
+(
+≠∂y_bkt_i
+)
+
+66 
+ídmoduÀ
+
+
+	@clause8.v
+
+1 
+moduÀ
+ 
+	g˛au£8
+ #(
+
+2 
+∑ømëî
+ 
+	gNUM_CLAUSES_A_BIN
+ = 8,
+
+3 
+∑ømëî
+ 
+	gNUM_VARS_A_BIN
+ = 8,
+
+4 
+∑ømëî
+ 
+	gWIDTH_VAR_STATES
+ = 30,
+
+5 
+∑ømëî
+ 
+	gWIDTH_C_LEN
+ = 4
+
+8 
+öput
+ 
+˛k
+,
+
+9 
+öput
+ 
+	gr°
+,
+
+11 
+	göput
+ [
+NUM_CLAUSES_A_BIN
+-1:0] 
+wr_i
+,
+
+12 
+	göput
+ [
+NUM_VARS_A_BIN
+*3-1:0] 
+v¨_vÆue_‰omba£_i
+,
+
+13 
+	gouçut
+ [
+NUM_VARS_A_BIN
+*3-1:0] 
+v¨_vÆue_toba£_o
+,
+
+16 
+	göput
+ [
+WIDTH_C_LEN
+-1 : 0] 
+˛au£_Àn_i
+,
+
+17 
+	gouçut
+ [
+WIDTH_C_LEN
+*
+NUM_CLAUSES_A_BIN
+-1 : 0] 
+˛au£_Àn_o
+,
+
+18 
+öput
+ 
+	g≠∂y_im∂_i
+,
+
+19 
+öput
+ 
+	g≠∂y_bkt_i
+
+
+22 
+	gwúe
+ [
+NUM_CLAUSES_A_BIN
+/2-1:0] 
+wr_0
+, 
+	gwr_1
+;
+
+23 
+	gassign
+ {
+	gwr_1
+, 
+	gwr_0
+} = 
+wr_i
+;
+
+25 
+	gwúe
+ [3*
+NUM_VARS_A_BIN
+-1:0] 
+v¨_vÆue_toba£_0
+, 
+	gv¨_vÆue_toba£_1
+;
+
+27 
+assign
+ 
+	gv¨_vÆue_toba£_o
+ = 
+v¨_vÆue_toba£_0
+ | 
+v¨_vÆue_toba£_1
+;
+
+29 
+	gwúe
+ [
+WIDTH_C_LEN
+*
+NUM_CLAUSES_A_BIN
+/2-1 : 0] 
+˛au£_Àn_o_0
+, 
+	g˛au£_Àn_o_1
+;
+
+30 
+assign
+ 
+	g˛au£_Àn_o
+ = {
+˛au£_Àn_o_1
+, 
+˛au£_Àn_o_0
+};
+
+32 
+	g˛au£4
+ #(
+
+33 .
+NUM_VARS_A_BIN
+(NUM_VARS_A_BIN),
+
+34 .
+	$WIDTH_C_LEN
+(
+WIDTH_C_LEN
+)
+
+36 
+	`˛au£4_0
+ (
+
+37 .
+	`˛k
+(
+˛k
+),
+
+38 .
+	`r°
+(
+r°
+),
+
+39 .
+	`wr_i
+(
+wr_0
+),
+
+40 .
+	`v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_i
+),
+
+41 .
+	`v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_0
+),
+
+43 .
+	`˛au£_Àn_i
+(
+˛au£_Àn_i
+),
+
+44 .
+	`˛au£_Àn_o
+(
+˛au£_Àn_o_0
+),
+
+45 .
+	`≠∂y_im∂_i
+(
+≠∂y_im∂_i
+),
+
+46 .
+	`≠∂y_bkt_i
+(
+≠∂y_bkt_i
+)
+
+49 
+˛au£4
+ #(
+
+50 .
+	`NUM_VARS_A_BIN
+(
+NUM_VARS_A_BIN
+),
+
+51 .
+	$WIDTH_C_LEN
+(
+WIDTH_C_LEN
+)
+
+53 
+	`˛au£4_1
+ (
+
+54 .
+	`˛k
+(
+˛k
+),
+
+55 .
+	`r°
+(
+r°
+),
+
+56 .
+	`wr_i
+(
+wr_1
+),
+
+57 .
+	`v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_i
+),
+
+58 .
+	`v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_1
+),
+
+60 .
+	`˛au£_Àn_i
+(
+˛au£_Àn_i
+),
+
+61 .
+	`˛au£_Àn_o
+(
+˛au£_Àn_o_1
+),
+
+62 .
+	`≠∂y_im∂_i
+(
+≠∂y_im∂_i
+),
+
+63 .
+	`≠∂y_bkt_i
+(
+≠∂y_bkt_i
+)
+
+65 
+ídmoduÀ
+
+
+	@clause_array.v
+
+5 
+moduÀ
+ 
+	g˛au£_¨øy
+ #(
+
+6 
+∑ømëî
+ 
+	gNUM_CLAUSES_A_BIN
+ = 8,
+
+7 
+∑ømëî
+ 
+	gNUM_VARS_A_BIN
+ = 8,
+
+8 
+∑ømëî
+ 
+	gWIDTH_VAR_STATES
+ = 30,
+
+9 
+∑ømëî
+ 
+	gWIDTH_C_LEN
+ = 4
+
+12 
+öput
+ 
+˛k
+,
+
+13 
+öput
+ 
+	gr°
+,
+
+15 
+	göput
+ [
+NUM_CLAUSES_A_BIN
+-1:0] 
+wr_i
+,
+
+16 
+	göput
+ [
+WIDTH_C_LEN
+-1 : 0] 
+˛au£_Àn_i
+,
+
+17 
+	göput
+ [
+NUM_VARS_A_BIN
+*3-1:0] 
+v¨_vÆue_‰omba£_i
+,
+
+18 
+	gouçut
+ [
+NUM_VARS_A_BIN
+*3-1:0] 
+v¨_vÆue_toba£_o
+,
+
+20 
+	gouçut
+ [
+NUM_CLAUSES_A_BIN
+-1:0] 
+À¨¡c_ö£π_ödex_o
+,
+
+22 
+öput
+ 
+	g≠∂y_im∂_i
+,
+
+23 
+öput
+ 
+	g≠∂y_bkt_i
+
+
+26 
+	gwúe
+ [
+WIDTH_C_LEN
+*
+NUM_CLAUSES_A_BIN
+-1 : 0] 
+˛au£_Àn_o
+;
+
+27 
+	gwúe
+ [
+WIDTH_C_LEN
+*
+NUM_CLAUSES_A_BIN
+/2-1 : 0] 
+‹igöc_Àns
+, 
+	gÀ¨¡c_Àns
+;
+
+28 
+	gassign
+ {
+	gÀ¨¡c_Àns
+, 
+	g‹igöc_Àns
+} = 
+˛au£_Àn_o
+;
+
+30 
+	g˛au£8
+ #(
+
+31 .
+	$WIDTH_C_LEN
+(
+WIDTH_C_LEN
+)
+
+33 
+	`˛au£8
+(
+
+34 .
+	`˛k
+(
+˛k
+),
+
+35 .
+	`r°
+(
+r°
+),
+
+36 .
+	`wr_i
+(
+wr_i
+),
+
+37 .
+	`v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_i
+),
+
+38 .
+	`v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_o
+),
+
+40 .
+	`˛au£_Àn_i
+(
+˛au£_Àn_i
+),
+
+41 .
+	`˛au£_Àn_o
+(
+˛au£_Àn_o
+),
+
+42 .
+	`≠∂y_im∂_i
+(
+≠∂y_im∂_i
+),
+
+43 .
+	`≠∂y_bkt_i
+(
+≠∂y_bkt_i
+)
+
+46 
+wúe
+ [
+WIDTH_C_LEN
+-1 : 0] 
+max_Àn
+;
+
+47 
+wúe
+ [
+NUM_CLAUSES_A_BIN
+/2-1:0] 
+ö£π_ödex
+;
+
+48 
+max_ö_4_d©as
+ #(
+
+49 .
+	$WIDTH
+(
+WIDTH_C_LEN
+)
+
+51 
+	`max_ö_4_d©as_ö°0
+ (
+
+52 .
+	`d©a_i
+(
+À¨¡c_Àns
+),
+
+53 .
+	`d©a_o
+(
+max_Àn
+),
+
+54 .
+	`ödex_o
+(
+ö£π_ödex
+)
+
+56 
+assign
+ 
+À¨¡c_ö£π_ödex_o
+ = {
+ö£π_ödex
+, 4'd0};
+
+58 
+ídmoduÀ
+
+
+	@control.v
+
+1 
+moduÀ
+ 
+	gc⁄åﬁ
+ #(
+
+3 
+∑ømëî
+ 
+	gADDR_WIDTH
+ = 31,
+
+4 
+∑ømëî
+ 
+	gNUM_VARS_A_BIN
+ = 18
+
+8 
+öput
+ 
+˛k
+,
+
+9 
+öput
+ 
+	gr°
+,
+
+11 
+öput
+ 
+	g°¨t
+,
+
+12 
+ouçut
+ 
+ªg
+ 
+	gd⁄e
+,
+
+14 
+ouçut
+ 
+ªg
+ 
+	g≠∂y_im∂iˇti⁄_o
+,
+
+15 
+öput
+ 
+	gd⁄e_im∂iˇti⁄_i
+,
+
+16 
+öput
+ 
+	gc⁄Êi˘_i
+,
+
+18 
+ouçut
+ 
+ªg
+ 
+	g°¨t_decisi⁄_o
+,
+
+19 
+öput
+ 
+	gd⁄e_decisi⁄_i
+,
+
+20 
+	göput
+ [15:0] 
+cur_Àvñ_i
+,
+
+22 
+ouçut
+ 
+ªg
+ 
+	g≠∂y_™Æyze_o
+,
+
+23 
+öput
+ 
+	gd⁄e_™Æyze_i
+,
+
+24 
+	göput
+ [15:0] 
+bkt_bö_num_i
+,
+
+25 
+öput
+ 
+	gis_ödïídít_bö_i
+,
+
+26 
+öput
+ 
+	gexi°_v¨_nŸ_vbkt_i
+,
+
+28 
+ouçut
+ 
+ªg
+ 
+	g≠∂y_backåack_o
+,
+
+29 
+öput
+ 
+	gd⁄e_backåack_i
+,
+
+31 
+ouçut
+ 
+ªg
+ 
+	gglobÆ_ßt_o
+,
+
+32 
+ouçut
+ 
+ªg
+ 
+	gglobÆ_unßt_o
+,
+
+34 
+	göput
+ [15:0] 
+tŸÆ_bö_num_i
+,
+
+35 
+ouçut
+ 
+ªg
+ 
+	g°¨t_lﬂd_o
+,
+
+36 
+ouçut
+ 
+ªg
+ 
+	g≠∂y_lﬂd_o
+,
+
+37 
+ouçut
+ 
+	gªg
+ [
+WIDTH_BIN_I
+-1, 0] 
+	gªque°_bö_num_o
+,
+
+38 
+öput
+ 
+	gd⁄e_lﬂd_i
+,
+
+40 
+ouçut
+ 
+ªg
+ 
+	g°¨t_upd©e_o
+,
+
+41 
+ouçut
+ 
+ªg
+ 
+	g≠∂y_upd©e_o
+,
+
+42 
+öput
+ 
+	gd⁄e_upd©e_i
+
+
+45 
+	gªg
+ [15:0] 
+cur_bö_num
+;
+
+47 
+∑ømëî
+ 
+	gIDLE
+ = 0,
+
+48 
+	gLOAD_BIN
+ = 1,
+
+49 
+	gBCP
+ = 2,
+
+50 
+	gDECISION
+ = 3,
+
+51 
+	gANALYSIS
+ = 4,
+
+52 
+	gBACKTRACK
+ = 5,
+
+53 
+	gPARTIAL_SAT
+ = 6,
+
+54 
+	gPARTIAL_UNSAT
+ = 7,
+
+55 
+	gGLOBAL_SAT
+ = 8,
+
+56 
+	gGLOBAL_UNSAT
+ = 9;
+
+58 
+	gªg
+ [3:0] 
+c_°©e
+, 
+	gn_°©e
+;
+
+59 
+	gªg
+ [31:0] 
+waô_˙t
+, 
+	gw_˙t
+, 
+	gr_˙t
+;
+
+60 
+	gªg
+ [31:0] 
+w_˛k_˙t
+, 
+	gr_˛k_˙t
+;
+
+62 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+63 
+begö
+
+
+64 if(~
+	gr°
+)
+
+65 
+	gc_°©e
+ <= 0;
+
+67 
+	gc_°©e
+ <
+n_°©e
+;
+
+68 
+íd
+
+
+70 
+	gÆways
+ @(*Ë
+	gbegö
+: 
+£t_√xt_°©e
+
+
+71 if(~
+r°
+)
+
+72 
+n_°©e
+ = 0;
+
+74 (
+c_°©e
+)
+
+75 
+IDLE
+:
+
+76 if(
+°¨t
+)
+
+77 
+n_°©e
+ = 
+LOAD_BIN
+;
+
+79 
+n_°©e
+ = 
+IDLE
+;
+
+80 
+LOAD_BIN
+:
+
+81 if(
+d⁄e_lﬂd_i
+)
+
+82 
+n_°©e
+ = 
+BCP
+;
+
+84 
+n_°©e
+ = 
+LOAD_BIN
+;
+
+85 
+BCP
+:
+
+86 if(
+d⁄e_b˝_i
+ && 
+c⁄Êi˘
+)
+
+87 
+n_°©e
+ = 
+ANALYSIS
+;
+
+88 if(
+d⁄e_b˝_i
+ && ~
+c⁄Êi˘
+)
+
+89 
+n_°©e
+ = 
+DECISION
+;
+
+91 
+n_°©e
+ = 
+BCP
+;
+
+92 
+DECISION
+:
+
+93 if(
+d⁄e_decisi⁄_i
+ && 
+isßt_i
+)
+
+94 
+n_°©e
+ = 
+SAT
+;
+
+95 if(
+d⁄e_decisi⁄_i
+ && ~
+isßt_i
+)
+
+96 
+n_°©e
+ = 
+BCP
+;
+
+98 
+n_°©e
+ = 
+DECISION
+;
+
+99 
+ANALYSIS
+:
+
+100 if(
+is_ödïídít_bö_i
+ || 
+exi°_v¨_nŸ_vbkt_i
+)
+
+101 
+n_°©e
+ = 
+GLOBAL_UNSAT
+;
+
+102 if(
+d⁄e_™Æysis_i
+ && 
+bkt_bö_num_i
+!=
+cur_bö_num
+)
+
+103 
+n_°©e
+ = 
+PARTIAL_UNSAT
+
+
+104 if(
+d⁄e_™Æysis_i
+ && 
+bkt_bö_num_i
+==
+cur_bö_num
+)
+
+105 
+n_°©e
+ = 
+BACKTRACK
+;
+
+107 
+n_°©e
+ = 
+ANALYSIS
+;
+
+108 
+BACKTRACK
+:
+
+109 if(
+d⁄e_backåack_i
+)
+
+110 
+n_°©e
+ = 
+DECISION
+;
+
+112 
+n_°©e
+ = 
+BACKTRACK
+;
+
+113 
+PARTIAL_SAT
+:
+
+114 if(
+d⁄e_upd©e_i
+)
+
+115 
+n_°©e
+ = 
+LOAD_BIN
+;
+
+117 
+n_°©e
+ = 
+PARTIAL_SAT
+;
+
+118 
+PARTIAL_UNSAT
+:
+
+119 if(
+d⁄e_upd©e_i
+)
+
+120 
+n_°©e
+ = 
+LOAD_BIN
+;
+
+122 
+n_°©e
+ = 
+PARTIAL_UNSAT
+;
+
+123 
+GLOBAL_SAT
+:
+
+124 
+n_°©e
+ = 
+GLOBAL_SAT
+;
+
+125 
+GLOBAL_UNSAT
+:
+
+126 
+n_°©e
+ = 
+GLOBAL_UNSAT
+;
+
+129 
+n_°©e
+ = 
+IDLE
+;
+
+130 
+ídˇ£
+
+
+131 
+íd
+
+
+133 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+134 
+begö
+
+
+135 if(~
+r°
+)
+
+136 
+globÆ_ßt_o
+ <= 0;
+
+137 if(
+d⁄e_upd©e_i
+ && 
+c_°©e
+==
+GLOBAL_SAT
+)
+
+138 
+globÆ_ßt_o
+ <= 1;
+
+140 
+globÆ_ßt_o
+ <= global_sat_o;
+
+141 
+íd
+
+
+143 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+144 
+begö
+
+
+145 if(~
+r°
+)
+
+146 
+globÆ_unßt_o
+ <= 0;
+
+147 if(
+d⁄e_upd©e_i
+ && 
+c_°©e
+==
+GLOBAL_UNSAT
+)
+
+148 
+globÆ_unßt_o
+ <= 1;
+
+150 
+globÆ_unßt_o
+ <= global_unsat_o;
+
+151 
+íd
+
+
+153 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+154 
+begö
+
+
+155 if(~
+r°
+)
+
+156 
+d⁄e
+ <= 0;
+
+157 if(
+d⁄e_upd©e_i
+ && (
+c_°©e
+==
+GLOBAL_SAT
+ || c_°©e==
+GLOBAL_UNSAT
+))
+
+158 
+d⁄e
+ <= 1;
+
+160 
+d⁄e
+ <= done;
+
+161 
+íd
+
+
+163 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+164 
+begö
+
+
+165 if(~
+r°
+)
+
+166 
+≠∂y_im∂iˇti⁄_o
+ <= 0;
+
+167 if(
+c_°©e
+==
+BCP
+)
+
+168 
+≠∂y_im∂iˇti⁄_o
+ <= 1;
+
+170 
+≠∂y_im∂iˇti⁄_o
+ <= 0;
+
+171 
+íd
+
+
+173 
+ªg
+ 
+impul£_˙t
+[1:0];
+
+174 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+175 
+begö
+
+
+176 if(~
+r°
+)
+
+177 
+impul£_˙t
+ <= 0;
+
+178 if(
+c_°©e
+==
+DECISION
+ || c_°©e==
+LOAD_BIN
+ || c_°©e==
+PARTIAL_UNSAT
+ || c_°©e==
+PARTIAL_SAT
+)
+
+179 
+begö
+
+
+180 i‡(
+impul£_˙t
+ == 0)
+
+181 
+impul£_˙t
+ <= 1;
+
+183 
+impul£_˙t
+ <= 2;
+
+185 
+íd
+
+
+187 
+impul£_˙t
+ <= 0;
+
+188 
+íd
+
+
+190 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+191 
+begö
+
+
+192 if(~
+r°
+)
+
+193 
+°¨t_decisi⁄_o
+ <= 0;
+
+194 if(
+c_°©e
+==
+DECISION
+ && 
+impul£_˙t
+==0)
+
+195 
+°¨t_decisi⁄_o
+ <= 1;
+
+197 
+°¨t_decisi⁄_o
+ <= 0;
+
+198 
+íd
+
+
+200 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+201 
+begö
+
+
+202 if(~
+r°
+)
+
+203 
+≠∂y_™Æyze_o
+ <= 0;
+
+204 if(
+c_°©e
+==
+ANALYSIS
+)
+
+205 
+≠∂y_™Æyze_o
+ <= 1;
+
+207 
+≠∂y_™Æyze_o
+ <= 0;
+
+208 
+íd
+
+
+210 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+211 
+begö
+
+
+212 if(~
+r°
+)
+
+213 
+≠∂y_backåack_o
+ <= 0;
+
+214 if(
+c_°©e
+==
+BACKTRACK
+)
+
+215 
+≠∂y_backåack_o
+ <= 1;
+
+217 
+≠∂y_backåack_o
+ <= 0;
+
+218 
+íd
+
+
+220 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+221 
+begö
+
+
+222 if(~
+r°
+Ë
+begö
+
+
+223 
+°¨t_lﬂd_o
+ <= 0;
+
+224 
+ªque°_bö_num_o
+ <= 0;
+
+225 
+íd
+
+
+226 if(
+c_°©e
+==
+LOAD_BIN
+ && 
+impul£_˙t
+==0Ë
+begö
+
+
+227 
+°¨t_lﬂd_o
+ <= 1;
+
+228 
+ªque°_bö_num_o
+ <=Ñequest_bin_num_o+1;
+
+229 
+íd
+
+
+230 
+begö
+
+
+231 
+°¨t_lﬂd_o
+ <= 0;
+
+232 
+ªque°_bö_num_o
+ <= 0;
+
+233 
+íd
+
+
+234 
+íd
+
+
+236 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+237 
+begö
+
+
+238 if(~
+r°
+)
+
+239 
+≠∂y_lﬂd_o
+ <= 0;
+
+240 if(
+c_°©e
+==
+LOAD_BIN
+)
+
+241 
+≠∂y_lﬂd_o
+ <= 1;
+
+243 
+≠∂y_lﬂd_o
+ <= 0;
+
+244 
+íd
+
+
+246 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+247 
+begö
+
+
+248 if(~
+r°
+)
+
+249 
+°¨t_upd©e_o
+ <= 0;
+
+250 if((
+c_°©e
+==
+PARTIAL_UNSAT
+ || c_°©e==
+PARTIAL_SAT
+)&& 
+impul£_˙t
+==0)
+
+251 
+°¨t_upd©e_o
+ <= 1;
+
+253 
+°¨t_upd©e_o
+ <= 0;
+
+254 
+íd
+
+
+256 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+257 
+begö
+
+
+258 if(~
+r°
+)
+
+259 
+≠∂y_upd©e_o
+ <= 0;
+
+260 if(
+c_°©e
+==
+LOAD_BIN
+)
+
+261 
+≠∂y_upd©e_o
+ <= 1;
+
+263 
+≠∂y_upd©e_o
+ <= 0;
+
+264 
+íd
+
+
+267 
+ídmoduÀ
+
+
+	@data_dispatch.v
+
+1 
+moduÀ
+ 
+	glﬂd_upd©e_bö
+ #(
+
+3 
+∑ømëî
+ 
+	gNUM_CLAUSES_A_BIN
+ = 24,
+
+4 
+∑ømëî
+ 
+	gNUM_VARS_A_BIN
+ = 24,
+
+5 
+∑ømëî
+ 
+	gWIDTH_BIN_CLAUSES
+ = 24*2,
+
+6 
+∑ømëî
+ 
+	gWIDTH_BIN_VARS
+ = 12,
+
+7 
+∑ømëî
+ 
+	gWIDTH_BIN_I
+ = 10,
+
+8 
+∑ømëî
+ 
+	gWIDTH_BIN_ADDR
+ = 10,
+
+9 
+∑ømëî
+ 
+	gWIDTH_VAR_STATES
+ = 30,
+
+10 
+∑ømëî
+ 
+	gADDR_WIDTH_CLAUSES
+ = 9,
+
+11 
+∑ømëî
+ 
+	gADDR_WIDTH_VARS
+ = 9,
+
+12 
+∑ømëî
+ 
+	gADDR_WIDTH_VARS_STATES
+ = 9
+
+15 
+öput
+ 
+˛k
+,
+
+16 
+öput
+ 
+	gr°
+,
+
+19 
+öput
+ 
+	g°¨t_lﬂd
+,
+
+20 
+	göput
+ [
+WIDTH_BIN_I
+-1, 0] 
+	gªque°_bö_i
+,
+
+23 
+	göput
+ [
+WIDTH_BIN_CLAUSES
+, 0] 
+	gbøm_˛au£s_i
+,
+
+24 
+	göput
+ [
+WIDTH_BIN_VARS
+-1, 0] 
+	gbøm_v¨s_i
+,
+
+25 
+	göput
+ [
+WIDTH_VAR_STATES
+-1, 0] 
+	gbøm_v¨s_°©es_i
+,
+
+28 
+	gouçut
+ [
+ADDR_WIDTH_CLAUSES
+-1:0] 
+bøm_addr_˛au£s_o
+,
+
+29 
+	gouçut
+ [
+ADDR_WIDTH_VARS
+-1:0] 
+bøm_addr_v¨s_o
+,
+
+30 
+	gouçut
+ [
+ADDR_WIDTH_VARS_STATES
+-1:0] 
+bøm_addr_v¨s_°©es_o
+,
+
+33 
+	gouçut
+ [
+NUM_CLAUSES_A_BIN
+-1, 0] 
+	gwr_lô_˚Œs
+,
+
+34 
+	gouçut
+ [
+WIDTH_BIN_CLAUSES
+, 0] 
+	g˛au£s_o
+,
+
+35 
+ouçut
+ 
+	g˛au£s_vÆid_o
+,
+
+36 
+	gouçut
+ [
+WIDTH_VAR_STATES
+-1, 0] 
+	gv¨s_°©es_o
+,
+
+37 
+ouçut
+ 
+	gv¨s_°©es_vÆid_o
+,
+
+38 
+ouçut
+ 
+	glﬂd_d⁄e
+,
+
+41 
+öput
+ 
+	g°¨t_upd©e
+,
+
+42 
+	gouçut
+ [
+NUM_CLAUSES_A_BIN
+-1, 0] 
+	grd_lô_˚Œs
+,
+
+45 
+	göput
+ [
+WIDTH_BIN_CLAUSES
+, 0] 
+	g˛au£s_i
+,
+
+46 
+öput
+ 
+	g˛au£s_vÆid_i
+,
+
+47 
+	göput
+ [
+WIDTH_VAR_STATES
+-1, 0] 
+	gv¨s_°©es_i
+,
+
+48 
+öput
+ 
+	gv¨s_°©es_vÆid_i
+,
+
+51 
+	gouçut
+ [
+NUM_CLAUSES_A_BIN
+*2-1, 0] 
+	gÀ¨¡_˛au£s_o
+,
+
+52 
+	gouçut
+ [
+ADDR_WIDTH_CLAUSES
+-1:0] 
+addr_À¨¡_˛au£s_o
+,
+
+53 
+ouçut
+ 
+	gÀ¨¡_˛au£s_vÆid_o
+,
+
+54 
+	gouçut
+ [
+WIDTH_VAR_STATES
+-1, 0] 
+	gupd©e_v¨s_°©es_o
+,
+
+55 
+	gouçut
+ [
+ADDR_WIDTH_VARS_STATES
+-1:0] 
+addr_upd©e_v¨s_°©es_o
+,
+
+56 
+ouçut
+ 
+	gupd©e_v¨s_°©e_vÆid_o
+,
+
+57 
+ouçut
+ 
+	gupd©e_d⁄e
+
+
+65 
+	gªg
+ [
+WIDTH_BIN_ADDR
+-1, 0] 
+	g˛au£_bö_i_ba£_addr
+;
+
+66 
+	gwúe
+ [
+WIDTH_BIN_ADDR
+-1, 0] 
+	gv¨_bö_i_ba£_addr
+;
+
+68 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+69 
+begö
+
+
+70 if(~
+	gr°
+)
+
+71 
+	g˛au£_bö_i_ba£_addr
+ <= 0;
+
+72 if(
+	g°¨t_lﬂd
+)
+
+73 
+	g˛au£_bö_i_ba£_addr
+ <
+ªque°_bö_i
+*
+NUM_CLAUSES_A_BIN
+;
+
+75 
+	g˛au£_bö_i_ba£_addr
+ <
+˛au£_bö_i_ba£_addr
+;
+
+76 
+íd
+
+
+77 
+assign
+ 
+	gv¨_bö_i_ba£_addr
+ = 
+˛au£_bö_i_ba£_addr
+;
+
+79 
+∑ømëî
+ 
+	gLOAD_IDLE
+ = 0,
+
+80 
+	gLOAD_BIN
+ = 1,
+
+81 
+	gLOAD_DONE
+ = 2;
+
+83 
+	gªg
+ [1:0] 
+c_rd_°©e
+, 
+	gn_rd_°©e
+;
+
+84 
+	gªg
+ [5:0] 
+rd_v¨s_˙t
+, 
+	grd_˛au£s_˙t
+;
+
+86 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+87 
+begö
+
+
+88 if(
+	gr°
+)
+
+89 
+	gc_rd_°©e
+ <= 0;
+
+91 
+	gc_rd_°©e
+ <
+n_rd_°©e
+;
+
+92 
+íd
+
+
+94 
+	gÆways
+ @(*)
+
+95 
+begö
+
+
+96 if(
+	gr°
+)
+
+97 
+	gn_rd_°©e
+ = 0;
+
+99 (
+c_rd_°©e
+)
+
+100 
+LOAD_IDLE
+:
+
+101 if(
+°¨t_lﬂd
+)
+
+102 
+n_rd_°©e
+ = 
+LOAD_BIN
+;
+
+104 
+n_rd_°©e
+ = 
+LOAD_IDLE
+;
+
+105 
+LOAD_BIN
+:
+
+106 if(
+rd_v¨s_˙t
+==
+NUM_VARS_A_BIN
+ && 
+rd_˛au£s_˙t
+==
+NUM_CLAUSES_A_BIN
+)
+
+107 
+n_rd_°©e
+ = 
+LOAD_DONE
+;
+
+109 
+n_rd_°©e
+ = 
+LOAD_BIN
+;
+
+110 
+LOAD_DONE
+:
+
+111 
+n_rd_°©e
+ = 
+LOAD_IDLE
+;
+
+113 
+n_rd_°©e
+ = 
+LOAD_IDLE
+;
+
+114 
+ídˇ£
+
+
+115 
+íd
+
+
+117 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+118 i‡(~
+r°
+)
+
+119 
+rd_v¨s_˙t
+ <= 0;
+
+120 i‡(
+c_rd_°©e
+==
+LOAD_BIN
+ && 
+rd_v¨s_˙t
+<
+NUM_VARS_A_BIN
+)
+
+121 
+rd_v¨s_˙t
+ <=Ñd_vars_cnt+1;
+
+122 i‡(
+c_rd_°©e
+==
+LOAD_BIN
+)
+
+123 
+rd_v¨s_˙t
+ <=Ñd_vars_cnt;
+
+125 
+rd_v¨s_˙t
+ <= 0;
+
+126 
+íd
+
+
+128 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+129 i‡(~
+r°
+)
+
+130 
+rd_˛au£s_˙t
+ <= 0;
+
+131 i‡(
+c_rd_°©e
+==
+LOAD_BIN
+ && 
+rd_˛au£s_˙t
+<
+NUM_CLAUSES_A_BIN
+)
+
+132 
+rd_˛au£s_˙t
+ <=Ñd_clauses_cnt+1;
+
+133 i‡(
+c_rd_°©e
+==
+LOAD_BIN
+)
+
+134 
+rd_˛au£s_˙t
+ <=Ñd_clauses_cnt;
+
+136 
+rd_˛au£s_˙t
+ <= 0;
+
+137 
+íd
+
+
+139 
+ªg
+ [
+ADDR_WIDTH_VARS
+-1:0] 
+bøm_addr_v¨s_r
+;
+
+140 
+ªg
+ [
+ADDR_WIDTH_CLAUSES
+-1:0] 
+bøm_addr_˛au£s_r
+;
+
+141 
+ªg
+ [
+ADDR_WIDTH_VARS_STATES
+-1:0] 
+bøm_addr_v¨s_°©es_r
+;
+
+142 
+assign
+ 
+bøm_addr_v¨s_o
+ = 
+bøm_addr_v¨s_r
+;
+
+143 
+assign
+ 
+bøm_addr_˛au£s_o
+ = 
+bøm_addr_˛au£s_r
+;
+
+144 
+assign
+ 
+bøm_addr_v¨s_°©es_o
+ = 
+bøm_addr_v¨s_°©es_r
+;
+
+146 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+147 i‡(~
+r°
+)
+
+148 
+bøm_addr_v¨s_r
+ <= 0;
+
+149 i‡(
+c_rd_°©e
+==
+LOAD_BIN
+)
+
+150 
+bøm_addr_v¨s_r
+ <
+v¨_bö_i_ba£_addr
+ + 
+rd_v¨s_˙t
+;
+
+152 
+bøm_addr_v¨s_r
+ <= 0;
+
+153 
+íd
+
+
+155 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+156 i‡(~
+r°
+)
+
+157 
+bøm_addr_˛au£s_r
+ <= 0;
+
+158 i‡(
+c_rd_°©e
+==
+LOAD_BIN
+)
+
+159 
+bøm_addr_˛au£s_r
+ <
+˛au£_bö_i_ba£_addr
+ + 
+rd_v¨s_˙t
+;
+
+161 
+bøm_addr_˛au£s_r
+ <= 0;
+
+162 
+íd
+
+
+164 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+165 i‡(~
+r°
+)
+
+166 
+bøm_addr_v¨s_°©es_r
+ <= 0;
+
+167 i‡(
+c_rd_°©e
+==
+LOAD_BIN
+)
+
+168 
+bøm_addr_v¨s_°©es_r
+ <
+bøm_v¨s_i
+;
+
+170 
+bøm_addr_v¨s_°©es_r
+ <= 0;
+
+171 
+íd
+
+
+173 
+ªg
+ [
+NUM_CLAUSES_A_BIN
+-1, 0] 
+wr_lô_˚Œs_r
+;
+
+174 
+ªg
+ [
+WIDTH_BIN_CLAUSES
+, 0] 
+˛au£s_r
+;
+
+175 
+ªg
+ 
+˛au£s_vÆid_r
+;
+
+176 
+assign
+ 
+wr_lô_˚Œs_o
+ = 
+wr_lô_˚Œs_r
+;
+
+177 
+assign
+ 
+˛au£s_o
+ = 
+˛au£s_r
+;
+
+178 
+assign
+ 
+˛au£s_vÆid_o
+ = 
+˛au£s_vÆid_r
+;
+
+180 
+ªg
+ 
+c_vÆid_dñay
+;
+
+181 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+182 
+begö
+
+
+183 if(
+r°
+)
+
+184 
+c_vÆid_dñay
+ <= 0;
+
+185 if(
+c_rd_°©e
+==
+LOAD_BIN
+)
+
+186 
+c_vÆid_dñay
+ <= 1;
+
+188 
+c_vÆid_dñay
+ <= 0;
+
+189 
+íd
+
+
+191 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+192 
+begö
+
+
+193 if(
+r°
+Ë
+begö
+
+
+194 
+˛au£s_r
+ <= 0;
+
+195 
+˛au£s_vÆid_r
+ <= 0;
+
+196 
+íd
+ if(
+c_rd_°©e
+==
+LOAD_BIN
+Ë
+begö
+
+
+197 
+˛au£s_r
+ <
+bøm_˛au£s_i
+;
+
+198 
+˛au£s_vÆid_r
+ <
+c_vÆid_dñay
+;
+
+199 
+íd
+ 
+begö
+
+
+200 
+˛au£s_r
+ <= 0;
+
+201 
+˛au£s_vÆid_r
+ <= 0;
+
+202 
+íd
+
+
+203 
+íd
+
+
+205 
+ªg
+ 
+wr_c_dñay
+;
+
+206 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+207 
+begö
+
+
+208 if(
+r°
+)
+
+209 
+wr_c_dñay
+ <= 0;
+
+210 if(
+°¨t_lﬂd
+)
+
+211 
+wr_c_dñay
+ <= 1;
+
+213 
+wr_c_dñay
+ <= 0;
+
+214 
+íd
+
+
+215 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+216 
+begö
+
+
+217 if(
+r°
+)
+
+218 
+wr_lô_˚Œs_r
+ <= 0;
+
+219 if(
+wr_c_dñay
+)
+
+220 
+wr_lô_˚Œs_r
+ <{23'b0, 1'
+b1
+};
+
+222 
+	gwr_lô_˚Œs_r
+ <
+wr_lô_˚Œs_r
+<<1;
+
+223 
+íd
+
+
+225 
+	gªg
+ [
+WIDTH_VAR_STATES
+-1, 0] 
+	gv¨s_°©es_r
+;
+
+226 
+ªg
+ 
+	gv¨s_°©es_vÆid_r
+;
+
+227 
+assign
+ 
+	gv¨s_°©es_o
+ = 
+v¨s_°©es_r
+;
+
+228 
+assign
+ 
+	gv¨s_°©es_vÆid_o
+ = 
+v¨s_°©es_vÆid_r
+;
+
+230 
+ªg
+ 
+	gv°©e_vÆid_dñay
+[1:0];
+
+231 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+232 
+begö
+
+
+233 if(
+	gr°
+)
+
+234 
+	gv°©e_vÆid_dñay
+ <= 0;
+
+235 if(
+	gc_rd_°©e
+==
+LOAD_BIN
+)
+
+236 
+v°©e_vÆid_dñay
+ <= {1'b1,vstate_valid_delay[1]};
+
+238 
+v°©e_vÆid_dñay
+ <= {1'b0,vstate_valid_delay[1]};
+
+239 
+íd
+
+
+241 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+242 
+begö
+
+
+243 if(
+r°
+Ë
+begö
+
+
+244 
+v¨s_°©es_r
+ <= 0;
+
+245 
+	gv¨s_°©es_vÆid_r
+ <= 0;
+
+246 
+íd
+ if(
+	gc_rd_°©e
+==
+LOAD_BIN
+Ë
+begö
+
+
+247 
+v¨s_°©es_r
+ <
+bøm_v¨s_°©es_i
+;
+
+248 
+	gv¨s_°©es_vÆid_r
+ <
+v°©e_vÆid_dñay
+[0];
+
+249 
+íd
+ 
+begö
+
+
+250 
+	gv¨s_°©es_r
+ <= 0
+
+251 
+v¨s_°©es_vÆid_r
+ <= 0;
+
+252 
+íd
+
+
+253 
+íd
+
+
+255 
+	gªg
+ [1:0] 
+lﬂd_d⁄e_r
+;
+
+256 
+assign
+ 
+	glﬂd_d⁄e
+ = 
+lﬂd_d⁄e_r
+[0];
+
+257 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+258 
+begö
+
+
+259 if(
+	gr°
+)
+
+260 
+	glﬂd_d⁄e_r
+ <= 0;
+
+261 if(
+	gc_rd_°©e
+==
+LOAD_DONE
+)
+
+262 
+lﬂd_d⁄e_r
+ <= {1'b1,load_done_r[1]};
+
+264 
+lﬂd_d⁄e_r
+ <= {1'b0,load_done_r[1]};
+
+265 
+íd
+
+
+273 
+∑ømëî
+ 
+UPDATE_IDLE
+ = 0,
+
+274 
+	gSTART_UPDATE
+ = 1,
+
+275 
+	gUPDATE_DONE
+ = 2;
+
+277 
+	gªg
+ [1:0] 
+c_wr_°©e
+, 
+	gn_wr_°©e
+;
+
+278 
+	gªg
+ [5:0] 
+wr_v¨s_˙t
+, 
+	gwr_˛au£s_˙t
+;
+
+280 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+281 
+begö
+
+
+282 if(
+	gr°
+)
+
+283 
+	gc_wr_°©e
+ <= 0;
+
+285 
+	gc_wr_°©e
+ <
+n_wr_°©e
+;
+
+286 
+íd
+
+
+288 
+	gÆways
+ @(*)
+
+289 
+begö
+
+
+290 if(
+	gr°
+)
+
+291 
+	gn_wr_°©e
+ = 0;
+
+293 (
+	gc_wr_°©e
+)
+
+294 
+	gUPDATE_IDLE
+:
+
+295 if(
+°¨t_upd©e
+)
+
+296 
+n_wr_°©e
+ = 
+UPDATE_BIN
+;
+
+298 
+	gn_wr_°©e
+ = 
+UPDATE_IDLE
+;
+
+299 
+	gUPDATE_BIN
+:
+
+300 if(
+wr_v¨s_˙t
+==
+NUM_VARS_A_BIN
+ && 
+wr_˛au£s_˙t
+==
+NUM_CLAUSES_A_BIN
+/2)
+
+301 
+n_wr_°©e
+ = 
+UPDATE_DONE
+;
+
+303 
+	gn_wr_°©e
+ = 
+UPDATE_BIN
+;
+
+304 
+	gUPDATE_DONE
+:
+
+305 
+n_wr_°©e
+ = 
+UPDATE_IDLE
+;
+
+307 
+n_wr_°©e
+ = 
+UPDATE_IDLE
+;
+
+308 
+ídˇ£
+
+
+309 
+íd
+
+
+312 
+gíî©e
+ 
+	gi
+=0;i<
+	gNUM_VARS_A_BIN
+;i=
+i
++1)
+
+313 
+begö
+: 
+ªg_lo›
+
+
+314 
+ªg
+ [
+WIDTH_BIN_VARS
+-1:0] 
+v¨_ID_r
+;
+
+315 if(
+	gi
+==0)
+
+316 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+317 if(~
+r°
+)
+
+318 
+v¨_ID_r
+ <= 0;
+
+319 if(
+	gc_vÆid_dñay
+)
+
+320 
+	gv¨_ID_r
+ <
+bøm_v¨s_i
+;
+
+321 if(
+	gv¨s_°©es_vÆid_i
+)
+
+322 
+	gv¨_ID_r
+ <= 0;
+
+324 
+	gv¨_ID_r
+ <
+v¨_ID_r
+;
+
+326 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+327 
+begö
+
+
+328 if(~
+	gr°
+)
+
+329 
+	gv¨_ID_r
+ <= 0;
+
+330 if(
+	gc_vÆid_dñay
+ && 
+	gv¨s_°©es_vÆid_i
+)
+
+331 
+	gv¨_ID_r
+ <
+ªg_lo›
+[
+i
+-1].
+v¨_ID_r
+;
+
+333 
+	gv¨_ID_r
+ <
+v¨_ID_r
+;
+
+334 
+íd
+
+
+335 
+íd
+
+
+336 
+ídgíî©e
+
+
+338 
+assign
+ 
+	gaddr_upd©e_v¨s_°©es_o
+ = 
+ªg_lo›
+[
+NUM_VARS_A_BIN
+-1].
+v¨_ID_r
+;
+
+340 
+	gídmoduÀ
+
+
+	@decision.v
+
+1 
+moduÀ
+ 
+	gdecisi⁄
+ #(
+
+3 
+∑ømëî
+ 
+	gNUM_VARS
+ = 24,
+
+7 
+öput
+ 
+	g˛k
+,
+
+8 
+öput
+ 
+	gr°
+,
+
+10 
+öput
+ 
+	g°¨t_decisi⁄
+,
+
+11 
+	göput
+ [
+NUM_VARS
+*3-1:0] 
+v¨s_vÆue_‰omba£_i
+,
+
+13 
+ouçut
+ 
+	gªg
+ [
+NUM_VARS
+-1:0] 
+v¨s_decided_toba£_o
+,
+
+14 
+ouçut
+ 
+ªg
+ 
+	gdecisi⁄_d⁄e
+,
+
+16 
+	göput
+ [15:0] 
+bkt_Àvñ_i
+,
+
+17 
+öput
+ 
+	gbkt_Àvñ_vÆid_i
+,
+
+18 
+	gouçut
+ [15:0] 
+cur_Àvñ_o
+
+
+20 
+	gªg
+ [15:0] 
+cur_Àvñ_r
+;
+
+21 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+22 
+begö
+
+
+23 if(
+	gr°
+)
+
+24 
+	gcur_Àvñ_r
+ <= 0;
+
+25 if(
+	g°¨t_decisi⁄
+)
+
+26 
+	gcur_Àvñ_r
+ <
+cur_Àvñ_r
++1;
+
+27 if(
+	gbkt_Àvñ_vÆid_i
+)
+
+28 
+	gcur_Àvñ_r
+ <
+bkt_Àvñ_i
+;
+
+30 
+	gcur_Àvñ_r
+ <= 0;
+
+31 
+íd
+
+
+33 
+	gwúe
+ [1:0] 
+lock_˙t0
+;
+
+34 
+	gwúe
+ [1:0] 
+lock_˙t1
+;
+
+35 
+	gwúe
+ [1:0] 
+lock_˙t2
+;
+
+36 
+	gwúe
+ [1:0] 
+lock_˙t3
+;
+
+37 
+	gwúe
+ [1:0] 
+lock_˙t4
+;
+
+38 
+	gwúe
+ [1:0] 
+lock_˙t5
+;
+
+39 
+	gwúe
+ [1:0] 
+lock_˙t6
+;
+
+40 
+	gwúe
+ [1:0] 
+lock_˙t7
+;
+
+41 
+	gwúe
+ [1:0] 
+lock_˙t8
+;
+
+42 
+	gwúe
+ [1:0] 
+lock_˙t9
+;
+
+43 
+	gwúe
+ [1:0] 
+lock_˙t10
+;
+
+44 
+	gwúe
+ [1:0] 
+lock_˙t11
+;
+
+45 
+	gwúe
+ [1:0] 
+lock_˙t12
+;
+
+46 
+	gwúe
+ [1:0] 
+lock_˙t13
+;
+
+47 
+	gwúe
+ [1:0] 
+lock_˙t14
+;
+
+48 
+	gwúe
+ [1:0] 
+lock_˙t15
+;
+
+49 
+	gwúe
+ [1:0] 
+lock_˙t16
+;
+
+50 
+	gwúe
+ [1:0] 
+lock_˙t17
+;
+
+51 
+	gwúe
+ [1:0] 
+lock_˙t18
+;
+
+52 
+	gwúe
+ [1:0] 
+lock_˙t19
+;
+
+53 
+	gwúe
+ [1:0] 
+lock_˙t20
+;
+
+54 
+	gwúe
+ [1:0] 
+lock_˙t21
+;
+
+55 
+	gwúe
+ [1:0] 
+lock_˙t22
+;
+
+56 
+	gwúe
+ [1:0] 
+lock_˙t23
+;
+
+58 
+assign
+ 
+	glock_˙t0
+ = 
+v¨s_vÆue_‰omba£_i
+[3*0+2:3*0+1]==00? 2'b01:2'
+b00
+;
+
+59 
+assign
+ 
+	glock_˙t1
+ = 
+lock_˙t0
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*1+2:3*1+1]==00? 2'b01:2'
+b00
+);
+
+60 
+assign
+ 
+	glock_˙t2
+ = 
+lock_˙t1
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*2+2:3*2+1]==00? 2'b01:2'
+b00
+);
+
+61 
+assign
+ 
+	glock_˙t3
+ = 
+lock_˙t2
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*3+2:3*3+1]==00? 2'b01:2'
+b00
+);
+
+62 
+assign
+ 
+	glock_˙t4
+ = 
+lock_˙t3
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*4+2:3*4+1]==00? 2'b01:2'
+b00
+);
+
+63 
+assign
+ 
+	glock_˙t5
+ = 
+lock_˙t4
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*5+2:3*5+1]==00? 2'b01:2'
+b00
+);
+
+64 
+assign
+ 
+	glock_˙t6
+ = 
+lock_˙t5
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*6+2:3*6+1]==00? 2'b01:2'
+b00
+);
+
+65 
+assign
+ 
+	glock_˙t7
+ = 
+lock_˙t6
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*7+2:3*7+1]==00? 2'b01:2'
+b00
+);
+
+66 
+assign
+ 
+	glock_˙t8
+ = 
+lock_˙t7
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*8+2:3*8+1]==00? 2'b01:2'
+b00
+);
+
+67 
+assign
+ 
+	glock_˙t9
+ = 
+lock_˙t8
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*9+2:3*9+1]==00? 2'b01:2'
+b00
+);
+
+68 
+assign
+ 
+	glock_˙t10
+ = 
+lock_˙t9
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*10+2:3*10+1]==00? 2'b01:2'
+b00
+);
+
+69 
+assign
+ 
+	glock_˙t11
+ = 
+lock_˙t10
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*11+2:3*11+1]==00? 2'b01:2'
+b00
+);
+
+70 
+assign
+ 
+	glock_˙t12
+ = 
+lock_˙t11
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*12+2:3*12+1]==00? 2'b01:2'
+b00
+);
+
+71 
+assign
+ 
+	glock_˙t13
+ = 
+lock_˙t12
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*13+2:3*13+1]==00? 2'b01:2'
+b00
+);
+
+72 
+assign
+ 
+	glock_˙t14
+ = 
+lock_˙t13
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*14+2:3*14+1]==00? 2'b01:2'
+b00
+);
+
+73 
+assign
+ 
+	glock_˙t15
+ = 
+lock_˙t14
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*15+2:3*15+1]==00? 2'b01:2'
+b00
+);
+
+74 
+assign
+ 
+	glock_˙t16
+ = 
+lock_˙t15
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*16+2:3*16+1]==00? 2'b01:2'
+b00
+);
+
+75 
+assign
+ 
+	glock_˙t17
+ = 
+lock_˙t16
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*17+2:3*17+1]==00? 2'b01:2'
+b00
+);
+
+76 
+assign
+ 
+	glock_˙t18
+ = 
+lock_˙t17
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*18+2:3*18+1]==00? 2'b01:2'
+b00
+);
+
+77 
+assign
+ 
+	glock_˙t19
+ = 
+lock_˙t18
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*19+2:3*19+1]==00? 2'b01:2'
+b00
+);
+
+78 
+assign
+ 
+	glock_˙t20
+ = 
+lock_˙t19
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*20+2:3*20+1]==00? 2'b01:2'
+b00
+);
+
+79 
+assign
+ 
+	glock_˙t21
+ = 
+lock_˙t20
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*21+2:3*21+1]==00? 2'b01:2'
+b00
+);
+
+80 
+assign
+ 
+	glock_˙t22
+ = 
+lock_˙t21
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*22+2:3*22+1]==00? 2'b01:2'
+b00
+);
+
+81 
+assign
+ 
+	glock_˙t23
+ = 
+lock_˙t22
+!=2'b00?2'
+b11
+:(
+v¨s_vÆue_‰omba£_i
+[3*23+2:3*23+1]==00? 2'b01:2'
+b00
+);
+
+83 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+Ë
+begö
+
+
+84 i‡(~
+	gr°
+Ë
+begö
+
+
+86 
+	gv¨s_decided_toba£_o
+ <= 0;
+
+87 
+íd
+
+
+88 i‡(
+	g°¨t_decisi⁄
+Ë
+begö
+
+
+89 
+	gv¨s_decided_toba£_o
+[0] <
+lock_˙t0
+!=2'b01;
+
+90 
+v¨s_decided_toba£_o
+[1] <
+lock_˙t1
+!=2'b01;
+
+91 
+v¨s_decided_toba£_o
+[2] <
+lock_˙t2
+!=2'b01;
+
+92 
+v¨s_decided_toba£_o
+[3] <
+lock_˙t3
+!=2'b01;
+
+93 
+v¨s_decided_toba£_o
+[4] <
+lock_˙t4
+!=2'b01;
+
+94 
+v¨s_decided_toba£_o
+[5] <
+lock_˙t5
+!=2'b01;
+
+95 
+v¨s_decided_toba£_o
+[6] <
+lock_˙t6
+!=2'b01;
+
+96 
+v¨s_decided_toba£_o
+[7] <
+lock_˙t7
+!=2'b01;
+
+97 
+v¨s_decided_toba£_o
+[8] <
+lock_˙t8
+!=2'b01;
+
+98 
+v¨s_decided_toba£_o
+[9] <
+lock_˙t9
+!=2'b01;
+
+99 
+v¨s_decided_toba£_o
+[10] <
+lock_˙t10
+!=2'b01;
+
+100 
+v¨s_decided_toba£_o
+[11] <
+lock_˙t11
+!=2'b01;
+
+101 
+v¨s_decided_toba£_o
+[12] <
+lock_˙t12
+!=2'b01;
+
+102 
+v¨s_decided_toba£_o
+[13] <
+lock_˙t13
+!=2'b01;
+
+103 
+v¨s_decided_toba£_o
+[14] <
+lock_˙t14
+!=2'b01;
+
+104 
+v¨s_decided_toba£_o
+[15] <
+lock_˙t15
+!=2'b01;
+
+105 
+v¨s_decided_toba£_o
+[16] <
+lock_˙t16
+!=2'b01;
+
+106 
+v¨s_decided_toba£_o
+[17] <
+lock_˙t17
+!=2'b01;
+
+107 
+v¨s_decided_toba£_o
+[18] <
+lock_˙t18
+!=2'b01;
+
+108 
+v¨s_decided_toba£_o
+[19] <
+lock_˙t19
+!=2'b01;
+
+109 
+v¨s_decided_toba£_o
+[20] <
+lock_˙t20
+!=2'b01;
+
+110 
+v¨s_decided_toba£_o
+[21] <
+lock_˙t21
+!=2'b01;
+
+111 
+v¨s_decided_toba£_o
+[22] <
+lock_˙t22
+!=2'b01;
+
+112 
+v¨s_decided_toba£_o
+[23] <
+lock_˙t23
+!=2'b01;
+
+113 
+íd
+
+
+114 
+begö
+
+
+115 
+v¨s_decided_toba£_o
+ <= 0;
+
+116 
+íd
+
+
+117 
+íd
+
+
+119 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+120 
+begö
+
+
+121 if(
+	gr°
+)
+
+122 
+	gdecisi⁄_d⁄e
+ <= 0;
+
+123 if(
+	g°¨t_decisi⁄
+)
+
+124 
+	gdecisi⁄_d⁄e
+ <= 1;
+
+126 
+	gdecisi⁄_d⁄e
+ <= 0;
+
+127 
+íd
+
+
+129 
+	gídmoduÀ
+
+
+	@lit2.v
+
+1 
+moduÀ
+ 
+	glô2
+ #(
+
+2 
+∑ømëî
+ 
+	gNUM_LITS
+ = 2
+
+5 
+öput
+ 
+˛k
+,
+
+6 
+öput
+ 
+	gr°
+,
+
+8 
+öput
+ 
+	gwr_i
+,
+
+9 
+	göput
+ [
+NUM_LITS
+*3-1 : 0] 
+v¨_vÆue_‰omba£_i
+,
+
+10 
+	gouçut
+ [
+NUM_LITS
+*3-1 : 0] 
+v¨_vÆue_toba£_o
+,
+
+12 
+	göput
+ [1 : 0] 
+‰ìlô˙t_¥e
+,
+
+13 
+	gouçut
+ [1 : 0] 
+‰ìlô˙t_√xt
+,
+
+15 
+öput
+ 
+	gimp_drv_i
+,
+
+17 
+ouçut
+ 
+	gc˛au£_o
+,
+
+18 
+öput
+ 
+	gc˛au£_drv_i
+,
+
+20 
+ouçut
+ 
+	g˛au£ßt_o
+
+
+24 
+	gwúe
+ [
+NUM_LITS
+/2*3-1:0] 
+v¨_vÆue_‰omba£_0
+, 
+	gv¨_vÆue_‰omba£_1
+;
+
+25 
+	gwúe
+ [
+NUM_LITS
+/2*3-1:0] 
+v¨_vÆue_toba£_0
+, 
+	gv¨_vÆue_toba£_1
+;
+
+26 
+	gwúe
+ [1:0] 
+‰ìlô˙t_0
+;
+
+27 
+wúe
+ 
+	gimp_drv_0
+, 
+	gimp_drv_1
+;
+
+28 
+wúe
+ 
+	gc˛au£_0
+, 
+	gc˛au£_1
+;
+
+29 
+wúe
+ 
+	g˛au£ßt_0
+, 
+	g˛au£ßt_1
+;
+
+31 
+	gassign
+ {
+	gv¨_vÆue_‰omba£_0
+, 
+	gv¨_vÆue_‰omba£_1
+} = 
+v¨_vÆue_‰omba£_i
+;
+
+33 
+assign
+ 
+	gv¨_vÆue_toba£_o
+ = {
+v¨_vÆue_toba£_0
+, 
+v¨_vÆue_toba£_1
+};
+
+35 
+assign
+ 
+	g˛au£ßt_o
+ = 
+˛au£ßt_0
+ | 
+˛au£ßt_1
+;
+
+36 
+assign
+ 
+	gc˛au£_o
+ = 
+c˛au£_0
+ | 
+c˛au£_1
+;
+
+38 
+assign
+ 
+	gimp_drv_0
+ = 
+imp_drv_i
+;
+
+39 
+assign
+ 
+	gimp_drv_1
+ = 
+imp_drv_i
+;
+
+41 
+lô_˚Œ
+ 
+lô_˚Œ_0
+(
+
+42 .
+˛k
+(clk),
+
+43 .
+r°
+(rst),
+
+45 .
+wr_i
+(wr_i),
+
+46 .
+v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_0
+),
+
+47 .
+v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_0
+),
+
+49 .
+‰ìlô˙t_¥e
+(freelitcnt_pre),
+
+50 .
+‰ìlô˙t_√xt
+(
+‰ìlô˙t_0
+),
+
+52 .
+imp_drv_i
+(
+imp_drv_0
+),
+
+54 .
+c˛au£_o
+(
+c˛au£_0
+),
+
+55 .
+c˛au£_drv_i
+(cclause_drv_i),
+
+57 .
+˛au£ßt_o
+(
+˛au£ßt_0
+)
+
+60 
+lô_˚Œ
+ 
+lô_˚Œ_1
+(
+
+61 .
+˛k
+(clk),
+
+62 .
+r°
+(rst),
+
+64 .
+wr_i
+(wr_i),
+
+65 .
+v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_1
+),
+
+66 .
+v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_1
+),
+
+68 .
+‰ìlô˙t_¥e
+(
+‰ìlô˙t_0
+),
+
+69 .
+‰ìlô˙t_√xt
+(freelitcnt_next),
+
+71 .
+imp_drv_i
+(
+imp_drv_1
+),
+
+73 .
+c˛au£_o
+(
+c˛au£_1
+),
+
+74 .
+c˛au£_drv_i
+(cclause_drv_i),
+
+76 .
+˛au£ßt_o
+(
+˛au£ßt_1
+)
+
+79 
+	gídmoduÀ
+
+
+	@lit4.v
+
+1 
+moduÀ
+ 
+	glô4
+ #(
+
+2 
+∑ømëî
+ 
+	gNUM_LITS
+ = 4
+
+5 
+öput
+ 
+˛k
+,
+
+6 
+öput
+ 
+	gr°
+,
+
+8 
+öput
+ 
+	gwr_i
+,
+
+9 
+	göput
+ [
+NUM_LITS
+*3-1 : 0] 
+v¨_vÆue_‰omba£_i
+,
+
+10 
+	gouçut
+ [
+NUM_LITS
+*3-1 : 0] 
+v¨_vÆue_toba£_o
+,
+
+12 
+	göput
+ [1 : 0] 
+‰ìlô˙t_¥e
+,
+
+13 
+	gouçut
+ [1 : 0] 
+‰ìlô˙t_√xt
+,
+
+15 
+öput
+ 
+	gimp_drv_i
+,
+
+17 
+ouçut
+ 
+	gc˛au£_o
+,
+
+18 
+öput
+ 
+	gc˛au£_drv_i
+,
+
+20 
+ouçut
+ 
+	g˛au£ßt_o
+
+
+24 
+	gwúe
+ [
+NUM_LITS
+/2*3-1:0] 
+v¨_vÆue_‰omba£_0
+, 
+	gv¨_vÆue_‰omba£_1
+;
+
+25 
+	gwúe
+ [
+NUM_LITS
+/2*3-1:0] 
+v¨_vÆue_toba£_0
+, 
+	gv¨_vÆue_toba£_1
+;
+
+26 
+	gwúe
+ [1:0] 
+‰ìlô˙t_0
+;
+
+27 
+wúe
+ 
+	gimp_drv_0
+, 
+	gimp_drv_1
+;
+
+28 
+wúe
+ 
+	gc˛au£_0
+, 
+	gc˛au£_1
+;
+
+29 
+wúe
+ 
+	g˛au£ßt_0
+, 
+	g˛au£ßt_1
+;
+
+31 
+	gassign
+ {
+	gv¨_vÆue_‰omba£_0
+,
+	gv¨_vÆue_‰omba£_1
+} = 
+v¨_vÆue_‰omba£_i
+;
+
+33 
+assign
+ 
+	gv¨_vÆue_toba£_o
+ = {
+v¨_vÆue_toba£_0
+, 
+v¨_vÆue_toba£_1
+};
+
+35 
+assign
+ 
+	g˛au£ßt_o
+ = 
+˛au£ßt_0
+ | 
+˛au£ßt_1
+;
+
+36 
+assign
+ 
+	gc˛au£_o
+ = 
+c˛au£_0
+ | 
+c˛au£_1
+;
+
+38 
+assign
+ 
+	gimp_drv_0
+ = 
+imp_drv_i
+;
+
+39 
+assign
+ 
+	gimp_drv_1
+ = 
+imp_drv_i
+;
+
+41 
+lô2
+ 
+lô2_0
+(
+
+42 .
+˛k
+(clk),
+
+43 .
+r°
+(rst),
+
+45 .
+wr_i
+(wr_i),
+
+46 .
+v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_0
+),
+
+47 .
+v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_0
+),
+
+49 .
+‰ìlô˙t_¥e
+(freelitcnt_pre),
+
+50 .
+‰ìlô˙t_√xt
+(
+‰ìlô˙t_0
+),
+
+52 .
+imp_drv_i
+(
+imp_drv_0
+),
+
+54 .
+c˛au£_o
+(
+c˛au£_0
+),
+
+55 .
+c˛au£_drv_i
+(cclause_drv_i),
+
+57 .
+˛au£ßt_o
+(
+˛au£ßt_0
+)
+
+60 
+lô2
+ 
+lô2_1
+(
+
+61 .
+˛k
+(clk),
+
+62 .
+r°
+(rst),
+
+64 .
+wr_i
+(wr_i),
+
+65 .
+v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_1
+),
+
+66 .
+v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_1
+),
+
+68 .
+‰ìlô˙t_¥e
+(
+‰ìlô˙t_0
+),
+
+69 .
+‰ìlô˙t_√xt
+(freelitcnt_next),
+
+71 .
+imp_drv_i
+(
+imp_drv_1
+),
+
+73 .
+c˛au£_o
+(
+c˛au£_1
+),
+
+74 .
+c˛au£_drv_i
+(cclause_drv_i),
+
+76 .
+˛au£ßt_o
+(
+˛au£ßt_1
+)
+
+79 
+	gídmoduÀ
+
+
+	@lit8.v
+
+1 
+moduÀ
+ 
+	glô8
+ #(
+
+2 
+∑ømëî
+ 
+	gNUM_LITS
+ = 8
+
+5 
+öput
+ 
+˛k
+,
+
+6 
+öput
+ 
+	gr°
+,
+
+8 
+öput
+ 
+	gwr_i
+,
+
+9 
+	göput
+ [
+NUM_LITS
+*3-1 : 0] 
+v¨_vÆue_‰omba£_i
+,
+
+10 
+	gouçut
+ [
+NUM_LITS
+*3-1 : 0] 
+v¨_vÆue_toba£_o
+,
+
+12 
+	göput
+ [1 : 0] 
+‰ìlô˙t_¥e
+,
+
+13 
+	gouçut
+ [1 : 0] 
+‰ìlô˙t_√xt
+,
+
+15 
+öput
+ 
+	gimp_drv_i
+,
+
+17 
+ouçut
+ 
+	gc˛au£_o
+,
+
+18 
+öput
+ 
+	gc˛au£_drv_i
+,
+
+20 
+ouçut
+ 
+	g˛au£ßt_o
+
+
+24 
+	gwúe
+ [
+NUM_LITS
+/2*3-1:0] 
+v¨_vÆue_‰omba£_0
+, 
+	gv¨_vÆue_‰omba£_1
+;
+
+25 
+	gwúe
+ [
+NUM_LITS
+/2*3-1:0] 
+v¨_vÆue_toba£_0
+, 
+	gv¨_vÆue_toba£_1
+;
+
+26 
+	gwúe
+ [1:0] 
+‰ìlô˙t_0
+;
+
+27 
+wúe
+ 
+	gimp_drv_0
+, 
+	gimp_drv_1
+;
+
+28 
+wúe
+ 
+	gc˛au£_0
+, 
+	gc˛au£_1
+;
+
+29 
+wúe
+ 
+	g˛au£ßt_0
+, 
+	g˛au£ßt_1
+;
+
+31 
+	gassign
+ {
+	gv¨_vÆue_‰omba£_0
+,
+	gv¨_vÆue_‰omba£_1
+} = 
+v¨_vÆue_‰omba£_i
+;
+
+33 
+assign
+ 
+	gv¨_vÆue_toba£_o
+ = {
+v¨_vÆue_toba£_0
+, 
+v¨_vÆue_toba£_1
+};
+
+35 
+assign
+ 
+	g˛au£ßt_o
+ = 
+˛au£ßt_0
+ | 
+˛au£ßt_1
+;
+
+36 
+assign
+ 
+	gc˛au£_o
+ = 
+c˛au£_0
+ | 
+c˛au£_1
+;
+
+38 
+assign
+ 
+	gimp_drv_0
+ = 
+imp_drv_i
+;
+
+39 
+assign
+ 
+	gimp_drv_1
+ = 
+imp_drv_i
+;
+
+41 
+lô4
+ 
+lô4_0
+(
+
+42 .
+˛k
+(clk),
+
+43 .
+r°
+(rst),
+
+45 .
+wr_i
+(wr_i),
+
+46 .
+v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_0
+),
+
+47 .
+v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_0
+),
+
+49 .
+‰ìlô˙t_¥e
+(freelitcnt_pre),
+
+50 .
+‰ìlô˙t_√xt
+(
+‰ìlô˙t_0
+),
+
+52 .
+imp_drv_i
+(
+imp_drv_0
+),
+
+54 .
+c˛au£_o
+(
+c˛au£_0
+),
+
+55 .
+c˛au£_drv_i
+(cclause_drv_i),
+
+57 .
+˛au£ßt_o
+(
+˛au£ßt_0
+)
+
+60 
+lô4
+ 
+lô4_1
+(
+
+61 .
+˛k
+(clk),
+
+62 .
+r°
+(rst),
+
+64 .
+wr_i
+(wr_i),
+
+65 .
+v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_1
+),
+
+66 .
+v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_1
+),
+
+68 .
+‰ìlô˙t_¥e
+(
+‰ìlô˙t_0
+),
+
+69 .
+‰ìlô˙t_√xt
+(freelitcnt_next),
+
+71 .
+imp_drv_i
+(
+imp_drv_1
+),
+
+73 .
+c˛au£_o
+(
+c˛au£_1
+),
+
+74 .
+c˛au£_drv_i
+(cclause_drv_i),
+
+76 .
+˛au£ßt_o
+(
+˛au£ßt_1
+)
+
+79 
+	gídmoduÀ
+
+
+	@lit1.v
+
+1 
+moduÀ
+ 
+	glô_˚Œ
+
+
+3 
+öput
+ 
+	g˛k
+,
+
+4 
+öput
+ 
+	gr°
+,
+
+6 
+öput
+ 
+	gwr_i
+,
+
+7 
+	göput
+ [2:0] 
+v¨_vÆue_‰omba£_i
+,
+
+8 
+ouçut
+ 
+	gªg
+ [2:0] 
+v¨_vÆue_toba£_o
+,
+
+10 
+	göput
+ [1:0] 
+‰ìlô˙t_¥e
+,
+
+11 
+ouçut
+ 
+	gªg
+ [1:0] 
+‰ìlô˙t_√xt
+,
+
+13 
+öput
+ 
+	gimp_drv_i
+,
+
+15 
+ouçut
+ 
+	gc˛au£_o
+,
+
+16 
+öput
+ 
+	gc˛au£_drv_i
+,
+
+18 
+ouçut
+ 
+	g˛au£ßt_o
+
+
+21 
+	gªg
+ [1:0] 
+lô_of_˛au£_r
+;
+
+22 
+ªg
+ 
+	gv¨_im∂õd_r
+;
+
+24 
+wúe
+ 
+	g∑πicù©e
+;
+
+25 
+assign
+ 
+	g∑πicù©e
+ = 
+lô_of_˛au£_r
+[0] |Üit_of_clause_r[1];
+
+27 
+wúe
+ 
+	gis‰ì
+;
+
+28 
+assign
+ 
+	gis‰ì
+ = 
+v¨_vÆue_‰omba£_i
+[2:1]==2'b00;
+
+30 
+assign
+ 
+˛au£ßt_o
+ = 
+∑πicù©e
+ && 
+lô_of_˛au£_r
+==
+v¨_vÆue_‰omba£_i
+[2:1];
+
+33 
+	gÆways
+ @(*Ë
+	gbegö
+: 
+£t_‰ì_lô_˙t
+
+
+34 i‡(
+∑πicù©e
+ && 
+is‰ì
+Ë
+begö
+
+
+35 if(
+‰ìlô˙t_¥e
+==2'b00)
+
+36 
+‰ìlô˙t_√xt
+ = 2'b01;
+
+38 
+‰ìlô˙t_√xt
+ = 2'b11;
+
+39 
+íd
+
+
+40 
+begö
+
+
+41 
+‰ìlô˙t_√xt
+ = 
+‰ìlô˙t_¥e
+;
+
+42 
+íd
+
+
+43 
+íd
+
+
+47 
+¥›îty
+ 
+	gp9
+;
+
+48 @(
+po£dge
+ 
+	g˛k
+Ë
+dißbÀ
+ 
+iff
+(~
+r°
+)
+
+49 (
+	g∑πicù©e
+ && 
+	gis‰ì
+ && 
+	g‰ìlô˙t_¥e
+==2'b00)
+
+51 
+‰ìlô˙t_√xt
+ == 2'b01;
+
+52 
+íd¥›îty
+
+
+53 
+as£π
+ 
+¥›îty
+(
+p9
+);
+
+58 
+assign
+ 
+	gc˛au£_o
+ = 
+∑πicù©e
+ && 
+v¨_im∂õd_r
+ && 
+v¨_vÆue_‰omba£_i
+[2:1]==2'b11;
+
+61 
+Æways
+ @(*Ë
+begö
+: 
+£t_v¨_vÆue_toba£
+
+
+62 i‡(
+∑πicù©e
+ && 
+is‰ì
+ && 
+imp_drv_i
+)
+
+63 
+v¨_vÆue_toba£_o
+[2:1] = 
+lô_of_˛au£_r
+[1:0];
+
+64 if(
+	g∑πicù©e
+ && 
+	gc˛au£_drv_i
+)
+
+65 
+	gv¨_vÆue_toba£_o
+[2:1] = 2'b11;
+
+67 
+v¨_vÆue_toba£_o
+[2:1] = 2'b00;
+
+68 
+íd
+
+
+70 
+Æways
+ @(*Ë
+begö
+: 
+£t_v¨_vÆue_toba£_o_0
+
+
+71 i‡(
+∑πicù©e
+ && 
+is‰ì
+ && 
+imp_drv_i
+)
+
+72 
+v¨_vÆue_toba£_o
+[0] = 1;
+
+74 
+	gv¨_vÆue_toba£_o
+[0] = 
+v¨_im∂õd_r
+;
+
+75 
+íd
+
+
+78 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+Ë
+	gbegö
+: 
+£t_v¨_im∂õd_r
+
+
+79 i‡(~
+r°
+)
+
+80 
+v¨_im∂õd_r
+ <= 0;
+
+81 i‡(
+	g∑πicù©e
+ && 
+	gis‰ì
+ && 
+	gimp_drv_i
+)
+
+82 
+	gv¨_im∂õd_r
+ <= 1;
+
+84 
+	gv¨_im∂õd_r
+ <
+v¨_im∂õd_r
+;
+
+85 
+íd
+
+
+87 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+Ë
+	gbegö
+: 
+£t_lô_of_˛au£_r
+
+
+88 i‡(~
+r°
+)
+
+89 
+lô_of_˛au£_r
+ <= 0;
+
+90 i‡(
+	gwr_i
+)
+
+91 
+	glô_of_˛au£_r
+ <
+v¨_vÆue_‰omba£_i
+[2:1];
+
+93 
+	glô_of_˛au£_r
+ <
+lô_of_˛au£_r
+;
+
+94 
+íd
+
+
+95 
+	gídmoduÀ
+
+
+	@load_update_bin.v
+
+1 
+moduÀ
+ 
+	glﬂd_upd©e_bö
+ #(
+
+3 
+∑ømëî
+ 
+	gNUM_CLAUSES_A_BIN
+ = 24,
+
+4 
+∑ømëî
+ 
+	gNUM_VARS_A_BIN
+ = 24,
+
+5 
+∑ømëî
+ 
+	gWIDTH_BIN_CLAUSES
+ = 24*2,
+
+6 
+∑ømëî
+ 
+	gWIDTH_BIN_VARS
+ = 12,
+
+7 
+∑ømëî
+ 
+	gWIDTH_BIN_I
+ = 10,
+
+8 
+∑ømëî
+ 
+	gWIDTH_BIN_ADDR
+ = 10,
+
+9 
+∑ømëî
+ 
+	gWIDTH_VAR_STATES
+ = 30,
+
+10 
+∑ømëî
+ 
+	gADDR_WIDTH_CLAUSES
+ = 9,
+
+11 
+∑ømëî
+ 
+	gADDR_WIDTH_VARS
+ = 9,
+
+12 
+∑ømëî
+ 
+	gADDR_WIDTH_VARS_STATES
+ = 9
+
+15 
+öput
+ 
+˛k
+,
+
+16 
+öput
+ 
+	gr°
+,
+
+19 
+öput
+ 
+	g°¨t_lﬂd_upd©e
+,
+
+20 
+öput
+ 
+	gfú°_lﬂd_upd©e
+,
+
+21 
+	göput
+ [
+WIDTH_BIN_I
+-1 : 0] 
+ªque°_bö_num_i
+,
+
+22 
+ouçut
+ 
+	gªg
+ [
+NUM_CLAUSES_A_BIN
+/2-1 : 0] 
+gë_lô_˚Œs_o
+,
+
+23 
+ouçut
+ 
+ªg
+ 
+	glﬂd_upd©e_d⁄e
+,
+
+26 
+ouçut
+ 
+	gªg
+ [
+NUM_CLAUSES_A_BIN
+-1 : 0] 
+£t_lô_˚Œs_o
+,
+
+27 
+ouçut
+ 
+	gªg
+ [
+WIDTH_BIN_CLAUSES
+-1 : 0] 
+˛au£s_o
+,
+
+28 
+ouçut
+ 
+ªg
+ 
+	g˛au£s_vÆid_o
+,
+
+29 
+	gouçut
+ [
+WIDTH_VAR_STATES
+*
+NUM_VARS_A_BIN
+-1 : 0] 
+v¨_°©e_o
+,
+
+30 
+	gouçut
+ [
+NUM_VARS_A_BIN
+-1 : 0] 
+v¨_°©e_vÆid_o
+,
+
+33 
+	göput
+ [
+WIDTH_BIN_CLAUSES
+-1 : 0] 
+À¨¡_˛au£s_i
+,
+
+34 
+öput
+ 
+	gÀ¨¡_˛au£s_vÆid_i
+,
+
+35 
+	göput
+ [
+WIDTH_VAR_STATES
+*
+NUM_VARS_A_BIN
+-1 : 0] 
+v¨_°©e_i
+,
+
+38 
+öput
+ 
+	g°¨t_backåck_i
+,
+
+39 
+	göput
+ [9:0] 
+bkt_lvl_i
+
+
+43 
+wúe
+ [
+WIDTH_BIN_CLAUSES
+-1 : 0] 
+bøm_dout_˛au£s
+;
+
+44 
+	gwúe
+ [
+WIDTH_BIN_VARS
+-1 : 0] 
+bøm_dout_v¨_id
+;
+
+45 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+bøm_dout_v¨_°©e
+;
+
+48 
+	gªg
+ [
+ADDR_WIDTH_CLAUSES
+-1:0] 
+bøm_addr_˛au£s_r
+;
+
+49 
+	gªg
+ [
+ADDR_WIDTH_VARS
+-1:0] 
+bøm_addr_v¨s_r
+;
+
+50 
+	gwúe
+ [
+ADDR_WIDTH_VARS_STATES
+-1:0] 
+bøm_addr_v¨_°©e
+;
+
+53 
+	gªg
+ [
+NUM_CLAUSES_A_BIN
+*2-1 : 0] 
+d©a_À¨¡_˛au£s_r
+;
+
+54 
+	gªg
+ [
+ADDR_WIDTH_CLAUSES
+-1:0] 
+addr_À¨¡_˛au£s_r
+;
+
+55 
+ªg
+ 
+	gwr_À¨¡_˛au£s_r
+;
+
+56 
+	gªg
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+d©a_upd©e_v¨_°©e_r
+;
+
+57 
+	gªg
+ [
+ADDR_WIDTH_VARS_STATES
+-1:0] 
+addr_upd©e_v¨_°©e_r
+;
+
+58 
+ªg
+ 
+	gwr_upd©e_v¨s_°©e_r
+;
+
+60 
+ªg
+ 
+	g≠∂y_backåack
+;
+
+61 
+ªg
+ 
+	gd⁄e_backåack
+;
+
+63 
+	gªg
+ [
+ADDR_WIDTH_VARS_STATES
+-1:0] 
+bøm_øddr_v¨_°©e_bp‹t
+;
+
+64 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1:0] 
+bøm_dout_v¨_°©e_bp‹t
+;
+
+66 
+	gªg
+ [
+ADDR_WIDTH_VARS_STATES
+-1:0] 
+bøm_waddr_v¨_°©e_bp‹t
+;
+
+67 
+	gªg
+ [
+WIDTH_VAR_STATES
+-1:0] 
+bøm_dö_v¨_°©e_bp‹t
+;
+
+68 
+ªg
+ 
+	gbøm_wr_v¨_°©e_bp‹t
+;
+
+70 
+assign
+ 
+	gbøm_dout_v¨_°©e_bp‹t
+ = 
+bøm_dout_v¨_°©e
+;
+
+72 
+	gªg
+ [
+WIDTH_BIN_ADDR
+-1 : 0] 
+˛au£_bö_i_ba£_addr
+;
+
+73 
+	gwúe
+ [
+WIDTH_BIN_ADDR
+-1 : 0] 
+v¨_bö_i_ba£_addr
+;
+
+75 
+	gwúe
+ [
+WIDTH_BIN_ADDR
+-1 : 0] 
+˛au£s_bö_ba£addr
+ = 
+ªque°_bö_num_i
+*
+NUM_CLAUSES_A_BIN
+;
+
+77 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+78 
+begö
+
+
+79 if(~
+	gr°
+)
+
+80 
+	g˛au£_bö_i_ba£_addr
+ <= 0;
+
+81 if(
+	g°¨t_lﬂd_upd©e
+)
+
+82 
+	g˛au£_bö_i_ba£_addr
+ <
+˛au£s_bö_ba£addr
+;
+
+84 
+	g˛au£_bö_i_ba£_addr
+ <
+˛au£_bö_i_ba£_addr
+;
+
+85 
+íd
+
+
+86 
+assign
+ 
+	gv¨_bö_i_ba£_addr
+ = 
+˛au£_bö_i_ba£_addr
+;
+
+88 
+∑ømëî
+ 
+	gIDLE
+ = 0,
+
+89 
+	gUPDATE_FIRST
+ = 1,
+
+90 
+	gUPDATE_AND_LOAD
+ = 2,
+
+91 
+	gDONE
+ = 3;
+
+93 
+	gªg
+ [1:0] 
+c_°©e
+, 
+	gn_°©e
+;
+
+94 
+	gªg
+ [5:0] 
+v¨s_˙t
+, 
+	g˛au£s_˙t
+;
+
+96 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+97 
+begö
+
+
+98 if(
+	gr°
+)
+
+99 
+	gc_°©e
+ <= 0;
+
+101 
+	gc_°©e
+ <
+n_°©e
+;
+
+102 
+íd
+
+
+104 
+	gÆways
+ @(*)
+
+105 
+begö
+
+
+106 if(
+	gr°
+)
+
+107 
+	gn_°©e
+ = 0;
+
+109 (
+c_°©e
+)
+
+110 
+IDLE
+:
+
+111 if(
+°¨t_lﬂd_upd©e
+)
+
+112 
+n_°©e
+ = 
+UPDATE_FIRST
+;
+
+113 if(
+°¨t_lﬂd_upd©e
+ && 
+fú°_lﬂd_upd©e
+)
+
+114 
+n_°©e
+ = 
+UPDATE_AND_LOAD
+;
+
+116 
+n_°©e
+ = 
+IDLE
+;
+
+117 
+UPDATE_FIRST
+:
+
+118 if(
+v¨s_˙t
+==
+NUM_VARS_A_BIN
+ && 
+˛au£s_˙t
+==
+NUM_CLAUSES_A_BIN
+)
+
+119 
+n_°©e
+ = 
+UPDATE_AND_LOAD
+;
+
+121 
+n_°©e
+ = 
+UPDATE_AND_LOAD
+;
+
+122 
+UPDATE_AND_LOAD
+:
+
+123 if(
+v¨s_˙t
+==
+NUM_VARS_A_BIN
+ && 
+˛au£s_˙t
+==
+NUM_CLAUSES_A_BIN
+)
+
+124 
+n_°©e
+ = 
+DONE
+;
+
+126 
+n_°©e
+ = 
+UPDATE_AND_LOAD
+;
+
+127 
+DONE
+:
+
+128 
+n_°©e
+ = 
+IDLE
+;
+
+130 
+n_°©e
+ = 
+IDLE
+;
+
+131 
+ídˇ£
+
+
+132 
+íd
+
+
+133 
+wúe
+ 
+≠∂y_upd©e_fú°
+ = 
+c_°©e
+==
+UPDATE_FIRST
+;
+
+134 
+wúe
+ 
+≠∂y_upd©e_lﬂd
+ = 
+c_°©e
+==
+UPDATE_AND_LOAD
+;
+
+135 
+wúe
+ 
+d⁄e_upd©e_lﬂd
+ = 
+c_°©e
+==
+DONE
+;
+
+137 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+138 
+begö
+
+
+139 i‡(~
+r°
+)
+
+140 
+v¨s_˙t
+ <= 0;
+
+141 i‡(
+c_°©e
+==
+UPDATE_AND_LOAD
+ && 
+v¨s_˙t
+<
+NUM_VARS_A_BIN
+)
+
+142 
+v¨s_˙t
+ <= vars_cnt+1;
+
+143 i‡(
+c_°©e
+==
+UPDATE_AND_LOAD
+)
+
+144 
+v¨s_˙t
+ <= vars_cnt;
+
+146 
+v¨s_˙t
+ <= 0;
+
+147 
+íd
+
+
+149 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+150 
+begö
+
+
+151 i‡(~
+r°
+)
+
+152 
+˛au£s_˙t
+ <= 0;
+
+153 i‡(
+c_°©e
+==
+UPDATE_AND_LOAD
+ && 
+˛au£s_˙t
+<
+NUM_CLAUSES_A_BIN
+)
+
+154 
+˛au£s_˙t
+ <= clauses_cnt+1;
+
+155 i‡(
+c_°©e
+==
+UPDATE_AND_LOAD
+)
+
+156 
+˛au£s_˙t
+ <= clauses_cnt;
+
+158 
+˛au£s_˙t
+ <= 0;
+
+159 
+íd
+
+
+166 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+167 
+begö
+
+
+168 i‡(~
+r°
+)
+
+169 
+bøm_addr_v¨s_r
+ <= 0;
+
+170 i‡(
+c_°©e
+==
+UPDATE_AND_LOAD
+)
+
+171 
+bøm_addr_v¨s_r
+ <
+v¨_bö_i_ba£_addr
+ + 
+v¨s_˙t
+;
+
+173 
+bøm_addr_v¨s_r
+ <= 0;
+
+174 
+íd
+
+
+176 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+177 
+begö
+
+
+178 i‡(~
+r°
+)
+
+179 
+bøm_addr_˛au£s_r
+ <= 0;
+
+180 i‡(
+c_°©e
+==
+UPDATE_AND_LOAD
+)
+
+181 
+bøm_addr_˛au£s_r
+ <
+˛au£_bö_i_ba£_addr
+ + 
+v¨s_˙t
+;
+
+183 
+bøm_addr_˛au£s_r
+ <= 0;
+
+184 
+íd
+
+
+186 
+assign
+ 
+bøm_addr_v¨_°©e
+ <
+≠∂y_backåack
+? 
+bøm_øddr_v¨_°©e_bp‹t
+ : 
+bøm_dout_v¨_id
+;
+
+188 
+ªg
+ 
+c_vÆid_dñay
+;
+
+189 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+190 
+begö
+
+
+191 if(
+r°
+)
+
+192 
+c_vÆid_dñay
+ <= 0;
+
+193 if(
+c_°©e
+==
+UPDATE_AND_LOAD
+)
+
+194 
+c_vÆid_dñay
+ <= 1;
+
+196 
+c_vÆid_dñay
+ <= 0;
+
+197 
+íd
+
+
+199 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+200 
+begö
+
+
+201 if(
+r°
+Ë
+begö
+
+
+202 
+˛au£s_o
+ <= 0;
+
+203 
+˛au£s_vÆid_o
+ <= 0;
+
+204 
+íd
+ if(
+c_°©e
+==
+UPDATE_AND_LOAD
+Ë
+begö
+
+
+205 
+˛au£s_o
+ <
+bøm_dout_˛au£s
+;
+
+206 
+˛au£s_vÆid_o
+ <
+c_vÆid_dñay
+;
+
+207 
+íd
+ 
+begö
+
+
+208 
+˛au£s_o
+ <= 0;
+
+209 
+˛au£s_vÆid_o
+ <= 0;
+
+210 
+íd
+
+
+211 
+íd
+
+
+213 
+ªg
+ 
+wr_c_dñay
+;
+
+214 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+215 
+begö
+
+
+216 if(
+r°
+)
+
+217 
+wr_c_dñay
+ <= 0;
+
+218 if(
+c_°©e
+==
+UPDATE_AND_LOAD
+)
+
+219 
+wr_c_dñay
+ <= 1;
+
+221 
+wr_c_dñay
+ <= 0;
+
+222 
+íd
+
+
+224 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+225 
+begö
+
+
+226 if(
+r°
+)
+
+227 
+£t_lô_˚Œs_o
+ <= 0;
+
+228 if(
+wr_c_dñay
+)
+
+229 
+£t_lô_˚Œs_o
+ <{23'b0, 1'
+b1
+};
+
+231 
+	g£t_lô_˚Œs_o
+ <
+£t_lô_˚Œs_o
+<<1;
+
+232 
+íd
+
+
+234 
+	gªg
+ [1:0] 
+lﬂd_upd©e_d⁄e_r
+;
+
+235 
+assign
+ 
+	glﬂd_upd©e_d⁄e
+ = 
+lﬂd_upd©e_d⁄e_r
+[0];
+
+237 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+238 
+begö
+
+
+239 if(
+	gr°
+)
+
+240 
+	glﬂd_upd©e_d⁄e_r
+ <= 0;
+
+241 if(
+	gc_°©e
+==
+DONE
+)
+
+242 
+lﬂd_upd©e_d⁄e_r
+ <= {1'b1,Üoad_update_done_r[1]};
+
+244 
+lﬂd_upd©e_d⁄e_r
+ <= {1'b0,Üoad_update_done_r[1]};
+
+245 
+íd
+
+
+249 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+250 
+begö
+
+
+251 if(
+r°
+)
+
+252 
+gë_lô_˚Œs_o
+ <= 0;
+
+253 if(
+	gc_°©e
+ =
+UPDATE_FIRST
+)
+
+254 
+gë_lô_˚Œs_o
+ <{11'b0, 1'
+b1
+};
+
+256 
+	ggë_lô_˚Œs_o
+ <
+gë_lô_˚Œs_o
+<<1;
+
+257 
+íd
+
+
+259 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+260 
+begö
+
+
+261 if(
+	gr°
+Ë
+begö
+
+
+262 
+	gd©a_À¨¡_˛au£s_r
+ <= 0;
+
+263 
+	gaddr_À¨¡_˛au£s_r
+ <= 0;
+
+264 
+	gwr_À¨¡_˛au£s_r
+ <= 0;
+
+265 
+íd
+ if(
+	g°¨t_lﬂd_upd©e
+Ë
+begö
+
+
+266 
+	gd©a_À¨¡_˛au£s_r
+ <= 0;
+
+267 
+	gaddr_À¨¡_˛au£s_r
+ <
+˛au£s_bö_ba£addr
++
+NUM_CLAUSES_A_BIN
+/2;
+
+268 
+	gwr_À¨¡_˛au£s_r
+ <= 0;
+
+269 
+íd
+ if(
+	gÀ¨¡_˛au£s_vÆid_i
+Ë
+begö
+
+
+270 
+	gd©a_À¨¡_˛au£s_r
+ <
+À¨¡_˛au£s_i
+;
+
+271 
+	gaddr_À¨¡_˛au£s_r
+ <
+addr_À¨¡_˛au£s_r
++1;
+
+272 
+	gwr_À¨¡_˛au£s_r
+ <= 1;
+
+273 
+íd
+ 
+begö
+
+
+274 
+	gd©a_À¨¡_˛au£s_r
+ <= 0;
+
+275 
+	gaddr_À¨¡_˛au£s_r
+ <= 0;
+
+276 
+	gwr_À¨¡_˛au£s_r
+ <= 0;
+
+277 
+íd
+
+
+278 
+íd
+
+
+286 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+v¨_°©e_toßt_w
+;
+
+287 
+wúe
+ 
+	gvÆid_v¨_°©e_toßt_w
+;
+
+289 
+ªgs_vid_°©e
+Ñegs_vid_state(
+
+290 .
+˛k
+(clk),
+
+291 .
+r°
+(rst),
+
+293 .
+≠∂y_upd©e_fú°
+(apply_update_first),
+
+294 .
+≠∂y_upd©e_lﬂd
+(apply_update_load),
+
+295 .
+d⁄e_upd©e_lﬂd
+(done_update_load),
+
+297 .
+v¨_°©e_‰omßt_i
+(
+v¨_°©e_i
+),
+
+298 .
+v¨_°©e_toßt_o
+(
+v¨_°©e_toßt_w
+),
+
+299 .
+vÆid_v¨_°©e_toßt_o
+(
+vÆid_v¨_°©e_toßt_w
+),
+
+302 .
+v¨_id_‰ombøm_i
+(
+bøm_dout_v¨_id
+),
+
+303 .
+vÆid_v¨_id_‰ombøm_i
+(
+c_vÆid_dñay
+),
+
+305 .
+v¨_°©e_‰ombøm_i
+(
+bøm_dout_v¨_°©e
+),
+
+308 .
+v¨_id_upd©e_möÀvñ_o
+(var_id_update_minlevel_o),
+
+309 .
+v¨_°©e_upd©e_möÀvñ_o
+(var_state_update_minlevel_o),
+
+310 .
+vÆid_v¨_°©e_upd©e_möÀvñ_o
+(valid_var_state_update_minlevel_o)
+
+313 
+	gªg
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+v¨_°©e_toßt_r
+;
+
+315 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+316 
+begö
+
+
+317 if(
+	gr°
+)
+
+318 
+	gv¨_°©e_toßt_r
+ <= 0;
+
+320 
+	gv¨_°©e_toßt_r
+ <
+v¨_°©e_toßt_w
+;
+
+321 
+íd
+
+
+323 
+assign
+ 
+	gv¨_°©e_o
+ = {
+v¨_°©e_toßt_r
+, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r, var_state_tosat_r};
+
+325 
+	gªg
+ [
+NUM_VARS_A_BIN
+-1 : 0] 
+shi·_vÆid
+;
+
+326 
+	gªg
+ [
+NUM_VARS_A_BIN
+-1 : 0] 
+v¨_°©e_vÆid_r
+;
+
+327 
+assign
+ 
+	gv¨_°©e_vÆid_o
+ = 
+v¨_°©e_vÆid_r
+;
+
+329 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+330 
+begö
+
+
+331 if(
+	gr°
+)
+
+332 
+	gshi·_vÆid
+ <= 1;
+
+333 if(
+	gvÆid_v¨_°©e_toßt_w
+)
+
+334 
+	gshi·_vÆid
+ <
+shi·_vÆid
+<<1;
+
+335 if(
+	g≠∂y_upd©e_fú°
+ & 
+	g≠∂y_upd©e_lﬂd
+)
+
+336 
+	gshi·_vÆid
+ <
+shi·_vÆid
+;
+
+338 
+	gshi·_vÆid
+ <= 1;
+
+339 
+íd
+
+
+341 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+342 
+begö
+
+
+343 if(
+	gr°
+)
+
+344 
+	gv¨_°©e_vÆid_r
+ <= 0;
+
+345 if(
+	gvÆid_v¨_°©e_toßt_w
+)
+
+346 
+	gv¨_°©e_vÆid_r
+ <
+shi·_vÆid
+;
+
+348 
+	gv¨_°©e_vÆid_r
+ <= 0;
+
+349 
+íd
+
+
+352 
+assign
+ 
+	gaddr_upd©e_v¨_°©e_r
+ = 
+≠∂y_backåack
+? 
+bøm_waddr_v¨_°©e_bp‹t
+:
+v¨_°©e_upd©e_möÀvñ_o
+;
+
+353 
+assign
+ 
+	gd©a_upd©e_v¨_°©e_r
+ = 
+≠∂y_backåack
+? 
+bøm_dö_v¨_°©e_bp‹t
+:
+v¨_id_upd©e_möÀvñ_o
+;
+
+354 
+assign
+ 
+	gwr_upd©e_v¨s_°©e_r
+ = 
+≠∂y_backåack
+? 
+bøm_wr_v¨_°©e_bp‹t
+:
+vÆid_v¨_°©e_upd©e_möÀvñ_o
+;
+
+362 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+363 
+begö
+
+
+364 if(
+	gr°
+)
+
+365 
+	g≠∂y_backåack
+ <= 0;
+
+366 if(
+	g°¨t_backåck_i
+)
+
+367 
+	g≠∂y_backåack
+ <= 1;
+
+368 if(
+	gd⁄e_backåack
+)
+
+369 
+	g≠∂y_backåack
+ <= 0;
+
+371 
+	g≠∂y_backåack
+ <
+≠∂y_backåack
+;
+
+372 
+íd
+
+
+374 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+375 
+begö
+
+
+376 if(
+	gr°
+)
+
+377 
+	gd⁄e_backåack
+ <= 0;
+
+378 if(
+	g°¨t_backåck_i
+)
+
+379 
+	gd⁄e_backåack
+ <= 1;
+
+381 
+	gd⁄e_backåack
+ <= 0;
+
+382 
+íd
+
+
+384 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+385 
+begö
+
+
+386 if(
+	gr°
+)
+
+387 
+	gbøm_øddr_v¨_°©e_bp‹t
+ <= 0;
+
+388 if(
+	g≠∂y_backåack
+ && 
+	gbøm_øddr_v¨_°©e_bp‹t
+<100)
+
+389 
+	gbøm_øddr_v¨_°©e_bp‹t
+ <
+bøm_øddr_v¨_°©e_bp‹t
++1;
+
+390 if(
+	gd⁄e_backåack
+)
+
+391 
+	gbøm_øddr_v¨_°©e_bp‹t
+ <= 0;
+
+393 
+	gbøm_øddr_v¨_°©e_bp‹t
+ <
+±r_t›_assign_°ack
+;
+
+394 
+íd
+
+
+396 
+	gwúe
+ [2:0] 
+v¨_vÆue_b
+;
+
+397 
+	gwúe
+ [15:0] 
+v¨_Àvñ_b
+;
+
+398 
+	gwúe
+ [9:0] 
+v¨_ªas⁄_bö_b
+;
+
+399 
+wúe
+ 
+	gis_highe°_bkévl_b
+;
+
+400 
+	gassign
+ {
+	gv¨_vÆue_b
+, 
+	gv¨_Àvñ_b
+, 
+	gv¨_ªas⁄_bö_b
+, 
+	gis_highe°_bkévl_b
+} = 
+bøm_dout_v¨_°©e_bp‹t
+;
+
+402 
+wúe
+ 
+	g√ed_bkt
+ = 
+≠∂y_backåck
+ && 
+v¨_vÆue_b
+!=0 && 
+v¨_Àvñ_b
+>
+bkt_lvl_i
+;
+
+403 
+wúe
+ 
+	gis_highe°_bkévl
+ = 
+≠∂y_backåck
+ && 
+v¨_vÆue_b
+!=0 && 
+bkt_lvl_i
+==
+v¨_Àvñ_£l
+;
+
+405 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+406 
+begö
+
+
+407 if(~
+	gr°
+Ë
+begö
+
+
+408 
+	gbøm_waddr_v¨_°©e_bp‹t
+ <= 0;
+
+409 
+	gbøm_dö_v¨_°©e_bp‹t
+ <= 0;
+
+410 
+	gbøm_wr_v¨_°©e_bp‹t
+ <= 0;
+
+411 
+íd
+
+
+412 if(
+	g√ed_bkt
+Ë
+begö
+
+
+413 
+	gbøm_waddr_v¨_°©e_bp‹t
+ <
+bøm_øddr_v¨_°©e_bp‹t
+;
+
+414 
+	gbøm_dö_v¨_°©e_bp‹t
+ <= 0;
+
+415 
+	gbøm_wr_v¨_°©e_bp‹t
+ <= 1;
+
+416 
+íd
+
+
+417 if(
+	gis_highe°_bkévl
+Ë
+begö
+
+
+418 
+	gbøm_waddr_v¨_°©e_bp‹t
+ <
+bøm_øddr_v¨_°©e_bp‹t
+;
+
+419 
+	gbøm_dö_v¨_°©e_bp‹t
+ <{
+bøm_dout_v¨_°©e_bp‹t
+[29:1],1'b1};
+
+420 
+bøm_wr_v¨_°©e_bp‹t
+ <= 1;
+
+421 
+íd
+
+
+422 
+begö
+
+
+423 
+	gbøm_waddr_v¨_°©e_bp‹t
+ <= 0;
+
+424 
+	gbøm_dö_v¨_°©e_bp‹t
+ <= 0;
+
+425 
+	gbøm_wr_v¨_°©e_bp‹t
+ <= 0;
+
+426 
+íd
+
+
+427 
+íd
+
+
+429 
+bøm_w30_d1024
+ 
+bøm_globÆ_v¨_°©e_ö°
+(
+
+430 .
+˛ka
+(
+˛k
+),
+
+431 .
+wó
+(),
+
+432 .
+addø
+(
+bøm_addr_v¨_°©e
+),
+
+433 .
+döa
+(),
+
+434 .
+douè
+(
+bøm_dout_v¨_°©e
+),
+
+435 .
+˛kb
+(
+˛k
+),
+
+436 .
+web
+(
+wr_upd©e_v¨s_°©e_r
+),
+
+437 .
+addrb
+(
+addr_upd©e_v¨_°©e_r
+),
+
+438 .
+döb
+(
+d©a_upd©e_v¨_°©e_r
+),
+
+439 .
+dout
+()
+
+442 
+bøm_w12_d1024
+ 
+bøm_v¨s_bös_ö°
+(
+
+443 .
+˛ka
+(
+˛k
+),
+
+444 .
+wó
+(),
+
+445 .
+addø
+(
+bøm_addr_v¨s_r
+),
+
+446 .
+döa
+(),
+
+447 .
+douè
+(
+bøm_dout_v¨_°©e
+),
+
+448 .
+˛kb
+(
+˛k
+),
+
+449 .
+web
+(),
+
+450 .
+addrb
+(),
+
+451 .
+döb
+(),
+
+452 .
+dout
+()
+
+455 
+bøm_w48_d1024
+ 
+bøm_˛au£s_bös_ö°
+(
+
+456 .
+˛ka
+(
+˛k
+),
+
+457 .
+wó
+(),
+
+458 .
+addø
+(
+bøm_addr_˛au£s_r
+),
+
+459 .
+döa
+(),
+
+460 .
+douè
+(
+bøm_dout_˛au£s
+),
+
+461 .
+˛kb
+(
+˛k
+),
+
+462 .
+web
+(
+wr_À¨¡_˛au£s_r
+),
+
+463 .
+addrb
+(
+addr_À¨¡_˛au£s_r
+),
+
+464 .
+döb
+(
+d©a_À¨¡_˛au£s_r
+),
+
+465 .
+dout
+()
+
+468 
+	gídmoduÀ
+
+
+	@max_in_datas.v
+
+5 
+moduÀ
+ 
+	gmax_ö_8_d©as
+ #(
+
+6 
+∑ømëî
+ 
+	gNUM
+ = 8,
+
+7 
+∑ømëî
+ 
+	gWIDTH
+ = 5
+
+10 
+öput
+ [
+NUM
+*
+WIDTH
+-1 : 0] 
+d©a_i
+,
+
+11 
+	gouçut
+ [
+WIDTH
+-1 : 0] 
+d©a_o
+,
+
+12 
+	gouçut
+ [
+NUM
+-1 : 0] 
+ödex_o
+
+
+14 
+∑ømëî
+ 
+	gNUM_SUB
+ = 
+NUM
+/2;
+
+16 
+	gwúe
+ [
+NUM_SUB
+*
+WIDTH
+-1 : 0] 
+d©a_i_0
+, 
+	gd©a_i_1
+;
+
+17 
+	gassign
+ {
+	gd©a_i_1
+, 
+	gd©a_i_0
+} = 
+d©a_i
+;
+
+19 
+	gwúe
+ [
+WIDTH
+-1 : 0] 
+d©a_o_0
+, 
+	gd©a_o_1
+;
+
+20 
+assign
+ 
+	gd©a_o
+ = 
+d©a_o_0
+ >
+d©a_o_1
+ ? data_o_0 : data_o_1;
+
+22 
+	gwúe
+ [
+NUM
+/2-1 : 0] 
+ödex_o_0
+, 
+	gödex_o_1
+;
+
+23 
+assign
+ 
+	gödex_o
+ = 
+d©a_o_0
+ >
+d©a_o_1
+ ? {4'd0, index_o_0} : {ödex_o_1, 4'
+d0
+};
+
+25 
+	gmax_ö_4_d©as
+ #(
+
+26 .
+	$WIDTH
+(
+WIDTH
+)
+
+28 
+	`max_ö_4_d©as_ö°0
+ (
+
+29 .
+	`d©a_i
+(
+d©a_i_0
+),
+
+30 .
+	`d©a_o
+(
+d©a_o_0
+),
+
+31 .
+	`ödex_o
+(
+ödex_o_0
+)
+
+34 
+max_ö_4_d©as
+ #(
+
+35 .
+	$WIDTH
+(
+WIDTH
+)
+
+37 
+	`max_ö_4_d©as_ö°1
+ (
+
+38 .
+	`d©a_i
+(
+d©a_i_1
+),
+
+39 .
+	`d©a_o
+(
+d©a_o_1
+),
+
+40 .
+	`ödex_o
+(
+ödex_o_1
+)
+
+43 
+ídmoduÀ
+
+
+45 
+moduÀ
+ 
+max_ö_4_d©as
+ #(
+
+46 
+∑ømëî
+ 
+NUM
+ = 4,
+
+47 
+∑ømëî
+ 
+WIDTH
+ = 5
+
+50 
+öput
+ [
+NUM
+*
+WIDTH
+-1 : 0] 
+d©a_i
+,
+
+51 
+ouçut
+ [
+WIDTH
+-1 : 0] 
+d©a_o
+,
+
+52 
+ouçut
+ [
+NUM
+-1 : 0] 
+ödex_o
+
+
+54 
+∑ømëî
+ 
+NUM_SUB
+ = 
+NUM
+/2;
+
+56 
+wúe
+ [
+NUM_SUB
+*
+WIDTH
+-1 : 0] 
+d©a_i_0
+, 
+d©a_i_1
+;
+
+57 
+assign
+ {
+d©a_i_1
+, 
+d©a_i_0
+} = d©a_i;
+
+59 
+	gwúe
+ [
+WIDTH
+-1 : 0] 
+d©a_o_0
+, 
+	gd©a_o_1
+;
+
+60 
+assign
+ 
+	gd©a_o
+ = 
+d©a_o_0
+ >
+d©a_o_1
+ ? data_o_0 : data_o_1;
+
+63 
+	gwúe
+ [
+NUM
+/2-1 : 0] 
+ödex_o_0
+, 
+	gödex_o_1
+;
+
+64 
+assign
+ 
+	gödex_o
+ = 
+d©a_o_0
+ >
+d©a_o_1
+ ? {2'd0, index_o_0} : {ödex_o_1, 2'
+d0
+};
+
+66 
+	gmax_ö_2_d©as
+ #(
+
+67 .
+	$WIDTH
+(
+WIDTH
+)
+
+69 
+	`max_ö_2_d©as_ö°0
+ (
+
+70 .
+	`d©a_i
+(
+d©a_i_0
+),
+
+71 .
+	`d©a_o
+(
+d©a_o_0
+),
+
+72 .
+	`ödex_o
+(
+ödex_o_0
+)
+
+75 
+max_ö_2_d©as
+ #(
+
+76 .
+	$WIDTH
+(
+WIDTH
+)
+
+78 
+	`max_ö_2_d©as_ö°1
+ (
+
+79 .
+	`d©a_i
+(
+d©a_i_1
+),
+
+80 .
+	`d©a_o
+(
+d©a_o_1
+),
+
+81 .
+	`ödex_o
+(
+ödex_o_1
+)
+
+84 
+ídmoduÀ
+
+
+87 
+moduÀ
+ 
+max_ö_2_d©as
+ #(
+
+88 
+∑ømëî
+ 
+NUM
+ = 2,
+
+89 
+∑ømëî
+ 
+WIDTH
+ = 5
+
+92 
+öput
+ [
+NUM
+*
+WIDTH
+-1 : 0] 
+d©a_i
+,
+
+93 
+ouçut
+ [
+WIDTH
+-1 : 0] 
+d©a_o
+,
+
+94 
+ouçut
+ [
+NUM
+-1 : 0] 
+ödex_o
+
+
+96 
+∑ømëî
+ 
+NUM_SUB
+ = 
+NUM
+;
+
+98 
+wúe
+ [
+NUM_SUB
+*
+WIDTH
+/2-1 : 0] 
+d©a_i_0
+, 
+d©a_i_1
+;
+
+99 
+assign
+ {
+d©a_i_1
+, 
+d©a_i_0
+} = d©a_i;
+
+101 
+assign
+ 
+	gd©a_o
+ = 
+d©a_i_0
+ >
+d©a_i_1
+ ? data_i_0 : data_i_1;
+
+102 
+assign
+ 
+	gödex_o
+ = 
+d©a_i_0
+ >
+d©a_i_1
+ ? 2'b01 : 2'
+b10
+;
+
+104 
+	gídmoduÀ
+
+
+	@print.py
+
+3 
+def
+ 
+	$gí_wúe_°©
+(
+width
+, 
+wúíame
+):
+
+4 
+°r1
+ = 
+width
+ + 
+wúíame
+ + '0'
+
+5 
+i
+ 
+ö
+ 
+	$xønge
+(1, 24):
+
+6 
+°r1
+ +', ' + 
+wúíame
+ + 
+	$°r
+(
+i
+)
+
+7 
+¥öt
+ 
+°r1
+ + ';'
+
+10 
+def
+ 
+	$gí_˛au£
+():
+
+11 
+	`gí_wúe_°©
+('wire [2:0] ', 'var_value_frombase_')
+
+12 
+	`gí_wúe_°©
+('wire [2:0] ', 'var_value_tobase_')
+
+13 
+	`gí_wúe_°©
+('wire [1:0] ', 'freelitcnt_')
+
+14 
+	`gí_wúe_°©
+('wire [1:0] ', 'imp_drv_')
+
+15 
+	`gí_wúe_°©
+('wire [1:0] ', 'cclause_')
+
+16 
+	`gí_wúe_°©
+('wire [1:0] ', 'cclause_drv_')
+
+17 
+	`gí_wúe_°©
+('wire [1:0] ', 'clausesat_')
+
+19 
+i
+ 
+ö
+ 
+	$xønge
+(24):
+
+20 
+¥öt
+ """
+
+21 
+lô_˚Œ
+ 
+lô_˚Œ_
+%
+d
+
+
+23 .
+	`˛k
+(
+˛k
+),
+
+24 .
+	`r°
+(
+r°
+),
+
+26 .
+	`wr_i
+(
+wr_i
+),
+
+27 .
+	`v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£_
+%
+d
+),
+
+28 .
+	`v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_
+%
+d
+),
+
+30 .
+	`‰ìlô˙t_¥e
+(
+‰ìlô˙t_
+%
+d
+),
+
+31 .
+	`‰ìlô˙t_√xt
+(
+‰ìlô˙t_
+%
+d
+),
+
+33 .
+	`imp_drv_i
+(
+imp_drv_
+%
+d
+),
+
+35 .
+	`c˛au£_o
+(
+c˛au£_
+%
+d
+),
+
+36 .
+	`c˛au£_drv_i
+(
+c˛au£_drv_
+%
+d
+),
+
+38 .
+	`˛au£ßt_o
+(
+˛au£ßt_
+%
+d
+)
+
+41 #f‹ 
+i
+ 
+ö
+ 
+	`xønge
+(24):
+
+42 #¥öà"assig¿lock_˙t%d =Üock_˙t%d!=2'b00?2'b11:(v¨s_vÆue_‰omba£_i[3*%d+2:3*%d+1]==00? 2'b01:2'b00);"%(
+i
+,i-1,i,i)
+
+43 #¥öà"v¨s_£À˘ed_toba£_o[%d] <lock_˙t%d!=2'b01;"%(
+i
+,i)
+
+46 
+def
+ 
+	$gí_˛au£_¨øy
+():
+
+47 
+	`gí_wúe_°©
+('wire ', 'wr_')
+
+48 
+	`gí_wúe_°©
+('wire [3*NUM_VARS_A_BIN-1:0] ', 'var_value_tobase_')
+
+50 
+i
+ 
+ö
+ 
+	$xønge
+(24):
+
+51 
+¥öt
+ """
+
+52 
+˛au£
+ cœu£%
+d
+ #(
+
+53 .
+	`NUM_VARS_A_BIN
+(
+NUM_VARS_A_BIN
+)
+
+55 .
+	`˛k
+(
+˛k
+),
+
+56 .
+	`r°
+(
+r°
+),
+
+57 .
+	`wr_i
+(
+wr_
+%
+d
+),
+
+58 .
+	`v¨_vÆue_‰omba£_i
+(
+v¨_vÆue_‰omba£
+),
+
+59 .
+	`v¨_vÆue_toba£_o
+(
+v¨_vÆue_toba£_
+%
+d
+)
+
+63 
+def
+ 
+	$gí_ba£
+():
+
+64 
+	`gí_wúe_°©
+('\twire [2:0] ', 'var_value_i_')
+
+65 
+	`gí_wúe_°©
+('\twire [2:0] ', 'var_value_o_')
+
+66 
+	`gí_wúe_°©
+('\twire ', 'vars_decided_tobase_i_')
+
+67 
+	`gí_wúe_°©
+('\twire ', 'decide_level_i_')
+
+68 
+	`gí_wúe_°©
+('\twire ', 'find_conflict_o_')
+
+69 
+	`gí_wúe_°©
+('\twire ', 'find_imply_o_')
+
+70 
+	`gí_wúe_°©
+('\twire [1:0] ', 'load_clauses_i_')
+
+71 
+	`gí_wúe_°©
+('\twire [1:0] ', 'update_clause_o_')
+
+72 
+	`gí_wúe_°©
+('\twire [NUM_VARS_A_BIN-1:0] ', 'var_level_o_')
+
+73 
+	`gí_wúe_°©
+('\twire ', 'is_independent_bin_')
+
+74 
+	`gí_wúe_°©
+('\twire ', 'wr_states_')
+
+75 
+	`gí_wúe_°©
+('\twire [WIDTH_VAR_STATES-1:0] ', 'vars_states_i_')
+
+76 
+	`gí_wúe_°©
+('\twire [WIDTH_VAR_STATES-1:0] ', 'vars_states_o_')
+
+77 
+	`gí_wúe_°©
+('\twire [9:0] ', 'bkt_bin_num_o_')
+
+79 
+i
+ 
+ö
+ 
+	$xønge
+(24):
+
+80 
+¥öt
+ """
+
+81 
+ba£_˚Œ
+ ba£_˚Œ%
+d
+ #(
+
+82 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+83 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+86 .
+	`˛k
+(
+˛k
+),
+
+87 .
+	`r°
+(
+r°
+),
+
+88 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_
+%
+d
+),
+
+89 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_
+%
+d
+),
+
+90 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_
+%
+d
+),
+
+91 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_
+%
+d
+),
+
+92 .
+	`cur_bö_num_i
+(
+cur_bö_num_i
+)
+
+93 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_
+%
+d
+),
+
+94 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_
+%
+d
+),
+
+95 .
+	`is_ödïídít_bö_o
+(
+is_ödïídít_bö_
+%
+d
+)
+
+96 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+97 .
+	`bkt_lvl_i
+(
+bkt_lvl
+),
+
+98 .
+	`bkt_bö_num_o
+(
+bkt_bö_num_o_
+%
+d
+),
+
+99 .
+	`≠∂y_backåack_i
+(
+≠∂y_backåack_r
+),
+
+100 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+101 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_i_
+%
+d
+),
+
+102 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+103 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_
+%
+d
+),
+
+104 .
+	`wr_°©es
+(
+wr_°©es_
+%
+d
+),
+
+105 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_i_
+%
+d
+),
+
+106 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_o_
+%
+d
+),
+
+107 .
+	`v¨_Àvñ_o
+(
+v¨_Àvñ_o_
+%
+d
+)
+
+111 
+def
+ 
+	$gí_ªgs_vid_°©e
+():
+
+112 #f‹ 
+i
+ 
+ö
+ 
+	`xønge
+(24):
+
+113 #¥öà'assig¿{vÆue_%d,Üevñ_%d,Ñós⁄_bö_%d, isbkévl_%d} = v¨_°©e_%d;'%(
+i
+,i,i,i,i)
+
+114 #f‹ 
+i
+ 
+ö
+ 
+	`xønge
+(24):
+
+115 #¥öà"wúêÀvñ_0_%d =Çìd_upd©e[%d]?Üevñ_%d | ~16'b0;;"%(
+i
+,i,i)
+
+116 #f‹ 
+i
+ 
+ö
+ 
+	`xønge
+(24):
+
+117 #¥öà"assig¿±r_upd©e[%d] = ~±r_upd©e[%d] &&Çìd_upd©ê&& mö_Àvñ=ˆevñ_%d;"%(
+i
+,i-1,i)
+
+118 #f‹ 
+i
+ 
+ö
+ 
+	`xønge
+(24):
+
+119 #¥öà"assig¿√ed_shi·[%d] =Öå_upd©e[%d] |Çìd_shi·[%d];"%(
+i
+,i,i)
+
+120 #f‹ 
+i
+ 
+ö
+ 
+	`xønge
+(24):
+
+122 #√ed_upd©e[%
+d
+]:
+√ed_upd©e
+[%d];"%(i,i,i+1,i)
+
+123 
+i
+ 
+ö
+ 
+	$xønge
+(24):
+
+124 
+¥öt
+ "vÆid_v¨_id_‰ombøm_i==v¨_id_upd©e_%d | " % (
+i
+)
+
+130 #f‹ 
+i
+ 
+ö
+ 
+	`xønge
+(12): 
+¥öt
+ 'wire [WIDTH_VAR_STATES-1 : 0] max_lvl_%d =
+
+131 #v¨_Àvñ_o_%
+d
+>
+v¨_Àvñ_o_
+%d? var_level_o_%d:var_level_o_%d;'%(i+1,
+
+132 #2*
+i
++1, 2*i, 2*i+1, 2*i)
+
+134 
+	`gí_ªgs_vid_°©e
+()
+
+	@regs_vid_state.v
+
+4 
+moduÀ
+ 
+ªgs_vid_°©e
+(
+
+5 
+öput
+ 
+˛k
+,
+
+6 
+öput
+ 
+r°
+,
+
+8 
+öput
+ 
+≠∂y_upd©e_fú°
+,
+
+9 
+öput
+ 
+≠∂y_upd©e_lﬂd
+,
+
+10 
+öput
+ 
+d⁄e_upd©e_lﬂd
+,
+
+12 
+öput
+ [30*24-1:0] 
+v¨_°©e_‰omßt_i
+,
+
+13 
+ouçut
+ 
+ªg
+ [29:0] 
+v¨_°©e_toßt_o
+,
+
+14 
+ouçut
+ 
+ªg
+ 
+vÆid_v¨_°©e_toßt_o
+,
+
+17 
+öput
+ [11:0] 
+v¨_id_‰ombøm_i
+,
+
+18 
+öput
+ 
+vÆid_v¨_id_‰ombøm_i
+,
+
+20 
+öput
+ [29:0] 
+v¨_°©e_‰ombøm_i
+,
+
+23 
+ouçut
+ 
+ªg
+ [11:0] 
+v¨_id_upd©e_möÀvñ_o
+,
+
+24 
+ouçut
+ 
+ªg
+ [29:0] 
+v¨_°©e_upd©e_möÀvñ_o
+,
+
+25 
+ouçut
+ 
+ªg
+ 
+vÆid_v¨_°©e_upd©e_möÀvñ_o
+,
+
+28 
+öput
+ 
+≠∂y_backåck
+,
+
+29 
+öput
+ [9:0] 
+bkt_lvl_i
+
+
+32 
+	gªg
+ [12*24-1:0] 
+v¨_id_lﬂd_r
+;
+
+33 
+	gªg
+ [12*24-1:0] 
+v¨_id_upd©e_r
+;
+
+34 
+	gªg
+ [30*24-1:0] 
+v¨_°©e_upd©e_r
+;
+
+36 
+	gwúe
+ [11:0] 
+v¨_id_lﬂd_0
+, 
+	gv¨_id_lﬂd_1
+, 
+	gv¨_id_lﬂd_2
+, 
+	gv¨_id_lﬂd_3
+, 
+	gv¨_id_lﬂd_4
+, 
+	gv¨_id_lﬂd_5
+, 
+	gv¨_id_lﬂd_6
+, 
+	gv¨_id_lﬂd_7
+, 
+	gv¨_id_lﬂd_8
+, 
+	gv¨_id_lﬂd_9
+, 
+	gv¨_id_lﬂd_10
+, 
+	gv¨_id_lﬂd_11
+, 
+	gv¨_id_lﬂd_12
+, 
+	gv¨_id_lﬂd_13
+, 
+	gv¨_id_lﬂd_14
+, 
+	gv¨_id_lﬂd_15
+, 
+	gv¨_id_lﬂd_16
+, 
+	gv¨_id_lﬂd_17
+, 
+	gv¨_id_lﬂd_18
+, 
+	gv¨_id_lﬂd_19
+, 
+	gv¨_id_lﬂd_20
+, 
+	gv¨_id_lﬂd_21
+, 
+	gv¨_id_lﬂd_22
+, 
+	gv¨_id_lﬂd_23
+;
+
+38 
+	gassign
+ {
+	gv¨_id_lﬂd_0
+, 
+	gv¨_id_lﬂd_1
+, 
+	gv¨_id_lﬂd_2
+, 
+	gv¨_id_lﬂd_3
+, 
+	gv¨_id_lﬂd_4
+, 
+	gv¨_id_lﬂd_5
+, 
+	gv¨_id_lﬂd_6
+, 
+	gv¨_id_lﬂd_7
+, 
+	gv¨_id_lﬂd_8
+, 
+	gv¨_id_lﬂd_9
+, 
+	gv¨_id_lﬂd_10
+, 
+	gv¨_id_lﬂd_11
+, 
+	gv¨_id_lﬂd_12
+, 
+	gv¨_id_lﬂd_13
+, 
+	gv¨_id_lﬂd_14
+, 
+	gv¨_id_lﬂd_15
+, 
+	gv¨_id_lﬂd_16
+, 
+	gv¨_id_lﬂd_17
+, 
+	gv¨_id_lﬂd_18
+, 
+	gv¨_id_lﬂd_19
+, 
+	gv¨_id_lﬂd_20
+, 
+	gv¨_id_lﬂd_21
+, 
+	gv¨_id_lﬂd_22
+, 
+	gv¨_id_lﬂd_23
+} = 
+v¨_id_lﬂd_r
+;
+
+40 
+	gwúe
+ [11:0] 
+v¨_id_lﬂd_w_0
+, 
+	gv¨_id_lﬂd_w_1
+, 
+	gv¨_id_lﬂd_w_2
+, 
+	gv¨_id_lﬂd_w_3
+, 
+	gv¨_id_lﬂd_w_4
+, 
+	gv¨_id_lﬂd_w_5
+, 
+	gv¨_id_lﬂd_w_6
+, 
+	gv¨_id_lﬂd_w_7
+, 
+	gv¨_id_lﬂd_w_8
+, 
+	gv¨_id_lﬂd_w_9
+, 
+	gv¨_id_lﬂd_w_10
+, 
+	gv¨_id_lﬂd_w_11
+, 
+	gv¨_id_lﬂd_w_12
+, 
+	gv¨_id_lﬂd_w_13
+, 
+	gv¨_id_lﬂd_w_14
+, 
+	gv¨_id_lﬂd_w_15
+, 
+	gv¨_id_lﬂd_w_16
+, 
+	gv¨_id_lﬂd_w_17
+, 
+	gv¨_id_lﬂd_w_18
+, 
+	gv¨_id_lﬂd_w_19
+, 
+	gv¨_id_lﬂd_w_20
+, 
+	gv¨_id_lﬂd_w_21
+, 
+	gv¨_id_lﬂd_w_22
+, 
+	gv¨_id_lﬂd_w_23
+;
+
+42 
+assign
+ 
+	gv¨_id_lﬂd_w_Æl
+ = {
+v¨_id_lﬂd_w_0
+, 
+v¨_id_lﬂd_w_1
+, 
+v¨_id_lﬂd_w_2
+, 
+v¨_id_lﬂd_w_3
+, 
+v¨_id_lﬂd_w_4
+, 
+v¨_id_lﬂd_w_5
+, 
+v¨_id_lﬂd_w_6
+, 
+v¨_id_lﬂd_w_7
+, 
+v¨_id_lﬂd_w_8
+, 
+v¨_id_lﬂd_w_9
+, 
+v¨_id_lﬂd_w_10
+, 
+v¨_id_lﬂd_w_11
+, 
+v¨_id_lﬂd_w_12
+, 
+v¨_id_lﬂd_w_13
+, 
+v¨_id_lﬂd_w_14
+, 
+v¨_id_lﬂd_w_15
+, 
+v¨_id_lﬂd_w_16
+, 
+v¨_id_lﬂd_w_17
+, 
+v¨_id_lﬂd_w_18
+, 
+v¨_id_lﬂd_w_19
+, 
+v¨_id_lﬂd_w_20
+, 
+v¨_id_lﬂd_w_21
+, 
+v¨_id_lﬂd_w_22
+, 
+v¨_id_lﬂd_w_23
+};
+
+44 
+	gwúe
+ [29:0] 
+v¨_id_upd©e_0
+, 
+	gv¨_id_upd©e_1
+, 
+	gv¨_id_upd©e_2
+, 
+	gv¨_id_upd©e_3
+, 
+	gv¨_id_upd©e_4
+, 
+	gv¨_id_upd©e_5
+, 
+	gv¨_id_upd©e_6
+, 
+	gv¨_id_upd©e_7
+, 
+	gv¨_id_upd©e_8
+, 
+	gv¨_id_upd©e_9
+, 
+	gv¨_id_upd©e_10
+, 
+	gv¨_id_upd©e_11
+, 
+	gv¨_id_upd©e_12
+, 
+	gv¨_id_upd©e_13
+, 
+	gv¨_id_upd©e_14
+, 
+	gv¨_id_upd©e_15
+, 
+	gv¨_id_upd©e_16
+, 
+	gv¨_id_upd©e_17
+, 
+	gv¨_id_upd©e_18
+, 
+	gv¨_id_upd©e_19
+, 
+	gv¨_id_upd©e_20
+, 
+	gv¨_id_upd©e_21
+, 
+	gv¨_id_upd©e_22
+, 
+	gv¨_id_upd©e_23
+;
+
+46 
+	gassign
+ {
+	gv¨_id_upd©e_0
+, 
+	gv¨_id_upd©e_1
+, 
+	gv¨_id_upd©e_2
+, 
+	gv¨_id_upd©e_3
+, 
+	gv¨_id_upd©e_4
+, 
+	gv¨_id_upd©e_5
+, 
+	gv¨_id_upd©e_6
+, 
+	gv¨_id_upd©e_7
+, 
+	gv¨_id_upd©e_8
+, 
+	gv¨_id_upd©e_9
+, 
+	gv¨_id_upd©e_10
+, 
+	gv¨_id_upd©e_11
+, 
+	gv¨_id_upd©e_12
+, 
+	gv¨_id_upd©e_13
+, 
+	gv¨_id_upd©e_14
+, 
+	gv¨_id_upd©e_15
+, 
+	gv¨_id_upd©e_16
+, 
+	gv¨_id_upd©e_17
+, 
+	gv¨_id_upd©e_18
+, 
+	gv¨_id_upd©e_19
+, 
+	gv¨_id_upd©e_20
+, 
+	gv¨_id_upd©e_21
+, 
+	gv¨_id_upd©e_22
+, 
+	gv¨_id_upd©e_23
+} = 
+v¨_id_upd©e_r
+;
+
+49 
+	gwúe
+ [29:0] 
+v¨_°©e_upd©e_0
+, 
+	gv¨_°©e_upd©e_1
+, 
+	gv¨_°©e_upd©e_2
+, 
+	gv¨_°©e_upd©e_3
+, 
+	gv¨_°©e_upd©e_4
+, 
+	gv¨_°©e_upd©e_5
+, 
+	gv¨_°©e_upd©e_6
+, 
+	gv¨_°©e_upd©e_7
+, 
+	gv¨_°©e_upd©e_8
+, 
+	gv¨_°©e_upd©e_9
+, 
+	gv¨_°©e_upd©e_10
+, 
+	gv¨_°©e_upd©e_11
+, 
+	gv¨_°©e_upd©e_12
+, 
+	gv¨_°©e_upd©e_13
+, 
+	gv¨_°©e_upd©e_14
+, 
+	gv¨_°©e_upd©e_15
+, 
+	gv¨_°©e_upd©e_16
+, 
+	gv¨_°©e_upd©e_17
+, 
+	gv¨_°©e_upd©e_18
+, 
+	gv¨_°©e_upd©e_19
+, 
+	gv¨_°©e_upd©e_20
+, 
+	gv¨_°©e_upd©e_21
+, 
+	gv¨_°©e_upd©e_22
+, 
+	gv¨_°©e_upd©e_23
+;
+
+51 
+	gassign
+ {
+	gv¨_°©e_upd©e_0
+, 
+	gv¨_°©e_upd©e_1
+, 
+	gv¨_°©e_upd©e_2
+, 
+	gv¨_°©e_upd©e_3
+, 
+	gv¨_°©e_upd©e_4
+, 
+	gv¨_°©e_upd©e_5
+, 
+	gv¨_°©e_upd©e_6
+, 
+	gv¨_°©e_upd©e_7
+, 
+	gv¨_°©e_upd©e_8
+, 
+	gv¨_°©e_upd©e_9
+, 
+	gv¨_°©e_upd©e_10
+, 
+	gv¨_°©e_upd©e_11
+, 
+	gv¨_°©e_upd©e_12
+, 
+	gv¨_°©e_upd©e_13
+, 
+	gv¨_°©e_upd©e_14
+, 
+	gv¨_°©e_upd©e_15
+, 
+	gv¨_°©e_upd©e_16
+, 
+	gv¨_°©e_upd©e_17
+, 
+	gv¨_°©e_upd©e_18
+, 
+	gv¨_°©e_upd©e_19
+, 
+	gv¨_°©e_upd©e_20
+, 
+	gv¨_°©e_upd©e_21
+, 
+	gv¨_°©e_upd©e_22
+, 
+	gv¨_°©e_upd©e_23
+} = 
+v¨_°©e_upd©e_r
+;
+
+59 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_0
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_0
+? 
+v¨_°©e_upd©e_0
+:0;
+
+60 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_1
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_1
+? 
+v¨_°©e_upd©e_1
+:0;
+
+61 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_2
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_2
+? 
+v¨_°©e_upd©e_2
+:0;
+
+62 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_3
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_3
+? 
+v¨_°©e_upd©e_3
+:0;
+
+63 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_4
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_4
+? 
+v¨_°©e_upd©e_4
+:0;
+
+64 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_5
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_5
+? 
+v¨_°©e_upd©e_5
+:0;
+
+65 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_6
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_6
+? 
+v¨_°©e_upd©e_6
+:0;
+
+66 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_7
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_7
+? 
+v¨_°©e_upd©e_7
+:0;
+
+67 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_8
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_8
+? 
+v¨_°©e_upd©e_8
+:0;
+
+68 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_9
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_9
+? 
+v¨_°©e_upd©e_9
+:0;
+
+69 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_10
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_10
+? 
+v¨_°©e_upd©e_10
+:0;
+
+70 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_11
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_11
+? 
+v¨_°©e_upd©e_11
+:0;
+
+71 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_12
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_12
+? 
+v¨_°©e_upd©e_12
+:0;
+
+72 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_13
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_13
+? 
+v¨_°©e_upd©e_13
+:0;
+
+73 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_14
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_14
+? 
+v¨_°©e_upd©e_14
+:0;
+
+74 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_15
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_15
+? 
+v¨_°©e_upd©e_15
+:0;
+
+75 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_16
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_16
+? 
+v¨_°©e_upd©e_16
+:0;
+
+76 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_17
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_17
+? 
+v¨_°©e_upd©e_17
+:0;
+
+77 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_18
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_18
+? 
+v¨_°©e_upd©e_18
+:0;
+
+78 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_19
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_19
+? 
+v¨_°©e_upd©e_19
+:0;
+
+79 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_20
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_20
+? 
+v¨_°©e_upd©e_20
+:0;
+
+80 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_21
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_21
+? 
+v¨_°©e_upd©e_21
+:0;
+
+81 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_22
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_22
+? 
+v¨_°©e_upd©e_22
+:0;
+
+82 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_23
+ = 
+vÆid_v¨_id_‰ombøm_i
+==
+v¨_id_upd©e_23
+? 
+v¨_°©e_upd©e_23
+:0;
+
+83 
+	gwúe
+ [11:0] 
+v¨_°©e_rdhîe_‹
+ = 
+v¨_°©e_upd©e_0
+ | 
+v¨_°©e_upd©e_1
+ | 
+v¨_°©e_upd©e_2
+ | 
+v¨_°©e_upd©e_3
+ | 
+v¨_°©e_upd©e_4
+ | 
+v¨_°©e_upd©e_5
+ | 
+v¨_°©e_upd©e_6
+ | 
+v¨_°©e_upd©e_7
+ | 
+v¨_°©e_upd©e_8
+ | 
+v¨_°©e_upd©e_9
+ | 
+v¨_°©e_upd©e_10
+ | 
+v¨_°©e_upd©e_11
+ | 
+v¨_°©e_upd©e_12
+ | 
+v¨_°©e_upd©e_13
+ | 
+v¨_°©e_upd©e_14
+ | 
+v¨_°©e_upd©e_15
+ | 
+v¨_°©e_upd©e_16
+ | 
+v¨_°©e_upd©e_17
+ | 
+v¨_°©e_upd©e_18
+ | 
+v¨_°©e_upd©e_19
+ | 
+v¨_°©e_upd©e_20
+ | 
+v¨_°©e_upd©e_21
+ | 
+v¨_°©e_upd©e_22
+ | 
+v¨_°©e_upd©e_23
+;
+
+84 
+ªg
+ 
+	gv¨_°©e_rdhîe_‹_r
+;
+
+85 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+86 
+begö
+
+
+87 if(~
+	gr°
+)
+
+88 
+	gv¨_°©e_rdhîe_‹_r
+ <= 0;
+
+90 
+	gv¨_°©e_rdhîe_‹_r
+ <
+v¨_°©e_rdhîe_‹
+;
+
+91 
+íd
+
+
+92 
+wúe
+ 
+	grdhîe_vÆid
+ = 
+vÆid_v¨_id_‰ombøm_i
+=
+v¨_id_upd©e_0
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_1
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_2
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_3
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_4
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_5
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_6
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_7
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_8
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_9
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_10
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_11
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_12
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_13
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_14
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_15
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_16
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_17
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_18
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_19
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_20
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_21
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_22
+ | vÆid_v¨_id_‰ombøm_i==
+v¨_id_upd©e_23
+;
+
+93 
+ªg
+ 
+	grdhîe_vÆid_r
+;
+
+94 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+95 
+begö
+
+
+96 if(~
+	gr°
+)
+
+97 
+	grdhîe_vÆid_r
+ <= 0;
+
+99 
+	grdhîe_vÆid_r
+ <
+rdhîe_vÆid
+;
+
+100 
+íd
+
+
+103 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+104 
+begö
+
+
+105 if(~
+	gr°
+)
+
+106 
+	gv¨_id_lﬂd_r
+ <= 0;
+
+107 if(
+	gvÆid_v¨_id_‰ombøm_i
+)
+
+108 
+	gv¨_id_lﬂd_r
+ <{
+v¨_id_lﬂd_w_Æl
+[30*23-1:0], 
+v¨_id_‰ombøm_i
+};
+
+110 
+	gv¨_id_lﬂd_r
+ <
+v¨_id_lﬂd_r
+;
+
+111 
+íd
+
+
+113 
+ªg
+ 
+	gvÆid_v¨_°©e_lﬂd_r
+;
+
+115 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+116 
+begö
+
+
+117 if(~
+	gr°
+)
+
+118 
+	gvÆid_v¨_°©e_lﬂd_r
+ <= 0;
+
+119 if(
+	gvÆid_v¨_id_‰ombøm_i
+)
+
+120 
+	gvÆid_v¨_°©e_lﬂd_r
+ <= 1;
+
+122 
+	gvÆid_v¨_°©e_lﬂd_r
+ <= 0;
+
+123 
+íd
+
+
+125 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+126 
+begö
+
+
+127 if(~
+	gr°
+)
+
+128 
+	gv¨_id_lﬂd_r
+ <= 0;
+
+129 if(
+	gvÆid_v¨_id_‰ombøm_i
+)
+
+130 
+	gv¨_id_lﬂd_r
+ <{
+v¨_id_lﬂd_w_Æl
+[12*23-1:0], 
+v¨_id_‰ombøm_i
+};
+
+132 
+	gv¨_id_lﬂd_r
+ <
+v¨_id_lﬂd_r
+;
+
+133 
+íd
+
+
+135 
+	gwúe
+ [29:0] 
+£À˘_hîe_‹nŸ
+ = 
+rdhîe_vÆid_r
+? 
+v¨_°©e_rdhîe_‹_r
+: 
+v¨_°©e_‰ombøm_i
+;
+
+136 
+	gwúe
+ [2:0] 
+v¨_vÆue_£l
+;
+
+137 
+	gwúe
+ [15:0] 
+v¨_Àvñ_£l
+;
+
+138 
+	gwúe
+ [9:0] 
+v¨_ªas⁄_bö_£l
+;
+
+139 
+wúe
+ 
+	gis_highe°_bkévl_£l
+;
+
+140 
+	gassign
+ {
+	gv¨_vÆue_£l
+, 
+	gv¨_Àvñ_£l
+, 
+	gv¨_ªas⁄_bö_£l
+, 
+	gis_highe°_bkévl_£l
+} = 
+£À˘_hîe_‹nŸ
+;
+
+141 
+wúe
+ 
+	g√ed_bkt
+ = 
+≠∂y_backåck
+ && 
+bkt_lvl_i
+<
+v¨_Àvñ_£l
+;
+
+142 
+wúe
+ 
+	gis_highe°_bkévl
+ = 
+≠∂y_backåck
+ && 
+bkt_lvl_i
+==
+v¨_Àvñ_£l
+;
+
+144 
+	gwúe
+ [2:0] 
+v¨_vÆue_c⁄vît
+;
+
+145 
+assign
+ 
+	gv¨_vÆue_c⁄vît
+[2:1] = 
+v¨_vÆue_£l
+[0]==0? ~var_value_sel[2:1]:var_value_sel[2:1];
+
+146 
+assign
+ 
+	gv¨_vÆue_c⁄vît
+[0];
+
+148 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+149 
+begö
+
+
+150 if(~
+	gr°
+Ë
+begö
+
+
+151 
+	gv¨_°©e_toßt_o
+ <= 0;
+
+152 
+	gvÆid_v¨_°©e_toßt_o
+ <= 0;
+
+153 
+íd
+
+
+154 if(
+	gvÆid_v¨_°©e_lﬂd_r
+ && 
+	g√ed_bkt
+Ë
+begö
+
+
+155 
+	gv¨_°©e_toßt_o
+ <= 0;
+
+156 
+	gvÆid_v¨_°©e_toßt_o
+ <= 1;
+
+157 
+íd
+
+
+158 if(
+	gvÆid_v¨_°©e_lﬂd_r
+ && 
+	gis_highe°_bkévl
+Ë
+begö
+
+
+159 
+	gv¨_°©e_toßt_o
+ <{
+v¨_vÆue_c⁄vît
+, 
+v¨_Àvñ_£l
+, 
+v¨_ªas⁄_bö_£l
+, ,1'b1};
+
+160 
+vÆid_v¨_°©e_toßt_o
+ <= 1;
+
+161 
+íd
+
+
+162 if(
+	gvÆid_v¨_°©e_lﬂd_r
+Ë
+begö
+
+
+163 
+	gv¨_°©e_toßt_o
+ <
+£À˘_hîe_‹nŸ
+;
+
+164 
+	gvÆid_v¨_°©e_toßt_o
+ <= 1;
+
+165 
+íd
+
+
+166 
+begö
+
+
+167 
+	gv¨_°©e_toßt_o
+ <= 0;
+
+168 
+	gvÆid_v¨_°©e_toßt_o
+ <= 0;
+
+169 
+íd
+
+
+170 
+íd
+
+
+177 
+	gªg
+ [23:0] 
+√ed_upd©e
+;
+
+178 
+	gwúe
+ [11:0] 
+v¨_id_upd©e_w_‹
+;
+
+179 
+	gwúe
+ [29:0] 
+v¨_°©e_upd©e_w_‹
+;
+
+182 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+183 
+begö
+
+
+184 if(~
+	gr°
+Ë
+begö
+
+
+185 
+	gv¨_id_upd©e_möÀvñ_o
+ <= 0;
+
+186 
+	gv¨_°©e_upd©e_möÀvñ_o
+ <= 0;
+
+187 
+	gvÆid_v¨_°©e_upd©e_möÀvñ_o
+ <= 0;
+
+188 
+íd
+
+
+189 if(
+	g√ed_upd©e
+!=0Ë
+begö
+
+
+190 
+v¨_id_upd©e_möÀvñ_o
+ <
+v¨_id_upd©e_w_‹
+;
+
+191 
+	gv¨_°©e_upd©e_möÀvñ_o
+ <
+v¨_°©e_upd©e_w
+;
+
+192 
+	gvÆid_v¨_°©e_upd©e_möÀvñ_o
+ <= 1;
+
+193 
+íd
+
+
+194 
+begö
+
+
+195 
+	gv¨_id_upd©e_möÀvñ_o
+ <= 0;
+
+196 
+	gv¨_°©e_upd©e_möÀvñ_o
+ <= 0;
+
+197 
+	gvÆid_v¨_°©e_upd©e_möÀvñ_o
+ <= 0;
+
+198 
+íd
+
+
+199 
+íd
+
+
+201 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+202 
+begö
+
+
+203 if(~
+	gr°
+)
+
+204 
+	gv¨_id_upd©e_r
+ <= 0;
+
+205 if(~
+	g≠∂y_upd©e_fú°
+ && ~
+	g≠∂y_upd©e_lﬂd
+)
+
+206 
+	gv¨_id_upd©e_r
+ <
+v¨_id_‰omßt_i
+;
+
+207 if(
+	gd⁄e_upd©e_lﬂd
+)
+
+208 
+	gv¨_id_upd©e_r
+ <
+v¨_id_lﬂd_r
+;
+
+210 
+	gv¨_id_upd©e_r
+ <
+v¨_id_upd©e_r
+;
+
+211 
+íd
+
+
+213 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+214 
+begö
+
+
+215 if(~
+	gr°
+)
+
+216 
+	gv¨_°©e_upd©e_r
+ <= 0;
+
+217 if(~
+	g≠∂y_upd©e_fú°
+ && ~
+	g≠∂y_upd©e_lﬂd
+)
+
+218 
+	gv¨_°©e_upd©e_r
+ <
+v¨_°©e_‰omßt_i
+;
+
+220 
+	gv¨_°©e_upd©e_r
+ <
+v¨_°©e_upd©e_r
+;
+
+221 
+íd
+
+
+224 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+225 
+begö
+
+
+226 if(~
+	gr°
+)
+
+227 
+	g√ed_upd©e
+ <= ~24'b0;
+
+228 if(
+≠∂y_upd©e_fú°
+ | 
+≠∂y_upd©e_lﬂd
+Ë
+begö
+
+
+229 
+√ed_upd©e
+[0] <
+±r_upd©e
+[0]==2'b01 ? 0 :Çeed_update[0];
+
+230 
+√ed_upd©e
+[1] <
+±r_upd©e
+[1]==2'b01 ? 0 :Çeed_update[1];
+
+231 
+√ed_upd©e
+[2] <
+±r_upd©e
+[2]==2'b01 ? 0 :Çeed_update[2];
+
+232 
+√ed_upd©e
+[3] <
+±r_upd©e
+[3]==2'b01 ? 0 :Çeed_update[3];
+
+233 
+√ed_upd©e
+[4] <
+±r_upd©e
+[4]==2'b01 ? 0 :Çeed_update[4];
+
+234 
+√ed_upd©e
+[5] <
+±r_upd©e
+[5]==2'b01 ? 0 :Çeed_update[5];
+
+235 
+√ed_upd©e
+[6] <
+±r_upd©e
+[6]==2'b01 ? 0 :Çeed_update[6];
+
+236 
+√ed_upd©e
+[7] <
+±r_upd©e
+[7]==2'b01 ? 0 :Çeed_update[7];
+
+237 
+√ed_upd©e
+[8] <
+±r_upd©e
+[8]==2'b01 ? 0 :Çeed_update[8];
+
+238 
+√ed_upd©e
+[9] <
+±r_upd©e
+[9]==2'b01 ? 0 :Çeed_update[9];
+
+239 
+√ed_upd©e
+[10] <
+±r_upd©e
+[10]==2'b01 ? 0 :Çeed_update[10];
+
+240 
+√ed_upd©e
+[11] <
+±r_upd©e
+[11]==2'b01 ? 0 :Çeed_update[11];
+
+241 
+√ed_upd©e
+[12] <
+±r_upd©e
+[12]==2'b01 ? 0 :Çeed_update[12];
+
+242 
+√ed_upd©e
+[13] <
+±r_upd©e
+[13]==2'b01 ? 0 :Çeed_update[13];
+
+243 
+√ed_upd©e
+[14] <
+±r_upd©e
+[14]==2'b01 ? 0 :Çeed_update[14];
+
+244 
+√ed_upd©e
+[15] <
+±r_upd©e
+[15]==2'b01 ? 0 :Çeed_update[15];
+
+245 
+√ed_upd©e
+[16] <
+±r_upd©e
+[16]==2'b01 ? 0 :Çeed_update[16];
+
+246 
+√ed_upd©e
+[17] <
+±r_upd©e
+[17]==2'b01 ? 0 :Çeed_update[17];
+
+247 
+√ed_upd©e
+[18] <
+±r_upd©e
+[18]==2'b01 ? 0 :Çeed_update[18];
+
+248 
+√ed_upd©e
+[19] <
+±r_upd©e
+[19]==2'b01 ? 0 :Çeed_update[19];
+
+249 
+√ed_upd©e
+[20] <
+±r_upd©e
+[20]==2'b01 ? 0 :Çeed_update[20];
+
+250 
+√ed_upd©e
+[21] <
+±r_upd©e
+[21]==2'b01 ? 0 :Çeed_update[21];
+
+251 
+√ed_upd©e
+[22] <
+±r_upd©e
+[22]==2'b01 ? 0 :Çeed_update[22];
+
+252 
+√ed_upd©e
+[23] <
+±r_upd©e
+[23]==2'b01 ? 0 :Çeed_update[23];
+
+253 
+íd
+
+
+255 
+√ed_upd©e
+ <=Çeed_update;
+
+256 
+íd
+
+
+258 
+	gwúe
+ [2:0] 
+vÆue_0
+, 
+	gvÆue_1
+, 
+	gvÆue_2
+, 
+	gvÆue_3
+, 
+	gvÆue_4
+, 
+	gvÆue_5
+, 
+	gvÆue_6
+, 
+	gvÆue_7
+, 
+	gvÆue_8
+, 
+	gvÆue_9
+, 
+	gvÆue_10
+, 
+	gvÆue_11
+, 
+	gvÆue_12
+, 
+	gvÆue_13
+, 
+	gvÆue_14
+, 
+	gvÆue_15
+, 
+	gvÆue_16
+, 
+	gvÆue_17
+, 
+	gvÆue_18
+, 
+	gvÆue_19
+, 
+	gvÆue_20
+, 
+	gvÆue_21
+, 
+	gvÆue_22
+, 
+	gvÆue_23
+;
+
+259 
+	gwúe
+ [15:0] 
+Àvñ_0
+, 
+	gÀvñ_1
+, 
+	gÀvñ_2
+, 
+	gÀvñ_3
+, 
+	gÀvñ_4
+, 
+	gÀvñ_5
+, 
+	gÀvñ_6
+, 
+	gÀvñ_7
+, 
+	gÀvñ_8
+, 
+	gÀvñ_9
+, 
+	gÀvñ_10
+, 
+	gÀvñ_11
+, 
+	gÀvñ_12
+, 
+	gÀvñ_13
+, 
+	gÀvñ_14
+, 
+	gÀvñ_15
+, 
+	gÀvñ_16
+, 
+	gÀvñ_17
+, 
+	gÀvñ_18
+, 
+	gÀvñ_19
+, 
+	gÀvñ_20
+, 
+	gÀvñ_21
+, 
+	gÀvñ_22
+, 
+	gÀvñ_23
+;
+
+260 
+	gwúe
+ [9:0] 
+ªas⁄_bö_0
+, 
+	gªas⁄_bö_1
+, 
+	gªas⁄_bö_2
+, 
+	gªas⁄_bö_3
+, 
+	gªas⁄_bö_4
+, 
+	gªas⁄_bö_5
+, 
+	gªas⁄_bö_6
+, 
+	gªas⁄_bö_7
+, 
+	gªas⁄_bö_8
+, 
+	gªas⁄_bö_9
+, 
+	gªas⁄_bö_10
+, 
+	gªas⁄_bö_11
+, 
+	gªas⁄_bö_12
+, 
+	gªas⁄_bö_13
+, 
+	gªas⁄_bö_14
+, 
+	gªas⁄_bö_15
+, 
+	gªas⁄_bö_16
+, 
+	gªas⁄_bö_17
+, 
+	gªas⁄_bö_18
+, 
+	gªas⁄_bö_19
+, 
+	gªas⁄_bö_20
+, 
+	gªas⁄_bö_21
+, 
+	gªas⁄_bö_22
+, 
+	gªas⁄_bö_23
+;
+
+261 
+wúe
+ 
+	gisbkévl_0
+, isbkévl_0, 
+	gisbkévl_1
+, 
+	gisbkévl_2
+, 
+	gisbkévl_3
+, 
+	gisbkévl_4
+, 
+	gisbkévl_5
+, 
+	gisbkévl_6
+, 
+	gisbkévl_7
+, 
+	gisbkévl_8
+, 
+	gisbkévl_9
+, 
+	gisbkévl_10
+, 
+	gisbkévl_11
+, 
+	gisbkévl_12
+, 
+	gisbkévl_13
+, 
+	gisbkévl_14
+, 
+	gisbkévl_15
+, 
+	gisbkévl_16
+, 
+	gisbkévl_17
+, 
+	gisbkévl_18
+, 
+	gisbkévl_19
+, 
+	gisbkévl_20
+, 
+	gisbkévl_21
+, 
+	gisbkévl_22
+, 
+	gisbkévl_23
+;
+
+263 
+	gassign
+ {
+	gvÆue_0
+, 
+	gÀvñ_0
+, 
+	gªas⁄_bö_0
+, 
+	gisbkévl_0
+} = 
+v¨_°©e_upd©e_0
+;
+
+264 
+	gassign
+ {
+	gvÆue_1
+, 
+	gÀvñ_1
+, 
+	gªas⁄_bö_1
+, 
+	gisbkévl_1
+} = 
+v¨_°©e_upd©e_1
+;
+
+265 
+	gassign
+ {
+	gvÆue_2
+, 
+	gÀvñ_2
+, 
+	gªas⁄_bö_2
+, 
+	gisbkévl_2
+} = 
+v¨_°©e_upd©e_2
+;
+
+266 
+	gassign
+ {
+	gvÆue_3
+, 
+	gÀvñ_3
+, 
+	gªas⁄_bö_3
+, 
+	gisbkévl_3
+} = 
+v¨_°©e_upd©e_3
+;
+
+267 
+	gassign
+ {
+	gvÆue_4
+, 
+	gÀvñ_4
+, 
+	gªas⁄_bö_4
+, 
+	gisbkévl_4
+} = 
+v¨_°©e_upd©e_4
+;
+
+268 
+	gassign
+ {
+	gvÆue_5
+, 
+	gÀvñ_5
+, 
+	gªas⁄_bö_5
+, 
+	gisbkévl_5
+} = 
+v¨_°©e_upd©e_5
+;
+
+269 
+	gassign
+ {
+	gvÆue_6
+, 
+	gÀvñ_6
+, 
+	gªas⁄_bö_6
+, 
+	gisbkévl_6
+} = 
+v¨_°©e_upd©e_6
+;
+
+270 
+	gassign
+ {
+	gvÆue_7
+, 
+	gÀvñ_7
+, 
+	gªas⁄_bö_7
+, 
+	gisbkévl_7
+} = 
+v¨_°©e_upd©e_7
+;
+
+271 
+	gassign
+ {
+	gvÆue_8
+, 
+	gÀvñ_8
+, 
+	gªas⁄_bö_8
+, 
+	gisbkévl_8
+} = 
+v¨_°©e_upd©e_8
+;
+
+272 
+	gassign
+ {
+	gvÆue_9
+, 
+	gÀvñ_9
+, 
+	gªas⁄_bö_9
+, 
+	gisbkévl_9
+} = 
+v¨_°©e_upd©e_9
+;
+
+273 
+	gassign
+ {
+	gvÆue_10
+, 
+	gÀvñ_10
+, 
+	gªas⁄_bö_10
+, 
+	gisbkévl_10
+} = 
+v¨_°©e_upd©e_10
+;
+
+274 
+	gassign
+ {
+	gvÆue_11
+, 
+	gÀvñ_11
+, 
+	gªas⁄_bö_11
+, 
+	gisbkévl_11
+} = 
+v¨_°©e_upd©e_11
+;
+
+275 
+	gassign
+ {
+	gvÆue_12
+, 
+	gÀvñ_12
+, 
+	gªas⁄_bö_12
+, 
+	gisbkévl_12
+} = 
+v¨_°©e_upd©e_12
+;
+
+276 
+	gassign
+ {
+	gvÆue_13
+, 
+	gÀvñ_13
+, 
+	gªas⁄_bö_13
+, 
+	gisbkévl_13
+} = 
+v¨_°©e_upd©e_13
+;
+
+277 
+	gassign
+ {
+	gvÆue_14
+, 
+	gÀvñ_14
+, 
+	gªas⁄_bö_14
+, 
+	gisbkévl_14
+} = 
+v¨_°©e_upd©e_14
+;
+
+278 
+	gassign
+ {
+	gvÆue_15
+, 
+	gÀvñ_15
+, 
+	gªas⁄_bö_15
+, 
+	gisbkévl_15
+} = 
+v¨_°©e_upd©e_15
+;
+
+279 
+	gassign
+ {
+	gvÆue_16
+, 
+	gÀvñ_16
+, 
+	gªas⁄_bö_16
+, 
+	gisbkévl_16
+} = 
+v¨_°©e_upd©e_16
+;
+
+280 
+	gassign
+ {
+	gvÆue_17
+, 
+	gÀvñ_17
+, 
+	gªas⁄_bö_17
+, 
+	gisbkévl_17
+} = 
+v¨_°©e_upd©e_17
+;
+
+281 
+	gassign
+ {
+	gvÆue_18
+, 
+	gÀvñ_18
+, 
+	gªas⁄_bö_18
+, 
+	gisbkévl_18
+} = 
+v¨_°©e_upd©e_18
+;
+
+282 
+	gassign
+ {
+	gvÆue_19
+, 
+	gÀvñ_19
+, 
+	gªas⁄_bö_19
+, 
+	gisbkévl_19
+} = 
+v¨_°©e_upd©e_19
+;
+
+283 
+	gassign
+ {
+	gvÆue_20
+, 
+	gÀvñ_20
+, 
+	gªas⁄_bö_20
+, 
+	gisbkévl_20
+} = 
+v¨_°©e_upd©e_20
+;
+
+284 
+	gassign
+ {
+	gvÆue_21
+, 
+	gÀvñ_21
+, 
+	gªas⁄_bö_21
+, 
+	gisbkévl_21
+} = 
+v¨_°©e_upd©e_21
+;
+
+285 
+	gassign
+ {
+	gvÆue_22
+, 
+	gÀvñ_22
+, 
+	gªas⁄_bö_22
+, 
+	gisbkévl_22
+} = 
+v¨_°©e_upd©e_22
+;
+
+286 
+	gassign
+ {
+	gvÆue_23
+, 
+	gÀvñ_23
+, 
+	gªas⁄_bö_23
+, 
+	gisbkévl_23
+} = 
+v¨_°©e_upd©e_23
+;
+
+288 
+	gwúe
+ [15:0] 
+Àvñ_0_0
+ = 
+√ed_upd©e
+[0]? 
+Àvñ_0
+ | ~16'b0;
+
+289 
+wúe
+ [15:0] 
+Àvñ_0_1
+ = 
+√ed_upd©e
+[1]? 
+Àvñ_1
+ | ~16'b0;
+
+290 
+wúe
+ [15:0] 
+Àvñ_0_2
+ = 
+√ed_upd©e
+[2]? 
+Àvñ_2
+ | ~16'b0;
+
+291 
+wúe
+ [15:0] 
+Àvñ_0_3
+ = 
+√ed_upd©e
+[3]? 
+Àvñ_3
+ | ~16'b0;
+
+292 
+wúe
+ [15:0] 
+Àvñ_0_4
+ = 
+√ed_upd©e
+[4]? 
+Àvñ_4
+ | ~16'b0;
+
+293 
+wúe
+ [15:0] 
+Àvñ_0_5
+ = 
+√ed_upd©e
+[5]? 
+Àvñ_5
+ | ~16'b0;
+
+294 
+wúe
+ [15:0] 
+Àvñ_0_6
+ = 
+√ed_upd©e
+[6]? 
+Àvñ_6
+ | ~16'b0;
+
+295 
+wúe
+ [15:0] 
+Àvñ_0_7
+ = 
+√ed_upd©e
+[7]? 
+Àvñ_7
+ | ~16'b0;
+
+296 
+wúe
+ [15:0] 
+Àvñ_0_8
+ = 
+√ed_upd©e
+[8]? 
+Àvñ_8
+ | ~16'b0;
+
+297 
+wúe
+ [15:0] 
+Àvñ_0_9
+ = 
+√ed_upd©e
+[9]? 
+Àvñ_9
+ | ~16'b0;
+
+298 
+wúe
+ [15:0] 
+Àvñ_0_10
+ = 
+√ed_upd©e
+[10]? 
+Àvñ_10
+ | ~16'b0;
+
+299 
+wúe
+ [15:0] 
+Àvñ_0_11
+ = 
+√ed_upd©e
+[11]? 
+Àvñ_11
+ | ~16'b0;
+
+300 
+wúe
+ [15:0] 
+Àvñ_0_12
+ = 
+√ed_upd©e
+[12]? 
+Àvñ_12
+ | ~16'b0;
+
+301 
+wúe
+ [15:0] 
+Àvñ_0_13
+ = 
+√ed_upd©e
+[13]? 
+Àvñ_13
+ | ~16'b0;
+
+302 
+wúe
+ [15:0] 
+Àvñ_0_14
+ = 
+√ed_upd©e
+[14]? 
+Àvñ_14
+ | ~16'b0;
+
+303 
+wúe
+ [15:0] 
+Àvñ_0_15
+ = 
+√ed_upd©e
+[15]? 
+Àvñ_15
+ | ~16'b0;
+
+304 
+wúe
+ [15:0] 
+Àvñ_0_16
+ = 
+√ed_upd©e
+[16]? 
+Àvñ_16
+ | ~16'b0;
+
+305 
+wúe
+ [15:0] 
+Àvñ_0_17
+ = 
+√ed_upd©e
+[17]? 
+Àvñ_17
+ | ~16'b0;
+
+306 
+wúe
+ [15:0] 
+Àvñ_0_18
+ = 
+√ed_upd©e
+[18]? 
+Àvñ_18
+ | ~16'b0;
+
+307 
+wúe
+ [15:0] 
+Àvñ_0_19
+ = 
+√ed_upd©e
+[19]? 
+Àvñ_19
+ | ~16'b0;
+
+308 
+wúe
+ [15:0] 
+Àvñ_0_20
+ = 
+√ed_upd©e
+[20]? 
+Àvñ_20
+ | ~16'b0;
+
+309 
+wúe
+ [15:0] 
+Àvñ_0_21
+ = 
+√ed_upd©e
+[21]? 
+Àvñ_21
+ | ~16'b0;
+
+310 
+wúe
+ [15:0] 
+Àvñ_0_22
+ = 
+√ed_upd©e
+[22]? 
+Àvñ_22
+ | ~16'b0;
+
+311 
+wúe
+ [15:0] 
+Àvñ_0_23
+ = 
+√ed_upd©e
+[23]? 
+Àvñ_23
+ | ~16'b0;
+
+313 
+wúe
+ [15:0] 
+Àvñ_1_0
+ = 
+Àvñ_0_1
+<
+Àvñ_0_0
+?Üevel_0_1:level_0_0;
+
+314 
+	gwúe
+ [15:0] 
+Àvñ_1_1
+ = 
+Àvñ_0_3
+<
+Àvñ_0_2
+?Üevel_0_3:level_0_2;
+
+315 
+	gwúe
+ [15:0] 
+Àvñ_1_2
+ = 
+Àvñ_0_5
+<
+Àvñ_0_4
+?Üevel_0_5:level_0_4;
+
+316 
+	gwúe
+ [15:0] 
+Àvñ_1_3
+ = 
+Àvñ_0_7
+<
+Àvñ_0_6
+?Üevel_0_7:level_0_6;
+
+317 
+	gwúe
+ [15:0] 
+Àvñ_1_4
+ = 
+Àvñ_0_9
+<
+Àvñ_0_8
+?Üevel_0_9:level_0_8;
+
+318 
+	gwúe
+ [15:0] 
+Àvñ_1_5
+ = 
+Àvñ_0_11
+<
+Àvñ_0_10
+?Üevel_0_11:level_0_10;
+
+319 
+	gwúe
+ [15:0] 
+Àvñ_1_6
+ = 
+Àvñ_0_13
+<
+Àvñ_0_12
+?Üevel_0_13:level_0_12;
+
+320 
+	gwúe
+ [15:0] 
+Àvñ_1_7
+ = 
+Àvñ_0_15
+<
+Àvñ_0_14
+?Üevel_0_15:level_0_14;
+
+321 
+	gwúe
+ [15:0] 
+Àvñ_1_8
+ = 
+Àvñ_0_17
+<
+Àvñ_0_16
+?Üevel_0_17:level_0_16;
+
+322 
+	gwúe
+ [15:0] 
+Àvñ_1_9
+ = 
+Àvñ_0_19
+<
+Àvñ_0_18
+?Üevel_0_19:level_0_18;
+
+323 
+	gwúe
+ [15:0] 
+Àvñ_1_10
+ = 
+Àvñ_0_21
+<
+Àvñ_0_20
+?Üevel_0_21:level_0_20;
+
+324 
+	gwúe
+ [15:0] 
+Àvñ_1_11
+ = 
+Àvñ_0_23
+<
+Àvñ_0_22
+?Üevel_0_23:level_0_22;
+
+326 
+	gwúe
+ [15:0] 
+Àvñ_2_0
+ = 
+Àvñ_1_1
+<
+Àvñ_1_0
+?Üevel_1_1:level_1_0;
+
+327 
+	gwúe
+ [15:0] 
+Àvñ_2_1
+ = 
+Àvñ_1_3
+<
+Àvñ_1_2
+?Üevel_1_3:level_1_2;
+
+328 
+	gwúe
+ [15:0] 
+Àvñ_2_2
+ = 
+Àvñ_1_5
+<
+Àvñ_1_4
+?Üevel_1_5:level_1_4;
+
+329 
+	gwúe
+ [15:0] 
+Àvñ_2_3
+ = 
+Àvñ_1_7
+<
+Àvñ_1_6
+?Üevel_1_7:level_1_6;
+
+330 
+	gwúe
+ [15:0] 
+Àvñ_2_4
+ = 
+Àvñ_1_9
+<
+Àvñ_1_8
+?Üevel_1_9:level_1_8;
+
+331 
+	gwúe
+ [15:0] 
+Àvñ_2_5
+ = 
+Àvñ_1_11
+<
+Àvñ_1_10
+?Üevel_1_11:level_1_10;
+
+333 
+	gwúe
+ [15:0] 
+Àvñ_3_0
+ = 
+Àvñ_2_1
+<
+Àvñ_2_0
+?Üevel_2_1:level_2_0;
+
+334 
+	gwúe
+ [15:0] 
+Àvñ_3_1
+ = 
+Àvñ_2_3
+<
+Àvñ_2_2
+?Üevel_2_3:level_2_2;
+
+335 
+	gwúe
+ [15:0] 
+Àvñ_3_2
+ = 
+Àvñ_2_5
+<
+Àvñ_2_4
+?Üevel_2_5:level_2_4;
+
+337 
+	gwúe
+ [15:0] 
+Àvñ_4_0
+ = 
+Àvñ_3_1
+<
+Àvñ_3_0
+?Üevel_3_1:level_3_0;
+
+338 
+	gwúe
+ [15:0] 
+mö_Àvñ
+ = 
+Àvñ_4_0
+<
+Àvñ_3_2
+?Üevel_4_0:level_3_2;
+
+340 
+	gwúe
+ [1:0] 
+±r_upd©e
+[24];
+
+341 
+assign
+ 
+	g±r_upd©e
+[0] = 
+√ed_upd©e
+ && 
+mö_Àvñ
+==
+Àvñ_0
+;
+
+342 
+assign
+ 
+	g±r_upd©e
+[1] = 
+±r_upd©e
+[0]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[0] && min_level==level_1};
+
+343 
+assign
+ 
+±r_upd©e
+[2] =Öå_upd©e[1]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[1] && min_level==level_2};
+
+344 
+assign
+ 
+±r_upd©e
+[3] =Öå_upd©e[2]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[2] && min_level==level_3};
+
+345 
+assign
+ 
+±r_upd©e
+[4] =Öå_upd©e[3]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[3] && min_level==level_4};
+
+346 
+assign
+ 
+±r_upd©e
+[5] =Öå_upd©e[4]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[4] && min_level==level_5};
+
+347 
+assign
+ 
+±r_upd©e
+[6] =Öå_upd©e[5]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[5] && min_level==level_6};
+
+348 
+assign
+ 
+±r_upd©e
+[7] =Öå_upd©e[6]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[6] && min_level==level_7};
+
+349 
+assign
+ 
+±r_upd©e
+[8] =Öå_upd©e[7]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[7] && min_level==level_8};
+
+350 
+assign
+ 
+±r_upd©e
+[9] =Öå_upd©e[8]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[8] && min_level==level_9};
+
+351 
+assign
+ 
+±r_upd©e
+[10] =Öå_upd©e[9]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[9] && min_level==level_10};
+
+352 
+assign
+ 
+±r_upd©e
+[11] =Öå_upd©e[10]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[10] && min_level==level_11};
+
+353 
+assign
+ 
+±r_upd©e
+[12] =Öå_upd©e[11]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[11] && min_level==level_12};
+
+354 
+assign
+ 
+±r_upd©e
+[13] =Öå_upd©e[12]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[12] && min_level==level_13};
+
+355 
+assign
+ 
+±r_upd©e
+[14] =Öå_upd©e[13]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[13] && min_level==level_14};
+
+356 
+assign
+ 
+±r_upd©e
+[15] =Öå_upd©e[14]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[14] && min_level==level_15};
+
+357 
+assign
+ 
+±r_upd©e
+[16] =Öå_upd©e[15]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[15] && min_level==level_16};
+
+358 
+assign
+ 
+±r_upd©e
+[17] =Öå_upd©e[16]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[16] && min_level==level_17};
+
+359 
+assign
+ 
+±r_upd©e
+[18] =Öå_upd©e[17]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[17] && min_level==level_18};
+
+360 
+assign
+ 
+±r_upd©e
+[19] =Öå_upd©e[18]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[18] && min_level==level_19};
+
+361 
+assign
+ 
+±r_upd©e
+[20] =Öå_upd©e[19]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[19] && min_level==level_20};
+
+362 
+assign
+ 
+±r_upd©e
+[21] =Öå_upd©e[20]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[20] && min_level==level_21};
+
+363 
+assign
+ 
+±r_upd©e
+[22] =Öå_upd©e[21]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[21] && min_level==level_22};
+
+364 
+assign
+ 
+±r_upd©e
+[23] =Öå_upd©e[22]!=2'b00 ? 2'
+b11
+ : {1'b0,Çeed_update[22] && min_level==level_23};
+
+366 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_0
+ = 
+±r_upd©e
+[0]==2'b01 ? var_state_update_0 : 0;
+
+367 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_1
+ = 
+±r_upd©e
+[1]==2'b01 ? var_state_update_1 : 0;
+
+368 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_2
+ = 
+±r_upd©e
+[2]==2'b01 ? var_state_update_2 : 0;
+
+369 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_3
+ = 
+±r_upd©e
+[3]==2'b01 ? var_state_update_3 : 0;
+
+370 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_4
+ = 
+±r_upd©e
+[4]==2'b01 ? var_state_update_4 : 0;
+
+371 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_5
+ = 
+±r_upd©e
+[5]==2'b01 ? var_state_update_5 : 0;
+
+372 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_6
+ = 
+±r_upd©e
+[6]==2'b01 ? var_state_update_6 : 0;
+
+373 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_7
+ = 
+±r_upd©e
+[7]==2'b01 ? var_state_update_7 : 0;
+
+374 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_8
+ = 
+±r_upd©e
+[8]==2'b01 ? var_state_update_8 : 0;
+
+375 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_9
+ = 
+±r_upd©e
+[9]==2'b01 ? var_state_update_9 : 0;
+
+376 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_10
+ = 
+±r_upd©e
+[10]==2'b01 ? var_state_update_10 : 0;
+
+377 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_11
+ = 
+±r_upd©e
+[11]==2'b01 ? var_state_update_11 : 0;
+
+378 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_12
+ = 
+±r_upd©e
+[12]==2'b01 ? var_state_update_12 : 0;
+
+379 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_13
+ = 
+±r_upd©e
+[13]==2'b01 ? var_state_update_13 : 0;
+
+380 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_14
+ = 
+±r_upd©e
+[14]==2'b01 ? var_state_update_14 : 0;
+
+381 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_15
+ = 
+±r_upd©e
+[15]==2'b01 ? var_state_update_15 : 0;
+
+382 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_16
+ = 
+±r_upd©e
+[16]==2'b01 ? var_state_update_16 : 0;
+
+383 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_17
+ = 
+±r_upd©e
+[17]==2'b01 ? var_state_update_17 : 0;
+
+384 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_18
+ = 
+±r_upd©e
+[18]==2'b01 ? var_state_update_18 : 0;
+
+385 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_19
+ = 
+±r_upd©e
+[19]==2'b01 ? var_state_update_19 : 0;
+
+386 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_20
+ = 
+±r_upd©e
+[20]==2'b01 ? var_state_update_20 : 0;
+
+387 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_21
+ = 
+±r_upd©e
+[21]==2'b01 ? var_state_update_21 : 0;
+
+388 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_22
+ = 
+±r_upd©e
+[22]==2'b01 ? var_state_update_22 : 0;
+
+389 
+wúe
+ [29:0] 
+v¨_°©e_upd©e_w_23
+ = 
+±r_upd©e
+[23]==2'b01 ? var_state_update_23 : 0;
+
+391 
+assign
+ 
+v¨_°©e_upd©e_w_‹
+ = 
+v¨_°©e_upd©e_w_0
+ | 
+v¨_°©e_upd©e_w_1
+ | 
+v¨_°©e_upd©e_w_2
+ | 
+v¨_°©e_upd©e_w_3
+ | 
+v¨_°©e_upd©e_w_4
+ | 
+v¨_°©e_upd©e_w_5
+ | 
+v¨_°©e_upd©e_w_6
+ | 
+v¨_°©e_upd©e_w_7
+ | 
+v¨_°©e_upd©e_w_8
+ | 
+v¨_°©e_upd©e_w_9
+ | 
+v¨_°©e_upd©e_w_10
+ | 
+v¨_°©e_upd©e_w_11
+ | 
+v¨_°©e_upd©e_w_12
+ | 
+v¨_°©e_upd©e_w_13
+ | 
+v¨_°©e_upd©e_w_14
+ | 
+v¨_°©e_upd©e_w_15
+ | 
+v¨_°©e_upd©e_w_16
+ | 
+v¨_°©e_upd©e_w_17
+ | 
+v¨_°©e_upd©e_w_18
+ | 
+v¨_°©e_upd©e_w_19
+ | 
+v¨_°©e_upd©e_w_20
+ | 
+v¨_°©e_upd©e_w_21
+ | 
+v¨_°©e_upd©e_w_22
+ | 
+v¨_°©e_upd©e_w_23
+;
+
+393 
+	gwúe
+ [11:0] 
+v¨_id_upd©e_w_0
+ = 
+±r_upd©e
+[0]==2'b01 ? var_id_update_0 : 0;
+
+394 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_1
+ = 
+±r_upd©e
+[1]==2'b01 ? var_id_update_1 : 0;
+
+395 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_2
+ = 
+±r_upd©e
+[2]==2'b01 ? var_id_update_2 : 0;
+
+396 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_3
+ = 
+±r_upd©e
+[3]==2'b01 ? var_id_update_3 : 0;
+
+397 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_4
+ = 
+±r_upd©e
+[4]==2'b01 ? var_id_update_4 : 0;
+
+398 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_5
+ = 
+±r_upd©e
+[5]==2'b01 ? var_id_update_5 : 0;
+
+399 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_6
+ = 
+±r_upd©e
+[6]==2'b01 ? var_id_update_6 : 0;
+
+400 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_7
+ = 
+±r_upd©e
+[7]==2'b01 ? var_id_update_7 : 0;
+
+401 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_8
+ = 
+±r_upd©e
+[8]==2'b01 ? var_id_update_8 : 0;
+
+402 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_9
+ = 
+±r_upd©e
+[9]==2'b01 ? var_id_update_9 : 0;
+
+403 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_10
+ = 
+±r_upd©e
+[10]==2'b01 ? var_id_update_10 : 0;
+
+404 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_11
+ = 
+±r_upd©e
+[11]==2'b01 ? var_id_update_11 : 0;
+
+405 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_12
+ = 
+±r_upd©e
+[12]==2'b01 ? var_id_update_12 : 0;
+
+406 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_13
+ = 
+±r_upd©e
+[13]==2'b01 ? var_id_update_13 : 0;
+
+407 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_14
+ = 
+±r_upd©e
+[14]==2'b01 ? var_id_update_14 : 0;
+
+408 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_15
+ = 
+±r_upd©e
+[15]==2'b01 ? var_id_update_15 : 0;
+
+409 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_16
+ = 
+±r_upd©e
+[16]==2'b01 ? var_id_update_16 : 0;
+
+410 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_17
+ = 
+±r_upd©e
+[17]==2'b01 ? var_id_update_17 : 0;
+
+411 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_18
+ = 
+±r_upd©e
+[18]==2'b01 ? var_id_update_18 : 0;
+
+412 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_19
+ = 
+±r_upd©e
+[19]==2'b01 ? var_id_update_19 : 0;
+
+413 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_20
+ = 
+±r_upd©e
+[20]==2'b01 ? var_id_update_20 : 0;
+
+414 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_21
+ = 
+±r_upd©e
+[21]==2'b01 ? var_id_update_21 : 0;
+
+415 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_22
+ = 
+±r_upd©e
+[22]==2'b01 ? var_id_update_22 : 0;
+
+416 
+wúe
+ [11:0] 
+v¨_id_upd©e_w_23
+ = 
+±r_upd©e
+[23]==2'b01 ? var_id_update_23 : 0;
+
+418 
+assign
+ 
+v¨_id_upd©e_w_‹
+ = 
+v¨_id_upd©e_w_0
+ | 
+v¨_id_upd©e_w_1
+ | 
+v¨_id_upd©e_w_2
+ | 
+v¨_id_upd©e_w_3
+ | 
+v¨_id_upd©e_w_4
+ | 
+v¨_id_upd©e_w_5
+ | 
+v¨_id_upd©e_w_6
+ | 
+v¨_id_upd©e_w_7
+ | 
+v¨_id_upd©e_w_8
+ | 
+v¨_id_upd©e_w_9
+ | 
+v¨_id_upd©e_w_10
+ | 
+v¨_id_upd©e_w_11
+ | 
+v¨_id_upd©e_w_12
+ | 
+v¨_id_upd©e_w_13
+ | 
+v¨_id_upd©e_w_14
+ | 
+v¨_id_upd©e_w_15
+ | 
+v¨_id_upd©e_w_16
+ | 
+v¨_id_upd©e_w_17
+ | 
+v¨_id_upd©e_w_18
+ | 
+v¨_id_upd©e_w_19
+ | 
+v¨_id_upd©e_w_20
+ | 
+v¨_id_upd©e_w_21
+ | 
+v¨_id_upd©e_w_22
+ | 
+v¨_id_upd©e_w_23
+;
+
+420 
+	gídmoduÀ
+
+
+	@sat_engine.v
+
+1 
+moduÀ
+ 
+	gßt_ígöe
+ #(
+
+2 
+∑ømëî
+ 
+	gACTIVITY_BASE_ADDR
+ = 0,
+
+3 
+∑ømëî
+ 
+	gMEM_DATA_WIDTH
+ = 512,
+
+4 
+∑ømëî
+ 
+	gVAR_WIDTH
+ = 15,
+
+5 
+∑ømëî
+ 
+	gVALUE_ADDR_WIDTH
+ = 
+VAR_WIDTH
+,
+
+6 
+∑ømëî
+ 
+	gLEVEL_DATA_WIDTH
+ = 9,
+
+7 
+∑ømëî
+ 
+	gLEVEL_ADDR_WIDTH
+ = 
+VAR_WIDTH
+,
+
+8 
+∑ømëî
+ 
+	gACTIVITY_DATA_WIDTH
+ = 16,
+
+9 
+∑ømëî
+ 
+	gACTIVITY_ADDR_WIDTH
+ = 
+VAR_WIDTH
+,
+
+11 
+wúe
+ 
+	g˛k
+,
+
+12 
+wúe
+ 
+	gr°
+,
+
+18 
+	gídmoduÀ
+
+
+	@terminal_cell.v
+
+1 
+moduÀ
+ 
+	gãrmöÆ_˚Œ
+
+
+3 
+öput
+ 
+	g˛k
+,
+
+4 
+öput
+ 
+	gr°
+,
+
+6 
+öput
+ 
+	g˛au£ßt_i
+,
+
+8 
+	göput
+ [1:0] 
+‰ìlô˙t_i
+,
+
+10 
+ouçut
+ 
+	gimp_drv_o
+,
+
+12 
+öput
+ 
+	gc˛au£_i
+,
+
+13 
+ouçut
+ 
+	gc˛au£_drv_o
+
+
+16 
+wúe
+ 
+	g˛au£ßt
+;
+
+17 
+assign
+ 
+	g˛au£ßt
+ = 
+˛au£ßt_i
+;
+
+19 
+assign
+ 
+	gimp_drv_o
+ = 
+‰ìlô˙t_i
+==2'b01;
+
+21 
+assign
+ 
+c˛au£_drv_o
+ = |
+c˛au£_i
+;
+
+23 
+	gídmoduÀ
+
+
+	@var24.v
+
+1 
+moduÀ
+ 
+	gv¨24
+ #(
+
+2 
+∑ømëî
+ 
+	gNUM_CLAUSES_A_BIN
+ = 24,
+
+3 
+∑ømëî
+ 
+	gWIDTH_VAR_STATES
+ = 30
+
+5 
+öput
+ 
+˛k
+,
+
+6 
+öput
+ 
+	gr°
+,
+
+8 
+	göput
+ [
+NUM_VARS_A_BIN
+*3-1:0] 
+v¨_vÆue_i
+,
+
+9 
+	gouçut
+ [
+NUM_VARS_A_BIN
+*3-1:0] 
+v¨_vÆue_o
+,
+
+11 
+	göput
+ [
+NUM_VARS_A_BIN
+-1:0] 
+v¨s_decided_toba£_i
+,
+
+12 
+	göput
+ [
+NUM_VARS_A_BIN
+*15-1:0] 
+decide_Àvñ_i
+,
+
+14 
+öput
+ 
+	g≠∂y_im∂iˇti⁄_i
+,
+
+15 
+ouçut
+ 
+ªg
+ 
+	gd⁄e_im∂y_o
+,
+
+17 
+öput
+ 
+	g≠∂y_™Æyze_i
+,
+
+18 
+	göput
+ [
+NUM_CLAUSES_A_BIN
+*5-1:0] 
+˛au£_Àn_i
+,
+
+19 
+ouçut
+ 
+ªg
+ 
+	gd⁄e_™Æyze_o
+,
+
+20 
+	göput
+ [9:0] 
+cur_bö_num_i
+,
+
+21 
+ouçut
+ 
+	gªg
+ [9:0] 
+bkt_bö_num_o
+,
+
+22 
+ouçut
+ 
+	gis_ödïídít_bö_o
+,
+
+23 
+ouçut
+ 
+	gexi°_v¨_nŸ_vbkt_o
+,
+
+25 
+öput
+ 
+	g≠∂y_lﬂd_i
+,
+
+26 
+	göput
+ [
+NUM_VARS_A_BIN
+*2-1 : 0] 
+lﬂd_˛au£s_i
+,
+
+29 
+öput
+ 
+	g≠∂y_upd©e_i
+,
+
+30 
+	gouçut
+ [
+NUM_VARS_A_BIN
+*2-1 : 0] 
+upd©e_˛au£_o
+,
+
+33 
+öput
+ 
+	g£t_v¨s_°©es_i
+,
+
+34 
+öput
+ 
+	ggë_v¨s_°©es_i
+,
+
+35 
+	göput
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+v¨s_°©es_i
+,
+
+36 
+	gouçut
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+v¨s_°©es_o
+,
+
+38 
+	göput
+ [
+NUM_VARS_A_BIN
+/2-1:0] 
+bôm≠_À¨¡c
+,
+
+39 
+ouçut
+ 
+	gªg
+ [
+NUM_VARS_A_BIN
+/2-1:0] 
+wr_À¨¡c_o
+
+
+42 
+wúe
+ [2:0] 
+v¨_vÆue_i_0
+, 
+	gv¨_vÆue_i_1
+, 
+	gv¨_vÆue_i_2
+, 
+	gv¨_vÆue_i_3
+, 
+	gv¨_vÆue_i_4
+, 
+	gv¨_vÆue_i_5
+, 
+	gv¨_vÆue_i_6
+, 
+	gv¨_vÆue_i_7
+, 
+	gv¨_vÆue_i_8
+, 
+	gv¨_vÆue_i_9
+, 
+	gv¨_vÆue_i_10
+, 
+	gv¨_vÆue_i_11
+, 
+	gv¨_vÆue_i_12
+, 
+	gv¨_vÆue_i_13
+, 
+	gv¨_vÆue_i_14
+, 
+	gv¨_vÆue_i_15
+, 
+	gv¨_vÆue_i_16
+, 
+	gv¨_vÆue_i_17
+, 
+	gv¨_vÆue_i_18
+, 
+	gv¨_vÆue_i_19
+, 
+	gv¨_vÆue_i_20
+, 
+	gv¨_vÆue_i_21
+, 
+	gv¨_vÆue_i_22
+, 
+	gv¨_vÆue_i_23
+;
+
+43 
+	gwúe
+ [2:0] 
+v¨_vÆue_o_0
+, 
+	gv¨_vÆue_o_1
+, 
+	gv¨_vÆue_o_2
+, 
+	gv¨_vÆue_o_3
+, 
+	gv¨_vÆue_o_4
+, 
+	gv¨_vÆue_o_5
+, 
+	gv¨_vÆue_o_6
+, 
+	gv¨_vÆue_o_7
+, 
+	gv¨_vÆue_o_8
+, 
+	gv¨_vÆue_o_9
+, 
+	gv¨_vÆue_o_10
+, 
+	gv¨_vÆue_o_11
+, 
+	gv¨_vÆue_o_12
+, 
+	gv¨_vÆue_o_13
+, 
+	gv¨_vÆue_o_14
+, 
+	gv¨_vÆue_o_15
+, 
+	gv¨_vÆue_o_16
+, 
+	gv¨_vÆue_o_17
+, 
+	gv¨_vÆue_o_18
+, 
+	gv¨_vÆue_o_19
+, 
+	gv¨_vÆue_o_20
+, 
+	gv¨_vÆue_o_21
+, 
+	gv¨_vÆue_o_22
+, 
+	gv¨_vÆue_o_23
+;
+
+44 
+wúe
+ 
+	gv¨s_decided_toba£_i_0
+, 
+	gv¨s_decided_toba£_i_1
+, 
+	gv¨s_decided_toba£_i_2
+, 
+	gv¨s_decided_toba£_i_3
+, 
+	gv¨s_decided_toba£_i_4
+, 
+	gv¨s_decided_toba£_i_5
+, 
+	gv¨s_decided_toba£_i_6
+, 
+	gv¨s_decided_toba£_i_7
+, 
+	gv¨s_decided_toba£_i_8
+, 
+	gv¨s_decided_toba£_i_9
+, 
+	gv¨s_decided_toba£_i_10
+, 
+	gv¨s_decided_toba£_i_11
+, 
+	gv¨s_decided_toba£_i_12
+, 
+	gv¨s_decided_toba£_i_13
+, 
+	gv¨s_decided_toba£_i_14
+, 
+	gv¨s_decided_toba£_i_15
+, 
+	gv¨s_decided_toba£_i_16
+, 
+	gv¨s_decided_toba£_i_17
+, 
+	gv¨s_decided_toba£_i_18
+, 
+	gv¨s_decided_toba£_i_19
+, 
+	gv¨s_decided_toba£_i_20
+, 
+	gv¨s_decided_toba£_i_21
+, 
+	gv¨s_decided_toba£_i_22
+, 
+	gv¨s_decided_toba£_i_23
+;
+
+45 
+wúe
+ 
+	gdecide_Àvñ_i_0
+, 
+	gdecide_Àvñ_i_1
+, 
+	gdecide_Àvñ_i_2
+, 
+	gdecide_Àvñ_i_3
+, 
+	gdecide_Àvñ_i_4
+, 
+	gdecide_Àvñ_i_5
+, 
+	gdecide_Àvñ_i_6
+, 
+	gdecide_Àvñ_i_7
+, 
+	gdecide_Àvñ_i_8
+, 
+	gdecide_Àvñ_i_9
+, 
+	gdecide_Àvñ_i_10
+, 
+	gdecide_Àvñ_i_11
+, 
+	gdecide_Àvñ_i_12
+, 
+	gdecide_Àvñ_i_13
+, 
+	gdecide_Àvñ_i_14
+, 
+	gdecide_Àvñ_i_15
+, 
+	gdecide_Àvñ_i_16
+, 
+	gdecide_Àvñ_i_17
+, 
+	gdecide_Àvñ_i_18
+, 
+	gdecide_Àvñ_i_19
+, 
+	gdecide_Àvñ_i_20
+, 
+	gdecide_Àvñ_i_21
+, 
+	gdecide_Àvñ_i_22
+, 
+	gdecide_Àvñ_i_23
+;
+
+46 
+wúe
+ 
+	gföd_c⁄Êi˘_o_0
+, 
+	gföd_c⁄Êi˘_o_1
+, 
+	gföd_c⁄Êi˘_o_2
+, 
+	gföd_c⁄Êi˘_o_3
+, 
+	gföd_c⁄Êi˘_o_4
+, 
+	gföd_c⁄Êi˘_o_5
+, 
+	gföd_c⁄Êi˘_o_6
+, 
+	gföd_c⁄Êi˘_o_7
+, 
+	gföd_c⁄Êi˘_o_8
+, 
+	gföd_c⁄Êi˘_o_9
+, 
+	gföd_c⁄Êi˘_o_10
+, 
+	gföd_c⁄Êi˘_o_11
+, 
+	gföd_c⁄Êi˘_o_12
+, 
+	gföd_c⁄Êi˘_o_13
+, 
+	gföd_c⁄Êi˘_o_14
+, 
+	gföd_c⁄Êi˘_o_15
+, 
+	gföd_c⁄Êi˘_o_16
+, 
+	gföd_c⁄Êi˘_o_17
+, 
+	gföd_c⁄Êi˘_o_18
+, 
+	gföd_c⁄Êi˘_o_19
+, 
+	gföd_c⁄Êi˘_o_20
+, 
+	gföd_c⁄Êi˘_o_21
+, 
+	gföd_c⁄Êi˘_o_22
+, 
+	gföd_c⁄Êi˘_o_23
+;
+
+47 
+wúe
+ 
+	gföd_im∂y_o_0
+, 
+	gföd_im∂y_o_1
+, 
+	gföd_im∂y_o_2
+, 
+	gföd_im∂y_o_3
+, 
+	gföd_im∂y_o_4
+, 
+	gföd_im∂y_o_5
+, 
+	gföd_im∂y_o_6
+, 
+	gföd_im∂y_o_7
+, 
+	gföd_im∂y_o_8
+, 
+	gföd_im∂y_o_9
+, 
+	gföd_im∂y_o_10
+, 
+	gföd_im∂y_o_11
+, 
+	gföd_im∂y_o_12
+, 
+	gföd_im∂y_o_13
+, 
+	gföd_im∂y_o_14
+, 
+	gföd_im∂y_o_15
+, 
+	gföd_im∂y_o_16
+, 
+	gföd_im∂y_o_17
+, 
+	gföd_im∂y_o_18
+, 
+	gföd_im∂y_o_19
+, 
+	gföd_im∂y_o_20
+, 
+	gföd_im∂y_o_21
+, 
+	gföd_im∂y_o_22
+, 
+	gföd_im∂y_o_23
+;
+
+48 
+	gwúe
+ [1:0] 
+lﬂd_˛au£s_0
+, 
+	glﬂd_˛au£s_1
+, 
+	glﬂd_˛au£s_2
+, 
+	glﬂd_˛au£s_3
+, 
+	glﬂd_˛au£s_4
+, 
+	glﬂd_˛au£s_5
+, 
+	glﬂd_˛au£s_6
+, 
+	glﬂd_˛au£s_7
+, 
+	glﬂd_˛au£s_8
+, 
+	glﬂd_˛au£s_9
+, 
+	glﬂd_˛au£s_10
+, 
+	glﬂd_˛au£s_11
+, 
+	glﬂd_˛au£s_12
+, 
+	glﬂd_˛au£s_13
+, 
+	glﬂd_˛au£s_14
+, 
+	glﬂd_˛au£s_15
+, 
+	glﬂd_˛au£s_16
+, 
+	glﬂd_˛au£s_17
+, 
+	glﬂd_˛au£s_18
+, 
+	glﬂd_˛au£s_19
+, 
+	glﬂd_˛au£s_20
+, 
+	glﬂd_˛au£s_21
+, 
+	glﬂd_˛au£s_22
+, 
+	glﬂd_˛au£s_23
+;
+
+49 
+	gwúe
+ [1:0] 
+upd©e_˛au£_o_0
+, 
+	gupd©e_˛au£_o_1
+, 
+	gupd©e_˛au£_o_2
+, 
+	gupd©e_˛au£_o_3
+, 
+	gupd©e_˛au£_o_4
+, 
+	gupd©e_˛au£_o_5
+, 
+	gupd©e_˛au£_o_6
+, 
+	gupd©e_˛au£_o_7
+, 
+	gupd©e_˛au£_o_8
+, 
+	gupd©e_˛au£_o_9
+, 
+	gupd©e_˛au£_o_10
+, 
+	gupd©e_˛au£_o_11
+, 
+	gupd©e_˛au£_o_12
+, 
+	gupd©e_˛au£_o_13
+, 
+	gupd©e_˛au£_o_14
+, 
+	gupd©e_˛au£_o_15
+, 
+	gupd©e_˛au£_o_16
+, 
+	gupd©e_˛au£_o_17
+, 
+	gupd©e_˛au£_o_18
+, 
+	gupd©e_˛au£_o_19
+, 
+	gupd©e_˛au£_o_20
+, 
+	gupd©e_˛au£_o_21
+, 
+	gupd©e_˛au£_o_22
+, 
+	gupd©e_˛au£_o_23
+;
+
+50 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1:0] 
+v¨s_°©es_0
+, 
+	gv¨s_°©es_1
+, 
+	gv¨s_°©es_2
+, 
+	gv¨s_°©es_3
+, 
+	gv¨s_°©es_4
+, 
+	gv¨s_°©es_5
+, 
+	gv¨s_°©es_6
+, 
+	gv¨s_°©es_7
+, 
+	gv¨s_°©es_8
+, 
+	gv¨s_°©es_9
+, 
+	gv¨s_°©es_10
+, 
+	gv¨s_°©es_11
+, 
+	gv¨s_°©es_12
+, 
+	gv¨s_°©es_13
+, 
+	gv¨s_°©es_14
+, 
+	gv¨s_°©es_15
+, 
+	gv¨s_°©es_16
+, 
+	gv¨s_°©es_17
+, 
+	gv¨s_°©es_18
+, 
+	gv¨s_°©es_19
+, 
+	gv¨s_°©es_20
+, 
+	gv¨s_°©es_21
+, 
+	gv¨s_°©es_22
+, 
+	gv¨s_°©es_23
+;
+
+51 
+	gwúe
+ [
+NUM_VARS_A_BIN
+-1:0] 
+À¨¡_lô_o_0
+, 
+	gÀ¨¡_lô_o_1
+, 
+	gÀ¨¡_lô_o_2
+, 
+	gÀ¨¡_lô_o_3
+, 
+	gÀ¨¡_lô_o_4
+, 
+	gÀ¨¡_lô_o_5
+, 
+	gÀ¨¡_lô_o_6
+, 
+	gÀ¨¡_lô_o_7
+, 
+	gÀ¨¡_lô_o_8
+, 
+	gÀ¨¡_lô_o_9
+, 
+	gÀ¨¡_lô_o_10
+, 
+	gÀ¨¡_lô_o_11
+, 
+	gÀ¨¡_lô_o_12
+, 
+	gÀ¨¡_lô_o_13
+, 
+	gÀ¨¡_lô_o_14
+, 
+	gÀ¨¡_lô_o_15
+, 
+	gÀ¨¡_lô_o_16
+, 
+	gÀ¨¡_lô_o_17
+, 
+	gÀ¨¡_lô_o_18
+, 
+	gÀ¨¡_lô_o_19
+, 
+	gÀ¨¡_lô_o_20
+, 
+	gÀ¨¡_lô_o_21
+, 
+	gÀ¨¡_lô_o_22
+, 
+	gÀ¨¡_lô_o_23
+;
+
+52 
+	gwúe
+ [
+NUM_VARS_A_BIN
+-1:0] 
+v¨_Àvñ_o_0
+, 
+	gv¨_Àvñ_o_1
+, 
+	gv¨_Àvñ_o_2
+, 
+	gv¨_Àvñ_o_3
+, 
+	gv¨_Àvñ_o_4
+, 
+	gv¨_Àvñ_o_5
+, 
+	gv¨_Àvñ_o_6
+, 
+	gv¨_Àvñ_o_7
+, 
+	gv¨_Àvñ_o_8
+, 
+	gv¨_Àvñ_o_9
+, 
+	gv¨_Àvñ_o_10
+, 
+	gv¨_Àvñ_o_11
+, 
+	gv¨_Àvñ_o_12
+, 
+	gv¨_Àvñ_o_13
+, 
+	gv¨_Àvñ_o_14
+, 
+	gv¨_Àvñ_o_15
+, 
+	gv¨_Àvñ_o_16
+, 
+	gv¨_Àvñ_o_17
+, 
+	gv¨_Àvñ_o_18
+, 
+	gv¨_Àvñ_o_19
+, 
+	gv¨_Àvñ_o_20
+, 
+	gv¨_Àvñ_o_21
+, 
+	gv¨_Àvñ_o_22
+, 
+	gv¨_Àvñ_o_23
+;
+
+54 
+	gassign
+ {
+	gv¨_vÆue_i_0
+, 
+	gv¨_vÆue_i_1
+, 
+	gv¨_vÆue_i_2
+, 
+	gv¨_vÆue_i_3
+, 
+	gv¨_vÆue_i_4
+, 
+	gv¨_vÆue_i_5
+, 
+	gv¨_vÆue_i_6
+, 
+	gv¨_vÆue_i_7
+, 
+	gv¨_vÆue_i_8
+, 
+	gv¨_vÆue_i_9
+, 
+	gv¨_vÆue_i_10
+, 
+	gv¨_vÆue_i_11
+, 
+	gv¨_vÆue_i_12
+, 
+	gv¨_vÆue_i_13
+, 
+	gv¨_vÆue_i_14
+, 
+	gv¨_vÆue_i_15
+, 
+	gv¨_vÆue_i_16
+, 
+	gv¨_vÆue_i_17
+, 
+	gv¨_vÆue_i_18
+, 
+	gv¨_vÆue_i_19
+, 
+	gv¨_vÆue_i_20
+, 
+	gv¨_vÆue_i_21
+, 
+	gv¨_vÆue_i_22
+, 
+	gv¨_vÆue_i_23
+} = 
+v¨_vÆue_i
+;
+
+55 
+assign
+ 
+	gv¨_vÆue_o
+ = {
+v¨_vÆue_o_0
+, 
+v¨_vÆue_o_1
+, 
+v¨_vÆue_o_2
+, 
+v¨_vÆue_o_3
+, 
+v¨_vÆue_o_4
+, 
+v¨_vÆue_o_5
+, 
+v¨_vÆue_o_6
+, 
+v¨_vÆue_o_7
+, 
+v¨_vÆue_o_8
+, 
+v¨_vÆue_o_9
+, 
+v¨_vÆue_o_10
+, 
+v¨_vÆue_o_11
+, 
+v¨_vÆue_o_12
+, 
+v¨_vÆue_o_13
+, 
+v¨_vÆue_o_14
+, 
+v¨_vÆue_o_15
+, 
+v¨_vÆue_o_16
+, 
+v¨_vÆue_o_17
+, 
+v¨_vÆue_o_18
+, 
+v¨_vÆue_o_19
+, 
+v¨_vÆue_o_20
+, 
+v¨_vÆue_o_21
+, 
+v¨_vÆue_o_22
+, 
+v¨_vÆue_o_23
+};
+
+57 
+	gassign
+ {
+	gv¨s_decided_toba£_i_0
+, 
+	gv¨s_decided_toba£_i_1
+, 
+	gv¨s_decided_toba£_i_2
+, 
+	gv¨s_decided_toba£_i_3
+, 
+	gv¨s_decided_toba£_i_4
+, 
+	gv¨s_decided_toba£_i_5
+, 
+	gv¨s_decided_toba£_i_6
+, 
+	gv¨s_decided_toba£_i_7
+, 
+	gv¨s_decided_toba£_i_8
+, 
+	gv¨s_decided_toba£_i_9
+, 
+	gv¨s_decided_toba£_i_10
+, 
+	gv¨s_decided_toba£_i_11
+, 
+	gv¨s_decided_toba£_i_12
+, 
+	gv¨s_decided_toba£_i_13
+, 
+	gv¨s_decided_toba£_i_14
+, 
+	gv¨s_decided_toba£_i_15
+, 
+	gv¨s_decided_toba£_i_16
+, 
+	gv¨s_decided_toba£_i_17
+, 
+	gv¨s_decided_toba£_i_18
+, 
+	gv¨s_decided_toba£_i_19
+, 
+	gv¨s_decided_toba£_i_20
+, 
+	gv¨s_decided_toba£_i_21
+, 
+	gv¨s_decided_toba£_i_22
+, 
+	gv¨s_decided_toba£_i_23
+} = 
+v¨s_decided_toba£_i
+;
+
+59 
+	gassign
+ {
+	gdecide_Àvñ_i_0
+, 
+	gdecide_Àvñ_i_1
+, 
+	gdecide_Àvñ_i_2
+, 
+	gdecide_Àvñ_i_3
+, 
+	gdecide_Àvñ_i_4
+, 
+	gdecide_Àvñ_i_5
+, 
+	gdecide_Àvñ_i_6
+, 
+	gdecide_Àvñ_i_7
+, 
+	gdecide_Àvñ_i_8
+, 
+	gdecide_Àvñ_i_9
+, 
+	gdecide_Àvñ_i_10
+, 
+	gdecide_Àvñ_i_11
+, 
+	gdecide_Àvñ_i_12
+, 
+	gdecide_Àvñ_i_13
+, 
+	gdecide_Àvñ_i_14
+, 
+	gdecide_Àvñ_i_15
+, 
+	gdecide_Àvñ_i_16
+, 
+	gdecide_Àvñ_i_17
+, 
+	gdecide_Àvñ_i_18
+, 
+	gdecide_Àvñ_i_19
+, 
+	gdecide_Àvñ_i_20
+, 
+	gdecide_Àvñ_i_21
+, 
+	gdecide_Àvñ_i_22
+, 
+	gdecide_Àvñ_i_23
+} = 
+decide_Àvñ_i
+;
+
+61 
+	gwúe
+ [
+NUM_VARS_A_BIN
+-1:0] 
+föd_c⁄Êi˘_cur
+, 
+	gföd_im∂y_cur
+;
+
+62 
+	gªg
+ [
+NUM_VARS_A_BIN
+-1:0] 
+föd_c⁄Êi˘_¥e
+, 
+	gföd_im∂y_¥e
+;
+
+63 
+assign
+ 
+	gföd_c⁄Êi˘_cur
+ = {
+föd_c⁄Êi˘_o_0
+, 
+föd_c⁄Êi˘_o_1
+, 
+föd_c⁄Êi˘_o_2
+, 
+föd_c⁄Êi˘_o_3
+, 
+föd_c⁄Êi˘_o_4
+, 
+föd_c⁄Êi˘_o_5
+, 
+föd_c⁄Êi˘_o_6
+, 
+föd_c⁄Êi˘_o_7
+, 
+föd_c⁄Êi˘_o_8
+, 
+föd_c⁄Êi˘_o_9
+, 
+föd_c⁄Êi˘_o_10
+, 
+föd_c⁄Êi˘_o_11
+, 
+föd_c⁄Êi˘_o_12
+, 
+föd_c⁄Êi˘_o_13
+, 
+föd_c⁄Êi˘_o_14
+, 
+föd_c⁄Êi˘_o_15
+, 
+föd_c⁄Êi˘_o_16
+, 
+föd_c⁄Êi˘_o_17
+, 
+föd_c⁄Êi˘_o_18
+, 
+föd_c⁄Êi˘_o_19
+, 
+föd_c⁄Êi˘_o_20
+, 
+föd_c⁄Êi˘_o_21
+, 
+föd_c⁄Êi˘_o_22
+, 
+föd_c⁄Êi˘_o_23
+};
+
+65 
+assign
+ 
+	gföd_im∂y_cur
+ = {
+föd_im∂y_o_0
+, 
+föd_im∂y_o_1
+, 
+föd_im∂y_o_2
+, 
+föd_im∂y_o_3
+, 
+föd_im∂y_o_4
+, 
+föd_im∂y_o_5
+, 
+föd_im∂y_o_6
+, 
+föd_im∂y_o_7
+, 
+föd_im∂y_o_8
+, 
+föd_im∂y_o_9
+, 
+föd_im∂y_o_10
+, 
+föd_im∂y_o_11
+, 
+föd_im∂y_o_12
+, 
+föd_im∂y_o_13
+, 
+föd_im∂y_o_14
+, 
+föd_im∂y_o_15
+, 
+föd_im∂y_o_16
+, 
+föd_im∂y_o_17
+, 
+föd_im∂y_o_18
+, 
+föd_im∂y_o_19
+, 
+föd_im∂y_o_20
+, 
+föd_im∂y_o_21
+, 
+föd_im∂y_o_22
+, 
+föd_im∂y_o_23
+};
+
+67 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+68 
+begö
+
+
+69 if(
+	gr°
+)
+
+70 
+	gföd_im∂y_¥e
+ <= 0;
+
+72 
+	gföd_im∂y_¥e
+ <
+föd_im∂y_cur
+;
+
+73 
+íd
+
+
+75 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+76 
+begö
+
+
+77 if(
+	gr°
+)
+
+78 
+	gd⁄e_im∂y_o
+ <= 0;
+
+79 if(
+	g≠∂y_im∂iˇti⁄_i
+ && 
+	gföd_im∂y_cur
+!=
+föd_im∂y_¥e
+)
+
+80 
+d⁄e_im∂y_o
+ <= 1;
+
+82 
+	gd⁄e_im∂y_o
+ <= 0;
+
+83 
+íd
+
+
+87 
+∑ømëî
+ 
+	gANALYZE_IDLE
+ = 0,
+
+88 
+	gFIND_CONFLICT_CLAUSE
+ = 1,
+
+89 
+	gADD_LEARNT_CLAUSE
+ = 2,
+
+90 
+	gBACKTRACK
+ = 3,
+
+91 
+	gANALYZE_DONE
+ = 4;
+
+93 
+	gªg
+ [1:0] 
+c_™Æyze_°©e
+, 
+	gn_™Æyze_°©e
+;
+
+95 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+96 
+begö
+
+
+97 if(
+	gr°
+)
+
+98 
+	gc_™Æyze_°©e
+ <= 0;
+
+100 
+	gc_™Æyze_°©e
+ <
+n_™Æyze_°©e
+;
+
+101 
+íd
+
+
+103 
+	gÆways
+ @(*)
+
+104 
+begö
+
+
+105 if(
+	gr°
+)
+
+106 
+	gn_™Æyze_°©e
+ = 0;
+
+108 (
+c_™Æyze_°©e
+)
+
+109 
+ANALYZE_IDLE
+:
+
+110 if(
+≠∂y_™Æyze_i
+)
+
+111 
+n_™Æyze_°©e
+ = 
+FIND_CONFLICT_CLAUSE
+;
+
+113 
+n_™Æyze_°©e
+ = 
+ANALYZE_IDLE
+;
+
+114 
+FIND_CONFLICT_CLAUSE
+:
+
+115 if(
+föd_c⁄Êi˘_cur
+!=
+föd_c⁄Êi˘_¥e
+)
+
+116 
+n_™Æyze_°©e
+ = 
+ADD_LEARNT_CLAUSE
+;
+
+118 
+n_™Æyze_°©e
+ = 
+FIND_CONFLICT_CLAUSE
+;
+
+119 
+ADD_LEARNT_CLAUSE
+:
+
+120 if(
+bkt_bö_num_o
+!=
+cur_bö_num_i
+ || 
+exi°_v¨_nŸ_vbkt_o
+)
+
+121 
+n_™Æyze_°©e
+ = 
+ANALYZE_DONE
+;
+
+123 
+n_™Æyze_°©e
+ = 
+BACKTRACK
+;
+
+124 
+BACKTRACK
+:
+
+125 
+n_™Æyze_°©e
+ = 
+ANALYZE_DONE
+;
+
+126 
+ANALYZE_DONE
+:
+
+127 
+n_™Æyze_°©e
+ = 
+ANALYZE_IDLE
+;
+
+129 
+n_™Æyze_°©e
+ = 
+ANALYZE_IDLE
+;
+
+130 
+ídˇ£
+
+
+131 
+íd
+
+
+133 
+assign
+ 
+exi°_v¨_nŸ_vbkt_o
+ = 
+exi°_v¨_nŸ_vbkt_o_0
+ | 
+exi°_v¨_nŸ_vbkt_o_1
+ | 
+exi°_v¨_nŸ_vbkt_o_2
+ | 
+exi°_v¨_nŸ_vbkt_o_3
+ | 
+exi°_v¨_nŸ_vbkt_o_4
+ | 
+exi°_v¨_nŸ_vbkt_o_5
+ | 
+exi°_v¨_nŸ_vbkt_o_6
+ | 
+exi°_v¨_nŸ_vbkt_o_7
+ | 
+exi°_v¨_nŸ_vbkt_o_8
+ | 
+exi°_v¨_nŸ_vbkt_o_9
+ | 
+exi°_v¨_nŸ_vbkt_o_10
+ | 
+exi°_v¨_nŸ_vbkt_o_11
+ | 
+exi°_v¨_nŸ_vbkt_o_12
+ | 
+exi°_v¨_nŸ_vbkt_o_13
+ | 
+exi°_v¨_nŸ_vbkt_o_14
+ | 
+exi°_v¨_nŸ_vbkt_o_15
+ | 
+exi°_v¨_nŸ_vbkt_o_16
+ | 
+exi°_v¨_nŸ_vbkt_o_17
+ | 
+exi°_v¨_nŸ_vbkt_o_18
+ | 
+exi°_v¨_nŸ_vbkt_o_19
+ | 
+exi°_v¨_nŸ_vbkt_o_20
+ | 
+exi°_v¨_nŸ_vbkt_o_21
+ | 
+exi°_v¨_nŸ_vbkt_o_22
+ | 
+exi°_v¨_nŸ_vbkt_o_23
+;
+
+135 
+ªg
+ [
+NUM_CLAUSES_A_BIN
+/2-1:0] 
+ö£π_poöãr
+;
+
+136 
+wúe
+ [9:0] 
+˛au£_Àn_12
+, 
+˛au£_Àn_13
+, 
+˛au£_Àn_14
+, 
+˛au£_Àn_15
+, 
+˛au£_Àn_16
+, 
+˛au£_Àn_17
+, 
+˛au£_Àn_18
+, 
+˛au£_Àn_19
+, 
+˛au£_Àn_20
+, 
+˛au£_Àn_21
+, 
+˛au£_Àn_22
+, 
+˛au£_Àn_23
+;
+
+137 
+assign
+ {
+˛au£_Àn_12
+, 
+˛au£_Àn_13
+, 
+˛au£_Àn_14
+, 
+˛au£_Àn_15
+, 
+˛au£_Àn_16
+, 
+˛au£_Àn_17
+, 
+˛au£_Àn_18
+, 
+˛au£_Àn_19
+, 
+˛au£_Àn_20
+, 
+˛au£_Àn_21
+, 
+˛au£_Àn_22
+, 
+˛au£_Àn_23
+} = cœu£_Àn_i;
+
+139 
+	gwúe
+ [9:0] 
+max_Àn1
+ = 
+˛au£_Àn_12
+>
+˛au£_Àn_13
+? clause_len_12:clause_len_13;
+
+140 
+	gwúe
+ [9:0] 
+max_Àn2
+ = 
+˛au£_Àn_14
+>
+˛au£_Àn_15
+? clause_len_14:clause_len_15;
+
+141 
+	gwúe
+ [9:0] 
+max_Àn3
+ = 
+˛au£_Àn_16
+>
+˛au£_Àn_17
+? clause_len_16:clause_len_17;
+
+142 
+	gwúe
+ [9:0] 
+max_Àn4
+ = 
+˛au£_Àn_18
+>
+˛au£_Àn_19
+? clause_len_18:clause_len_19;
+
+143 
+	gwúe
+ [9:0] 
+max_Àn5
+ = 
+˛au£_Àn_20
+>
+˛au£_Àn_21
+? clause_len_20:clause_len_21;
+
+144 
+	gwúe
+ [9:0] 
+max_Àn6
+ = 
+˛au£_Àn_22
+>
+˛au£_Àn_23
+? clause_len_22:clause_len_23;
+
+145 
+	gwúe
+ [9:0] 
+max_Àn12
+ = 
+max_Àn1
+>
+max_Àn2
+? max_len1:max_len2;
+
+146 
+	gwúe
+ [9:0] 
+max_Àn34
+ = 
+max_Àn3
+>
+max_Àn4
+? max_len3:max_len4;
+
+147 
+	gwúe
+ [9:0] 
+max_Àn56
+ = 
+max_Àn5
+>
+max_Àn6
+? max_len5:max_len6;
+
+148 
+	gwúe
+ [9:0] 
+max_Àn1234
+ = 
+max_Àn12
+>
+max_Àn34
+? max_len12:max_len34;
+
+149 
+	gwúe
+ [9:0] 
+max_Àn
+ = 
+max_Àn1234
+>
+max_Àn56
+? max_len1234:max_len56;
+
+151 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+152 
+begö
+
+
+153 if(~
+	gr°
+Ë
+begö
+
+
+154 
+	gö£π_poöãr
+[0] <= 0;
+
+155 
+	gö£π_poöãr
+[1] <= 0;
+
+156 
+	gö£π_poöãr
+[2] <= 0;
+
+157 
+	gö£π_poöãr
+[3] <= 0;
+
+158 
+	gö£π_poöãr
+[4] <= 0;
+
+159 
+	gö£π_poöãr
+[5] <= 0;
+
+160 
+	gö£π_poöãr
+[6] <= 0;
+
+161 
+	gö£π_poöãr
+[7] <= 0;
+
+162 
+	gö£π_poöãr
+[8] <= 0;
+
+163 
+	gö£π_poöãr
+[9] <= 0;
+
+164 
+	gö£π_poöãr
+[10] <= 0;
+
+165 
+	gö£π_poöãr
+[11] <= 0;
+
+166 
+íd
+
+
+167 if(
+	gc_™Æyze_°©e
+ =
+ADD_LEARNT_CLAUSE
+Ë
+begö
+
+
+168 
+ö£π_poöãr
+[0] <
+˛au£_Àn_12
+ =
+max_Àn
+;
+
+169 
+	gö£π_poöãr
+[1] <
+˛au£_Àn_13
+ =
+max_Àn
+;
+
+170 
+	gö£π_poöãr
+[2] <
+˛au£_Àn_14
+ =
+max_Àn
+;
+
+171 
+	gö£π_poöãr
+[3] <
+˛au£_Àn_15
+ =
+max_Àn
+;
+
+172 
+	gö£π_poöãr
+[4] <
+˛au£_Àn_16
+ =
+max_Àn
+;
+
+173 
+	gö£π_poöãr
+[5] <
+˛au£_Àn_17
+ =
+max_Àn
+;
+
+174 
+	gö£π_poöãr
+[6] <
+˛au£_Àn_18
+ =
+max_Àn
+;
+
+175 
+	gö£π_poöãr
+[7] <
+˛au£_Àn_19
+ =
+max_Àn
+;
+
+176 
+	gö£π_poöãr
+[8] <
+˛au£_Àn_20
+ =
+max_Àn
+;
+
+177 
+	gö£π_poöãr
+[9] <
+˛au£_Àn_21
+ =
+max_Àn
+;
+
+178 
+	gö£π_poöãr
+[10] <
+˛au£_Àn_22
+ =
+max_Àn
+;
+
+179 
+	gö£π_poöãr
+[11] <
+˛au£_Àn_23
+ =
+max_Àn
+;
+
+180 
+íd
+
+
+181 
+begö
+
+
+182 
+	gö£π_poöãr
+[0] <= 0;
+
+183 
+	gö£π_poöãr
+[1] <= 0;
+
+184 
+	gö£π_poöãr
+[2] <= 0;
+
+185 
+	gö£π_poöãr
+[3] <= 0;
+
+186 
+	gö£π_poöãr
+[4] <= 0;
+
+187 
+	gö£π_poöãr
+[5] <= 0;
+
+188 
+	gö£π_poöãr
+[6] <= 0;
+
+189 
+	gö£π_poöãr
+[7] <= 0;
+
+190 
+	gö£π_poöãr
+[8] <= 0;
+
+191 
+	gö£π_poöãr
+[9] <= 0;
+
+192 
+	gö£π_poöãr
+[10] <= 0;
+
+193 
+	gö£π_poöãr
+[11] <= 0;
+
+194 
+íd
+
+
+195 
+íd
+
+
+198 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_0_0
+ = 
+v¨_Àvñ_o_1
+>
+v¨_Àvñ_o_0
+? var_level_o_1:var_level_o_0;
+
+199 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_0_1
+ = 
+v¨_Àvñ_o_3
+>
+v¨_Àvñ_o_2
+? var_level_o_3:var_level_o_2;
+
+200 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_0_2
+ = 
+v¨_Àvñ_o_5
+>
+v¨_Àvñ_o_4
+? var_level_o_5:var_level_o_4;
+
+201 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_0_3
+ = 
+v¨_Àvñ_o_7
+>
+v¨_Àvñ_o_6
+? var_level_o_7:var_level_o_6;
+
+202 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_0_4
+ = 
+v¨_Àvñ_o_9
+>
+v¨_Àvñ_o_8
+? var_level_o_9:var_level_o_8;
+
+203 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_0_5
+ = 
+v¨_Àvñ_o_11
+>
+v¨_Àvñ_o_10
+? var_level_o_11:var_level_o_10;
+
+204 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_0_6
+ = 
+v¨_Àvñ_o_13
+>
+v¨_Àvñ_o_12
+? var_level_o_13:var_level_o_12;
+
+205 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_0_7
+ = 
+v¨_Àvñ_o_15
+>
+v¨_Àvñ_o_14
+? var_level_o_15:var_level_o_14;
+
+206 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_0_8
+ = 
+v¨_Àvñ_o_17
+>
+v¨_Àvñ_o_16
+? var_level_o_17:var_level_o_16;
+
+207 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_0_9
+ = 
+v¨_Àvñ_o_19
+>
+v¨_Àvñ_o_18
+? var_level_o_19:var_level_o_18;
+
+208 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_0_10
+ = 
+v¨_Àvñ_o_21
+>
+v¨_Àvñ_o_20
+? var_level_o_21:var_level_o_20;
+
+209 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_0_11
+ = 
+v¨_Àvñ_o_23
+>
+v¨_Àvñ_o_22
+? var_level_o_23:var_level_o_22;
+
+211 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_1_0
+ = 
+max_lvl_0_1
+>
+max_lvl_0_0
+? max_lvl_0_1:max_lvl_0_0;
+
+212 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_1_1
+ = 
+max_lvl_0_3
+>
+max_lvl_0_2
+? max_lvl_0_3:max_lvl_0_2;
+
+213 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_1_2
+ = 
+max_lvl_0_5
+>
+max_lvl_0_4
+? max_lvl_0_5:max_lvl_0_4;
+
+214 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_1_3
+ = 
+max_lvl_0_7
+>
+max_lvl_0_6
+? max_lvl_0_7:max_lvl_0_6;
+
+215 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_1_4
+ = 
+max_lvl_0_9
+>
+max_lvl_0_8
+? max_lvl_0_9:max_lvl_0_8;
+
+216 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_1_5
+ = 
+max_lvl_11
+>
+max_lvl_10
+? max_lvl_11:max_lvl_10;
+
+218 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_2_0
+ = 
+max_lvl_1_1
+>
+max_lvl_1_0
+? max_lvl_1_1:max_lvl_1_0;
+
+219 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_2_1
+ = 
+max_lvl_1_3
+>
+max_lvl_1_2
+? max_lvl_1_3:max_lvl_1_2;
+
+220 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_2_2
+ = 
+max_lvl_1_5
+>
+max_lvl_1_4
+? max_lvl_1_5:max_lvl_1_4;
+
+222 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+max_lvl_3_0
+ = 
+max_lvl_2_1
+>
+max_lvl_2_0
+? max_lvl_2_1:max_lvl_2_0;
+
+223 
+	gwúe
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+bkt_lvl
+ = 
+max_lvl_3_0
+>
+max_lvl_2_2
+? max_lvl_3_0:max_lvl_2_2;
+
+225 
+	gwúe
+ [9:0] 
+bkt_bö_num_o_0
+, 
+	gbkt_bö_num_o_1
+, 
+	gbkt_bö_num_o_2
+, 
+	gbkt_bö_num_o_3
+, 
+	gbkt_bö_num_o_4
+, 
+	gbkt_bö_num_o_5
+, 
+	gbkt_bö_num_o_6
+, 
+	gbkt_bö_num_o_7
+, 
+	gbkt_bö_num_o_8
+, 
+	gbkt_bö_num_o_9
+, 
+	gbkt_bö_num_o_10
+, 
+	gbkt_bö_num_o_11
+, 
+	gbkt_bö_num_o_12
+, 
+	gbkt_bö_num_o_13
+, 
+	gbkt_bö_num_o_14
+, 
+	gbkt_bö_num_o_15
+, 
+	gbkt_bö_num_o_16
+, 
+	gbkt_bö_num_o_17
+, 
+	gbkt_bö_num_o_18
+, 
+	gbkt_bö_num_o_19
+, 
+	gbkt_bö_num_o_20
+, 
+	gbkt_bö_num_o_21
+, 
+	gbkt_bö_num_o_22
+, 
+	gbkt_bö_num_o_23
+;
+
+227 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+228 
+begö
+
+
+229 if(~
+	gr°
+)
+
+230 
+	gbkt_bö_num_o
+ <= 0;
+
+231 if(
+	gc_™Æyze_°©e
+==
+ADD_LEARNT_CLAUSE
+)
+
+232 
+bkt_bö_num_o
+ <
+bkt_bö_num_o_0
+ | 
+bkt_bö_num_o_1
+ | 
+bkt_bö_num_o_2
+ | 
+bkt_bö_num_o_3
+ | 
+bkt_bö_num_o_4
+ | 
+bkt_bö_num_o_5
+ | 
+bkt_bö_num_o_6
+ | 
+bkt_bö_num_o_7
+ | 
+bkt_bö_num_o_8
+ | 
+bkt_bö_num_o_9
+ | 
+bkt_bö_num_o_10
+ | 
+bkt_bö_num_o_11
+ | 
+bkt_bö_num_o_12
+ | 
+bkt_bö_num_o_13
+ | 
+bkt_bö_num_o_14
+ | 
+bkt_bö_num_o_15
+ | 
+bkt_bö_num_o_16
+ | 
+bkt_bö_num_o_17
+ | 
+bkt_bö_num_o_18
+ | 
+bkt_bö_num_o_19
+ | 
+bkt_bö_num_o_20
+ | 
+bkt_bö_num_o_21
+ | 
+bkt_bö_num_o_22
+ | 
+bkt_bö_num_o_23
+;
+
+234 
+	gbkt_bö_num_o
+ <
+bkt_bö_num_o
+;
+
+235 
+íd
+
+
+238 
+ªg
+ 
+	g≠∂y_backåack_r
+;
+
+240 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+241 
+begö
+
+
+242 if(~
+	gr°
+)
+
+243 
+	g≠∂y_backåack_r
+ <= 0;
+
+244 if(
+	gc_™Æyze_°©e
+==
+BACKTRACK
+)
+
+245 
+≠∂y_backåack_r
+ <= 1;
+
+247 
+	g≠∂y_backåack_r
+ <= 0;
+
+248 
+íd
+
+
+250 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+251 
+begö
+
+
+252 if(~
+	gr°
+)
+
+253 
+	gd⁄e_™Æyze_o
+ <= 0;
+
+254 if(
+	gc_™Æyze_°©e
+==
+ANALYZE_DONE
+)
+
+255 
+d⁄e_™Æyze_o
+ <= 1;
+
+257 
+	gd⁄e_™Æyze_o
+ <= 0;
+
+258 
+íd
+
+
+261 
+wúe
+ 
+	gis_ödïídít_bö_0
+, 
+	gis_ödïídít_bö_1
+, 
+	gis_ödïídít_bö_2
+, 
+	gis_ödïídít_bö_3
+, 
+	gis_ödïídít_bö_4
+, 
+	gis_ödïídít_bö_5
+, 
+	gis_ödïídít_bö_6
+, 
+	gis_ödïídít_bö_7
+, 
+	gis_ödïídít_bö_8
+, 
+	gis_ödïídít_bö_9
+, 
+	gis_ödïídít_bö_10
+, 
+	gis_ödïídít_bö_11
+, 
+	gis_ödïídít_bö_12
+, 
+	gis_ödïídít_bö_13
+, 
+	gis_ödïídít_bö_14
+, 
+	gis_ödïídít_bö_15
+, 
+	gis_ödïídít_bö_16
+, 
+	gis_ödïídít_bö_17
+, 
+	gis_ödïídít_bö_18
+, 
+	gis_ödïídít_bö_19
+, 
+	gis_ödïídít_bö_20
+, 
+	gis_ödïídít_bö_21
+, 
+	gis_ödïídít_bö_22
+, 
+	gis_ödïídít_bö_23
+;
+
+263 
+assign
+ 
+	gis_ödïídít_bö_o
+ = 
+is_ödïídít_bö_0
+ & 
+is_ödïídít_bö_1
+ & 
+is_ödïídít_bö_2
+ & 
+is_ödïídít_bö_3
+ & 
+is_ödïídít_bö_4
+ & 
+is_ödïídít_bö_5
+ & 
+is_ödïídít_bö_6
+ & 
+is_ödïídít_bö_7
+ & 
+is_ödïídít_bö_8
+ & 
+is_ödïídít_bö_9
+ & 
+is_ödïídít_bö_10
+ & 
+is_ödïídít_bö_11
+ & 
+is_ödïídít_bö_12
+ & 
+is_ödïídít_bö_13
+ & 
+is_ödïídít_bö_14
+ & 
+is_ödïídít_bö_15
+ & 
+is_ödïídít_bö_16
+ & 
+is_ödïídít_bö_17
+ & 
+is_ödïídít_bö_18
+ & 
+is_ödïídít_bö_19
+ & 
+is_ödïídít_bö_20
+ & 
+is_ödïídít_bö_21
+ & 
+is_ödïídít_bö_22
+ & 
+is_ödïídít_bö_23
+;
+
+266 
+wúe
+ 
+	gwr_v¨_°©es
+;
+
+267 
+assign
+ 
+	gwr_v¨_°©es
+ = 
+£t_v¨s_°©es_i
+ | 
+gë_v¨s_°©es_i
+;
+
+269 
+	gassign
+ {
+	glﬂd_˛au£s_0
+, 
+	glﬂd_˛au£s_1
+, 
+	glﬂd_˛au£s_2
+, 
+	glﬂd_˛au£s_3
+, 
+	glﬂd_˛au£s_4
+, 
+	glﬂd_˛au£s_5
+, 
+	glﬂd_˛au£s_6
+, 
+	glﬂd_˛au£s_7
+, 
+	glﬂd_˛au£s_8
+, 
+	glﬂd_˛au£s_9
+, 
+	glﬂd_˛au£s_10
+, 
+	glﬂd_˛au£s_11
+, 
+	glﬂd_˛au£s_12
+, 
+	glﬂd_˛au£s_13
+, 
+	glﬂd_˛au£s_14
+, 
+	glﬂd_˛au£s_15
+, 
+	glﬂd_˛au£s_16
+, 
+	glﬂd_˛au£s_17
+, 
+	glﬂd_˛au£s_18
+, 
+	glﬂd_˛au£s_19
+, 
+	glﬂd_˛au£s_20
+, 
+	glﬂd_˛au£s_21
+, 
+	glﬂd_˛au£s_22
+, 
+	glﬂd_˛au£s_23
+} = 
+lﬂd_˛au£s_i
+;
+
+271 
+assign
+ 
+	gupd©e_˛au£_o
+ = {
+upd©e_˛au£_o_0
+, 
+upd©e_˛au£_o_1
+, 
+upd©e_˛au£_o_2
+, 
+upd©e_˛au£_o_3
+, 
+upd©e_˛au£_o_4
+, 
+upd©e_˛au£_o_5
+, 
+upd©e_˛au£_o_6
+, 
+upd©e_˛au£_o_7
+, 
+upd©e_˛au£_o_8
+, 
+upd©e_˛au£_o_9
+, 
+upd©e_˛au£_o_10
+, 
+upd©e_˛au£_o_11
+, 
+upd©e_˛au£_o_12
+, 
+upd©e_˛au£_o_13
+, 
+upd©e_˛au£_o_14
+, 
+upd©e_˛au£_o_15
+, 
+upd©e_˛au£_o_16
+, 
+upd©e_˛au£_o_17
+, 
+upd©e_˛au£_o_18
+, 
+upd©e_˛au£_o_19
+, 
+upd©e_˛au£_o_20
+, 
+upd©e_˛au£_o_21
+, 
+upd©e_˛au£_o_22
+, 
+upd©e_˛au£_o_23
+};
+
+273 
+assign
+ 
+	gv¨s_°©es_o
+ = 
+v¨s_°©es_0
+;
+
+274 
+assign
+ 
+	gv¨s_°©es_23
+ = 
+v¨s_°©es_i
+;
+
+276 
+ba£_˚Œ
+ 
+	gba£_˚Œ0
+ #(
+
+277 .
+NUM_CLAUSES_A_BIN
+(NUM_CLAUSES_A_BIN),
+
+278 .
+WIDTH_VAR_STATES
+(WIDTH_VAR_STATES)
+
+281 .
+˛k
+(clk),
+
+282 .
+r°
+(rst),
+
+283 .
+v¨_vÆue_i
+(
+v¨_vÆue_i_0
+),
+
+284 .
+v¨_vÆue_o
+(
+v¨_vÆue_o_0
+),
+
+285 .
+v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_0
+),
+
+286 .
+decide_Àvñ_i
+(
+decide_Àvñ_i_0
+),
+
+287 .
+föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_0
+),
+
+288 .
+föd_im∂y_o
+(
+föd_im∂y_o_0
+),
+
+289 .
+≠∂y_™Æyze_i
+(apply_analyze_i),
+
+290 .
+≠∂y_lﬂd_i
+(apply_load_i),
+
+291 .
+lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_0
+),
+
+292 .
+≠∂y_upd©e_i
+(apply_update_i),
+
+293 .
+upd©e_˛au£_o
+(
+upd©e_˛au£_o_0
+),
+
+294 .
+wr_v¨_°©es
+(wr_var_states),
+
+295 .
+v¨s_°©es_i
+(
+v¨s_°©es_1
+),
+
+296 .
+v¨s_°©es_o
+(
+v¨s_°©es_0
+),
+
+297 .
+À¨¡_lô_o
+(
+À¨¡_lô_o_0
+),
+
+298 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_0
+)
+
+301 
+ba£_˚Œ
+ 
+ba£_˚Œ1
+ #(
+
+302 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+303 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+306 .
+	`˛k
+(
+˛k
+),
+
+307 .
+	`r°
+(
+r°
+),
+
+308 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_1
+),
+
+309 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_1
+),
+
+310 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_1
+),
+
+311 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_1
+),
+
+312 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_1
+),
+
+313 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_1
+),
+
+314 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+315 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+316 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_1
+),
+
+317 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+318 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_1
+),
+
+319 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+320 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_2
+),
+
+321 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_1
+),
+
+322 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_1
+),
+
+323 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_1
+)
+
+326 
+ba£_˚Œ
+ 
+ba£_˚Œ2
+ #(
+
+327 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+328 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+331 .
+	`˛k
+(
+˛k
+),
+
+332 .
+	`r°
+(
+r°
+),
+
+333 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_2
+),
+
+334 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_2
+),
+
+335 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_2
+),
+
+336 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_2
+),
+
+337 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_2
+),
+
+338 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_2
+),
+
+339 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+340 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+341 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_2
+),
+
+342 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+343 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_2
+),
+
+344 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+345 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_3
+),
+
+346 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_2
+),
+
+347 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_2
+),
+
+348 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_2
+)
+
+351 
+ba£_˚Œ
+ 
+ba£_˚Œ3
+ #(
+
+352 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+353 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+356 .
+	`˛k
+(
+˛k
+),
+
+357 .
+	`r°
+(
+r°
+),
+
+358 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_3
+),
+
+359 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_3
+),
+
+360 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_3
+),
+
+361 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_3
+),
+
+362 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_3
+),
+
+363 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_3
+),
+
+364 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+365 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+366 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_3
+),
+
+367 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+368 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_3
+),
+
+369 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+370 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_4
+),
+
+371 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_3
+),
+
+372 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_3
+),
+
+373 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_3
+)
+
+376 
+ba£_˚Œ
+ 
+ba£_˚Œ4
+ #(
+
+377 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+378 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+381 .
+	`˛k
+(
+˛k
+),
+
+382 .
+	`r°
+(
+r°
+),
+
+383 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_4
+),
+
+384 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_4
+),
+
+385 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_4
+),
+
+386 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_4
+),
+
+387 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_4
+),
+
+388 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_4
+),
+
+389 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+390 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+391 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_4
+),
+
+392 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+393 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_4
+),
+
+394 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+395 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_5
+),
+
+396 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_4
+),
+
+397 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_4
+),
+
+398 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_4
+)
+
+401 
+ba£_˚Œ
+ 
+ba£_˚Œ5
+ #(
+
+402 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+403 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+406 .
+	`˛k
+(
+˛k
+),
+
+407 .
+	`r°
+(
+r°
+),
+
+408 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_5
+),
+
+409 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_5
+),
+
+410 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_5
+),
+
+411 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_5
+),
+
+412 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_5
+),
+
+413 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_5
+),
+
+414 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+415 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+416 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_5
+),
+
+417 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+418 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_5
+),
+
+419 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+420 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_6
+),
+
+421 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_5
+),
+
+422 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_5
+),
+
+423 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_5
+)
+
+426 
+ba£_˚Œ
+ 
+ba£_˚Œ6
+ #(
+
+427 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+428 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+431 .
+	`˛k
+(
+˛k
+),
+
+432 .
+	`r°
+(
+r°
+),
+
+433 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_6
+),
+
+434 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_6
+),
+
+435 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_6
+),
+
+436 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_6
+),
+
+437 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_6
+),
+
+438 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_6
+),
+
+439 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+440 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+441 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_6
+),
+
+442 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+443 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_6
+),
+
+444 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+445 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_7
+),
+
+446 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_6
+),
+
+447 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_6
+),
+
+448 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_6
+)
+
+451 
+ba£_˚Œ
+ 
+ba£_˚Œ7
+ #(
+
+452 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+453 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+456 .
+	`˛k
+(
+˛k
+),
+
+457 .
+	`r°
+(
+r°
+),
+
+458 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_7
+),
+
+459 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_7
+),
+
+460 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_7
+),
+
+461 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_7
+),
+
+462 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_7
+),
+
+463 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_7
+),
+
+464 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+465 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+466 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_7
+),
+
+467 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+468 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_7
+),
+
+469 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+470 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_8
+),
+
+471 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_7
+),
+
+472 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_7
+),
+
+473 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_7
+)
+
+476 
+ba£_˚Œ
+ 
+ba£_˚Œ8
+ #(
+
+477 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+478 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+481 .
+	`˛k
+(
+˛k
+),
+
+482 .
+	`r°
+(
+r°
+),
+
+483 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_8
+),
+
+484 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_8
+),
+
+485 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_8
+),
+
+486 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_8
+),
+
+487 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_8
+),
+
+488 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_8
+),
+
+489 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+490 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+491 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_8
+),
+
+492 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+493 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_8
+),
+
+494 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+495 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_9
+),
+
+496 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_8
+),
+
+497 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_8
+),
+
+498 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_8
+)
+
+501 
+ba£_˚Œ
+ 
+ba£_˚Œ9
+ #(
+
+502 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+503 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+506 .
+	`˛k
+(
+˛k
+),
+
+507 .
+	`r°
+(
+r°
+),
+
+508 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_9
+),
+
+509 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_9
+),
+
+510 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_9
+),
+
+511 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_9
+),
+
+512 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_9
+),
+
+513 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_9
+),
+
+514 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+515 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+516 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_9
+),
+
+517 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+518 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_9
+),
+
+519 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+520 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_10
+),
+
+521 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_9
+),
+
+522 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_9
+),
+
+523 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_9
+)
+
+526 
+ba£_˚Œ
+ 
+ba£_˚Œ10
+ #(
+
+527 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+528 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+531 .
+	`˛k
+(
+˛k
+),
+
+532 .
+	`r°
+(
+r°
+),
+
+533 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_10
+),
+
+534 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_10
+),
+
+535 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_10
+),
+
+536 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_10
+),
+
+537 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_10
+),
+
+538 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_10
+),
+
+539 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+540 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+541 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_10
+),
+
+542 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+543 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_10
+),
+
+544 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+545 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_11
+),
+
+546 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_10
+),
+
+547 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_10
+),
+
+548 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_10
+)
+
+551 
+ba£_˚Œ
+ 
+ba£_˚Œ11
+ #(
+
+552 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+553 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+556 .
+	`˛k
+(
+˛k
+),
+
+557 .
+	`r°
+(
+r°
+),
+
+558 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_11
+),
+
+559 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_11
+),
+
+560 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_11
+),
+
+561 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_11
+),
+
+562 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_11
+),
+
+563 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_11
+),
+
+564 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+565 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+566 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_11
+),
+
+567 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+568 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_11
+),
+
+569 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+570 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_12
+),
+
+571 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_11
+),
+
+572 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_11
+),
+
+573 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_11
+)
+
+576 
+ba£_˚Œ
+ 
+ba£_˚Œ12
+ #(
+
+577 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+578 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+581 .
+	`˛k
+(
+˛k
+),
+
+582 .
+	`r°
+(
+r°
+),
+
+583 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_12
+),
+
+584 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_12
+),
+
+585 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_12
+),
+
+586 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_12
+),
+
+587 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_12
+),
+
+588 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_12
+),
+
+589 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+590 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+591 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_12
+),
+
+592 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+593 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_12
+),
+
+594 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+595 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_13
+),
+
+596 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_12
+),
+
+597 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_12
+),
+
+598 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_12
+)
+
+601 
+ba£_˚Œ
+ 
+ba£_˚Œ13
+ #(
+
+602 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+603 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+606 .
+	`˛k
+(
+˛k
+),
+
+607 .
+	`r°
+(
+r°
+),
+
+608 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_13
+),
+
+609 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_13
+),
+
+610 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_13
+),
+
+611 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_13
+),
+
+612 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_13
+),
+
+613 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_13
+),
+
+614 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+615 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+616 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_13
+),
+
+617 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+618 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_13
+),
+
+619 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+620 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_14
+),
+
+621 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_13
+),
+
+622 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_13
+),
+
+623 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_13
+)
+
+626 
+ba£_˚Œ
+ 
+ba£_˚Œ14
+ #(
+
+627 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+628 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+631 .
+	`˛k
+(
+˛k
+),
+
+632 .
+	`r°
+(
+r°
+),
+
+633 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_14
+),
+
+634 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_14
+),
+
+635 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_14
+),
+
+636 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_14
+),
+
+637 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_14
+),
+
+638 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_14
+),
+
+639 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+640 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+641 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_14
+),
+
+642 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+643 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_14
+),
+
+644 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+645 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_15
+),
+
+646 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_14
+),
+
+647 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_14
+),
+
+648 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_14
+)
+
+651 
+ba£_˚Œ
+ 
+ba£_˚Œ15
+ #(
+
+652 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+653 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+656 .
+	`˛k
+(
+˛k
+),
+
+657 .
+	`r°
+(
+r°
+),
+
+658 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_15
+),
+
+659 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_15
+),
+
+660 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_15
+),
+
+661 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_15
+),
+
+662 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_15
+),
+
+663 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_15
+),
+
+664 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+665 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+666 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_15
+),
+
+667 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+668 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_15
+),
+
+669 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+670 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_16
+),
+
+671 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_15
+),
+
+672 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_15
+),
+
+673 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_15
+)
+
+676 
+ba£_˚Œ
+ 
+ba£_˚Œ16
+ #(
+
+677 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+678 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+681 .
+	`˛k
+(
+˛k
+),
+
+682 .
+	`r°
+(
+r°
+),
+
+683 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_16
+),
+
+684 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_16
+),
+
+685 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_16
+),
+
+686 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_16
+),
+
+687 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_16
+),
+
+688 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_16
+),
+
+689 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+690 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+691 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_16
+),
+
+692 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+693 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_16
+),
+
+694 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+695 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_17
+),
+
+696 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_16
+),
+
+697 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_16
+),
+
+698 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_16
+)
+
+701 
+ba£_˚Œ
+ 
+ba£_˚Œ17
+ #(
+
+702 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+703 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+706 .
+	`˛k
+(
+˛k
+),
+
+707 .
+	`r°
+(
+r°
+),
+
+708 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_17
+),
+
+709 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_17
+),
+
+710 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_17
+),
+
+711 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_17
+),
+
+712 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_17
+),
+
+713 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_17
+),
+
+714 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+715 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+716 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_17
+),
+
+717 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+718 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_17
+),
+
+719 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+720 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_18
+),
+
+721 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_17
+),
+
+722 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_17
+),
+
+723 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_17
+)
+
+726 
+ba£_˚Œ
+ 
+ba£_˚Œ18
+ #(
+
+727 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+728 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+731 .
+	`˛k
+(
+˛k
+),
+
+732 .
+	`r°
+(
+r°
+),
+
+733 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_18
+),
+
+734 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_18
+),
+
+735 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_18
+),
+
+736 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_18
+),
+
+737 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_18
+),
+
+738 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_18
+),
+
+739 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+740 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+741 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_18
+),
+
+742 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+743 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_18
+),
+
+744 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+745 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_19
+),
+
+746 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_18
+),
+
+747 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_18
+),
+
+748 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_18
+)
+
+751 
+ba£_˚Œ
+ 
+ba£_˚Œ19
+ #(
+
+752 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+753 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+756 .
+	`˛k
+(
+˛k
+),
+
+757 .
+	`r°
+(
+r°
+),
+
+758 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_19
+),
+
+759 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_19
+),
+
+760 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_19
+),
+
+761 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_19
+),
+
+762 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_19
+),
+
+763 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_19
+),
+
+764 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+765 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+766 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_19
+),
+
+767 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+768 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_19
+),
+
+769 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+770 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_20
+),
+
+771 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_19
+),
+
+772 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_19
+),
+
+773 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_19
+)
+
+776 
+ba£_˚Œ
+ 
+ba£_˚Œ20
+ #(
+
+777 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+778 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+781 .
+	`˛k
+(
+˛k
+),
+
+782 .
+	`r°
+(
+r°
+),
+
+783 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_20
+),
+
+784 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_20
+),
+
+785 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_20
+),
+
+786 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_20
+),
+
+787 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_20
+),
+
+788 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_20
+),
+
+789 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+790 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+791 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_20
+),
+
+792 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+793 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_20
+),
+
+794 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+795 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_21
+),
+
+796 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_20
+),
+
+797 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_20
+),
+
+798 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_20
+)
+
+801 
+ba£_˚Œ
+ 
+ba£_˚Œ21
+ #(
+
+802 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+803 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+806 .
+	`˛k
+(
+˛k
+),
+
+807 .
+	`r°
+(
+r°
+),
+
+808 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_21
+),
+
+809 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_21
+),
+
+810 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_21
+),
+
+811 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_21
+),
+
+812 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_21
+),
+
+813 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_21
+),
+
+814 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+815 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+816 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_21
+),
+
+817 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+818 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_21
+),
+
+819 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+820 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_22
+),
+
+821 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_21
+),
+
+822 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_21
+),
+
+823 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_21
+)
+
+826 
+ba£_˚Œ
+ 
+ba£_˚Œ22
+ #(
+
+827 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+828 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+831 .
+	`˛k
+(
+˛k
+),
+
+832 .
+	`r°
+(
+r°
+),
+
+833 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_22
+),
+
+834 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_22
+),
+
+835 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_22
+),
+
+836 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_22
+),
+
+837 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_22
+),
+
+838 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_22
+),
+
+839 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+840 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+841 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_22
+),
+
+842 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+843 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_22
+),
+
+844 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+845 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_23
+),
+
+846 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_22
+),
+
+847 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_22
+),
+
+848 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_22
+)
+
+851 
+ba£_˚Œ
+ 
+ba£_˚Œ23
+ #(
+
+852 .
+	`NUM_CLAUSES_A_BIN
+(
+NUM_CLAUSES_A_BIN
+),
+
+853 .
+	`WIDTH_VAR_STATES
+(
+WIDTH_VAR_STATES
+)
+
+856 .
+	`˛k
+(
+˛k
+),
+
+857 .
+	`r°
+(
+r°
+),
+
+858 .
+	`v¨_vÆue_i
+(
+v¨_vÆue_i_23
+),
+
+859 .
+	`v¨_vÆue_o
+(
+v¨_vÆue_o_23
+),
+
+860 .
+	`v¨s_decided_toba£_i
+(
+v¨s_decided_toba£_i_23
+),
+
+861 .
+	`decide_Àvñ_i
+(
+decide_Àvñ_i_23
+),
+
+862 .
+	`föd_c⁄Êi˘_o
+(
+föd_c⁄Êi˘_o_23
+),
+
+863 .
+	`föd_im∂y_o
+(
+föd_im∂y_o_23
+),
+
+864 .
+	`≠∂y_™Æyze_i
+(
+≠∂y_™Æyze_i
+),
+
+865 .
+	`≠∂y_lﬂd_i
+(
+≠∂y_lﬂd_i
+),
+
+866 .
+	`lﬂd_˛au£s_i
+(
+lﬂd_˛au£s_23
+),
+
+867 .
+	`≠∂y_upd©e_i
+(
+≠∂y_upd©e_i
+),
+
+868 .
+	`upd©e_˛au£_o
+(
+upd©e_˛au£_o_23
+),
+
+869 .
+	`wr_v¨_°©es
+(
+wr_v¨_°©es
+),
+
+870 .
+	`v¨s_°©es_i
+(
+v¨s_°©es_24
+),
+
+871 .
+	`v¨s_°©es_o
+(
+v¨s_°©es_23
+),
+
+872 .
+	`À¨¡_lô_o
+(
+À¨¡_lô_o_23
+),
+
+873 .
+	$v¨_Àvñ_o
+(
+v¨_Àvñ_o_23
+)
+
+877 
+ídmoduÀ
+
+
+	@var1.v
+
+1 
+moduÀ
+ 
+	gv¨_˚Œ
+ #(
+
+2 
+∑ømëî
+ 
+	gNUM_CLAUSES_A_BIN
+ = 24,
+
+3 
+∑ømëî
+ 
+	gWIDTH_VAR_STATES
+ = 30
+
+6 
+öput
+ 
+˛k
+,
+
+7 
+öput
+ 
+	gr°
+,
+
+10 
+	göput
+ [2:0] 
+v¨_vÆue_i
+,
+
+11 
+	gouçut
+ [2:0] 
+v¨_vÆue_o
+,
+
+14 
+öput
+ 
+	gv¨s_decided_toba£_i
+,
+
+15 
+öput
+ 
+	gdecide_Àvñ_i
+,
+
+16 
+	göput
+ [9:0] 
+cur_bö_num_i
+,
+
+19 
+ouçut
+ 
+	gföd_c⁄Êi˘_o
+,
+
+20 
+ouçut
+ 
+	gföd_im∂y_o
+,
+
+21 
+ouçut
+ 
+ªg
+ 
+	gis_ödïídít_bö_o
+,
+
+23 
+öput
+ 
+	g≠∂y_™Æyze_i
+,
+
+25 
+	göput
+ [9:0] 
+bkt_lvl_i
+,
+
+26 
+ouçut
+ 
+	gªg
+ [9:0] 
+bkt_bö_num_o
+,
+
+27 
+öput
+ 
+	g≠∂y_backåack_i
+,
+
+30 
+ouçut
+ 
+ªg
+ 
+	gexi°_v¨_nŸ_vbkt_o
+,
+
+33 
+öput
+ 
+	g≠∂y_lﬂd_i
+,
+
+34 
+	göput
+ [1 : 0] 
+lﬂd_˛au£s_i
+,
+
+37 
+öput
+ 
+	g≠∂y_upd©e_i
+,
+
+38 
+	gouçut
+ [1:0] 
+upd©e_˛au£_o
+,
+
+41 
+öput
+ 
+	gwr_°©es
+,
+
+42 
+	göput
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+v¨s_°©es_i
+,
+
+43 
+	gouçut
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+v¨s_°©es_o
+,
+
+46 
+ouçut
+ 
+	gªg
+ [
+WIDTH_VAR_STATES
+-1 : 0] 
+v¨_Àvñ_o
+
+
+49 
+ªg
+ [2:0] 
+v¨_vÆue_r
+;
+
+50 
+	gªg
+ [15:0] 
+v¨_Àvñ_r
+;
+
+51 
+	gªg
+ [9:0] 
+v¨_ªas⁄_bö_r
+;
+
+52 
+ªg
+ 
+	gis_highe°_bkévl_r
+;
+
+55 
+	gªg
+ [1:0] 
+À¨¡_lô_r
+;
+
+57 
+	gªg
+ [2:0] 
+assig√d_v¨_vÆue_r
+;
+
+59 
+assign
+ 
+	gv¨_vÆue_o
+ = 
+≠∂y_lﬂd_i
+? 
+lﬂd_˛au£s_i
+: 
+≠∂y_™Æyze_i
+? {
+À¨¡_lô_r
+,
+v¨_vÆue_r
+[0]}:var_value_r;
+
+61 
+assign
+ 
+	gupd©e_˛au£_o
+ = 
+v¨_vÆue_i
+[2:1];
+
+63 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+64 
+begö
+
+
+65 if(~
+	gr°
+)
+
+66 
+	gglobÆ_unßt_o
+ <= 0;
+
+67 if(
+	gd⁄e_upd©e_i
+ && 
+	gc_°©e
+==
+GLOBAL_UNSAT
+)
+
+68 
+globÆ_unßt_o
+ <= 1;
+
+70 
+	gglobÆ_unßt_o
+ <
+globÆ_unßt_o
+;
+
+71 
+íd
+
+
+74 
+assign
+ 
+	gv¨s_°©es_o
+ = {
+v¨_vÆue_r
+, 
+v¨_Àvñ_r
+, 
+v¨_ªas⁄_bö_r
+, 
+is_highe°_bkévl_r
+};
+
+75 
+	gwúe
+ [2:0] 
+v¨_vÆue_i
+;
+
+76 
+	gwúe
+ [15:0] 
+v¨_Àvñ_i
+;
+
+77 
+	gwúe
+ [9:0] 
+v¨_ªas⁄_bö_i
+;
+
+78 
+wúe
+ 
+	gis_highe°_bkévl_i
+;
+
+79 
+	gassign
+ {
+	gv¨_vÆue_i
+, 
+	gv¨_Àvñ_i
+, 
+	gv¨_ªas⁄_bö_i
+, 
+	gis_highe°_bkévl_i
+} = 
+v¨s_°©es_i
+;
+
+81 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+82 
+begö
+
+
+83 if(~
+	gr°
+)
+
+84 
+	gv¨_vÆue_r
+ <= 0;
+
+85 if(
+	gwr_°©es
+)
+
+86 
+	gv¨_vÆue_r
+ <
+v¨_vÆue_i
+;
+
+87 if(
+	gv¨s_decided_toba£_i
+)
+
+88 
+	gv¨_vÆue_r
+ <= 3'b010;
+
+89 if(
+≠∂y_backåack_i
+ && 
+v¨_Àvñ_r
+>
+bkt_lvl_i
+)
+
+90 
+v¨_vÆue_r
+ <= 3'b000;
+
+91 if(
+≠∂y_backåack_i
+ && 
+À¨¡_lô_r
+!=2'b00 && var_level_r==bkt_lvl_i)
+
+92 
+v¨_vÆue_r
+ <{~
+assig√d_v¨_vÆue_r
+[2:1],ássigned_var_value_r[0]};
+
+93 if(
+	gv¨_vÆue_i
+[0] || var_value_i[2:1]==2'b11)
+
+94 
+v¨_vÆue_r
+ <
+v¨_vÆue_i
+;
+
+96 
+	gv¨_vÆue_r
+ <
+v¨_vÆue_r
+;
+
+97 
+íd
+
+
+99 
+assign
+ 
+	gföd_im∂y_o
+ = 
+v¨_vÆue_r
+[0];
+
+100 
+assign
+ 
+	gföd_c⁄Êi˘_o
+ = 
+v¨_vÆue_r
+[2:1]==2'b11;
+
+102 
+Æways
+ @(
+po£dge
+ 
+˛k
+)
+
+103 
+begö
+
+
+104 if(~
+r°
+)
+
+105 
+v¨_Àvñ_r
+ <= 0;
+
+106 if(
+	gwr_°©es
+)
+
+107 
+	gv¨_Àvñ_r
+ <
+v¨_Àvñ_i
+;
+
+108 if(
+	gv¨s_decided_toba£_i
+)
+
+109 
+	gv¨_Àvñ_r
+ <
+decide_Àvñ_i
+;
+
+110 if(
+	gv¨_vÆue_i
+[0])
+
+111 
+	gv¨_Àvñ_r
+ <
+decide_Àvñ_i
+;
+
+113 
+	gv¨_Àvñ_r
+ <
+v¨_Àvñ_r
+;
+
+114 
+íd
+
+
+116 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+117 
+begö
+
+
+118 if(~
+	gr°
+)
+
+119 
+	gv¨_ªas⁄_bö_r
+ <= 0;
+
+120 if(
+	gwr_°©es
+)
+
+121 
+	gv¨_ªas⁄_bö_r
+ <
+v¨_ªas⁄_bö_i
+;
+
+122 if(
+	gv¨s_decided_toba£_i
+ || 
+	gv¨_vÆue_i
+[0])
+
+123 
+	gv¨_ªas⁄_bö_r
+ <
+cur_bö_num_i
+;
+
+125 
+	gv¨_ªas⁄_bö_r
+ <
+v¨_ªas⁄_bö_r
+;
+
+126 
+íd
+
+
+128 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+129 
+begö
+
+
+130 if(~
+	gr°
+)
+
+131 
+	gis_highe°_bkévl_r
+ <= 0;
+
+132 if(
+	gwr_°©es
+)
+
+133 
+	gis_highe°_bkévl_r
+ <
+is_highe°_bkévl_i
+;
+
+134 if(
+	g≠∂y_backåack_i
+ && 
+	gv¨_Àvñ_r
+>
+	gbkt_lvl_i
+)
+
+135 
+	gis_highe°_bkévl_r
+ <= 0;
+
+136 if(
+	g≠∂y_backåack_i
+ && 
+	gÀ¨¡_lô_r
+!=2'b00 && var_level_r==bkt_lvl_i)
+
+137 
+is_highe°_bkévl_r
+ <= 1;
+
+139 
+	gis_highe°_bkévl_r
+ <
+is_highe°_bkévl_r
+;
+
+140 
+íd
+
+
+142 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+143 
+begö
+
+
+144 if(~
+	gr°
+)
+
+145 
+	gassig√d_v¨_vÆue_r
+ <= 0;
+
+146 if(~
+	g≠∂y_™Æyze_i
+)
+
+147 
+	gassig√d_v¨_vÆue_r
+ <
+v¨_vÆue_r
+;
+
+149 
+	gassig√d_v¨_vÆue_r
+ <
+assig√d_v¨_vÆue_r
+;
+
+150 
+íd
+
+
+153 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+154 
+begö
+
+
+155 if(~
+	gr°
+)
+
+156 
+	gÀ¨¡_lô_r
+ <= 0;
+
+157 if(
+	gv¨_vÆue_r
+[0]==0 || (
+v¨_vÆue_r
+==2'b11 && var_level_r!=decide_level_i))
+
+158 
+À¨¡_lô_r
+ <~
+assig√d_v¨_vÆue_r
+[2:1];
+
+159 if(
+	g≠∂y_™Æyze_i
+)
+
+160 
+	gÀ¨¡_lô_r
+ <
+À¨¡_lô_r
+;
+
+162 
+	gÀ¨¡_lô_r
+ <= 0;
+
+163 
+íd
+
+
+166 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+167 
+begö
+
+
+168 if(~
+	gr°
+)
+
+169 
+	gv¨_Àvñ_o
+ <= 0;
+
+170 if(
+	gÀ¨¡_lô_r
+!=0 && 
+is_highe°_bkévl_r
+==0)
+
+171 
+v¨_Àvñ_o
+ <
+decide_Àvñ_i
+;
+
+173 
+	gv¨_Àvñ_o
+ <= 0;
+
+174 
+íd
+
+
+177 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+178 
+begö
+
+
+179 if(~
+	gr°
+)
+
+180 
+	gis_ödïídít_bö_o
+ <= 0;
+
+181 if(
+	gv¨_vÆue_r
+[0]==1 && 
+v¨_vÆue_r
+[2:1]!=0 && 
+v¨_ªas⁄_bö_r
+==
+cur_bö_num_i
+)
+
+182 
+is_ödïídít_bö_o
+ <= 1;
+
+184 
+	gis_ödïídít_bö_o
+ <= 0;
+
+185 
+íd
+
+
+187 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+188 
+begö
+
+
+189 if(~
+	gr°
+)
+
+190 
+	gbkt_bö_num_o
+ <= 0;
+
+191 if(
+	gföd_c⁄Êi˘_o
+ && 
+	gv¨_Àvñ_r
+==
+bkt_lvl_i
+)
+
+192 
+bkt_bö_num_o
+ <
+v¨_ªas⁄_bö_r
+;
+
+194 
+	gbkt_bö_num_o
+ <= 0;
+
+195 
+íd
+
+
+197 
+	gÆways
+ @(
+po£dge
+ 
+	g˛k
+)
+
+198 
+begö
+
+
+199 if(~
+	gr°
+)
+
+200 
+	gexi°_v¨_nŸ_vbkt_o
+ <= 0;
+
+201 if(
+	gÀ¨¡_lô_r
+!=0 && 
+is_highe°_bkévl_r
+==0)
+
+202 
+exi°_v¨_nŸ_vbkt_o
+ <
+v¨_ªas⁄_bö_r
+;
+
+204 
+	gexi°_v¨_nŸ_vbkt_o
+ <= 0;
+
+205 
+íd
+
+
+207 
+	gídmoduÀ
+
+
+	@
+1
+.
+0
+21
+242
+bram_w40.v
+clause1.v
+clause2.v
+clause4.v
+clause8.v
+clause_array.v
+control.v
+data_dispatch.v
+decision.v
+lit2.v
+lit4.v
+lit8.v
+lit1.v
+load_update_bin.v
+max_in_datas.v
+print.py
+regs_vid_state.v
+sat_engine.v
+terminal_cell.v
+var24.v
+var1.v

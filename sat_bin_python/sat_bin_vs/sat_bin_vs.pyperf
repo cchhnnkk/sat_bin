@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>5bb06419-f54e-43e4-a9e2-f887f495dfda</TargetProject>
+    <FriendlyName>sat_bin_vs</FriendlyName>
+  </ProjectTarget>
+</ProfilingTarget>

@@ -1,0 +1,19 @@
+add wave -noupdate -expand -group {test_clause1_top} /test_clause1_top/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} /test_clause1_top/test_clause1/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} /test_clause1_top/test_clause1/clause1/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} /test_clause1_top/test_clause1/clause1/lit8/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_0} /test_clause1_top/test_clause1/clause1/lit8/lit4_0/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_0} -group {lit2_0} /test_clause1_top/test_clause1/clause1/lit8/lit4_0/lit2_0/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_0} -group {lit2_0} -group {lit1_0} /test_clause1_top/test_clause1/clause1/lit8/lit4_0/lit2_0/lit1_0/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_0} -group {lit2_0} -group {lit1_1} /test_clause1_top/test_clause1/clause1/lit8/lit4_0/lit2_0/lit1_1/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_0} -group {lit2_1} /test_clause1_top/test_clause1/clause1/lit8/lit4_0/lit2_1/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_0} -group {lit2_1} -group {lit1_0} /test_clause1_top/test_clause1/clause1/lit8/lit4_0/lit2_1/lit1_0/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_0} -group {lit2_1} -group {lit1_1} /test_clause1_top/test_clause1/clause1/lit8/lit4_0/lit2_1/lit1_1/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_1} /test_clause1_top/test_clause1/clause1/lit8/lit4_1/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_1} -group {lit2_0} /test_clause1_top/test_clause1/clause1/lit8/lit4_1/lit2_0/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_1} -group {lit2_0} -group {lit1_0} /test_clause1_top/test_clause1/clause1/lit8/lit4_1/lit2_0/lit1_0/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_1} -group {lit2_0} -group {lit1_1} /test_clause1_top/test_clause1/clause1/lit8/lit4_1/lit2_0/lit1_1/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_1} -group {lit2_1} /test_clause1_top/test_clause1/clause1/lit8/lit4_1/lit2_1/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_1} -group {lit2_1} -group {lit1_0} /test_clause1_top/test_clause1/clause1/lit8/lit4_1/lit2_1/lit1_0/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {lit8} -group {lit4_1} -group {lit2_1} -group {lit1_1} /test_clause1_top/test_clause1/clause1/lit8/lit4_1/lit2_1/lit1_1/*
+add wave -noupdate -expand -group {test_clause1_top} -expand -group {test_clause1} -expand -group {clause1} -group {terminal_cell} /test_clause1_top/test_clause1/clause1/terminal_cell/*

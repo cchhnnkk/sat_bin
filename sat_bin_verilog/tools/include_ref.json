@@ -1,0 +1,72 @@
+{
+  "../src/sat_engine/state_list/state_list.v": [], 
+  "../src/sat_engine/state_list/var_state1.v": [], 
+  "../src/sat_engine/state_list/dcd_in_var1.v": [], 
+  "../ipcore/bram_w18_1024.v": [], 
+  "../src/sat_engine/state_list/lvl_state1.v": [], 
+  "../src/bin_manager/ctrl_bm.v": [], 
+  "../ipcore/bram_w48_d1024.v": [], 
+  "../tb/class_vs_list.sv": [
+    "../src/sat_engine/state_list/state_list.v", 
+    "../src/sat_engine/sat_engine.v", 
+    "../tb/test_sat_engine.sv", 
+    "../src/bin_manager/load_bin.v"
+  ], 
+  "../src/bin_manager/update_bin.v": [], 
+  "../src/sat_engine/state_list/lvl_states.v": [], 
+  "../src/sat_engine/sat_engine.v": [], 
+  "../src/bin_manager/find_global_bkt_lvl.v": [], 
+  "../src/sat_engine/state_list/encode_8to3.v": [], 
+  "../src/sat_engine/state_list/decision.v": [], 
+  "../src/sat_engine/ctrl_core.v": [], 
+  "../tb/test_sat_engine.sv": [], 
+  "../tb/test_clause_array.sv": [], 
+  "../tb/class_clause_data.sv": [
+    "../src/sat_engine/state_list/state_list.v", 
+    "../src/sat_engine/sat_engine.v", 
+    "../tb/class_clause_array.sv", 
+    "../src/bin_manager/load_bin.v", 
+    "../tb/test_clause1.sv"
+  ], 
+  "../tb/class_clause_array.sv": [
+    "../tb/test_sat_engine.sv", 
+    "../tb/test_clause_array.sv"
+  ], 
+  "../ipcore/bram_w36_d1204.v": [], 
+  "../src/bin_manager/load_bin.v": [], 
+  "../src/sat_engine/clause_array/clause1.v": [], 
+  "../ipcore/bram_w40.v": [], 
+  "../src/bin_manager/reduce_in_datas.v": [], 
+  "../src/bin_manager/rd_bin_info.v": [], 
+  "../src/sat_engine/clause_array/clause_array.v": [], 
+  "../src/bin_manager/buffer_state.v": [], 
+  "../ipcore/bram_w12_d1024.v": [], 
+  "../tb/test_lit_cell.sv": [], 
+  "../src/sat_engine/clause_array/max_in_datas.v": [], 
+  "../src/bin_manager/bkt_across_bin.v": [], 
+  "../src/sat_engine/state_list/dcd_in_vars.v": [], 
+  "../src/sat_engine/state_list/var_states.v": [], 
+  "../src/sat_engine/clause_array/lits.v": [], 
+  "../src/debug_define.v": [
+    "../src/sat_engine/state_list/state_list.v", 
+    "../src/sat_engine/sat_engine.v", 
+    "../src/sat_engine/ctrl_core.v", 
+    "../src/bin_manager/load_bin.v"
+  ], 
+  "../tb/test_clause1.sv": [], 
+  "../src/bin_manager/bram_w40.v": [], 
+  "../ipcore/bram_w30_d1024.v": [], 
+  "../ipcore/blk_mem_gen_v7_3.v": [], 
+  "../ipcore/bram_w18_d1024.v": [], 
+  "../tb/class_ls_list.sv": [
+    "../src/sat_engine/state_list/state_list.v", 
+    "../src/sat_engine/sat_engine.v", 
+    "../tb/test_sat_engine.sv", 
+    "../src/bin_manager/load_bin.v"
+  ], 
+  "../src/sat_engine/clause_array/lit1.v": [], 
+  "../src/sat_engine/clause_array/clauses.v": [], 
+  "../src/sat_engine/clause_array/terminal_cell.v": [], 
+  "../tb/test_lit_cell.v": [], 
+  "../src/bin_manager/bin_manager.v": []
+}

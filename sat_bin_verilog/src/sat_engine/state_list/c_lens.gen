@@ -1,0 +1,37 @@
+
+/**
+*   在{$NUM}个变量中，求解子句的长度
+*/
+module c_len{$NUM} #(
+        parameter NUM = {$NUM},
+        parameter WIDTH = 3
+    )
+    (
+        input [NUM*2-1 : 0]     clause_i,
+        output [WIDTH-1 : 0]    len_o
+    );
+
+    parameter NUM_SUB = NUM;
+
+    wire [NUM_SUB*2/2-1 : 0]     clause_i_0, clause_i_1;
+    wire [WIDTH-1 : 0]           len_o_0, len_o_1;
+    assign {clause_i_1, clause_i_0} = clause_i;
+    assign len_o = len_o_1 + len_o_0;
+
+    c_len{$NUM/2} #(
+        .WIDTH(WIDTH)
+    )
+    c_len{$NUM/2}_0(
+        .clause_i(clause_i_0),
+        .len_o(len_o_0)
+    );
+
+    c_len{$NUM/2} #(
+        .WIDTH(WIDTH)
+    )
+    c_len{$NUM/2}_1(
+        .clause_i(clause_i_1),
+        .len_o(len_o_1)
+    );
+
+endmodule
