@@ -1,5 +1,5 @@
-sim/work/*
-ipcore/*
+sim/work*
+ipcore*
 *.wlf
 *.swp
 *.mti

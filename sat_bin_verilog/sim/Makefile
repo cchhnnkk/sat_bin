@@ -5,6 +5,8 @@ vlog: vlog_sb
 
 sim: sim_sb
 
+init: init_ref_all
+
 # sat_bin
 vlog_sb:
 	vlog_test_sat_bin.sh
@@ -27,6 +29,7 @@ sim_sb:
 	rm test_console.do
 	python transcript_info.py
 	sed -i "s/\n/\r/g" transcript.log
+	sed -i "s/cnt_update_bin =/cnt_update/g" transcript.log
 sim_bm:
 	sed "s/test_sat_engine_top/test_bin_manager_top/g" test_se_console.do > test_console.do
 	vsim -c -do test_console.do | \

@@ -167,7 +167,7 @@ module sat_engine #(
 
         .wr_i            (wr_carray_i),
         .rd_i            (rd_carray_i),
-        .clause_i        (clause_i),
+        .clause_i        (clause_to_carray),
         .clause_o        (clause_o),
         .clause_len_i    (clause_len),
 

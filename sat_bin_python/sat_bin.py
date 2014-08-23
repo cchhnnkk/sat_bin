@@ -918,7 +918,7 @@ class GenDebugInfo(object):
         vmax = sat_engine.vmax
         ci = 1
         str1 = ''
-        str_bin = "\tint bin[%d][%d] = '{\n" % (cmax, vmax)
+        str_bin = "\tbin = '{\n"
         for ci in xrange(cmax):
             if ci < len(clauses):
                 c = clauses[ci]
@@ -944,18 +944,18 @@ class GenDebugInfo(object):
         str1 = str_bin
 
         str1 += '\t//var state list:\n'
-        str1 += '\tint value[]   = %s\n' % [l.value for l in vs]
-        str1 += '\tint implied[] = %s\n' % [int(l.implied) for l in vs]
-        str1 += '\tint level[]   = %s\n' % [l.level for l in vs]
+        str1 += '\tvalue   = %s\n' % [l.value for l in vs]
+        str1 += '\timplied = %s\n' % [int(l.implied) for l in vs]
+        str1 += '\tlevel   = %s\n' % [l.level for l in vs]
 
         str1 += '\t//lvl state list:\n'
-        str1 += '\tint dcd_bin[] = %s\n' % [l.dcd_bin for l in ls]
-        str1 += '\tint has_bkt[] = %s\n' % [int(l.has_bkt) for l in ls]
+        str1 += '\tdcd_bin = %s\n' % [l.dcd_bin for l in ls]
+        str1 += '\thas_bkt = %s\n' % [int(l.has_bkt) for l in ls]
 
         str1 += '\t//ctrl\n'
-        str1 += '\tint cur_bin_num = %d;\n' % (sat_engine.cur_bin + 1)
-        str1 += '\tint base_lvl = %d;\n' % sat_engine.base_lvl
-        str1 += '\tint load_lvl = %d;\n' % sat_engine.cur_lvl
+        str1 += '\tcur_bin_num = %d;\n' % (sat_engine.cur_bin + 1)
+        str1 += '\tbase_lvl = %d;\n' % sat_engine.base_lvl
+        str1 += '\tload_lvl = %d;\n' % sat_engine.cur_lvl
 
         str1 = str1.replace('= [', "= '{")
         str1 = str1.replace(']\n', '};\n')

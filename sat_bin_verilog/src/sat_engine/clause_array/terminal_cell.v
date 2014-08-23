@@ -38,12 +38,12 @@ module terminal_cell #(
     assign conflict_c_drv_o = conflict_c_drv_w;
     always @(*) begin
         if(~rst)
-            conflict_c_drv_w <= 0;
+            conflict_c_drv_w = 0;
         else if(apply_analyze_i)
             //conflict_c_drv_w = conflict_c_i;
-            conflict_c_drv_w <= conflict_c_i | (all_lit_false_i && clause_len_i!=0);
+            conflict_c_drv_w = conflict_c_i | (all_lit_false_i && clause_len_i!=0);
         else
-            conflict_c_drv_w <= conflict_c_i | (all_lit_false_i && clause_len_i!=0);
+            conflict_c_drv_w = conflict_c_i | (all_lit_false_i && clause_len_i!=0);
     end
 
     //先用组合逻辑，后优化
@@ -52,9 +52,9 @@ module terminal_cell #(
 
     always @(*) begin
         if(~rst)
-            cmax_lvl_w <= 0;
+            cmax_lvl_w = 0;
         else
-            cmax_lvl_w <= cmax_lvl_i;
+            cmax_lvl_w = cmax_lvl_i;
     end
 
     `ifdef DEBUG_clause_array_time

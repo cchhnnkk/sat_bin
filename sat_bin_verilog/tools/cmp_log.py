@@ -39,12 +39,12 @@ def find_v_log_update_bin(starti, vlines):
             str_var_value += '\n'
             starti = len(vlines)
             break
-        index = line.find('cnt_update_bin', 0)
+        index = line.find('cnt_update', 0)
         starti += 1
         if index == -1:
             continue
 
-        index += len('cnt_update_bin = ')
+        index += len('cnt_update ')
         cnt_up = int(line[index:])
 
         starti += 2
@@ -255,7 +255,7 @@ def print_diff(strv, strp):
     str1 = ''
     for i in xrange(len(strv)):
         str1 += strv[i]
-        if strv[i] != strp[i]:
+        if i>= len(strp) or strv[i] != strp[i]:
             print str1
             break
     print ''
@@ -284,6 +284,7 @@ if __name__ == '__main__':
             if ' ' + str(test_case) in line:
                 vindex = i
                 break
+
     error = False
     while vindex < len(vlines) and pindex < len(plines):
         v_c, v_vs, v_ls, v_var_value, vindex = find_v_log_update_bin(vindex, vlines)

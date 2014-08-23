@@ -64,7 +64,7 @@ module clause_array #(
         .var_lvl_down_i  (var_lvl_down_start),
         .var_lvl_down_o  (var_lvl_o),
         
-        .wr_i            (wr_i),
+        .wr_i            (wr_clause),
         .rd_i            (rd_i),
         .clause_i        (clause_i),
         .clause_o        (clause_o),
@@ -85,16 +85,16 @@ module clause_array #(
     wire [NUM_CLAUSES-1:0]      learntc_insert_index;
 
     max_in_4_datas #(
-            .WIDTH(WIDTH_C_LEN)
-        )
-        max_in_4_datas_inst0 (
-            .data_i(clause_lens),
-            .data_o(max_len),
-            .index_o(insert_index)
-        );
-    assign learntc_insert_index = {insert_index, 4'd0};
-    assign wr_clause = add_learntc_en_i? learntc_insert_index : wr_i;
+        .WIDTH(WIDTH_C_LEN)
+    )
+    max_in_4_datas_inst0 (
+        .data_i(clause_lens),
+        .data_o(max_len),
+        .index_o(insert_index)
+    );
 
+    assign learntc_insert_index = {insert_index, 4'd0};
+    assign wr_clause = add_learntc_en_i ? learntc_insert_index : wr_i;
 
     `ifdef DEBUG_clause_array_time
         `include "../tb/class_clause_data.sv";
@@ -109,6 +109,17 @@ module clause_array #(
                 cdata.display();
             end
         end
+
+        always @(posedge clk) begin
+            if($time/1000 >= `T_START && $time/1000 <= `T_END) begin
+                if(add_learntc_en_i) begin
+                    $display("%1tns add_learntc_en_i", $time/1000);
+                    $display("\tlearntc_insert_index = %b", learntc_insert_index);
+                    $display("\twr_clause = %b", wr_clause);
+                end
+            end
+        end
+
     `endif
 
 endmodule

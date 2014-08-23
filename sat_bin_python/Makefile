@@ -15,7 +15,8 @@ lvl_20:
 	sat_bin.py --log2file 1 --loglevel 20
 
 partition:
-	partitioncnf.py --i input.cnf --o bram_input.txt --vmax 8 --cmax 4
+	partitioncnf.py --i input.cnf --o bin.txt --vmax 8 --cmax 4
+	convert_csr_to_bram_data.py --i bin.txt --o bram.txt
 
 gen_vtb:
 	gen_bm_tb.py bram.txt > sb_test_case.sv

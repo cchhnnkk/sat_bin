@@ -118,8 +118,7 @@ module test_sat_bin(input clk, input rst);
     `include "../tb/class_clause_array.sv";
     `include "../tb/class_vs_list.sv";
     `include "../tb/class_ls_list.sv";
-    `include "../tb/sb_test_case1.sv"
-    `include "../tb/sb_test_case2.sv"
+    `include "../tb/sb_test_case.sv"
 
     class_clause_data #(8) cdata = new();
 
@@ -195,25 +194,12 @@ module test_sat_bin(input clk, input rst);
         @(posedge clk);
         sb_rst = 1;
 
-        $display("%1tns ###############################################", $time/1000.0);
-        $display("%1tns test_case 1", $time/1000.0);
         reset_all_signal();
-        sb_test_case1();
+        sb_test_case();
         while(done_o!=1)
             @ (posedge clk);
         repeat (10) @(posedge clk);
 
-        //test_case2
-        sb_rst = 0;
-        @(posedge clk);
-        sb_rst = 1;
-        $display("%1tns ###############################################", $time/1000.0);
-        $display("%1tns test_case 2", $time/1000.0);
-        reset_all_signal();
-        sb_test_case2();
-        while(done_o!=1)
-            @ (posedge clk);
-        repeat (10) @(posedge clk);
     endtask
 
     task run_sb_load();

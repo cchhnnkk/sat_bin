@@ -12,10 +12,8 @@
 `define DEBUG_ctrl_bm
 //`define DEBUG_find_gbkt_lvl
 
-//`define T_START 9820 	//ns
-//`define T_END   9880 	//ns
-`define T_START 53240  	//ns
-`define T_END   53290 	//ns
+`define T_START 3640    //ns
+`define T_END   3740    //ns
 //`define DEBUG_state_list_time
 //`define DEBUG_clause_array_time
 //`define DEBUG_var_state_time

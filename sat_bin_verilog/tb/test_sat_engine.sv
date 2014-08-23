@@ -389,6 +389,8 @@ module test_sat_engine(input clk, input rst);
     `include "../tb/se_test_case4.sv"
     `include "../tb/se_test_case5.sv"
     `include "../tb/se_test_case6.sv"
+    `include "../tb/se_test_case7.sv"
+    `include "../tb/se_test_case8.sv"
 
     task test_sat_engine_task();
         begin
@@ -400,6 +402,8 @@ module test_sat_engine(input clk, input rst);
             se_test_case4();
             se_test_case5();
             se_test_case6();
+            se_test_case7();
+            se_test_case8();
         end
     endtask
 

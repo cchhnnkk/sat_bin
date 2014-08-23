@@ -40,7 +40,7 @@ module state_list #(
 
         //imply
         input                                     apply_imply_i,
-        output reg                                done_imply_o,
+        output                                    done_imply_o,
         output                                    find_conflict_o,
 
         //conflict
@@ -78,7 +78,7 @@ module state_list #(
     reg [NUM_VARS-1:0]        find_imply_pre, find_conflict_pre;
     wire [NUM_VARS-1:0]       valid_from_decision;
     wire [WIDTH_BIN_ID-1:0]   bkt_bin_w;
-    wire [WIDTH_LVL-1:0]      bkt_lvl_w;
+    reg [WIDTH_LVL-1:0]       bkt_lvl_w;
 
     var_state8 #(
         .WIDTH_VAR_STATES(WIDTH_VAR_STATES),
@@ -143,7 +143,14 @@ module state_list #(
         .lvl_states_o         (lvl_states_o)
     );
 
-    assign bkt_lvl_w = max_lvl<=base_lvl_r ? max_lvl:bkt_lvl_from_ls;
+    always @(*) begin
+        if(max_lvl<=base_lvl_r)
+            bkt_lvl_w = max_lvl; 
+        else if(bkt_lvl_from_ls==0)
+            bkt_lvl_w = base_lvl_r;
+        else
+            bkt_lvl_w = bkt_lvl_from_ls;
+    end
 
     /*** 决策 ***/
     wire [WIDTH_LVL-1:0]  cur_local_lvl;
@@ -204,14 +211,23 @@ module state_list #(
             find_imply_pre <= find_imply_cur;
     end
 
+    reg done_imply_w;
+    reg apply_imply_delay;
+
     always @(posedge clk) begin
-        if(~rst)
-            done_imply_o <= 0;
-        else if(apply_imply_i && (find_imply_cur==find_imply_pre || find_conflict_o))
-            done_imply_o <= 1;
-        else
-            done_imply_o <= 0;
+        apply_imply_delay <= apply_imply_i;
     end
+
+    always @(*) begin
+        if(~rst)
+            done_imply_w = 0;
+        else if(apply_imply_delay && (find_imply_cur==find_imply_pre || find_conflict_o))
+            done_imply_w = 1;
+        else
+            done_imply_w = 0;
+    end
+
+    assign done_imply_o = done_imply_w;
 
     `ifdef DEBUG_state_list
         always @(posedge clk) begin
@@ -400,11 +416,11 @@ module state_list #(
 
     always @(*) begin
         if(~rst)
-            done_bkt_cur_bin_w <= 0;
+            done_bkt_cur_bin_w = 0;
         else if(apply_bkt_cur_bin_i)
-            done_bkt_cur_bin_w <= 1;
+            done_bkt_cur_bin_w = 1;
         else
-            done_bkt_cur_bin_w <= 0;
+            done_bkt_cur_bin_w = 0;
     end
 
     `ifdef DEBUG_state_list

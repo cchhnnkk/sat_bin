@@ -4,6 +4,7 @@
   */
 
 `include "../src/debug_define.v"
+
 module ctrl_core #(
         parameter WIDTH_BIN_ID = 10,
         parameter WIDTH_LVL    = 16
@@ -50,8 +51,6 @@ module ctrl_core #(
                     PARTIAL_UNSAT =   6;
 
     reg [3:0] 			   c_state, n_state;
-    reg [31:0] 			   wait_cnt, w_cnt, r_cnt;
-    reg [31:0] 			   w_clk_cnt, r_clk_cnt;
 
     always @(posedge clk)
     begin
@@ -257,6 +256,14 @@ module ctrl_core #(
     end
 
     /*
+    always @(posedge clk) begin
+        if(done_imply_i) begin
+            $display("%1tns done_imply_i", $time/1000);
+            $display("\tconflict_i = %1d", conflict_i);
+            $display("\tall_c_is_sat_i = %1d", all_c_is_sat_i);
+        end
+    end
+
     always @(*) begin
         $display("%1tns sat_o=%1d, unsat_o=%1d", $time/1000, sat_o, unsat_o);
     end
