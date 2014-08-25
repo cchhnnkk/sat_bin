@@ -180,6 +180,10 @@ module lit1 #(
                 if(debug_cid_i==1) display_state();
                 if(debug_cid_i==2) display_state();
                 if(debug_cid_i==3) display_state();
+                //if(debug_cid_i==4) display_state();
+                //if(debug_cid_i==5) display_state();
+                //if(debug_cid_i==6) display_state();
+                //if(debug_cid_i==7) display_state();
             end
             else begin
                 for(int i=0; i<len; i++) begin

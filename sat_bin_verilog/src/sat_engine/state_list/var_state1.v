@@ -93,7 +93,7 @@ module var_state1 #(
     end
 
     assign find_imply_o = var_value_r[0];
-    assign find_conflict_o = var_value_i[2:1]==2'b11;
+    assign find_conflict_o = var_value_i[2:1]==2'b11 || var_value_r[2:1]==2'b11;
 
     always @(posedge clk) begin
         if(~rst)

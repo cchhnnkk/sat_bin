@@ -19,9 +19,9 @@ vlog_se:
 
 # 模拟
 sim_sb:
-	cp test_se_console.do test_console.do
-	sed -i "s/test_sat_engine_top/test_sat_bin_top/g" test_console.do
-	sed -i "s/4us/1024us/g" test_console.do
+	cp ../tools/test_console.do test_console.do
+	sed -i "s/test_top/test_sat_bin_top/g" test_console.do
+	sed -i "s/4us/-all/g" test_console.do
 	cat test_console.do
 	vsim -c -do test_console.do | \
 		sed -e "s/^.*Error: (vsim-[0-9]*) \(.*):\)/\1 Error/g" \
@@ -31,7 +31,8 @@ sim_sb:
 	sed -i "s/\n/\r/g" transcript.log
 	sed -i "s/cnt_update_bin =/cnt_update/g" transcript.log
 sim_bm:
-	sed "s/test_sat_engine_top/test_bin_manager_top/g" test_se_console.do > test_console.do
+	cp ../tools/test_console.do test_console.do
+	sed -i "s/test_top/test_bin_manager_top/g" test_console.do
 	vsim -c -do test_console.do | \
 		sed -e "s/^.*Error: (vsim-[0-9]*) \(.*):\)/\1 Error/g" \
 			-e "s/^.*Warning: (vsim-[0-9]*) \(.*):\)/\1 Warning/g"
@@ -39,17 +40,26 @@ sim_bm:
 	python transcript_info.py
 	sed -i "s/\n/\r/g" transcript.log
 sim_se:
-	vsim -c -do test_se_console.do
+	cp ../tools/test_console.do test_console.do
+	sed -i "s/test_top/test_sat_engine_top/g" test_console.do
+	sed -i "s/4us/5us/g" test_console.do
+	cat test_console.do
+	vsim -c -do test_console.do
+	rm test_console.do
 	python transcript_info.py
 	sed -i "s/\n/\r/g" transcript.log
 sim_ca:
-	sed "s/test_sat_engine_top/test_clause_array_top/g" test_se_console.do > test_console.do
+	cp ../tools/test_console.do test_console.do
+	sed -i "s/test_top/test_clause_array_top/g" test_console.do
+	cat test_console.do
 	vsim -c -do test_console.do
 	rm test_console.do
 	python transcript_info.py
 	sed -i "s/--//g" transcript.log
 sim_c1:
-	sed "s/test_sat_engine_top/test_clause1_top/g" test_se_console.do > test_console.do
+	cp ../tools/test_console.do test_console.do
+	sed -i "s/test_top/test_clause_array_top/g" test_console.do
+	cat test_console.do
 	vsim -c -do test_console.do
 	rm test_console.do
 	python transcript_info.py
@@ -88,6 +98,9 @@ cmp_log:
 
 py_sat:
 	cd ../../sat_bin_python && make lvl_10
+
+py_sat0:
+	cd ../../sat_bin_python && make lvl_0
 
 xilinx:
 	cp -r ../src ../xilinx

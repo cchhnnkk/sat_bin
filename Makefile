@@ -1,5 +1,5 @@
 
-all: test_case1 test_case2 
+all: test_case1 test_case2 test_case3
 
 test_case1:
 	cp sat_bin_python/testdata/uf20-91/uf20-01.cnf sat_bin_python/input.cnf
@@ -7,6 +7,10 @@ test_case1:
 
 test_case2:
 	cp sat_bin_python/testdata/uf20-91/uf20-02.cnf sat_bin_python/input.cnf
+	make run_verilog
+
+test_case3:
+	cp sat_bin_python/testdata/uf20-91/uf20-03.cnf sat_bin_python/input.cnf
 	make run_verilog
 
 run_verilog: run_python

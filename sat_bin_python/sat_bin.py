@@ -955,7 +955,7 @@ class GenDebugInfo(object):
         str1 += '\t//ctrl\n'
         str1 += '\tcur_bin_num = %d;\n' % (sat_engine.cur_bin + 1)
         str1 += '\tbase_lvl = %d;\n' % sat_engine.base_lvl
-        str1 += '\tload_lvl = %d;\n' % sat_engine.cur_lvl
+        str1 += '\tload_lvl = %d;\n' % (sat_engine.cur_lvl - 1)
 
         str1 = str1.replace('= [', "= '{")
         str1 = str1.replace(']\n', '};\n')

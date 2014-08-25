@@ -265,6 +265,8 @@ module state_list #(
 
     reg [2:0] c_analyze_state, n_analyze_state;
 
+    reg [5:0] cnt_find_learntc;
+
     always @(posedge clk)
     begin
         if(~rst)
@@ -312,8 +314,21 @@ module state_list #(
 
     always @(posedge clk) begin
         if(~rst)
+            cnt_find_learntc <= 0;
+        else if(~apply_imply_delay && apply_imply_i && find_conflict_cur==0)
+            cnt_find_learntc <= 0;
+        else if(~apply_imply_delay && apply_imply_i && find_conflict_cur!=0)
+            cnt_find_learntc <= 1;
+        else if(find_conflict_cur!=0 && find_conflict_cur!=find_conflict_pre)
+            cnt_find_learntc <= cnt_find_learntc + 1;
+        else
+            cnt_find_learntc <= cnt_find_learntc;
+    end
+
+    always @(posedge clk) begin
+        if(~rst)
             add_learntc_en_o <= 0;
-        else if(c_analyze_state==ADD_LEARNTC)
+        else if(c_analyze_state==ADD_LEARNTC && cnt_find_learntc>1)
             add_learntc_en_o <= 1;
         else
             add_learntc_en_o <= 0;
@@ -453,27 +468,37 @@ module state_list #(
         end
 
         string str = "";
-        string str_all = "";
+        string str_name = "";
+        string str_value = "";
 
         task display_state();
             str = "";
-            str_all = "";
+            str_name = "\t";
+            str_value = "\t";
             $display("%1tns info state_list", $time/1000);
-            //               01234567890123456789
-            $sformat(str,"\t         max_lvl");     str_all = {str_all, str};
-            $sformat(str, "        bkt_bin_o");     str_all = {str_all, str};
-            $sformat(str, "        bkt_lvl_o");     str_all = {str_all, str};
-            $sformat(str, "    cur_bin_num_i");     str_all = {str_all, str};
-            $sformat(str, "        cur_lvl_o\n");   str_all = {str_all, str};
+            //                      01234567890123456789
+            $sformat(str, "%18s",  "  c_analyze_state");     str_name = {str_name, str};
+            $sformat(str, "%18s",  "find_conflict_cur");     str_name = {str_name, str};
+            $sformat(str, "%18s",  "find_conflict_pre");     str_name = {str_name, str};
+            $sformat(str, "%18s",  "          max_lvl");     str_name = {str_name, str};
+            $sformat(str, "%18s",  "        bkt_bin_o");     str_name = {str_name, str};
+            $sformat(str, "%18s",  "        bkt_lvl_o");     str_name = {str_name, str};
+            $sformat(str, "%18s",  "    cur_bin_num_i");     str_name = {str_name, str};
+            $sformat(str, "%18s",  " cnt_find_learntc");     str_name = {str_name, str};
+            $sformat(str, "%18s",  "        cur_lvl_o");     str_name = {str_name, str};
 
-            $sformat(str,"\t%16d", max_lvl          );     str_all = {str_all, str};
-            $sformat(str, " %16d", bkt_bin_o        );     str_all = {str_all, str};
-            $sformat(str, " %16d", bkt_lvl_o        );     str_all = {str_all, str};
-            $sformat(str, " %16d", cur_bin_num_i    );     str_all = {str_all, str};
-            $sformat(str, " %16d", cur_lvl_o        );     str_all = {str_all, str};
-            $sformat(str, str_all);
+            $sformat(str, "%18d", c_analyze_state  );     str_value = {str_value, str};
+            $sformat(str, "%18b", find_conflict_cur);     str_value = {str_value, str};
+            $sformat(str, "%18b", find_conflict_pre);     str_value = {str_value, str};
+            $sformat(str, "%18d", max_lvl          );     str_value = {str_value, str};
+            $sformat(str, "%18d", bkt_bin_o        );     str_value = {str_value, str};
+            $sformat(str, "%18d", bkt_lvl_o        );     str_value = {str_value, str};
+            $sformat(str, "%18d", cur_bin_num_i    );     str_value = {str_value, str};
+            $sformat(str, "%18d", cnt_find_learntc );     str_value = {str_value, str};
+            $sformat(str, "%18d", cur_lvl_o        );     str_value = {str_value, str};
 
-            $display(str_all);
+            $display(str_name);
+            $display(str_value);
         endtask
 
     `endif
