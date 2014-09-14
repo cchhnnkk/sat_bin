@@ -1,0 +1,112 @@
+minisat:
+    bcp                 50
+    conflict            3 
+
+    1 bcp time          200ns
+    1 conflict time     70,000ns
+
+    time = 50*200+3*70000=220,000ns
+
+
+test_case 1
+    success
+
+    sim time 101,150ns
+    time/load 435ns
+	cnt_load 232
+    clocks 10,115
+    sat_engine:
+        cnt_idle = 232
+        cnt_bcp = 284
+        cnt_decision = 52
+        cnt_analysis = 15
+        cnt_bkt_cur_bin = 0
+        cnt_partial_sat = 0
+        cnt_partial_unsat = 0
+    bin_manager:
+        cnt_idle = 0
+        cnt_rd_bin_info = 1
+        cnt_load_bin = 232
+        cnt_run_core = 232
+        cnt_find_bkt_lvl = 15
+        cnt_bkt_across_bin = 15
+        cnt_update_bin = 232
+        cnt_global_sat = 1
+        cnt_global_unsat = 0
+
+    minisat
+    restarts              : 1
+    conflicts             : 6              (3000 /sec)
+    decisions             : 10             (0.00 % random) (5000 /sec)
+    propagations          : 58             (29000 /sec)
+    conflict literals     : 19             (5.00 % deleted)
+    20 - 19 = 1
+    CPU time              : 0.002 s
+
+
+
+test_case 2
+    success
+
+    sim time 224,160ns
+    time/load 430ns
+	cnt_load 521
+    sat_engine:
+        cnt_idle = 521
+        cnt_bcp = 608
+        cnt_decision = 87
+        cnt_analysis = 39
+        cnt_bkt_cur_bin = 0
+        cnt_partial_sat = 0
+        cnt_partial_unsat = 0
+    bin_manager:
+        cnt_idle = 0
+        cnt_rd_bin_info = 1
+        cnt_load_bin = 521
+        cnt_run_core = 521
+        cnt_find_bkt_lvl = 39
+        cnt_bkt_across_bin = 39
+        cnt_update 521
+        cnt_global_sat = 1
+        cnt_global_unsat = 0
+
+    minisat
+    restarts              : 1
+    conflicts             : 3              (1 /sec)
+    decisions             : 14             (0.00 % random) (1 /sec)
+    propagations          : 39             (1 /sec)
+    conflict literals     : 8              (0.00 % deleted)
+    8 - 8 = 0
+    CPU time              : 0. s
+
+
+test_case 3
+	cnt_load 6990
+    849370ns error assert(sum_bkt_next > sum_bkt)
+
+
+test_case 4
+	cnt_load 1303
+    cmp_log result is wrong!
+
+
+test_case 5
+	cnt_load 440
+    cmp_log result is wrong in cnt_update 65!
+
+
+test_case 6
+	cnt_load 93
+    success
+
+
+test_case 7
+	cnt_load 37
+    success
+
+
+test_case 8
+	cnt_load 407
+    cmp_log result is wrong in cnt_update 191!
+
+

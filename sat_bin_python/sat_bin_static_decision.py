@@ -522,7 +522,7 @@ class SatEngine(object):
         self.cur_lvl = bkt_lvl + 1
 
     def run_core(self, cur_bi, next_lvl):
-        """ return psat, next_bin, next_lvl, bkt_lvl """
+        """ return next_bin, next_lvl, bkt_lvl """
         self.cur_lvl = next_lvl
         self.cur_bin = cur_bi
         logger.info('sat engine run_core: cur_bin == %d' % cur_bi)
@@ -534,13 +534,13 @@ class SatEngine(object):
                 allsat = self.decision(cur_bi)
                 if allsat:
                     # sat
-                    return True, cur_bi + 1, self.cur_lvl, 0     # next bin index
+                    return cur_bi + 1, self.cur_lvl, 0     # next bin index
             else:
                 # conflict
                 bkt_bi, bkt_lvl = self.analysis(ccindex, cvindex)
                 if bkt_bi != cur_bi:      # unsat
                     logger.info('----\t\tpartial unsat')
-                    return False, bkt_bi, bkt_lvl + 1, bkt_lvl
+                    return bkt_bi, bkt_lvl + 1, bkt_lvl
                 else:
                     self.backtrack_cur_bin(bkt_lvl)
 
@@ -550,85 +550,23 @@ class BinManager(object):
     """docstring for BinManager"""
 
     def __init__(self):
-        self.global_vs    = []
+        self.global_vs = []
         self.clauses_bins = []
-        self.n_oc_bin     = []           # the Num of the origin clauses in the bins
-        self.n_lc_bin     = []           # the Num of the learnt clauses in the bins
-        self.vars_bins    = []           # vars' indexs of each bin
-        self.nb           = 0            # Num of the bins
-        self.nc           = 0            # total clauses Num
-        self.nv           = 0            # total vars Num
-        self.cmax         = 0
-        self.vmax         = 0
+        self.n_oc_bin = []        # the Num of the origin clauses in the bins
+        self.n_lc_bin = []        # the Num of the learnt clauses in the bins
+        self.vars_bins = []       # vars' indexs of each bin
+        self.nb = 0               # Num of the bins
+        self.nc = 0               # total clauses Num
+        self.nv = 0               # total vars Num
+        self.cmax = 0
+        self.vmax = 0
 
-        self.lvl_state    = []
+        self.lvl_state = []
 
         # the s_bkt is monotone increasing
         # this guarantees the solver's complete
         self.s_bkt = 0
 
-        #dynamic choose bins
-        self.bin_trail      = []         # bin的load顺序
-        self.bin_activity   = []         # bin的活跃度
-        self.bin_chose_flag = []         # bin被选择的标志
-        self.bin_inc        = 1          # activity的每次增加值
-        self.bin_decay      = 1 # 0.95   # activity的衰减值
-        #dynamic choose vars
-        self.var_trail      = []         # bin的load顺序
-        self.var_activity   = []         # bin的活跃度
-        self.var_chose_flag = []         # bin被选择的标志
-        self.var_inc        = 1          # activity的每次增加值
-        self.var_decay      = 1 # 0.95   # activity的衰减值
-
-    # --------------------------------------------------------
-    def init_bin_activity(self):
-        self.bin_chose_flag = [False] * self.nb
-        """初始化每个bin的activity"""
-        # 先求每个var的activity
-        activity_v = [0] * self.nv
-        for bi in xrange(self.nb):
-            vbin = self.vars_bins[bi]
-            cbin = self.clauses_bins[bi]
-            for c in cbin:
-                for i, l in enumerate(c):
-                    if l != 0:
-                        v = vbin[i]
-                        activity_v[v] += 1
-        # 再求每个bin的activity
-        self.bin_activity = [0] * self.nb
-        for bi in xrange(self.nb):
-            vbin = self.vars_bins[bi]
-            for v in vbin:
-                self.bin_activity[bi] += activity_v[v]
-
-    def decay_bin_inc(self):
-        self.bin_inc *= (1 / self.bin_decay)
-
-    def bump_bin_activity(self, bi):
-        bi -= 1
-        self.bin_activity[bi] += self.bin_inc
-        if self.bin_activity[bi] > 1e100:
-            for bi in xrange(self.nb):
-                self.bin_activity[bi] *= 1e-100
-                self.bin_inc *= 1e-100
-
-    def choose_next_bin(self):
-        logger.info('bin_activity %s' % self.bin_activity)
-        max_acti = -1
-        bi = -1
-        for i in xrange(self.nb):
-            if not self.bin_chose_flag[i] and self.bin_activity[i] > max_acti:
-                max_acti = self.bin_activity[i]
-                bi = i
-        self.bin_activity[bi] = 0
-        self.bin_chose_flag[bi] = True
-
-        bin_i = bi + 1
-        self.bin_trail += [bin_i]
-        logger.info('bin_trail    %s' % self.bin_trail)
-        return bin_i
-
-    # --------------------------------------------------------
     def init_bins(self, filename):
         lists = [l for l in file(filename) if l[0] not in '\n']
         i = 0
@@ -758,8 +696,6 @@ class BinManager(object):
         bkt_bi = ls.dcd_bin
         bkted = ls.has_bkt
 
-        # self.print_bkted_lvl(bkt_lvl)
-
         if bkted is True:
             # 沿着lvl states向前查找bkted为False的层级
             findflag = False
@@ -780,15 +716,10 @@ class BinManager(object):
         assert(self.lvl_state[bkt_lvl - 1].has_bkt is False)
         return bkt_bi, bkt_lvl
 
-    def backtrack_across_bin(self, bkt_bi, bkt_lvl):
+    def backtrack_across_bin(self, bkt_lvl):
         str1 = '--\tbacktrack_across_bin: bkt_lvl == %d' % bkt_lvl
         logger.info(str1)
         gen_debug_info.cnt_across_bkt += 1
-
-        index = self.bin_trail.index(bkt_bi)
-        for i in xrange(index + 1, len(self.bin_trail)):
-            self.bin_chose_flag[self.bin_trail[i] - 1] = False
-        del self.bin_trail[index + 1 : ]
         # 清除全局变量状态
         for i, vs in enumerate(self.global_vs):
             value = vs.value
@@ -831,30 +762,29 @@ class BinManager(object):
         logger.info(stemp)
         logger.info(btemp)
 
-    def compute_s_bkt(self, lvl, bin_i):
-        """ the s_bkt is monotone increasing,
-            so it can guarantee the solver's complete
-            当冲突时调用这个函数
-        """
-        if logger.level <= logging.DEBUG:
+    def compute_s_bkt(self, lvl, bin_i, next_bi):
+        # the s_bkt is monotone increasing, this guarantees the solver's
+        # complete
+        if logger.level <= logging.DEBUG or bin_i != next_bi - 1:
             self.print_bkted_lvl(lvl)
 
-        s_bkt = 1
-        for i in xrange(self.nv):
-            if i < lvl:
-                s_bkt = s_bkt * 2 + int(self.lvl_state[i].has_bkt)
-            else:
-                s_bkt = s_bkt * 2
+        if bin_i != next_bi - 1:
+            s_bkt = 1
+            for i in xrange(self.nv):
+                if i < lvl:
+                    s_bkt = s_bkt * 2 + int(self.lvl_state[i].has_bkt)
+                else:
+                    s_bkt = s_bkt * 2
 
-        assert(s_bkt > self.s_bkt)
-        self.s_bkt = s_bkt
+            assert(s_bkt > self.s_bkt)
+            self.s_bkt = s_bkt
 
-        logger.info('%d bin %d' % (s_bkt, bin_i))
-        logger.warning(bin(s_bkt)[2:] + '\t' + str(gen_debug_info.cnt_load))
+            logger.info('%d bin %d' % (s_bkt, bin_i))
+            logger.warning(bin(s_bkt)[2:])
 
     def test(self, filename):
         print ''
-        var_value = [l.value for l in self.global_vs]
+        varvalue = [l.value for l in self.global_vs]
         self.init_bins(filename)
         for bi in xrange(self.nb):
             for c in self.clauses_bins[bi]:
@@ -864,17 +794,17 @@ class BinManager(object):
                 for i in xrange(len(self.vars_bins[bi])):
                     lit = c[i]
                     var = self.vars_bins[bi][i]
-                    if lit == var_value[var]:
+                    if lit == varvalue[var]:
                         sat = True
                         break
                 if sat is False:
                     print 'test fail'
-                    print 'bin', bi + 1
+                    print 'bin', bi
                     cstr = gen_debug_info.csr_clause_str(c, self.vars_bins[bi])
                     print 'clause', cstr
-                    print 'vars_bins ', [l + 1 for l in self.vars_bins[bi]]
-                    print 'vars_value', \
-                        [var_value[l] for l in self.vars_bins[bi]]
+                    print 'vars_bins', [l + 1 for l in self.vars_bins[bi]]
+                    print 'varsvalue', \
+                        [varvalue[l] for l in self.vars_bins[bi]]
                     print ''
                     return
         logger.info('test success\n')
@@ -1061,51 +991,45 @@ def control(filename):
     global sat_engine
     bin_manager = BinManager()
     bin_manager.init_bins(filename)
-    bin_manager.init_bin_activity()
 
     sat_engine = SatEngine(bin_manager.cmax, bin_manager.vmax)
 
     global gen_debug_info
     gen_debug_info = GenDebugInfo(bin_manager)
 
-    bin_i = bin_manager.choose_next_bin()
+    bin_i = 1
     next_lvl = 1
-    while len(bin_manager.bin_trail) <= bin_manager.nb:
+    while bin_i <= bin_manager.nb:
             bin_manager.load_bin(bin_i - 1, next_lvl, sat_engine)
 
-            psat, next_bi, next_lvl, bkt_lvl = \
+            next_bi, next_lvl, bkt_lvl = \
                 sat_engine.run_core(bin_i, next_lvl)
 
             conflict = False
-            if not psat:
+            if bin_i != next_bi - 1:
                 # partial unsat
-                bin_manager.bump_bin_activity(bin_i)
-                bin_manager.decay_bin_inc()
                 bkt_bi, bkt_lvl = bin_manager.find_global_bkt_lvl(bkt_lvl)
                 if bkt_bi == 0:
                     logger.info('\nunsatisfiable')
                     print '\nunsatisfiable'
                     return 'unsat'
-                bin_manager.backtrack_across_bin(bkt_bi, bkt_lvl)
+                bin_manager.backtrack_across_bin(bkt_lvl)
                 conflict = True
                 next_lvl = bkt_lvl + 1
                 next_bi = bkt_bi
-                bin_manager.compute_s_bkt(next_lvl - 1, bin_i)
-                # print bin_manager.bin_trail
-            else:
-                next_bi = bin_manager.choose_next_bin()
 
             bin_manager.update_bin(bin_i - 1, conflict, sat_engine)
+
+            bin_manager.compute_s_bkt(next_lvl - 1, bin_i, next_bi)
 
             bin_i = next_bi
 
             curtime = clock()
             if curtime - starttime > TIME_OUT_LIMIT:
                 logger.critical('time out')
-                return 'time out'
+                sys.exit()
 
     logger.info('\nsatisfiable')
-    # print bin_manager.bin_trail
     print '\nsatisfiable'
 
     logger.info('\nresult var value')

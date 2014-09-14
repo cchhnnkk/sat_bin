@@ -7,6 +7,7 @@
 import argparse
 import numpy as np
 import matplotlib.pyplot as plt
+import random
 
 kk_debug = False
 
@@ -22,6 +23,8 @@ varlist = []
 
 cmax = 4
 vmax = 8
+
+random_pcnf = False
 
 
 def get_share_len1(a, b):
@@ -104,12 +107,17 @@ def compute_cost(clauses, nc, nv, cbin, vbin):
     # Number of bins
     cost1 = n_bin
 
-    # The sum across all variables v in the CNF instance, of the number of
-    # bins in which v occurs
+    # The sum, across all variables v in the CNF instance,
+    # of the number of bins in which v occurs
+    # 针对所有的变量，统计包含该变量的bin的个数，然后求和
+    # 评价变量的重叠情况
     cost2 = sum([len(vset) for vset in vbin])
 
-    # The sum across all variables v in the CNF instance, of the number of
-    # bins v spans
+    # The sum, across all variables v in the CNF instance,
+    # of the number of bins v spans
+    # 针对所有的变量，统计包含该变量的跨越bin编号，然后求和
+    # span: max bin index - min bin index
+    # 减少回溯的距离
     v_minbin = np.array(nv * [n_bin - 1])
     v_maxbin = np.array(nv * [0])
     for i in xrange(len(vbin)):
@@ -232,15 +240,18 @@ def min_bandwidth(clauses, c_adjacent, v_adjacent, nc, nv, times, cmax, vmax):
         compute_bandwidth(clauses, c_rank, v_rank)
         # Rearrange Variables in increasing order of gravity
         v_rank = v_rank[v_gravity.argsort()]
+        if random_pcnf:
+            random.shuffle(c_rank)  # random用于随机的实验
         cbin, vbin = bin_packing(clauses, nc, c_rank, cmax, vmax)
         cost = compute_cost(clauses, nc, nv, cbin, vbin)
-        if cost_best > cost:
-            cost_best = cost
-            c_rank_best = c_rank[:]
-            v_rank_best = v_rank[:]
-            cbin_best = cbin
-            vbin_best = vbin
-            itag = i
+        # if cost_best > cost:
+        cost_best = cost
+        c_rank_best = c_rank[:]
+        v_rank_best = v_rank[:]
+        cbin_best = cbin
+        vbin_best = vbin
+        itag = i
+        break
 
     if kk_debug:
         print itag

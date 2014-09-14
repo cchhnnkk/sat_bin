@@ -21,3 +21,7 @@ partition:
 gen_vtb:
 	gen_bm_tb.py bram.txt > sb_test_case.sv
 
+cnt_load:
+	run_all.py > temp
+	cat temp | grep load | awk '{print $$3}'
+

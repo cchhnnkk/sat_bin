@@ -3,12 +3,12 @@
 import sys
 import partitioncnf as pcnf
 import convert_csr_to_bram_data as cvt_bram
-# import sat_bin_lvlstate as sat
+# import sat_bin_static_decision as sat
 import sat_bin as sat
 import logging
 
 vmax = 8
-cmax = 8
+cmax = 4
 loglevel = logging.CRITICAL
 # loglevel = logging.WARNING
 # loglevel = logging.DEBUG
@@ -49,24 +49,41 @@ def test_uf20_91_100(n_test):
 
 def test_uf50():
     filename = 'testdata/uf50-01.cnf'
+    global vmax, cmax
+    vmax = 32
+    cmax = 32
 
     sat.CNT_ACROSS_BKT = 500
     # sat.TIME_OUT_LIMIT = 10     # 10s
-    sat.TIME_OUT_LIMIT = 60
+    sat.TIME_OUT_LIMIT = 3600
+    global loglevel, log2file
+    loglevel = logging.WARNING
+    # loglevel = logging.CRITICAL
+    log2file = False
     run_all(filename)
 
 
-def test_file(filename, vmax_i, cmax_i):
+def test_file(filename, vmax_i, cmax_i, random_pcnf):
     global vmax, cmax
     vmax = vmax_i
     cmax = cmax_i
-    sat.set_logging_file(logging.DEBUG)
+    global loglevel, log2file
+    loglevel = logging.CRITICAL
+    log2file = True
+    pcnf.random_pcnf = random_pcnf
     run_all(filename)
 
 if __name__ == '__main__':
-    # test_uf20_91_100(10)
-    # test_uf50()
-    test_file("testdata/uf20-91/uf20-01.cnf", 8, 4)
+    test_uf20_91_100(100)
+    # for i in range(1):
+    #     test_uf50()
+    # test_file("testdata/uf20-91/uf20-01.cnf", 8, 4, False)
+    # for i in range(100):
+    #     test_file("testdata/uf20-91/uf20-01.cnf", 8, 4, True)
+    # for i in range(100):
+    #     test_file("testdata/uf20-91/uf20-01.cnf", 16, 8, True)
+    # for i in range(100):
+    #     test_file("testdata/uf20-91/uf20-01.cnf", 32, 16, True)
     # test_file("testdata/aloul-chnl11-13.cnf", 1000, 1000)
 #     test_file("F:/sat/reference/benchmarks/satlib-benchmark/\
 # uuf50-218/UUF50.218.1000/uuf50-09.cnf", 100, 300)
