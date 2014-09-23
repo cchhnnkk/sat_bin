@@ -32,7 +32,10 @@ def run_all(filename):
     sat.run(bramfile)
 
 
-def test_uf20_91_100(n_test):
+def test_uf20_91_100(n_test, vmax_i, cmax_i):
+    global vmax, cmax
+    vmax = vmax_i
+    cmax = cmax_i
     if n_test > 100:
         n_test = 100
 
@@ -47,20 +50,27 @@ def test_uf20_91_100(n_test):
         run_all(path + filename)
 
 
-def test_uf50():
-    filename = 'testdata/uf50-01.cnf'
+def test_uf50(n_test, vmax_i, time_sec):
     global vmax, cmax
-    vmax = 32
-    cmax = 32
+    vmax = vmax_i
+    cmax = vmax_i
 
-    sat.CNT_ACROSS_BKT = 500
     # sat.TIME_OUT_LIMIT = 10     # 10s
-    sat.TIME_OUT_LIMIT = 3600
+    sat.TIME_OUT_LIMIT = time_sec
     global loglevel, log2file
-    loglevel = logging.WARNING
-    # loglevel = logging.CRITICAL
+    # loglevel = logging.WARNING
+    loglevel = logging.CRITICAL
     log2file = False
-    run_all(filename)
+
+    path = "testdata/uf50-91/"
+    if len(sys.argv) == 2:
+        start = int(sys.argv[1])
+    else:
+        start = 0
+
+    for i in xrange(start, n_test, 1):
+        filename = "uf50-0%d.cnf" % (i + 1)
+        run_all(path + filename)
 
 
 def test_file(filename, vmax_i, cmax_i, random_pcnf):
@@ -74,15 +84,15 @@ def test_file(filename, vmax_i, cmax_i, random_pcnf):
     run_all(filename)
 
 if __name__ == '__main__':
-    test_uf20_91_100(100)
-    # for i in range(1):
-    #     test_uf50()
+    # test_uf20_91_100(100, 4, 4)
+    # n_test, vmax_i, time_sec
+    test_uf50(10, 16, 1000)
     # test_file("testdata/uf20-91/uf20-01.cnf", 8, 4, False)
-    # for i in range(100):
+    # for i in range(10):
     #     test_file("testdata/uf20-91/uf20-01.cnf", 8, 4, True)
-    # for i in range(100):
+    # for i in range(10):
     #     test_file("testdata/uf20-91/uf20-01.cnf", 16, 8, True)
-    # for i in range(100):
+    # for i in range(10):
     #     test_file("testdata/uf20-91/uf20-01.cnf", 32, 16, True)
     # test_file("testdata/aloul-chnl11-13.cnf", 1000, 1000)
 #     test_file("F:/sat/reference/benchmarks/satlib-benchmark/\

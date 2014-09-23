@@ -10,8 +10,8 @@ x2 = [72, 74, 77, 85, 91, 92, 101, 106, 111, 122, 123, 131, 138, 143, 155, 155, 
 y2 = range(1, 101)
 
 # use pylab to plot x and y : Give your plots names
-plot1 = pl.plot(x1, y1, 'gx-.', label="static decision")
-plot2 = pl.plot(x2, y2, 'ro:', label="dynamic decision")
+plot1 = pl.plot(x1, y1, 'gx-.', label="static bin order")
+plot2 = pl.plot(x2, y2, 'ro:', label="dynamic bin order")
 # plot1 = pl.plot(y1,
 #                 color='blue',
 #                 linestyle='dashdot',
@@ -23,7 +23,7 @@ plot2 = pl.plot(x2, y2, 'ro:', label="dynamic decision")
 #                 markersize=12
 #                 )
 
-pl.title('Decision Strategy')  # give plot a title
+pl.title('Choice Strategy')  # give plot a title
 pl.xlabel('Num of Bins Loaded')  # make axis labels
 pl.ylabel('Num of Instances Solved')
 

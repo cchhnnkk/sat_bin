@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 
 # 版本说明 #
-# 动态选择bin，动态选择决策变量var
+# 使用lvl state结构来保存decided var, bin, and has_bkt
+# 没有implication graph
 
 import argparse
 import logging
@@ -579,7 +580,7 @@ class SatEngine(object):
                 allsat = self.decision(cur_bi)
                 if allsat:
                     # sat
-                    return True, cur_bi + 1, self.cur_lvl, 0    # next bin index
+                    return True, cur_bi + 1, self.cur_lvl, 0     # next bin index
             else:
                 # conflict
                 bkt_bi, bkt_lvl = self.analysis(ccindex, cvindex)

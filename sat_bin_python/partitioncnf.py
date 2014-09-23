@@ -196,6 +196,22 @@ def bin_packing(clauses, nc, c_rank, cmax, vmax):
     return cbin, vbin
 
 
+def max_share_bin_packing(clauses, nc, cmax, vmax):
+    """按照共享变量最大的原则，贪心的分割bin"""
+    cbin = [[]]
+    vbin = [set()]
+    j = 0
+    chose_flag = [False] * nc
+    while True:
+        for i in range(nc):
+            if chose_flag[i] is False:
+                break
+        max_share_v = 0
+    # 未完待续
+
+    return cbin, vbin
+
+
 def plot_cnf(clauses, nc, c_rank, v_rank):
     x = []
     y = []
@@ -317,12 +333,10 @@ def run(filename, resultfilename):
     clauses = [[int(x) for x in m[:-1]] for m in cnf if m[0] != 'p']
     nv = [int(n[2]) for n in cnf if n[0] == 'p'][0]
     nc = len(clauses)
-    if kk_debug:
-        print 'variable:    ' + str(nv)
-    if kk_debug:
-        print 'clauses:     ' + str(len(clauses))
     sumlen = sum([len(c) for c in clauses])
     if kk_debug:
+        print 'variable:    ' + str(nv)
+        print 'clauses:     ' + str(len(clauses))
         print 'sparse radio: ' + str(sumlen * 1.0 / nv / nc)
     c_adjacent = []
     v_adjacent = []
