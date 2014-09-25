@@ -5,3 +5,5 @@
 *.cnf
 *.txt
 *.png
+*temp*
+*swp

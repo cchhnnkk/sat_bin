@@ -5,6 +5,20 @@ run_all:
 sat_bin:
 	sat_bin.py --filename bram_input.txt --log2file 1 --loglevel 20
 
+dp:
+	# 测试dynamic partition
+	test_8.py > temp_dp_8
+	test_16.py > temp_dp_16
+	test_32.py > temp_dp_32
+	compute_avg_std.py temp_dp_8
+	compute_avg_std.py temp_dp_16
+	compute_avg_std.py temp_dp_32
+
+test_dp:
+	# 测试dynamic partition
+	test_sat_bin_dynamic_partition.py > temp_dp
+	compute_avg_std.py temp_dp
+
 lvl_0:
 	sat_bin.py --log2file 1 --loglevel 0
 

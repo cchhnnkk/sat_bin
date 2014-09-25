@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5bb06419-f54e-43e4-a9e2-f887f495dfda</ProjectGuid>
     <ProjectHome>..\</ProjectHome>
-    <StartupFile>sat_bin_lvlstate.py</StartupFile>
+    <StartupFile>sat_bin_dynamic_partition.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,7 +28,7 @@
     <Compile Include="convert_csr_to_bram_data.py" />
     <Compile Include="partitioncnf.py" />
     <Compile Include="pysat_cocu.py" />
-    <Compile Include="sat_bin_lvlstate.py" />
+    <Compile Include="sat_bin_dynamic_partition.py" />
     <Compile Include="sat_shedskin.py" />
     <Compile Include="test10.py" />
     <Compile Include="testsomething.py" />
