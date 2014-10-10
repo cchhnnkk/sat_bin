@@ -83,26 +83,28 @@ class LvlState(object):
 
 
 class Clause(object):
+
     """ 子句 """
 
     def __init__(self):
         self.lits = []            # 文字列表
         self.islearnt = False     # 子句是否为学习子句
         self.activity = 0         # 子句的活跃值
-        self.owner_bin  = -1      # 子句的所属的bin
+        self.owner_bin = -1      # 子句的所属的bin
 
 
 class ClauseBin(object):
+
     """ 子句块 """
 
     def __init__(self, cmax, vmax, cbin, vbin):
-        self.clauses   = []          # class Clause
+        self.clauses = []          # class Clause
         self.bram_cbin = []          # bram格式的clauses
         self.variables = []          # 打包的变量
-        self.n_oc      = 0           # 打包时子句的个数，包括学习子句
-        self.n_lc      = 0           # 新学习子句的个数
-        self.cmax      = cmax
-        self.vmax      = vmax
+        self.n_oc = 0           # 打包时子句的个数，包括学习子句
+        self.n_lc = 0           # 新学习子句的个数
+        self.cmax = cmax
+        self.vmax = vmax
         self.init(cbin, vbin)
 
     def init(self, cbin, vbin):
@@ -151,7 +153,7 @@ class ClauseBin(object):
         learntc = []
         for i in xrange(self.n_lc):
             ci = self.n_oc + i
-            self.clauses[ci].lits = self.cvt_to_lits(self.bram_cbin[ci]) 
+            self.clauses[ci].lits = self.cvt_to_lits(self.bram_cbin[ci])
             learntc += [self.clauses[ci]]
         return learntc
 
@@ -161,20 +163,20 @@ class ClauseArray(object):
     """Manage the clauses array and its state"""
 
     def __init__(self, cmax):
-        self.cmax        = cmax
-        self.cbin        = None     # class ClauseBin
-        self.clauses     = None     # 指向cbin的bram_cbin
+        self.cmax = cmax
+        self.cbin = None     # class ClauseBin
+        self.clauses = None     # 指向cbin的bram_cbin
         # clauses state #
-        self.csat        = [False] * cmax
-        self.cfreelit    = [0] * cmax
+        self.csat = [False] * cmax
+        self.cfreelit = [0] * cmax
         self.c_max_lvl_i = [0] * cmax  # the max lvl of each clauses
                                        # use to find the implied lvl in bcp
-        self.c_isreason  = [False] * cmax
-        self.c_len       = [0] * cmax
+        self.c_isreason = [False] * cmax
+        self.c_len = [0] * cmax
 
         # dynamic adjust clause's activity
-        self.cal_inc     = 1          # activity的每次增加值
-        self.cal_decay   = 0.95       # activity的衰减值
+        self.cal_inc = 1          # activity的每次增加值
+        self.cal_decay = 0.95       # activity的衰减值
 
     def __str__(self):
         str_info = "ClauseArray {\n"
@@ -245,8 +247,8 @@ class ClauseArray(object):
     def find_learntc_inserti(self):
         if self.cbin.n_lc == self.cmax / 2:
             # 找到最长的子句，并且不是原因子句
-            # # learnt clauses are full, find the longest learntc
-            # # which is not reasonc
+            # learnt clauses are full, find the longest learntc
+            # which is not reasonc
             # inserti = 0
             # max_len = 0
             # for i in xrange(self.cbin.n_lc):
@@ -317,9 +319,9 @@ class LocalVars(object):
         self.global_var = None           # 指向var_bin的引用，在load_bin时赋值
         self.nv = 0                      # 变量个数，在load时进行赋值
 
-        #dynamic choose vars
-        self.var_inc        = 1          # activity的每次增加值
-        self.var_decay      = 0.95       # activity的衰减值
+        # dynamic choose vars
+        self.var_inc = 1          # activity的每次增加值
+        self.var_decay = 0.95       # activity的衰减值
 
     def reset_reason(self):
         for i in xrange(self.nv):
@@ -666,7 +668,8 @@ class SatEngine(object):
                 allsat = self.decision(cur_bi)
                 if allsat:
                     # sat
-                    return True, cur_bi + 1, self.cur_lvl, 0     # next bin index
+                    # next bin index
+                    return True, cur_bi + 1, self.cur_lvl, 0
             else:
                 # conflict
                 bkt_bi, bkt_lvl = self.analysis(ccindex, cvindex)
@@ -685,18 +688,19 @@ class BinPacker(object):
     # todo 学习子句的删除，当学习子句非常多时，等先测试后再实现
 
     def __init__(self, bin_cmax, bin_vmax):
-        self.clause_db  = []          # 子句class Clause
-        self.cbins      = []          # 打包的子句
-        self.ci_bins    = []          # 打包的子句的索引
-        self.nc         = 0           # total clauses Num
-        self.nv         = 0           # total vars Num
-        self.nb         = 0           # total bins Num
-        self.bin_cmax   = bin_cmax
-        self.bin_vmax   = bin_vmax
+        self.clause_db = []          # 子句class Clause
+        self.cbins = []          # 打包的子句
+        self.ci_bins = []          # 打包的子句的索引
+        self.nc = 0           # total clauses Num
+        self.nv = 0           # total vars Num
+        self.nb = 0           # total bins Num
+        self.bin_cmax = bin_cmax
+        self.bin_vmax = bin_vmax
 
     def init(self, filename):
         """初始化clause_db等"""
-        cnf = [l.strip().split() for l in file(filename) if l[0] not in 'c%0\n']
+        cnf = [l.strip().split()
+               for l in file(filename) if l[0] not in 'c%0\n']
         clauses_list = [[int(x) for x in m[:-1]] for m in cnf if m[0] != 'p']
         self.nv = [int(n[2]) for n in cnf if n[0] == 'p'][0]
         self.nc = len(clauses_list)
@@ -715,36 +719,41 @@ class BinPacker(object):
             self.cbins += [cbin]
             self.ci_bins += [packci]
 
-    def pack_new_bin(self):
-        """打包新的bin，如果没有子句可打包返回False，否则True"""
+    def cvt_to_vset(self, lits):
+        vset = set()
+        for lit in lits:
+            v = abs(lit)
+            vset.add(v)
+        return vset
+
+    def pack_new_bin(self, pre_vars):
+        """ 打包新的bin，如果没有子句可打包返回False，否则True
+            pre_vars是bin中必须包含的前提变量
+        """
         cbin = []
-        vbin = set()
-        new_cbin = []
+        vbin = set(pre_vars)
         new_vbin = set()
         packci = []
-        while True:
+        while len(cbin) < self.bin_cmax / 2:
             # 找到最大activity的还没有打包的子句
             max_act = -1
             max_c = None
             for i, c in enumerate(self.clause_db):
                 if c.owner_bin == -1 and c.activity > max_act:
-                    max_act = c.activity
-                    max_c = self.clause_db[i]
-                    packi = i
+                    vset = self.cvt_to_vset(c.lits)
+                    temp_vbin = vbin | vset
+                    if len(temp_vbin) <= self.bin_vmax:
+                        max_act = c.activity
+                        max_c = c
+                        packi = i
             if max_act == -1:
                 break
-            new_cbin += [max_c]
-            vset = set()
-            for lit in max_c.lits:
-                v = abs(lit)
-                vset.add(v)
-            new_vbin |= vset
-            if len(new_cbin) > self.bin_cmax/2 or len(new_vbin) > self.bin_vmax:
-                break
+            vset = self.cvt_to_vset(max_c.lits)
             max_c.owner_bin = self.nb + 1
             cbin += [max_c]
             vbin |= vset
-            packci += [packi+1]
+            packci += [packi + 1]
+
         vbin = sorted(list(vbin))
         if cbin == []:
             return False
@@ -758,13 +767,14 @@ class BinPacker(object):
 
     def clear_bin(self, bkt_bi):
         """回退清除bin，并将子句状态及学习子句记录到子句库中"""
-        for i in xrange(bkt_bi, self.nb):
+        # 回退的bin也要清除
+        for i in xrange(bkt_bi - 1, self.nb):
             for c in self.cbins[i].clauses:
                 c.owner_bin = -1
             learntc_list = self.cbins[i].get_learntc_list()
             for c in learntc_list:
                 self.clause_db += [c]
-        self.nb = bkt_bi
+        self.nb = bkt_bi - 1
 
 
 class BinManager(object):
@@ -772,12 +782,12 @@ class BinManager(object):
     """manage the bins to be solved"""
 
     def __init__(self, cmax, vmax):
-        self.global_vs    = []
-        self.cmax         = cmax
-        self.vmax         = vmax
-        self.bin_packer   = BinPacker(cmax, vmax)
+        self.global_vs = []
+        self.cmax = cmax
+        self.vmax = vmax
+        self.bin_packer = BinPacker(cmax, vmax)
 
-        self.lvl_state    = []
+        self.lvl_state = []
 
         # the s_bkt is monotone increasing
         # this guarantees the solver's complete
@@ -944,6 +954,17 @@ class BinManager(object):
         # for i in xrange(bkt_lvl, len(self.lvl_state)):
         #     self.lvl_state[i].reset()
 
+    def get_bin_dcd_vars(self, bin_i):
+        """得到bin内的决策变量"""
+        vbin = self.bin_packer.cbins[bin_i - 1].variables
+        dcd_vars = []
+        for v in vbin:
+            vs = self.global_vs[v - 1]
+            ls = bin_manager.lvl_state[vs.level - 1]
+            if ls.dcd_bin == bin_i and vs.implied == 0:
+                dcd_vars += [v]
+        return dcd_vars
+
     def print_bkted_lvl(self, lvl):
         ltemp = '  level '
         stemp = '  bkted '
@@ -956,7 +977,7 @@ class BinManager(object):
         logger.info(stemp)
         logger.info(btemp)
 
-    def compute_s_bkt(self, lvl, bin_i):
+    def compute_s_bkt(self, lvl):
         """ the s_bkt is monotone increasing,
             so it can guarantee the solver's complete
             当冲突时调用这个函数
@@ -974,11 +995,12 @@ class BinManager(object):
         assert(s_bkt > self.s_bkt)
         self.s_bkt = s_bkt
 
-        logger.info('%d bin %d' % (s_bkt, bin_i))
+        logger.info('%d' % (s_bkt))
         logger.warning(bin(s_bkt)[2:] + '\t' + str(gen_debug_info.cnt_load))
 
     def test(self, filename):
-        cnf = [l.strip().split() for l in file(filename) if l[0] not in 'c%0\n']
+        cnf = [l.strip().split()
+               for l in file(filename) if l[0] not in 'c%0\n']
         clauses_list = [[int(x) for x in m[:-1]] for m in cnf if m[0] != 'p']
         print ''
         sat_model = []
@@ -1053,9 +1075,12 @@ class GenDebugInfo(object):
         str_info += "  cnt_cur_bkt       : %s\n" % str(self.cnt_cur_bkt)
         str_info += "  cnt_analysis      : %s\n" % str(self.cnt_analysis)
         str_info += "  cnt_learntc       : %s\n" % str(self.cnt_learntc)
-        str_info += "  num_bins          : %s\n" % str(self.bin_manager.bin_packer.nb)
-        str_info += "  num_clauses       : %s\n" % str(self.bin_manager.bin_packer.nc)
-        str_info += "  num_vars          : %s\n" % str(self.bin_manager.bin_packer.nv)
+        str_info += "  num_bins          : %s\n" % str(
+            self.bin_manager.bin_packer.nb)
+        str_info += "  num_clauses       : %s\n" % str(
+            self.bin_manager.bin_packer.nc)
+        str_info += "  num_vars          : %s\n" % str(
+            self.bin_manager.bin_packer.nv)
         str_info += "  cmax              : %s\n" % str(self.bin_manager.cmax)
         str_info += "  vmax              : %s\n" % str(self.bin_manager.vmax)
         return str_info
@@ -1103,10 +1128,10 @@ class GenDebugInfo(object):
         for i in ci_bin:
             str1 += '\t\tgc%d ' % (i)
             if i <= len(bin_manager.bin_packer.clause_db):
-                str1 += str(bin_manager.bin_packer.clause_db[i-1].lits)
+                str1 += str(bin_manager.bin_packer.clause_db[i - 1].lits)
             str1 += '\n'
         for c in clauses:
-            strc = '\tc%d  ' % ( ci)
+            strc = '\tc%d  ' % (ci)
             # print len(c), len(variables)
             for i in xrange(len(variables)):
                 # var = variables[i]+1
@@ -1218,7 +1243,8 @@ def control(filename, bin_cmax, bin_vmax):
     global gen_debug_info
     gen_debug_info = GenDebugInfo(bin_manager)
 
-    if bin_manager.bin_packer.pack_new_bin() is False:
+    pre_vars = []
+    if bin_manager.bin_packer.pack_new_bin(pre_vars) is False:
         print 'no clause'
     bin_i = 1
     next_lvl = 1
@@ -1227,10 +1253,12 @@ def control(filename, bin_cmax, bin_vmax):
             psat, next_bi, next_lvl, bkt_lvl = \
                 sat_engine.run_core(bin_i, next_lvl)
             var_value = [l.value for l in bin_manager.global_vs]
-            if gen_debug_info.cnt_load == 38:
+            if gen_debug_info.cnt_load == 459:    #用于调试设置断点
                 pass
-            # print gen_debug_info.cnt_load, bin_manager.bin_packer.clause_db[3].owner_bin
+            # print gen_debug_info.cnt_load,
+            # bin_manager.bin_packer.clause_db[3].owner_bin
             conflict = False
+            pre_vars = []
             if not psat:
                 # partial unsat
                 bkt_bi, bkt_lvl = bin_manager.find_global_bkt_lvl(bkt_lvl)
@@ -1242,13 +1270,14 @@ def control(filename, bin_cmax, bin_vmax):
                 conflict = True
                 next_lvl = bkt_lvl + 1
                 next_bi = bkt_bi
-                bin_manager.compute_s_bkt(next_lvl - 1, bin_i)
-            else:
-                if bin_manager.bin_packer.pack_new_bin() is False:
-                    break
-                next_bi = bin_manager.bin_packer.nb
+                bin_manager.compute_s_bkt(next_lvl - 1)
+                pre_vars = bin_manager.get_bin_dcd_vars(bkt_bi)   # 决策变量需要留下来
 
             bin_manager.update_bin(bin_i - 1, conflict, sat_engine)
+
+            if bin_manager.bin_packer.pack_new_bin(pre_vars) is False:
+                break
+            next_bi = bin_manager.bin_packer.nb
 
             bin_i = next_bi
             curtime = clock()
@@ -1375,7 +1404,8 @@ def main():
     loglevel = logging.DEBUG
     # loglevel = logging.NOTSET
     # logfile = True
-    # filename = 'testdata/uf50-91/uf50-02.cnf'
+    # filename = 'testdata/uf20-91/uf20-01.cnf'
+    filename = 'testdata/uf50-218/uf50-02.cnf'
     # filename = "testdata/uuf50-218/uuf50-01.cnf"
     bin_vmax = 16
     bin_cmax = bin_vmax * 2

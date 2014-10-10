@@ -1,9 +1,13 @@
+#!python
+# -*- coding: utf-8 -*-
+
 """
 Internal implementation of a SAT solver, used by L{solver.SATSolver}.
 This is not part of the public API.
 """
 
 from __future__ import print_function
+from time import clock
 
 # Copyright (C) 2010, Thomas Leonard
 # See the README file for details, or visit http://0install.net.
@@ -24,7 +28,9 @@ from __future__ import print_function
 
 TRUE, FALSE, NONE = 1, 0, -1
 
-DEBUG=False
+DEBUG = False
+
+
 def debug(msg):
     print("SAT:", msg)
 
@@ -35,19 +41,24 @@ def debug(msg):
 # Variable     Literal     not(Literal)
 # 0        0       -1
 # 1        1       -2
+
+
 def neg(lit):
     return -1 - lit
+
 
 def watch_index(lit):
     if lit >= 0:
         return lit * 2
     return neg(lit) * 2 + 1
 
+
 class UnionClause:
+
     def __init__(self, lits, solver):
         self.lits = lits
         self.solver = solver
-    
+
     # Try to infer new facts.
     # We can do this only when all of our literals are False except one,
     # which is undecided. That is,
@@ -86,7 +97,8 @@ class UnionClause:
             value = self.solver.lit_value(self.lits[i])
             if value != FALSE:
                 # Could be None or True. If it's True then we've already done our job,
-                # so this means we don't get notified unless we backtrack, which is fine.
+                # so this means we don't get notified unless we backtrack,
+                # which is fine.
                 self.lits[1], self.lits[i] = self.lits[i], self.lits[1]
                 self.solver.watch_lit(neg(self.lits[1]), self)
                 return True
@@ -95,7 +107,8 @@ class UnionClause:
         self.solver.watch_lit(lit, self)
         return self.solver.enqueue(self.lits[0], self)
 
-    def undo(self, lit): pass
+    def undo(self, lit):
+        pass
 
     # Why is lit True?
     # Or, why are we causing a conflict (if lit is None)?
@@ -112,16 +125,24 @@ class UnionClause:
 
 # Using an array of VarInfo objects is less efficient than using multiple arrays, but
 # easier for me to understand.
+
+
 class VarInfo(object):
     __slots__ = ['value', 'reason', 'reason_txt', 'level', 'undo', 'obj']
+
     def __init__(self, obj):
         self.value = NONE           # True/False/None
-        self.reason = None          # The constraint that implied our value, if True or False
-        self.reason_txt = None      # The constraint that implied our value, if True or False
-        self.level = -1         # The decision level at which we got a value (when not None)
-        self.undo = []          # Constraints to update if we become unbound (by backtracking)
-        self.obj = obj          # The object this corresponds to (for our caller and for debugging)
-    
+        # The constraint that implied our value, if True or False
+        self.reason = None
+        # The constraint that implied our value, if True or False
+        self.reason_txt = None
+        self.level = - \
+            1         # The decision level at which we got a value (when not None)
+        self.undo = []
+            # Constraints to update if we become unbound (by backtracking)
+        # The object this corresponds to (for our caller and for debugging)
+        self.obj = obj
+
     def __repr__(self):
         return '%s=%s' % (self.name, {NONE: 'None', TRUE: 'True', FALSE: 'False'}[self.value])
 
@@ -129,10 +150,14 @@ class VarInfo(object):
     def name(self):
         return str(self.obj)
 
+
 class SATProblem(object):
+
     def __init__(self):
         # Propagation
-        self.watches = []           # watches[2i,2i+1] = constraints to check when literal[i] becomes True/False
+        # watches[2i,2i+1] = constraints to check when literal[i] becomes
+        # True/False
+        self.watches = []
         self.propQ = []         # propagation queue
 
         # Assignments
@@ -146,7 +171,8 @@ class SATProblem(object):
         return len(self.trail_lim)
 
     def add_variable(self, obj):
-        if DEBUG: debug("add_variable('%s')" % obj)
+        if DEBUG:
+            debug("add_variable('%s')" % obj)
         index = len(self.assigns)
 
         self.watches += [[], []]    # Add watch lists for X and not(X)
@@ -158,9 +184,11 @@ class SATProblem(object):
     # Returns False if this immediately causes a conflict.
     def enqueue(self, lit, reason=None, reason_txt=None):
         if reason:
-            if DEBUG: debug("%s => %s" % (reason, self.name_lit(lit)))
+            if DEBUG:
+                debug("%s => %s" % (reason, self.name_lit(lit)))
         else:
-            if DEBUG: debug("%s => %s" % (reason_txt, self.name_lit(lit)))
+            if DEBUG:
+                debug("%s => %s" % (reason_txt, self.name_lit(lit)))
         old_value = self.lit_value(lit)
         if old_value != NONE:
             if old_value == FALSE:
@@ -188,7 +216,8 @@ class SATProblem(object):
     # Pop most recent assignment from self.trail
     def undo_one(self):
         lit = self.trail[-1]
-        if DEBUG: debug("(pop %s)" % self.name_lit(lit))
+        if DEBUG:
+            debug("(pop %s)" % self.name_lit(lit))
         var_info = self.get_varinfo_for_lit(lit)
         var_info.value = NONE
         var_info.reason = None
@@ -198,11 +227,12 @@ class SATProblem(object):
 
     #       while var_info.undo:
     #           var_info.undo.pop().undo(lit)
-    
+
     def cancel(self):
         n_this_level = len(self.trail) - self.trail_lim[-1]
-        if DEBUG: debug("backtracking from level %d (%d assignments)" %
-                (self.get_decision_level(), n_this_level))
+        if DEBUG:
+            debug("backtracking from level %d (%d assignments)" %
+                 (self.get_decision_level(), n_this_level))
         while n_this_level != 0:
             self.undo_one()
             n_this_level -= 1
@@ -211,7 +241,7 @@ class SATProblem(object):
     def cancel_until(self, level):
         while self.get_decision_level() > level:
             self.cancel()
-    
+
     # Process the propQ.
     # Returns None when done, or the clause that caused a conflict.
     def propagate(self):
@@ -223,7 +253,9 @@ class SATProblem(object):
             watches = self.watches[wi]
             self.watches[wi] = []
 
-            if DEBUG: debug("%s -> True : watches: %s" % (self.name_lit(lit), watches))
+            if DEBUG:
+                debug("%s -> True : watches: %s" %
+                      (self.name_lit(lit), watches))
 
             # Notifiy all watchers
             for i in range(len(watches)):
@@ -232,15 +264,15 @@ class SATProblem(object):
                     # Conflict
 
                     # Re-add remaining watches
-                    self.watches[wi] += watches[i+1:]
-                    
+                    self.watches[wi] += watches[i + 1:]
+
                     # No point processing the rest of the queue as
                     # we'll have to backtrack now.
                     self.propQ = []
 
                     return clause
         return None
-    
+
     def impossible(self):
         self.toplevel_conflict = True
 
@@ -249,7 +281,7 @@ class SATProblem(object):
             return self.assigns[lit]
         else:
             return self.assigns[neg(lit)]
-    
+
     def lit_value(self, lit):
         if lit >= 0:
             value = self.assigns[lit].value
@@ -263,7 +295,7 @@ class SATProblem(object):
                 return TRUE
             else:
                 return NONE
-    
+
     # Call cb when lit becomes True
     def watch_lit(self, lit, cb):
         #debug("%s is watching for %s to become True" % (cb, self.name_lit(lit)))
@@ -303,14 +335,15 @@ class SATProblem(object):
         if lit >= 0:
             return self.assigns[lit].name
         return "not(%s)" % self.assigns[neg(lit)].name
-    
+
     def add_clause(self, lits):
         # Public interface. Only used before the solve starts.
         assert lits
 
-        if DEBUG: debug("add_clause([%s])" % ', '.join(self.name_lits(lits)))
+        if DEBUG:
+            debug("add_clause([%s])" % ', '.join(self.name_lits(lits)))
 
-        self._add_clause(lits, learnt = False)
+        self._add_clause(lits, learnt=False)
 
     def analyse(self, cause):
         # After trying some assignments, we've discovered a conflict.
@@ -355,7 +388,6 @@ class SATProblem(object):
         # Then, in future, whenever A is selected we can remove C and
         # everything that depends on it from consideration.
 
-
         learnt = [0]        # The general rule we're learning
         btlevel = 0         # The deepest decision in learnt
         p = 0           # The literal we want to expand now
@@ -369,13 +401,19 @@ class SATProblem(object):
             # The first time, p is None, which requests the reason
             # why it is conflicting.
             if first:
-                if DEBUG: debug("Why did %s make us fail?" % cause)
+                if DEBUG:
+                    debug("Why did %s make us fail?" % cause)
                 p_reason = cause.cacl_reason2()
-                if DEBUG: debug("Because: %s => conflict" % (' and '.join(self.name_lits(p_reason))))
+                if DEBUG:
+                    debug("Because: %s => conflict" %
+                          (' and '.join(self.name_lits(p_reason))))
             else:
-                if DEBUG: debug("Why did %s lead to %s?" % (cause, self.name_lit(p)))
+                if DEBUG:
+                    debug("Why did %s lead to %s?" % (cause, self.name_lit(p)))
                 p_reason = cause.cacl_reason(p)
-                if DEBUG: debug("Because: %s => %s" % (' and '.join(self.name_lits(p_reason)), self.name_lit(p)))
+                if DEBUG:
+                    debug("Because: %s => %s" %
+                          (' and '.join(self.name_lits(p_reason)), self.name_lit(p)))
 
             # p_reason is in the form (A and B and ...)
             # p_reason => p
@@ -428,7 +466,8 @@ class SATProblem(object):
                 self.undo_one()
                 if var_info in seen:
                     break
-                if DEBUG: debug("(irrelevant)")
+                if DEBUG:
+                    debug("(irrelevant)")
             counter -= 1
 
             if counter <= 0:
@@ -446,7 +485,8 @@ class SATProblem(object):
         # directly to the learnt clause.
         learnt[0] = neg(p)
 
-        if DEBUG: debug("Learnt: %s" % (' or '.join(self.name_lits(learnt))))
+        if DEBUG:
+            debug("Learnt: %s" % (' or '.join(self.name_lits(learnt))))
 
         return learnt, btlevel
 
@@ -454,7 +494,8 @@ class SATProblem(object):
         # Check whether we detected a trivial problem
         # during setup.
         if self.toplevel_conflict:
-            if DEBUG: debug("FAIL: toplevel_conflict before starting solve!")
+            if DEBUG:
+                debug("FAIL: toplevel_conflict before starting solve!")
             return False
 
         while True:
@@ -462,10 +503,12 @@ class SATProblem(object):
             # and assign literals where there is only one possibility.
             conflicting_clause = self.propagate()
             if not conflicting_clause:
-                if DEBUG: debug("new state: %s" % self.assigns)
+                if DEBUG:
+                    debug("new state: %s" % self.assigns)
                 if all(info.value != NONE for info in self.assigns):
                     # Everything is assigned without conflicts
-                    if DEBUG: debug("SUCCESS!")
+                    if DEBUG:
+                        debug("SUCCESS!")
                     return True
                 else:
                     # Pick a variable and try assigning it one way.
@@ -474,14 +517,15 @@ class SATProblem(object):
                     for lit, assign in enumerate(self.assigns):
                         if assign.value == NONE:
                             break
-                    #print "TRYING:", self.name_lit(lit)
+                    # print "TRYING:", self.name_lit(lit)
                     assert self.lit_value(lit) == NONE
                     self.trail_lim.append(len(self.trail))
-                    r = self.enqueue(lit, reason_txt = "considering")
+                    r = self.enqueue(lit, reason_txt="considering")
                     assert r is True
             else:
                 if self.get_decision_level() == 0:
-                    if DEBUG: debug("FAIL: conflict found at top level")
+                    if DEBUG:
+                        debug("FAIL: conflict found at top level")
                     return False
                 else:
                     # Figure out the root cause of this failure.
@@ -496,28 +540,33 @@ class SATProblem(object):
                         self.enqueue(learnt[0], reason_txt=reason)
 
                     else:
-                        c = self._add_clause(learnt, learnt = True)
+                        c = self._add_clause(learnt, learnt=True)
 
                         # Everything except the first literal in learnt is known to
                         # be False, so the first must be True.
                         e = self.enqueue(learnt[0], c)
                         assert e is True
 
+
 def main():
-    # filename = '../partitionCNF/again_cnf_unsat7.txt'
-    # filename = '../partitionCNF/uf20-01.txt'
-    filename = '../partitionCNF/uuf50-01.cnf'
+    # filename = 'testdata/uf20-91/uf20-01.cnf'
+    filename = 'testdata/uf50-218/uf50-02.cnf'
+    # filename = "testdata/uuf50-218/uuf50-01.cnf"
     cnf = [l.strip().split() for l in file(filename) if l[0] not in 'c%0\n']
     clauses = [[int(x) for x in m[:-1]] for m in cnf if m[0] != 'p']
     nrofvars = [int(n[2]) for n in cnf if n[0] == 'p'][0]
-    
+
     p = SATProblem()
     for i in range(nrofvars):
         p.add_variable(i)
     for cl in clauses:
-        p.add_clause([i-1 if i > 0 else neg(-i-1) for i in cl])
+        p.add_clause([i - 1 if i > 0 else neg(-i - 1) for i in cl])
 
     print(p.solve())
 
 if __name__ == '__main__':
+    start = clock()
+    # profile.run("main()")
     main()
+    finish = clock()
+    print('runtime: %lfs' % (finish - start))

@@ -60,7 +60,7 @@ def test_uf20(n_test, vmax_i, time_sec):
 
 def test_uf50(n_test, vmax_i, time_sec):
     filenames = []
-    path = "testdata/uf50-91/"
+    path = "testdata/uf50-218/"
     for i in xrange(0, n_test, 1):
         filename = "uf50-0%d.cnf" % (i + 1)
         filenames += [path + filename]
@@ -76,6 +76,15 @@ def test_uf100(n_test, vmax_i, time_sec):
     test_batch(filenames, n_test, vmax_i, time_sec)
 
 
+def test_uuf50(n_test, vmax_i, time_sec):
+    filenames = []
+    path = "testdata/uuf50-218/"
+    for i in xrange(0, n_test, 1):
+        filename = "uuf50-0%d.cnf" % (i + 1)
+        filenames += [path + filename]
+    test_batch(filenames, n_test, vmax_i, time_sec)
+
+
 def test_file(filename, vmax_i, cmax_i):
     global vmax, cmax
     vmax = vmax_i
@@ -86,13 +95,14 @@ def test_file(filename, vmax_i, cmax_i):
     run_all(filename)
 
 if __name__ == '__main__':
-    n = 64
+    n = 16
     if len(sys.argv) == 2:
         n = int(sys.argv[1])
-    # test_uf20_91_100(100, 16, 16)
+    # test_uf20_91_100(100, n, n)
     # n_test, vmax_i, time_sec
     # test_uf50(10, n, 1000)
-    test_uf100(10, n, 1000)
+    test_uf100(1, n, 1000)
+    # test_uuf50(1, n, 1000)
     # test_file("testdata/uf20-91/uf20-01.cnf", 8, 8)
     # test_file("testdata/uf100-430/uf100-01.cnf", 16, 16)
     # test_file("testdata/uuf50-218/uuf50-01.cnf", 16, 32)
